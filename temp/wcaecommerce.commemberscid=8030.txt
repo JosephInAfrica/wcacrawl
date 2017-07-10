@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html  lang="en-US">
+<head id="Head"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><title>
+	WCA eCommerce > Members
+</title><meta id="MetaDescription" name="DESCRIPTION" content="The WCA eCommerce Network is a fresh and growing network of engaged worldwide partners working together to build business in the eCommerce and freight transport industry." /><meta id="MetaKeywords" name="KEYWORDS" content="wca, ecommerce, network, new, sino 2016, freight forwarder, evendor, vendor, transport network." /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><link href="/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=70" type="text/css" rel="stylesheet"/><link href="/DesktopModules/MVC/ECMMemberDetail/module.css?cdv=70" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/paak/bootstrap/css/bootstrap.min.css?cdv=70" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/paak/fontawesome/css/font-awesome.min.css?cdv=70" type="text/css" rel="stylesheet"/><link href="/Portals/0/portal.css?cdv=70" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/paak/skin.min.css?cdv=70" type="text/css" rel="stylesheet"/><script src="/Resources/libraries/jQuery/01_09_01/jquery.js?cdv=70" type="text/javascript"></script><script src="/Resources/libraries/jQuery-UI/01_11_03/jquery-ui.js?cdv=70" type="text/javascript"></script><link rel='SHORTCUT ICON' href='/Portals/0/Templates/favicon.ico?ver=2016-12-14-013431-107' type='image/x-icon' /><meta name="viewport" content="width=device-width,initial-scale=1" /></head>
+<body id="Body">
+    
+    <form method="post" action="/members?cid=8030" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="StylesheetManager_TSSM" id="StylesheetManager_TSSM" value="" />
+<input type="hidden" name="ScriptManager_TSM" id="ScriptManager_TSM" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="3Xl+OmIRigzJuwgkWzhxJgCDbEUnd+LDJUn/+ZKk0Fp4Nn1gwpUcjucD6tpoWPV8r9Wvykk4KfHjNTDH6rZnkC4yhh81UYOkZQmClg==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV3N7f4uTlEwYZgDXAGwqP_Acs4-L7tDG6ohV8dJt7T7mLMKvR81&amp;t=636041074380000000" type="text/javascript"></script>
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3a0f2ae90c-87fb-4f74-9210-4b167170d85e%3aea597d4b%3ab25378d2" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="vSjCHqHpthJfSaAWpNl/VIGGAhP65R3XQ5kwuSMq7CzSL4bP04/FTEy9c2pzKrnJMPVNIwDv+W3xj1j0rSLV9UfRdbUceH1/gmN4U2RYxG4jwzff" />
+</div><script src="/js/dnn.modalpopup.js?cdv=70" type="text/javascript"></script><script src="/Portals/_default/Skins/paak/bootstrap/js/bootstrap.min.js?cdv=70" type="text/javascript"></script><script src="/Portals/_default/Skins/paak/js/scripts.js?cdv=70" type="text/javascript"></script><script src="/js/dnncore.js?cdv=70" type="text/javascript"></script><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        
+        
+        
+
+<div id="siteWrapper">
+
+    <!-- UserControlPanel  -->
+    <div id="topHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span class="brand">
+                        <a id="dnn_dnnLOGO_hypLogo" title="WCA eCommerce" href="http://www.wcaecommerce.com/"><img id="dnn_dnnLOGO_imgLogo" src="/Portals/0/logo.png?ver=2017-04-10-222619-513" alt="WCA eCommerce" /></a>
+                    </span>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12 text-right">
+                            <ul class="list-inline">
+                                <li><a class="btn btn-primary" href="/Membership">Join Us</a></li>
+                                <li>
+<div id="dnn_dnnLogin_loginGroup" class="loginGroup">
+    <a id="dnn_dnnLogin_enhancedLoginLink" title="Login" class="btn btn-primary" rel="nofollow" onclick="return dnnModal.show(&#39;http://www.wcaecommerce.com/Login?returnurl=/members?cid=8030&amp;popUp=true&#39;,/*showReturn*/true,300,650,true,&#39;&#39;)" href="http://www.wcaecommerce.com/Login?returnurl=%2fmembers%3fcid%3d8030">Login</a>
+</div></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-12 text-right">
+                            <ul class="list-inline social-networking">
+                                <li><a rel="nofollow" href="https://www.facebook.com/wcaecommerce" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a rel="nofollow" href="https://twitter.com/WCAeCommerce" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a rel="nofollow" href="https://www.linkedin.com/company-beta/22117590/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Header -->
+    <header role="banner">
+        <div id="mainHeader-inner" class="container">
+            <div class="navbar navbar-default" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+
+    <li class="dropdown">
+    
+        <a href="#">About<b class="caret"></b></a>
+    
+        <ul class="dropdown-menu">
+        
+    <li class="">
+    
+        <a href="http://www.wcaecommerce.com/About/About-Us">About Us</a>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="http://www.wcaecommerce.com/About/FAQ">FAQ</a>
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+    <li class="dropdown">
+    
+        <a href="#">Benefits<b class="caret"></b></a>
+    
+        <ul class="dropdown-menu">
+        
+    <li class="">
+    
+        <a href="http://www.wcaecommerce.com/Benefits/Benefits-Breakdown">Benefits Breakdown</a>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="http://www.wcaecommerce.com/Benefits/Basic-Member-Benefits">Basic Member Benefits</a>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="http://www.wcaecommerce.com/Benefits/Certified-Member-Benefits">Certified Member Benefits</a>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="http://www.wcaecommerce.com/Benefits/eTailer">eTailer</a>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="http://www.wcaecommerce.com/FAQ-Page">eCommerce Insurance</a>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="http://www.wcaecommerce.com/Benefits/XBorder-AI-Tool">XBorder AI Tool</a>
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+    <li class="dropdown">
+    
+        <a href="#">Events<b class="caret"></b></a>
+    
+        <ul class="dropdown-menu">
+        
+    <li class="">
+    
+        <a href="http://www.wcaecommerce.com/Events/Events-Calendar">Events Calendar</a>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="http://www.wcaecommerce.com/Events/SINO-Recap-2016">SINO Recap 2016</a>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="http://www.wcaecommerce.com/Events/Singapore-Recap-2017">Singapore Recap 2017</a>
+    
+    </li>
+
+        </ul>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="http://www.wcaecommerce.com/Network-News">Network News</a>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="http://www.wcaecommerce.com/Contact">Contact</a>
+    
+    </li>
+
+    <li class="">
+    
+        <a href="http://www.wcaecommerce.com/Directory">Directory</a>
+    
+    </li>
+
+</ul>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+        <main role="main">
+            <div class="row dnnpane">
+                <div id="dnn_HeaderPane" class="col-md-12 headerPane DNNEmptyPane"></div>
+            </div>
+            <div id="mainContent-inner">
+                <div class="row dnnpane">
+                    <div id="dnn_ContentPane" class="col-md-12 contentPane"><div class="DnnModule DnnModule-ECMMemberDetail DnnModule-509"><a name="509"></a>
+<div class="DNNContainer_noTitle">
+	<div id="dnn_ctr509_ContentPane"><!-- Start_Module_509 --><div id="dnn_ctr509_ModuleContent" class="DNNModuleContent ModECMMemberDetailC">
+	<div id="mvcContainer-509">
+    
+
+<div id="member-profile" class="col-sm-offset-1 col-sm-10">
+        <div class="row spacingTop spacingBottom">
+            <div class="col-sm-12">
+                    <img src="http://wcaecommerce.wcaworld.com/logos/8030.gif" border="0" alt="IFF, Inc. logo" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10">
+                <h1 class="h3">
+IFF, Inc.                                            <small>(Atlanta, Head Office)</small>
+                </h1>
+
+            </div>
+            <div class="col-sm-2">
+                <p class="text-danger text-right"><b>ID: 8030</b></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p>
+                    Proudly Enrolled Since:
+                    <span class="text-enrolled">Mar 16, 2017</span><br />
+                    Membership Expires:
+                    <span class="text-expires">Mar 15, 2018</span>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-right">
+                
+                                    <img width="96" src="/images/logos/pp.svg" alt="WCA Partner Pay" onerror="this.src='/images/logos/pp.gif'; this.onerror=null;" />
+                                                    <img width="96" src="/images/logos/win.svg" alt="WIN" onerror="this.src='/images/logos/win.gif'; this.onerror=null;" />
+            </div>
+        </div>
+            <div class="row spacingBottom">
+                <div class="col-sm-12">
+                    Association/Certificate/License<br />
+                        <img src="http://wcaecommerce.wcaworld.com/common_wca/images/license/IATA.jpg" alt="IATA" />
+                        <img src="http://wcaecommerce.wcaworld.com/common_wca/images/license/iso9004_2000.gif" alt="American Standards: ISO 9004/2000" />
+                        <img src="http://wcaecommerce.wcaworld.com/common_wca/images/license/iso14001_2004.gif" alt="American Standards: ISO 14001/2004" />
+                        <img src="http://wcaecommerce.wcaworld.com/common_wca/images/license/hosas18001_1999.gif" alt="American Standards: OHSAS 18001/1999" />
+                </div>
+            </div>
+        <div class="row spacingBottom">
+            <div class="col-sm-12">
+                <h3 class="text-primary">Profile</h3>
+                <div id="profile" style="white-space: pre-wrap">Family owned and operated since 1983, IFF Inc. is a full service global logistics provider. We are always looking for strong long term partnerships to complement our brand. 
+
+We focus on high value commodities. We provide our customers only the highest standard of quality service. We deliver peace of mind.
+
+Our service includes:
+• Air Freight - Import & Export
+• Ocean Freight - Import & Export
+• Licensed Customs Broker
+• Distribution
+• Warehousing & Logistics
+• Car Transport
+• Entertainment Logistics
+• Pick & Pack
+• Projects</div>
+                            </div>
+            <hr />
+        </div>
+        <div class="row spacingBottom">
+            <div class="col-sm-3">
+                Address:
+            </div>
+            <div class="col-sm-9">
+                <div style="white-space: pre-wrap">575-A Forest Pkwy, 
+ATLANTA - College Park, 
+Georgia 30349 USA</div>
+            </div>
+        </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            Telephone:
+                                        </div>
+                                        <div class="col-sm-9">
+                                            +1.404.305.9433 (Main Line)
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            Fax:
+                                        </div>
+                                        <div class="col-sm-9">
+                                            +1.404.209.6741 (Main Fax)
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            Mobile:
+                                        </div>
+                                        <div class="col-sm-9">
+                                            +1.404.966.5711 (Peter Halpaus)&lt;br&gt;+1.404.452.5289 (Christian Halpaus)&lt;br&gt;+1.404.452.5369 (Freeman Wong)
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            Emergency Call:
+                                        </div>
+                                        <div class="col-sm-9">
+                                            Members only - please <a href="/Login?returnUrl=%2FMembers%3FCid%3D8030"><b>Login</b></a> to view information.
+                                        </div>
+                                    </div>
+                                    <div class="row spacingTop">
+                                        <div class="col-sm-3">
+                                            Website:
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <a href="http://www.iffusa.com" target="_blank" rel="nofollow">www.iffusa.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="row spacingBottom">
+                                        <div class="col-sm-3">
+                                            Email:
+                                        </div>
+                                        <div class="col-sm-9">
+Members only - please <a href="/Login?returnUrl=%2FMembers%3FCid%3D8030"><b>Login</b></a> to view information.                                        </div>
+                                    </div>
+    <div class="row">
+        <div class="col-sm-12" style="background-color:#ccc; padding:5px">
+            <i class="fa fa-address-book-o" aria-hidden="true"></i>
+            <strong>Contact:</strong>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-sm-3">
+                Name:
+            </div>
+            <div class="col-sm-9">
+                Mr. Christian Halpaus
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                Title:
+            </div>
+            <div class="col-sm-9">
+                CEO &amp; President
+            </div>
+        </div>
+                    <div class="row">
+                        <div class="col-sm-3" style="text-transform:capitalize">
+                            direct:
+                        </div>
+                        <div class="col-sm-9">
+                            Members only - please <a href="/Login?returnUrl=/members?Cid=8030"><b>Login</b></a> to view information.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3" style="text-transform:capitalize">
+                            email:
+                        </div>
+                        <div class="col-sm-9">
+                            Members only - please <a href="/Login?returnUrl=/members?Cid=8030"><b>Login</b></a> to view information.
+                        </div>
+                    </div>
+        <div class="clearfix">&nbsp;</div>
+        <div class="row">
+            <div class="col-sm-3">
+                Name:
+            </div>
+            <div class="col-sm-9">
+                Mr. Peter Halpaus
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                Title:
+            </div>
+            <div class="col-sm-9">
+                Founder &amp; Chairman
+            </div>
+        </div>
+                    <div class="row">
+                        <div class="col-sm-3" style="text-transform:capitalize">
+                            mobile:
+                        </div>
+                        <div class="col-sm-9">
+                            Members only - please <a href="/Login?returnUrl=/members?Cid=8030"><b>Login</b></a> to view information.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3" style="text-transform:capitalize">
+                            email:
+                        </div>
+                        <div class="col-sm-9">
+                            Members only - please <a href="/Login?returnUrl=/members?Cid=8030"><b>Login</b></a> to view information.
+                        </div>
+                    </div>
+        <div class="clearfix">&nbsp;</div>
+        <div class="row">
+            <div class="col-sm-3">
+                Name:
+            </div>
+            <div class="col-sm-9">
+                Mr. Freeman  Wong
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                Title:
+            </div>
+            <div class="col-sm-9">
+                Business Development Manager
+            </div>
+        </div>
+                    <div class="row">
+                        <div class="col-sm-3" style="text-transform:capitalize">
+                            email:
+                        </div>
+                        <div class="col-sm-9">
+                            Members only - please <a href="/Login?returnUrl=/members?Cid=8030"><b>Login</b></a> to view information.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3" style="text-transform:capitalize">
+                            mobile:
+                        </div>
+                        <div class="col-sm-9">
+                            Members only - please <a href="/Login?returnUrl=/members?Cid=8030"><b>Login</b></a> to view information.
+                        </div>
+                    </div>
+        <div class="clearfix">&nbsp;</div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var hasCert = "False";
+
+        if (hasCert == "True") {
+            $('#profile').addClass('read-less');
+            $('#readMore').text('Click here to view more...');
+        }
+
+        $('#readMore').click(function (e) {
+            e.preventDefault();
+
+            if ($('#profile').hasClass('read'))
+            {
+                $('#profile').removeClass('read').addClass('read-less');
+                $('#readMore').text('Click here to view more...');
+            } else {
+                $('#profile').removeClass('read-less').addClass('read');
+                $('#readMore').text('Click here to view less...');
+            }
+        });
+    });
+</script>
+</div>
+
+
+</div><!-- End_Module_509 --></div>
+	<div class="clear"></div>
+</div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-430"><a name="430"></a></div></div>
+                </div>
+
+                <div class="row dnnpane">
+                    <div id="dnn_P1_75_1" class="col-md-8 leftPane spacingTop DNNEmptyPane"></div>
+                    <div id="dnn_P1_25_2" class="col-md-4 rightPane spacingTop DNNEmptyPane"></div>
+                </div>
+
+                <div class="row dnnpane">
+                    <div id="dnn_P2_25_1" class="col-md-4 spacingTop DNNEmptyPane"></div>
+                    <div id="dnn_P2_75_2" class="col-md-8 spacingTop DNNEmptyPane"></div>
+                </div>
+
+                <div class="row dnnpane">
+                    <div id="dnn_P3_33_1" class="col-md-4 spacingTop DNNEmptyPane"></div>
+                    <div id="dnn_P3_33_2" class="col-md-4 spacingTop DNNEmptyPane"></div>
+                    <div id="dnn_P3_33_3" class="col-md-4 spacingTop DNNEmptyPane"></div>
+                </div>
+
+                <div class="row dnnpane">
+                    <div id="dnn_ContentPaneLower" class="col-md-12 contentPane spacingTop DNNEmptyPane"></div>
+                </div>
+            </div>
+            <div class="clearfix">&nbsp;</div>
+            <!-- /.mainContent-inner -->
+        </main>
+        <!-- /.mainContent -->
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row dnnpane">
+                    <div id="dnn_footer_25_1" class="footer-col col-md-3 col-sm-6 DNNEmptyPane"></div>
+                    <div id="dnn_footer_25_2" class="footer-col col-md-3 col-sm-6 DNNEmptyPane"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row dnnpane">
+                    <div class="col-md-4 text-left">
+                        <span id="dnn_dnnCopyright_lblCopyright" class="SkinObject">Copyright 2017 by WCA eCommerce</span>
+
+                    </div>
+                    <div class="col-md-4 text-center">
+                        Powered by<br />
+                        <a href="http://www.wcaworld.com" target="_blank">
+                            <img src="/Portals/_default/Skins/paak//images/poweredby_wca_logo.png" alt="WCA world" /></a>
+                    </div>
+                    <div class="col-md-4 text-right">
+                        
+                        <a id="dnn_dnnTerms_hypTerms" class="SkinObject" rel="nofollow" href="http://www.wcaecommerce.com/Terms">Terms Of Use</a>
+                        |
+					    <a id="dnn_dnnPrivacy_hypPrivacy" class="SkinObject" rel="nofollow" href="http://www.wcaecommerce.com/Privacy">Privacy Statement</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+<!-- /.SiteWrapper -->
+
+
+<!--CDF(Css|/Portals/_default/Skins/paak/bootstrap/css/bootstrap.min.css?cdv=70)-->
+<!--CDF(Css|/Portals/_default/Skins/paak/fontawesome/css/font-awesome.min.css?cdv=70)-->
+<!--CDF(Css|/Portals/_default/Skins/paak/skin.min.css?cdv=70)-->
+
+
+<!--CDF(Javascript|/Portals/_default/Skins/paak/bootstrap/js/bootstrap.min.js?cdv=70)-->
+
+<!--CDF(Javascript|/Portals/_default/Skins/paak/js/scripts.js?cdv=70)-->
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" />
+        
+    </form>
+    <!--CDF(Javascript|/js/dnncore.js?cdv=70)--><!--CDF(Javascript|/js/dnn.modalpopup.js?cdv=70)--><!--CDF(Css|/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=70)--><!--CDF(Css|/DesktopModules/MVC/ECMMemberDetail/module.css?cdv=70)--><!--CDF(Css|/Portals/0/portal.css?cdv=70)--><!--CDF(Javascript|/Resources/libraries/jQuery-UI/01_11_03/jquery-ui.js?cdv=70)--><!--CDF(Javascript|/Resources/libraries/jQuery/01_09_01/jquery.js?cdv=70)-->
+    
+</body>
+</html>

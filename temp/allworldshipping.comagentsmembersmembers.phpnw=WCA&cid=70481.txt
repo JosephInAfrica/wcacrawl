@@ -1,0 +1,588 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<link rel="shortcut icon" href="favicon.ico" type="../../image/vnd.microsoft.icon" />
+<link rel="icon" type="../../image/ico" href="favicon.ico" />
+<title>US BL, AMS, AFR, NVOCC, forwarder, agency</title>
+<meta name="description" content="All World Shipping AWS is a U.S.-based, FMC-licensed NVOCC associated with,but independent of WCA, the world's largest network of independent freight forwarders" />
+<meta name="keywords" content="US BL, AFR, AMS, NVOCC ,fmc,hbl,forwarder,network,aws,agency" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="en" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="X-UA-Compatible" content="IE=10" />
+<meta name="revisit-after" content="7 days" />
+<meta name="robots" content="index,follow,noodp,noydir" />
+<link href="../../css/aws.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="wrapper">
+	<div class="wrapper_top">
+	<div class="content_top">
+		<div class="logo"><br><a href="../../index.php"><img src="../../images/logo_aws.png" alt="All World Shipping" title="All World Shipping" /></a></div>
+		<br><br><div width="20"></div>		<link rel="stylesheet" type="text/css" href="../../ext/ddlevelsfiles/ddlevelsmenu-base.css" />
+		<link rel="stylesheet" type="text/css" href="../../ext/ddlevelsfiles/ddlevelsmenu-topbar.css" />
+		<link rel="stylesheet" type="text/css" href="../../ext/ddlevelsfiles/ddlevelsmenu-sidebar.css" />
+
+		<script type="text/javascript" src="../../ext/ddlevelsfiles/ddlevelsmenu.js"></script>
+		<div id="ddtopmenubar" class="mattblackmenu" style="background-image:url(../../images/menu_bg.jpg);">
+		<ul>
+		<li><a href="Contact Us" rel="ddsubmenu5" onclick="return false;"><table width="80" height="68"><tr><td align="center" valign="middle" class="menu">Contact Us</td></tr></table></a></li>
+		<li><a href="Useful" rel="ddsubmenu4" onclick="return false;"><table width="80" height="68"><tr><td align="center" valign="middle" class="menu">Useful</td></tr></table></a></li>
+		<li><a href="Contracts & Rates" rel="ddsubmenu3" onclick="return false;"><table width="80" height="68"><tr><td align="center" valign="middle" class="menu">Contracts & Rates</td></tr></table></a></li>
+		<li><a href="AWS Shipments" rel="ddsubmenu2" onclick="return false;"><table width="80" height="68"><tr><td align="center" valign="middle" class="menu">AWS Shipments</td></tr></table></a></li>
+		<li><a href="Agent Info" rel="ddsubmenu1" onclick="return false;"><table width="80" height="68"><tr><td align="center" valign="middle" class="menu">Agent Info</td></tr></table></a></li>		
+		<li><a href="../../index.php"><table width="80" height="68"><tr><td align="center" valign="middle" class="menu">Home</td></tr></table></a></li>		
+		</ul>
+		</div>
+<script type="text/javascript">
+ddlevelsmenu.setup("ddtopmenubar", "topbar") //ddlevelsmenu.setup("mainmenuid", "topbar|sidebar")
+</script>
+<ul id="ddsubmenu1" class="ddsubmenustyle">
+<li><a href="../../agents/members/index_map.php">Agent Location Map</a></li>
+<li><a href="../../agreement/" target="_blank">Joining All World Shipping</a></li>
+<li><a href="Broadcast" onclick="return false;">AWS Broadcast</a>
+  
+   <ul> 
+    <li><a href="2017" onclick="return false;">2017</a>
+        <ul>
+           <li><a href="../../AWS_Broadcast/2017/awsBroadcast-W4-2017.mht" target="_blank">Week 4 of 2017</a></li>
+           <li><a href="../../AWS_Broadcast/2017/awsBroadcast-W24-2017.mht" target="_blank">Week 24 of 2017</a></li>
+        </ul>
+     </li>
+   
+     <li><a href="2016" onclick="return false;">2016</a>
+        <ul>
+           <li><a href="../../AWS_Broadcast/2016/awsBroadcast-W7-2016.mht" target="_blank">Week 7 of 2016</a></li>
+           <li><a href="../../AWS_Broadcast/2016/awsBroadcast-W14-2016.mht" target="_blank">Week 14 of 2016</a></li>
+           <li><a href="../../AWS_Broadcast/2016/awsBroadcast-W19-2016.mht" target="_blank">Week 19 of 2016</a></li>
+           <li><a href="../../AWS_Broadcast/2016/awsBroadcast-W25-2016.mht" target="_blank">Week 25 of 2016</a></li>
+            <li><a href="../../AWS_Broadcast/2016/awsBroadcast-W41-2016.mht" target="_blank">Week 41 of 2016</a></li>
+          </ul>
+     </li>
+     
+     
+  <li><a href="2015" onclick="return false;">2015</a>
+    <ul>
+      <li><a href="../../AWS_Broadcast/2015/awsBroadcast-W51-2015.mht" target="_blank">Week 51 of 2015</a></li>
+      <li><a href="../../AWS_Broadcast/2015/awsBroadcast-W37-2015.mht" target="_blank">Week 37 of 2015</a></li>
+      <li><a href="../../AWS_Broadcast/2015/awsBroadcast-W31-2015.mht" target="_blank">Week 31 of 2015</a></li>      
+      <li><a href="../../AWS_Broadcast/2015/awsBroadcast-W22-2015.mht" target="_blank">Week 22 of 2015</a></li> 
+      <li><a href="../../AWS_Broadcast/2015/awsBroadcast-W15-2015.mht" target="_blank">Week 15 of 2015</a></li> 
+      <li><a href="../../AWS_Broadcast/2015/awsBroadcast-W4-2015.mht" target="_blank">Week 4 of 2015</a></li> 
+    </ul>
+  </li>
+
+  <li><a href="2014" onclick="return false;">2014</a>
+    <ul>
+     <li><a href="../../AWS_Broadcast/2014/awsBroadcast-W48-2014.mht" target="_blank">Week 48 of 2014</a></li> 
+     <li><a href="../../AWS_Broadcast/2014/awsBroadcast-W39-2014.mht" target="_blank">Week 39 of 2014</a></li>  
+     <li><a href="../../AWS_Broadcast/2014/awsBroadcast-W32-2014.mht" target="_blank">Week 32 of 2014</a></li>
+     <li><a href="../../AWS_Broadcast/2014/awsBroadcast-W29-2014.mht" target="_blank">Week 29 of 2014</a></li>
+     <li><a href="../../AWS_Broadcast/2014/awsBroadcast-W25-2014.mht" target="_blank">Week 25 of 2014</a></li>
+    <li><a href="../../AWS_Broadcast/2014/awsBroadcast-W15-2014.mht" target="_blank">Week 15 of 2014</a></li>
+    <li><a href="../../AWS_Broadcast/2014/awsBroadcast-W8-2014.mht" target="_blank">Week 8 of 2014</a></li>
+    </ul>
+  </li>
+  
+  
+  <li><a href="2013" onclick="return false;">2013</a>
+    <ul>
+    <li><a href="../../AWS_Broadcast/2013/awsBroadcast-W38-2013.mht" target="_blank">Week 38 of 2013</a></li>
+    <li><a href="../../AWS_Broadcast/2013/awsBroadcast-W31-2013.mht" target="_blank">Week 31 of 2013</a></li>
+    <li><a href="../../AWS_Broadcast/2013/awsBroadcast-W25-2013.mht" target="_blank">Week 25 of 2013</a></li>
+    <li><a href="../../AWS_Broadcast/2013/awsBroadcast-W17-2013.mht" target="_blank">Week 17 of 2013</a></li>
+    <li><a href="../../AWS_Broadcast/2013/awsBroadcast-W8-2013.mht" target="_blank">Week 8 of 2013</a></li>
+    <li><a href="../../AWS_Broadcast/2013/awsBroadcast-W5-2013.mht" target="_blank">Week 5 of 2013</a></li>
+	</ul>
+  </li>
+  <li><a href="2012" onclick="return false;">2012</a>
+    <ul>
+    <li><a href="../../AWS_Broadcast/2012/awsBroadcast-W46-2012.mht" target="_blank">Week 46 of 2012</a></li>
+    <li><a href="../../AWS_Broadcast/2012/awsBroadcast-W37-2012.mht" target="_blank">Week 37 of 2012</a></li>
+    <li><a href="../../AWS_Broadcast/2012/awsBroadcast-W34-2012.mht" target="_blank">Week 34 of 2012</a></li>
+    <li><a href="../../AWS_Broadcast/2012/awsBroadcast-W28-2012.mht" target="_blank">Week 28 of 2012</a></li>
+    <li><a href="../../AWS_Broadcast/2012/awsBroadcast-W17-2012.asp" target="_blank">Week 17 of 2012</a></li>
+    <li><a href="../../AWS_Broadcast/2012/awsBroadcast-W12-2012.mht" target="_blank">Week 12 of 2012</a></li>
+    <li><a href="../../AWS_Broadcast/2012/awsBroadcast-W9-2012.asp" target="_blank">Week 9 of 2012</a></li>
+    <li><a href="../../AWS_Broadcast/2012/awsBroadcast-W5-2012.asp" target="_blank">Week 5 of 2012</a></li>
+	</ul>
+  </li>
+  <li><a href="2011" onclick="return false;">2011</a>
+    <ul>
+    <li><a href="../../AWS_Broadcast/2011/awsBroadcast-W50-2011.asp" target="_blank">Week 50 of 2011</a></li>
+    <li><a href="../../AWS_Broadcast/2011/awsBroadcast-W45-2011.asp" target="_blank">Week 45 of 2011</a></li>
+    <li><a href="../../AWS_Broadcast/2011/awsBroadcast-W36-2011.asp" target="_blank">Week 36 of 2011</a></li>
+    <li><a href="../../AWS_Broadcast/2011/awsBroadcast-W31-2011.asp" target="_blank">Week 31 of 2011</a></li>
+    <li><a href="../../AWS_Broadcast/2011/awsBroadcast-W27-2011.asp" target="_blank">Week 27 of 2011</a></li>
+    <li><a href="../../AWS_Broadcast/2011/awsBroadcast-W25-2011.asp" target="_blank">Week 25 of 2011</a></li>
+    <li><a href="../../AWS_Broadcast/2011/awsBroadcast-W22-2011.asp" target="_blank">Week 22 of 2011</a></li>
+    <li><a href="../../AWS_Broadcast/2011/awsBroadcast-W18-2011.asp" target="_blank">Week 18 of 2011</a></li>
+    <li><a href="../../AWS_Broadcast/2011/awsBroadcast-W14-2011.asp" target="_blank">Week 14 of 2011</a></li>
+    <li><a href="../../AWS_Broadcast/2011/awsBroadcast-W10-2011.asp" target="_blank">Week 10 of 2011</a></li>
+    <li><a href="../../AWS_Broadcast/2011/awsBroadcast-W5-2011.asp" target="_blank">Week 5 of 2011</a></li>
+    <li><a href="../../AWS_Broadcast/2011/awsBroadcast-W2-2011.asp" target="_blank">Week 2 of 2011</a></li>
+	</ul>
+  </li>
+  <li><a href="2010" onclick="return false;">2010</a>
+    <ul>
+    <li><a href="../../AWS_Broadcast/2010/awsBroadcast-W46-2010.asp" target="_blank">Week 46 of 2010</a></li>
+    <li><a href="../../AWS_Broadcast/2010/awsBroadcast-W43-2010.asp" target="_blank">Week 43 of 2010</a></li>
+	<li><a href="../../AWS_Broadcast/2010/awsBroadcast-W38-2010.asp" target="_blank">Week 38 of 2010</a></li>
+	<li><a href="../../AWS_Broadcast/2010/awsBroadcast-W35-2010.asp" target="_blank">Week 35 of 2010</a></li>
+	<li><a href="../../AWS_Broadcast/2010/awsBroadcast-W30-2010.asp" target="_blank">Week 30 of 2010</a></li>
+	<li><a href="../../AWS_Broadcast/2010/awsBroadcast-W26-2010.asp" target="_blank">Week 26 of 2010</a></li>
+	<li><a href="../../AWS_Broadcast/2010/awsBroadcast-W22-2010.asp" target="_blank">Week 22 of 2010</a></li>
+	<li><a href="../../AWS_Broadcast/2010/awsBroadcast-W17-2010.asp" target="_blank">Week 17 of 2010</a></li>
+	<li><a href="../../AWS_Broadcast/2010/awsBroadcast-W14-2010.asp" target="_blank">Week 14 of 2010</a></li>
+	<li><a href="../../AWS_Broadcast/2010/awsBroadcast-W11-2010.asp" target="_blank">Week 11 of 2010</a></li>
+	<li><a href="../../AWS_Broadcast/2010/awsBroadcast-W8-2010.asp" target="_blank">Week 8 of 2010</a></li>
+	<li><a href="../../AWS_Broadcast/2010/awsBroadcast-W6-2010.asp" target="_blank">Week 6 of 2010</a></li>
+	</ul>
+  </li>
+  <li><a href="2009" onclick="return false;">2009</a>
+    <ul>
+    <li><a href="../../AWS_Broadcast/2009/awsBroadcast-W49-2009.asp" target="_blank">Week 49 of 2009</a></li>
+	<li><a href="../../AWS_Broadcast/2009/awsBroadcast-W47-2009.asp" target="_blank">Week 47 of 2009</a></li>
+	<li><a href="../../AWS_Broadcast/2009/awsBroadcast-W45-2009.asp" target="_blank">Week 45 of 2009</a></li>
+	<li><a href="../../AWS_Broadcast/2009/awsBroadcast-W42-2009.asp" target="_blank">Week 42 of 2009</a></li>
+	<li><a href="../../AWS_Broadcast/2009/awsBroadcast-W38-2009.asp" target="_blank">Week 38 of 2009</a></li>
+	<li><a href="../../AWS_Broadcast/2009/awsBroadcast-W35-2009.asp" target="_blank">Week 35 of 2009</a></li>
+	<li><a href="../../AWS_Broadcast/2009/awsBroadcast-W30-2009.asp" target="_blank">Week 30 of 2009</a></li>
+	<li><a href="../../AWS_Broadcast/2009/awsBroadcast-W25-2009.asp" target="_blank">Week 25 of 2009</a></li>
+	<li><a href="../../AWS_Broadcast/2009/awsBroadcast-W21-2009.asp" target="_blank">Week 21 of 2009</a></li>
+	<li><a href="../../AWS_Broadcast/2009/awsBroadcast-W18-2009.asp" target="_blank">Week 18 of 2009</a></li>
+	<li><a href="../../AWS_Broadcast/2009/awsBroadcast-New Location.asp" target="_blank">New location--Rate Explorer (New)</a></li>
+	<li><a href="../../AWS_Broadcast/2009/awsBroadcast-W15-2009.asp" target="_blank">Week 15 of 2009</a></li>
+	<li><a href="../../AWS_Broadcast/2009/awsBroadcast-W12-2009.asp" target="_blank">Week 12 of 2009</a></li>
+	<li><a href="../../AWS_Broadcast/2009/awsBroadcast-12Jan2009.asp" target="_blank">January, 12 2009</a></li>
+	<li><a href="../../AWS_Broadcast/2009/awsBroadcast-W5-2009.asp" target="_blank">Week 5 of 2009</a></li>
+	<li><a href="../../AWS_Broadcast/2009/awsBroadcast-W3-2009.asp" target="_blank">Week 3 of 2009</a></li>
+
+	</ul>
+  </li>
+  <li><a href="2008" onclick="return false;">2008</a>
+    <ul>
+    <li><a href="../../AWS_Broadcast/2008/awsBroadcast-W32-2008.asp" target="_blank">Week 32 of 2008</a></li>
+    <li><a href="../../AWS_Broadcast/2008/awsBroadcast-Aug11-2008.asp" target="_blank">August 11, 2008</a></li>
+	<li><a href="../../AWS_Broadcast/2008/awsBroadcast-W29-2008.asp" target="_blank">Week 29 of 2008</a></li>
+	</ul>
+  </li>
+  </ul>
+</li>
+<li><a href="../../procedures.php">AWS Procedures and Fees</a></li>
+</ul>
+
+
+<!--Top Drop Down Menu 2 HTML-->
+
+<ul id="ddsubmenu2" class="ddsubmenustyle">
+<li><a href="BL" onclick="window.open('../../bl/index.php','bl'); return false;" id="m2_1">HBL</a></li>
+<li><a href="AMS" onclick="window.open('../../bl/index.php','bl'); return false;" id="m2_2">AMS Filings</a></li>
+<li><a href="../../agents/tariff.php" id="m2_3">Tariff Filing</a></li>
+<li><a href="../../agents/downloads.php" id="m2_5">Agent Downloads</a></li>
+<li><a href="../../download/agency/AWS_VGM_Detailst.xlsx" id="m2_6">SOLAS VGM Form</a></li>
+<li><a href="http://aws.oceanschedules.com/schedules/loginAffiliate.do" target="_blank">On-Line Schedule Tool</a></li>
+<li><a href="../../agents/step_guide.php" id="m2_7">Step by Step Guide</a></li>
+<li><a href="../../carriage.php">Conditions of Carriage</a></li>
+</ul>
+
+<!--Top Drop Down Menu 3 HTML-->
+
+<ul id="ddsubmenu3" class="ddsubmenustyle">
+<li><a href="../../costaid/AWS_serviceContracts.php" target="_blank" id="m3_1">Service Contracts</a></li>
+<li><a href="javascript:gotoUnrated();" id="m3_2">Look-up Aid Un-Rated</a></li>
+<li><a href="javascript:gotoRated();" id="m3_3">Look-up Aid Rated</a></li>
+<li><a href="http://www.cargosphere.net/aws" target="_blank">FMC Access Tariff Rates</a></li>
+<li><a href="javascript:openFMCLogin();">FMC Access History</a></li>
+</ul>
+
+<ul id="ddsubmenu4" class="ddsubmenustyle">
+<li><a href="http://www.cbp.gov/xp/cgov/trade/cargo_security/carriers/security_filing/" target="_blank">US Customs 10+2</a></li>
+<li><a href="../../software.php">Software/Plug-ins	</a></li>
+<li><a href="../../currency.php">Currencies Conversion</a></li>
+<li><a href="../../agents/insurance.php">WCA Risk Management-Cargo Insurance</a></li>
+<li><a href="../../ports.php">World Ports</a></li>
+<li><a href="../../glossary.php">Glossary of Terms</a></li>
+<li><a href="../../trade_links.php">Trade Links</a></li>
+</ul>					
+
+<ul id="ddsubmenu5" class="ddsubmenustyle">
+<li><a href="javascript:subEmailUs();">eMail Link</a></li>
+<li><a href="../../contact.php">AWS Contact</a></li>
+<li><a href="../../career.php">Careers</a></li>
+<li><a href="../../sitemap.php">Site Map</a></li>
+</ul>
+<script>
+document.getElementById("m2_1").setAttribute('style', 'color:#325032;');
+document.getElementById("m2_1").href="javascript:alert('Please Log in');";
+document.getElementById("m2_1").target="_self";
+document.getElementById("m2_2").setAttribute('style', 'color:#325032;');
+document.getElementById("m2_2").href="javascript:alert('Please Log in');";
+document.getElementById("m2_2").target="_self";
+document.getElementById("m2_3").setAttribute('style', 'color:#325032;');
+document.getElementById("m2_3").href="javascript:alert('Please Log in');";
+document.getElementById("m2_3").target="_self";
+//document.getElementById("m2_4").setAttribute('style', 'color:#325032;');
+//document.getElementById("m2_4").href="javascript:alert('Please Log in');";
+//document.getElementById("m2_4").target="_self";
+document.getElementById("m2_5").setAttribute('style', 'color:#325032;');
+document.getElementById("m2_5").href="javascript:alert('Please Log in');";
+document.getElementById("m2_5").target="_self";
+document.getElementById("m2_6").setAttribute('style', 'color:#325032;');
+document.getElementById("m2_6").href="javascript:alert('Please Log in');";
+document.getElementById("m2_6").target="_self";
+document.getElementById("m2_7").setAttribute('style', 'color:#325032;');
+document.getElementById("m2_7").href="javascript:alert('Please Log in');";
+document.getElementById("m2_7").target="_self";
+document.getElementById("m3_1").setAttribute('style', 'color:#325032;');
+document.getElementById("m3_1").href="javascript:alert('Please Log in');";
+document.getElementById("m3_1").target="_self";
+document.getElementById("m3_3").setAttribute('style', 'color:#325032;');
+document.getElementById("m3_3").href="javascript:alert('Please Log in');";
+document.getElementById("m3_3").target="_self";
+</script>
+<script>
+var p_msgUnrated	= "You will be viewing the unrated Look-up Aid. To view the rated version you have to first become an AWS member."
+var p_msgRated		= "PLEASE NOTE- All Agents are responsible for determining the final rate by using the actual service contract referenced in the Look-Up Aid"
+
+//---------------------------------------------------------------------------------
+function gotoRated(){
+	if(confirm(p_msgRated)){;
+		window.open('../../costaid/servicecontract/rated.xlsx');
+	}
+}
+
+//---------------------------------------------------------------------------------
+function gotoUnrated(){
+	alert(p_msgUnrated);
+	window.open('../../costaid/servicecontract/unrated.xlsx');
+}
+//---------------------------------------------------------------------------------
+function subEmailUs(){	
+	location.href='mailto:info@allworldshipping.com';
+}
+
+
+//---------------------------------------------------------------------------------
+function openFMCLogin(){	
+	loginWindow = window.open("../../fmc_login.php","FMC","width=420, height=160, left=300, top=280, titlebar=no,statusbar=no");	
+}
+</script>	</div>
+</div><!-- ./wrapper_top -->	<div class="clear"></div>
+		
+	<img src='../../images/bn/b3.jpg' alt='All World Shipping' width='935' height='210' />
+
+<!--
+
+<div class="wrapper_banner">
+	<div class="banner">
+		<img src="../../images/bn/b3.jpg" alt="" />
+	</div>
+</div>
+-->	
+	<div class="clear"></div>
+<div class="wrapper_green">
+	<div class="user_mainbox">
+		<div class="login_box">
+							<table width="600"><a name="login"></a><form action="../../login.php" method="post"><input type="hidden" name="flag" value="login"><tr><td class="user_logon">User ID: <input name="us" type="text" class="txt_field" id="username" /></td>
+				<td align="right" class="user_logon">Password: <input name="pw" type="password" class="txt_field" id="password" /></td>
+				<td align="right" class="user_logon"><input type="image" src="../../images/login.png" name="submit_login" style="cursor:pointer;"></td>
+				</tr></form></table>
+			
+				<!-- ./form_row -->				
+			</form>
+					</div>
+<script>
+/*
+if (navigator.userAgent.toLowerCase().indexOf("chrome") >= 0) {
+$(window).load(function(){
+    $('input:-webkit-autofill').each(function(){
+        var text = $(this).val();
+        var name = $(this).attr('name');
+        $(this).after(this.outerHTML).remove();
+        $('input[name=' + name + ']').val(text);
+    });
+});}
+*/
+var browseTarget=0;
+function subValid(){
+	idx = form_menu.cmbBrowse.options.selectedIndex;
+	val = form_menu.cmbBrowse.options[idx].text;
+	vdd = form_menu.cmbBrowse.options[idx].value;
+	
+	if(idx<=0)return false
+	if(vdd==""){
+		alert('This option is available for member only.')
+		return false;
+	}
+	if(val=="Look-up Aid Un-Rated"){
+		alert("You will be viewing the unrated Look-up Aid. To view the rated version you have to first become an AWS member.");		
+	}
+
+	if(val=="Look-up Aid Rated"){	
+		if(!confirm("PLEASE NOTE- All Agents are responsible for determining the final rate by using the actual service contract referenced in the Look-Up Aid"))return false;
+		return true
+	}
+
+
+	return true;
+}
+
+function subLink(){
+	with(form_menu){				
+
+		if (cmbBrowse.options.selectedIndex > 0){
+			
+			browseTarget = cmbBrowse.options.selectedIndex;		
+			val = form_menu.cmbBrowse.options[browseTarget].text;
+
+			if(val=="HBL"||val=="AMS Filings"||val=="On-Line Schedule Tool"||val=="Service Contract-Rate Agrmt"||val=="Look-up Aid Un-Rated"||val=="Look-up Aid Rated"||val=="US Customs 10+2"){	
+
+				tar = "_blank";
+			}else{
+				tar = "_self";
+				 }
+		
+			var x = document.getElementById("id_link");		
+	
+				x.target = tar;
+				x.href	 = cmbBrowse.value;
+		}
+	}
+}
+
+</script>	
+<style>
+select option[value=""]{
+	color:#AAAAAA;
+}
+</style>	
+		<div class="search_box">
+			<form name="form_menu" class="std_form search_form">
+				<div class="search_select_bg">
+					<select class="std_dropdown" name="cmbBrowse" style="width:145;font-size:9" onChange="browseTarget =this.options.selectedIndex;">
+						<option value="0">Browse - - - - - - - - - - - - - - - -</option>
+						<option value="../../agents/index.php">Home</option>
+						<option value="../../agents/members/index.php">Agent List</option>
+						<option value="../../agreement/">Joining All World Shipping</option>
+						<option value="../../procedures.php">AWS Procedures and Fees</option>
+												<option value="">HBL</option>
+						<option value="">AMS Filings</option>
+						<option value="">Tariff Filing</option>			
+						<option value="">Agent Downloads</option>
+												<option value="http://aws.oceanschedules.com/schedules/loginAffiliate.do">On-Line Schedule Tool</option>						
+												<option value="">Step by Step Guide</option>
+						
+						<option value="../../carriage.php">Conditions of Carriage</option>							
+												<option value="">Service Contract-Rate Agrmt</option>
+												<option value="../../costaid/servicecontract/unrated.xls">Look-up Aid Un-Rated</option>			
+												<option value="">Look-up Aid Rated</option>
+												<option value="../../rate_request.php">Rate Request Form</option>
+						<option value="http://www.cbp.gov/xp/cgov/trade/cargo_security/carriers/security_filing/">US Customs 10+2</option>
+						<option value="../../software.php">Software/Plugins</option>
+						<option value="../../currency.php">Currencies Conversion</option>
+						<option value="../../agents/insurance.php">WCA Risk Management-Cargo Insurance</option>
+						<option value="../../ports.php">World Ports</option>
+						<option value="../../glossary.php">Glossary of Terms</option>
+						<option value="../../trade_links.php">Trade Links</option>
+						<option value="mailto:info@allworldshipping.com">eMail Link</option>
+						<option value="../../contact.php">AWS Contact</option>
+						<option value="../../career.php">Careers</option>
+											</select>
+				</div>
+				<a id="id_link" href="" onClick="if(subValid())subLink(); else return false;"><img src="../../images/icon/next.png" border="0" ></a> 		
+			</form>
+		</div>
+		
+	</div>
+</div>
+<div class="clear"></div>	
+	
+<div class="wrapper_content"> 
+	<div class="wrapper_content2">
+	<br><br>
+	
+	
+<table width="100%" border="0" cellspacing="0" cellpadding="14">
+<tr>
+	<td align="center"><h2>AGENTS LISTING</h2></td>
+</tr>
+<tr>
+	<td align="center">
+
+
+
+		<table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+			<tr>
+				<td valign="top">
+<div align="right"><< <a href="javascript:window.history.back();"><b>Back</b></a></div>
+<table width='100%'  border="0" cellspacing="0" cellpadding="3" class="defaulttext">
+<tr><td colspan="2" valign="top" class="body_txt" >
+<img src='http://www.wcaworld.com/logos/70481.JPG'  border='0' /><br><br></td></tr>
+<tr>
+	<td colspan="2" valign="top" class="body_txt" >
+  
+	  <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="body_txt">
+		<tr>
+		  <td width="85%"> <b style="font-size:16px">Rado Logistics, Inc.</b> 
+		   (Atlanta, Head Office)<br>	</td>
+		  <td width="15%" align="right"><b style="font-size:14px; color:#E00">ID: 70481</b> </td>
+		</tr>
+	  </table>
+ 
+	</td>
+  </tr>	
+<tr><td colspan="2"  class="body_txt">
+	<font  style'font-size:12px;' (Formerly Known as  )</font><br></td></tr>
+<tr><td colspan="2">
+         
+			<table width="100%" border="0" align="center" cellpadding="3" cellspacing="1" class="body_txt" style="border:1px #FFCC00 solid">
+               <tr valign="middle"><td align="center" style="border-bottom:1px #FFCC00 solid"><b>WCA Gold Medallion Financial Protection Program <font color='red'>* </font></b>
+
+				  </td>
+               </tr>
+               <tr>
+                 <td>The following offices of this member are enrolled:</td>
+               </tr>
+               <tr>
+                 <td><table width='100%' class='body_txt'><tr><td align='left' valign='top' width='20%'><b>United States of America</b></td><td align=left  valign=top align='center'>&nbsp; [<a href='members.php?cid=70481'>Atlanta, GA</a>]</td></table></td>
+               </tr>
+<tr><td align='left' style='border-top:1px FFCC00 solid;'> <font color='red'>* </font> Only these offices are covered and protected under this program.</td></tr>            
+             </table>
+           <!-- Enrolled Offices -->
+      <br />
+      <table width="100%" cellpadding="5" cellspacing="5" bgcolor="#FF0000" class="body_txt"><tr><td align="center"><b style="color:#FFFFFF">Members should ensure that they are dealing with an office that is enrolled in a WCA network.   
+  offices that are NOT enrolled are NOT protected under the Gold Medallion   Financial Protection Plan</b></td></tr></table>           
+	   
+
+</td></tr>
+<tr>
+  <td colspan="2" align="center" valign="top">
+    <br><br>
+    <table border="0" cellpadding="0" cellspacing="2" class="body_txt" >
+    <tr>
+      <td width="0"></td>
+		    </tr>
+	  
+	</table>
+
+  </td>
+</tr>
+			
+<tr><td colspan="2" class="body_txt">
+	<div align="justify"><br />
+	  Rado Logistics, Inc.'s owner has been in the logistics business for over 35 years. We are expanding the services and professionalism to cover the USA and International markets. We are now helping other customers with their export and import needs, and offer reliable, and cost efficient services. We handle freehand, DDU, DDP, and more. Our staff is fluent in English, Creole, Spanish And Chinese.<br />
+	  <br />
+	</div>
+</td></tr>
+</table>
+<table width='100%'  border="0" cellspacing="0" cellpadding="3" class="defaulttext">
+<tr><!--<td colspan="2">
+<table width="100%" border="0" cellspacing="1" cellpadding="2" class="body_txt">
+<tr>-->
+	<td width="27%" align="left" valign="top"><b>Address:</b></td>
+	<td>	
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="body_txt"> 
+		<tr><td valign='top'><u><em><b> </b></em></u><br>2251 Sylvan Road, Suite 400,<BR>East Point, GA 30344,<BR>United States of America<BR> <BR><br></td></tr>		</table>
+	</td>
+</tr>	
+
+<tr>
+	<td width="27%" align="left" valign="top"><b>Telephone:</b></td>
+	<td width="73%" valign="top">+1.404.767.3228</td>
+</tr>
+<tr>
+	<td width="27%" align="left" valign="top"><b>Fax:</b></td>
+	<td width="73%" valign="top">+1.404.767.3151</td>
+</tr>
+<tr>
+	<td width="27%" align="left" valign="top"><b>Mobile Phone:</b></td>
+	<td width="73%" valign="top"> </td>
+</tr>
+
+<tr>
+	<td width="27%" align="left" valign="top"><b>Emergency Call:</b></td>
+	<td width="73%" valign="top">
+	<span style='font-size:11px;font-weight:bold;'>Members only - please <a href='#login'>Login..</a> to view information.</span></td></tr>
+<tr>
+  <td align="left" valign="top">&nbsp;</td>
+  <td valign="top">&nbsp;</td>
+</tr>
+<tr>
+	<td width="27%" align="left" valign="top"><b>Website:</b></td>
+	<td width="73%" valign="top">
+	<a href='http://www.radologistics.com' target='_blank'>http://www.radologistics.com</a> 	</td>
+</tr>
+<tr>
+	<td width="27%" align="left" valign="top"><b>Email:</b></td>
+	<td width="73%" valign="top">
+	<span style='font-size:11px;font-weight:bold;'>Members only - please <a href='#login'>Login..</a> to view information.</span></td>
+</tr>
+	
+	
+<tr><td align="left" valign="top" colspan="2">&nbsp;</td></tr>
+
+
+<tr><td align="left" valign="top" colspan="2"><b>Contact:</b></td></tr>
+<tr><td>Name:</td><td>Lovett  Brooks</td></tr><tr><td>Title</td><td>General Manager and C.E.O</td></tr><tr><td>Email</td><td><span style='font-size:11px;font-weight:bold;'>Members only - please Login to view information.</span></td></tr><tr><td colspan='2'>&nbsp;</td></tr><tr><td>Name:</td><td>Maria  Caceres</td></tr><tr><td>Title</td><td>Office Manager and C.F.O</td></tr><tr><td>Email</td><td><span style='font-size:11px;font-weight:bold;'>Members only - please Login to view information.</span></td></tr><tr><td colspan='2'>&nbsp;</td></tr>	</table>
+	
+	
+	
+	
+	
+	
+	
+		</td>
+	</tr>
+</table>
+	
+	
+					<a href="javascript:history.go(-1)">Back</a> &nbsp; <a href="index.php">Back to Search</a>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+	
+	<br><br><br>
+	</div>
+</div>
+	<img src='../../images/become.jpg' usemap='#become' border='0'><map name='become'>
+			<area coords='662,78,775,109'  href='../../agreement/' alt='Become Agent'>
+			</map>	<div class="clear"></div>
+	<div class="wrapper_footer">		
+	<div class="footer_content">
+	<div class="visitor">
+	<br>Visitor Number: <span class="counter" style="font: bold 14px arial,serif;color: #ffffff;">03903918</span> Since: October 2003
+	</div>
+	<br>
+	<div class="copyright_mainbox">
+		Copyright (c) 2003,2014 All World Shipping Corp. All rights reserved. :: <a href="../../sitemap.php">Site Map</a> :: <a href="https://plus.google.com/b/117705544771731117586" target="_blank">Google+</a>
+	</div>
+	</div>
+	</div><!-- close wrapper_footer -->
+	
+</div><!-- Close wrapper -->
+<!----Start google analytic code----->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47023117-1', 'allworldshipping.com');
+  ga('send', 'pageview');
+
+</script>
+<!----End google analytic code----->
+
+</body>
+</html>

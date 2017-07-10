@@ -1,51 +1,65 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+import os
+import time
 
-
+basedir=os.path.abspath(os.path.dirname(__file__))
+tempdir=basedir+'\\temp\\'
 url='http://www.wcaworld.com/eng/mem_signin.asp'
 
-headers={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36","Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",'Cookie':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',"Connection":"keep-alive"
+headers={'User-Agent':"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36","Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
 }
 
-params={'username':'slszcn','password':'83981222','Rememberme':'1','REMOTE_ADDR':'113.110.149.149','language':'eng','referer':'http://www.wcaworld.com'}
+data={'username':'slszcn','password':'83981222','Rememberme':'1','REMOTE_ADDR':'113.110.149.149','language':'eng','referer':'http://www.wcaworld.com'}
 
-session=requests.Session()
+def get_login_session():
 
-req=session.get(url,headers=headers)
+	session=requests.Session()
+	req=session.get(url,headers=headers)
+	bsobj=BeautifulSoup(req.text,'html.parser')
 
-bsobj=BeautifulSoup(req.text,'html.parser')
+	login_addr=bsobj.find('form',{'name':'login'})['action']
 
-# bsobj=BeautifulSoup(open('index.html','r'),'html.parser')
-# print bsobj
-login_addr=bsobj.find('form',{'name':'login'})['action']
+	log=session.post(login_addr,data=data,headers=headers)
 
-# random_no=re.compile('\d+').findall(login_addr)[0]
+	return session
 
-# print req.__dict__
-# print '\n\n'
-# print req.headers.__dict__
-# print '\n\n'
-print login_addr
 
-log=session.post(login_addr,data=params,headers=headers,cookies=req.cookies)
+def purge_name(name):
+	name=name.replace('?','')
+	name=name.replace('\\','')
+	name=name.replace('/','')
+	return name[9:]
 
-# print log.__dict__
-print session.headers.__dict_
-_print '\n\n'
-print log.headers.__dict__
-print log.cookies.get_dict()
+def get_text(url,session):
+	
+	text=session.get(url,headers=headers)
+	with open(tempdir + purge_name(url) +'.txt','wb') as file:
+		file.write(text.text.encode('utf-8'))
+	print (url+'written \n')
+	time.sleep(1)
 
-# logobj=BeautifulSoup(log.text,'html.parser')
 
-# with open('login.html','w+') as file:
-# 	file.write(logobj.encode('utf-8'))
+def read_urls(file):
+	with open(basedir+'\\'+file,'r') as file:
+		urls=file.read().split('\n')
+	return urls
 
-# # print session.cookies
-# print session.headers
 
-# print .write(request.get(url,headers=headers).open())
-# with open('index.html','w+') as file:
-# 	file.write(bsobj.encode('utf-8'))
+def crawl_wca(file):
+	session=get_login_session()
+	for url in read_urls(file):
+		if purge_name(url)+'.txt' in os.listdir():
+			continue
+		print (url+'is being collected...')
+		try:
 
-# print bsobj
+			get_text(url,session)
+		except ConnectionError:
+			session=get_login_session()
+			get_text(url,session)
+
+
+if __name__=='__main__':
+	crawl_wca('wcausa.txt')
