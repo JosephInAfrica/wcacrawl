@@ -11,7 +11,7 @@ url='http://www.wcaworld.com/eng/mem_signin.asp'
 headers={'User-Agent':"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36","Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
 }
 
-data={'username':'slszcn','password':'83981222','Rememberme':'1','REMOTE_ADDR':'113.110.149.149','language':'eng','referer':'http://www.wcaworld.com'}
+data={'username':'chipro','password':'382896','Rememberme':'1','REMOTE_ADDR':'113.110.149.149','language':'eng','referer':'http://www.wcaworld.com'}
 
 def get_login_session():
 
@@ -37,8 +37,8 @@ def get_text(url,session):
 	text=session.get(url,headers=headers)
 	with open(tempdir + purge_name(url) +'.txt','wb') as file:
 		file.write(text.text.encode('utf-8'))
-	print (url+'written \n')
-	time.sleep(1)
+	# print (url+'written \n')
+	# time.sleep(1)
 
 
 def read_urls(file):
@@ -50,16 +50,22 @@ def read_urls(file):
 def crawl_wca(file):
 	session=get_login_session()
 	for url in read_urls(file):
-		if purge_name(url)+'.txt' in os.listdir():
+		if purge_name(url)+'.txt' in os.listdir(tempdir):
+			print (url+'was collected before.')
 			continue
-		print (url+'is being collected...')
 		try:
+			print (url+'is being collected...')
 
 			get_text(url,session)
-		except ConnectionError:
+		except:
+			print('connection Error: Trying to reconect in 10s')
+			time.sleep(10)
 			session=get_login_session()
 			get_text(url,session)
+		finally:
+			print (url+'  collection finished.')
+
 
 
 if __name__=='__main__':
-	crawl_wca('wcausa.txt')
+	crawl_wca('wcausa.txt')  
