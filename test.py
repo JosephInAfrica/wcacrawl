@@ -4,8 +4,6 @@ import re
 basedir = os.path.abspath(os.path.dirname(__file__))
 tempdir = basedir+'\\temp\\'+'\\usa\\'
 
-file = tempdir+'wcaworld.comengmembers.aspcid=62361.txt'
-
 class Company(object):
 
     def __init__(self, address='', telephone='', fax='', website='', email=''):

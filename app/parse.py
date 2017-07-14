@@ -96,4 +96,25 @@ def get_contact_obj(file):
             contact_obj.__setattr__(clean_title(ele[0]).lower(),ele[1])
         except:
             pass
-    return [contact.__dict__ for contact in contacts]
+    # return [contact.__dict__ for contact in contacts]
+    return contacts
+
+
+    
+def startParse(dir):
+    for file in dir:
+        try:
+            company=get_company_obj(file)
+            contacts=get_contact_obj(file)
+        except:
+
+            print ('info not generated.')
+        try:
+            db.session.add(company)
+            for contact in contacts:
+                db.session.add(contact)
+        except:
+            print('info not added')
+            db.session.rollback()
+
+
