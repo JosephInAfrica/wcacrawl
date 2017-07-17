@@ -1,6 +1,11 @@
 import os
 import re
 from bs4 import BeautifulSoup as soup
+from .models import Company,Contact
+
+# basedir = os.path.abspath(os.path.dirname(__file__))
+
+# tempdir = {'us':basedir+'\\temp\\'+'\\usa\\','uk':basedir+'\\temp\\'+'\\uk\\','canada':basedir+'\\temp\\'+'\\canada\\',}
 
 
 def get_soup(file):
@@ -37,17 +42,28 @@ def clean_title(str):
 #去掉冒号
 
 def get_namenid(file):
-    name=clean(get_soup(file).find('div',class_='member_name').text)
-    id=clean_id(get_soup(file).find('div',class_='member_id').text)
+    try:
+        name=clean(get_soup(file).find('div',class_='member_name').text)
+    except:
+        print('name not found for %s'%file)
+        name=''
+    try:
+        id=clean_id(get_soup(file).find('div',class_='member_id').text)
+    except:
+        print('id not found for %s'%file)
+        id=''
     return (name,id)
 
 # 得到公司名和id
 
 def get_profile_table(file):
-    table=get_soup(file).find('div',{'class':'memberprofile_row table-responsive'})
+    # table=get_soup(file).find('div',{'class':'memberprofile_row'})
+    table=get_soup(file).find('table')
+
     trs=table.find_all('tr')
     # tds=[tr for tr in trs]
     tds=[[clean(td.text) for td in tr.find_all('td')][:2] for tr in trs]
+    tds=[td for td in tds if (len(td)>0)]
     return tds
 #找到每行的两个元素，空行也有
 
@@ -56,7 +72,7 @@ def get_company_obj(file):
     company=Company()
     # company={}
     for tr in trs:
-        if clean_title(tr[0])=='Contact':
+        if len(tr)==1 and 'contacts' in clean_title(tr[0]).lower():
             break
         try:
             if clean(tr[1])=='':
@@ -79,8 +95,8 @@ def get_groups(file):
 
 def get_contacts_info(file):
     contacts=get_profile_table(file)
-    contact_index=contacts.index(['Contact:'])
-    result=contacts[contact_index+1:]
+    contact_index=contacts.index(['.*Contacts\w*'])
+    result=contacts[contact_index:]
     return result
 # 得到除去contact以上部分
 
@@ -99,22 +115,24 @@ def get_contact_obj(file):
     # return [contact.__dict__ for contact in contacts]
     return contacts
 
+# def startParse(nation):
+
+#     for file in os.walk(tempdir[nation]):
+#         try:
+#             company=get_company_obj(file)
+#             contacts=get_contact_obj(file)
+#         except:
+
+#             print ('info not generated.')
+#         try:
+#             db.session.add(company)
+#             for contact in contacts:
+#                 db.session.add(contact)
+#         except:
+#             print('info not added')
+#             db.session.rollback()
+
 
     
-def startParse(dir):
-    for file in dir:
-        try:
-            company=get_company_obj(file)
-            contacts=get_contact_obj(file)
-        except:
-
-            print ('info not generated.')
-        try:
-            db.session.add(company)
-            for contact in contacts:
-                db.session.add(contact)
-        except:
-            print('info not added')
-            db.session.rollback()
 
 
