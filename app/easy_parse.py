@@ -1,15 +1,20 @@
 import os
 import re
 from bs4 import BeautifulSoup as soup
-# from .models import Company,Contact
-from . import db
-from . import config
-from .models import Company,Contact
-# basedir = os.path.abspath(os.path.dirname(__file__))
-tempdir=app.config['templdir']
-# tempdir = {'us':basedir+'\\temp'+'\\us\\','uk':basedir+'\\temp'+'\\uk\\','canada':basedir+'\\temp'+'\\canada\\',}
+import csv
+
+
+class Company(object):
+    pass
+
+class Contact(object):
+    pass
+
+basedir = os.path.abspath(os.path.dirname(__file__))
+
+tempdir = {'us':basedir+'\\temp'+'\\us\\','uk':basedir+'\\temp'+'\\uk\\','canada':basedir+'\\temp'+'\\canada\\',}
+file=tempdir['uk']+'wcaworld.comengmembers.aspcid=78445.txt'
 # # tempdir='D:\\Joseph\\wcacrawler\\temp\\us\\'
-# file=tempdir['uk']+'wcaworld.comengmembers.aspcid=78445.txt'
 
 def get_soup(file):
     with open(file,'rb') as file:
@@ -109,7 +114,8 @@ def get_contact_obj(file):
             start_point=trs.index(tr)
             print('start poind found %s'%start_point)
         continue
-
+# 这里专门loop一遍来找到哪个是contact行。
+# 这里不能用break跳出，否则返回空，真怪事也。
     # return start_point
 
     contact=Contact()
@@ -120,7 +126,20 @@ def get_contact_obj(file):
             continue
         contact.__setattr__(clean_title(tr[0]),tr[1])
         # print (tr)
-    return contacts
+    return [[contact.name,contact.email,contact.title,company.name]]
+def csv_row(contact):
+    return [contact.name,contact.email,contact.phone,contact.company.name]
+
+# def write_to_csv(dir):
+#     with open(file,'w+') as csvfile:
+#         writer=csv.writer(csvfile,dialect='excel')
+
+#     for file in dir:
+#         contacts=get_contact_obj(file)
+
+#         for contact in contacts:
+#             writer.writerow(csv_row(contact))
 
 
 # print (get_company_obj(file).__dict__)
+print (csv_row())

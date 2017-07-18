@@ -1,8 +1,7 @@
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
-tempdir = basedir+'\\temp\\'+'\\usa\\'
-
+tempdir = {'us':basedir+'\\temp'+'\\us\\','uk':basedir+'\\temp'+'\\uk\\','canada':basedir+'\\temp'+'\\canada\\',}
 
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'hard to guess string'
