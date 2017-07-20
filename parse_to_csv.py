@@ -1,27 +1,33 @@
 import os
 import re
 from bs4 import BeautifulSoup as soup
-# from .models import Company,Contact
-from . import db
-from . import config
-from .models import Company,Contact
-# basedir = os.path.abspath(os.path.dirname(__file__))
-tempdir=app.config['templdir']
-# tempdir = {'us':basedir+'\\temp'+'\\us\\','uk':basedir+'\\temp'+'\\uk\\','canada':basedir+'\\temp'+'\\canada\\',}
-# # tempdir='D:\\Joseph\\wcacrawler\\temp\\us\\'
-# file=tempdir['uk']+'wcaworld.comengmembers.aspcid=78445.txt'
+import csv
+
+basedir = os.path.abspath(os.path.dirname(__file__))
+
+tempdir = {'us':basedir+'\\temp'+'\\us\\','uk':basedir+'\\temp'+'\\uk\\','canada':basedir+'\\temp'+'\\canada\\',}
+
+class Company(object):
+    def __init__(self):
+        self.name,self.wca_id,self.address,self.phone='','','',''
+
+class Contact(object):
+    def __init__(self):
+        self.name,self.email,self.phone,self.title='','','',''
+
 
 def get_soup(file):
     with open(file,'rb') as file:
-        result=soup(file.read(),'html.parser')
+        result=soup(file.read(),'lxml')
     return result
 
 def get_table_soup(file):
     with open(file, 'rb') as file:
-        try:
-            result = soup(file.read(), 'html.parser').find_all('table',recursive=True)
-        except:
-            pass
+        # text=file.read().decode('utf-8')
+        # print (text)
+        # result=re.findall(re.compile(r'<table[.\s]*</table>'),text)
+        result = soup(file.read(), 'lxml').find_all('table',recursive=True)
+        # print (result)
     return result[0] if (len(result)==1) else None
 
 def clean_para(para):
@@ -100,7 +106,7 @@ def get_company_obj(file):
 
 def get_contact_obj(file):
     trs=get_profile_table(file)
-    # print (trs)
+
     contacts=[]
     start_point=None
     for tr in trs:
@@ -112,14 +118,51 @@ def get_contact_obj(file):
     # return start_point
 
     contact=Contact()
-    for tr in trs[start_point+1:]:
-        if tr[0]=='':
-            contacts.append(contact)
-            contact=Contact()
-            continue
-        contact.__setattr__(clean_title(tr[0]),tr[1])
-        # print (tr)
+    rest=trs[start_point+1:]
+    
+    if rest is not None:
+        for tr in trs[start_point+1:]:
+            if tr[0]=='':
+                dic=contact.__dict__
+                contact.phone=','.join([dic[attr] for attr in dic if ('line' in attr.lower() or 'phone' in attr.lower() and dic[attr] != '')])
+
+                contacts.append(contact)
+                contact=Contact()
+                continue
+            contact.__setattr__(clean_title(tr[0]),tr[1])
+            # print (tr)
+
     return contacts
 
+def file_to_row(file):
+    company=get_company_obj(file)
+    contacts=get_contact_obj(file)
 
-# print (get_company_obj(file).__dict__)
+    rows=[[contact.name,contact.title,contact.email,contact.phone,company.name]for contact in contacts]
+    if len(contacts)==0:
+        return [[company.name,'',company.email,company.phone,company.name],]
+    return rows
+
+def parse(nation):
+    with open(basedir+'\\%s_wca.csv'%nation,'w+',encoding='utf-8',newline='') as output_file:
+        writer=csv.writer(output_file,dialect='excel')
+        for file in os.listdir(tempdir[nation]):
+            print ('%s is being parsed...\n'%file)
+            if not os.path.isfile(tempdir[nation]+file):
+                continue
+
+            rows=file_to_row(tempdir[nation]+file)
+            for row in rows:
+                writer.writerow(row)
+                print (row)
+
+
+   
+parse('us')
+# file=tempdir['us']+'wcaworld.comengmembers.aspcid=103354.txt'
+
+# print (get_table_soup(file))
+# print (get_soup(file).find_all('table',recuImport / Exportrsive=True))
+# print (get_profile_table(file))Import / ExportImport / Export
+# print (get_contact_obj(file).__dict__)
+# print (file_to_row(file))
