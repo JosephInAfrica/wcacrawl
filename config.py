@@ -1,7 +1,9 @@
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
-tempdir = {'us':basedir+'\\temp'+'\\us\\','uk':basedir+'\\temp'+'\\uk\\','canada':basedir+'\\temp'+'\\canada\\',}
+tempdir = {'us': basedir+'\\temp'+'\\us\\', 'uk': basedir +
+           '\\temp'+'\\uk\\', 'canada': basedir+'\\temp'+'\\canada\\', }
+
 
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'hard to guess string'
@@ -14,10 +16,11 @@ class Config:
     def init_app(app):
         pass
 
+
 class DefaultConfig(Config):
     pass
 
 
-config={
-    'default':DefaultConfig
+config = {
+    'default': DefaultConfig
 }
