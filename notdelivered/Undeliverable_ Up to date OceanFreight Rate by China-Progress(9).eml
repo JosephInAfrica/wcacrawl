@@ -1,0 +1,645 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi145.chinaemail.cn (unknown [124.202.155.145])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 349174A22F8
+	for <overseas10@sino-progress.com>; Fri, 21 Jul 2017 17:13:50 +0800 (CST)
+X-SBRS: 3.5
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1CVBwCivXFZh5i8/Rd4BgyCcT6BARCBFIUmmk2YRIRKTwIeAhSDSEMUAQIBAQEBAQEBEwEBAQoLCQgohUcBAwMjBAY5CxgJEwMBAh0LAwICRgkIBhOKLwMCC5NKnWSBbDqBQ4Z1gmwBAQEBBgEBAQEBAQEBIIEeggqBYYNMAQEqhWiBTBECAQU2BoJtFoJQiVeIElWMZSmDBoRFjlxXhHmJFYFElWI2gSALdYVsBRyCBVgBigYBAQE
+X-IPAS-Result: A1CVBwCivXFZh5i8/Rd4BgyCcT6BARCBFIUmmk2YRIRKTwIeAhSDSEMUAQIBAQEBAQEBEwEBAQoLCQgohUcBAwMjBAY5CxgJEwMBAh0LAwICRgkIBhOKLwMCC5NKnWSBbDqBQ4Z1gmwBAQEBBgEBAQEBAQEBIIEeggqBYYNMAQEqhWiBTBECAQU2BoJtFoJQiVeIElWMZSmDBoRFjlxXhHmJFYFElWI2gSALdYVsBRyCBVgBigYBAQE
+X-IronPort-AV: E=Sophos;i="5.40,388,1496073600"; 
+   d="scan'208,217";a="99412434"
+Received: from mx100.chinaemail.cn ([47.89.24.115])
+  by mxi145.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 21 Jul 2017 17:14:58 +0800
+Received: from mail3.go2tigers.com (Mail3.Go2tigers.com [23.253.188.152])
+	by mx100.chinaemail.cn (Postfix) with ESMTP id A764EC0704
+	for <overseas10@sino-progress.com>; Fri, 21 Jul 2017 17:14:48 +0800 (CST)
+MIME-Version: 1.0
+From: <Postmaster@go2tigers.com>
+To: <overseas10@sino-progress.com>
+Date: Fri, 21 Jul 2017 04:14:53 -0500
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="5d166fbf-641d-4b97-80b1-e6265ba8a2d2"
+Content-Language: en-US
+Message-ID: <7d4e8942-8d76-4caf-918e-e90ec36a1abe@Go2Tigers.com>
+In-Reply-To: <150062848937.6808.17343586564747538641@DESKTOP-UIM96J7>
+References: <150062848937.6808.17343586564747538641@DESKTOP-UIM96J7>
+Subject: Undeliverable: Up to date OceanFreight Rate by China-Progress
+X-MID: 2093652882.1882174181.12.1500628430.218116.7358
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--5d166fbf-641d-4b97-80b1-e6265ba8a2d2
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="5ea4f416-100b-4e1b-a3d8-9b7b7ee44ff1"
+
+--5ea4f416-100b-4e1b-a3d8-9b7b7ee44ff1
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+david.stroud@go2tigers.com<mailto:david.stroud@go2tigers.com>
+The e-mail address you entered couldn't be found. Please check the recipien=
+t's e-mail address and try to resend the message. If the problem continues,=
+ please contact your helpdesk.
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: Go2Tigers.com
+
+david.stroud@go2tigers.com
+#550 5.1.1 RESOLVER.ADR.RecipNotFound; not found ##
+
+Original message headers:
+
+Received: from server45.appriver.com (69.20.58.226) by
+ 826235-OrdExch1.tigers.local (192.168.8.152) with Microsoft SMTP Server id
+ 14.3.301.0; Fri, 21 Jul 2017 04:14:53 -0500
+X-Note: Xit Build: 3/21/2017 2:04:32 PM UTC (2.6.15.0) XIT_SCAN_PASSED
+Received: from [10.238.8.88] (HELO inbound.appriver.com)  by
+ server45.appriver.com (CommuniGate Pro SMTP 5.3.12)  with ESMTP id 9101467=
+53
+ for david.stroud@go2tigers.com; Fri, 21 Jul 2017 05:14:53 -0400
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Note-AR-ScanTimeLocal: 07/21/2017 5:14:16 AM
+X-Note: SecureTide Build: 7/10/2017 6:38:16 PM UTC (2.6.19.12)
+X-Note: Filtered by 10.238.8.88
+X-Policy: go2tigers.com
+X-Primary: david.stroud@go2tigers.com
+X-Virus-Scan: V-
+X-Note: SPF: IP: 47.89.186.249  DOM: sino-progress.com ADDR: overseas10@sin=
+o-progress.com
+X-Note: SPF: Pass
+X-Note: ICH-CT/SI:0-2898/SG:4 7/21/2017 5:13:20 AM
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-96/SG:6 7/21/2017 5:13:20 AM
+X-GBUdb-Analysis: 0, 47.89.186.249, Ugly c=3D0.444918 p=3D-0.146667 Source =
+Normal
+X-Signature-Violations: 0-0-0-16777-c
+X-Note: Spam Tests Failed:
+X-Country-Path: PRIVATE->China->United States->United States->United States
+X-Note-Sending-IP: 47.89.186.249
+X-Note-Reverse-DNS: smtpc2.chinaemail.cn
+X-Note-Return-Path: overseas10@sino-progress.com
+X-Note: User Rule Hits:
+X-Note: Global Rule Hits: G279 G280 G281 G282 G286 G287 G416 G456
+X-Note: Encrypt Rule Hits:
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [47.89.186.249] (HELO mx100.chinaemail.cn)  by
+ inbound.appriver.com (CommuniGate Pro SMTP 6.1.7)  with ESMTPS id 16938991=
+4
+ for david.stroud@go2tigers.com; Fri, 21 Jul 2017 05:14:16 -0400
+Received: from smtpc1.chinaemail.cn (smtpc1.chinaemail.cn [184.173.76.226])=
+     by
+ mx100.chinaemail.cn (Postfix) with ESMTP id 5B0C0CF06A for
+ <david.stroud@go2tigers.com>; Fri, 21 Jul 2017 17:14:52 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [219.238.233.132])  by
+ smtpc1.chinaemail.cn (Postfix) with ESMTP id 75527136  for
+ <david.stroud@go2tigers.com>; Fri, 21 Jul 2017 16:56:08 +0800 (CST)
+Received: from [192.168.1.203] (unknown [218.18.112.251])       (Authentica=
+ted
+ sender: overseas10@sino-progress.com)  by s151v.chinaemail.cn (Bossmail) w=
+ith
+ ESMTP id B4DD54A230B   for <david.stroud@go2tigers.com>; Fri, 21 Jul 2017
+ 17:13:33 +0800 (CST)
+Content-Type: multipart/mixed;
+        boundary=3D"=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D6939490336=
+932975072=3D=3D"
+MIME-Version: 1.0
+Subject: Up to date OceanFreight Rate by China-Progress
+From: =3D?utf-8?q?Joseph=3D5FSinoProgress?=3D <overseas10@sino-progress.com=
+>
+To: <david.stroud@go2tigers.com>
+Date: Fri, 21 Jul 2017 17:14:49 +0800
+Message-ID: <150062848937.6808.17343586564747538641@DESKTOP-UIM96J7>
+X-MID: 2093652882.3748777068.6.1500628413.818069.7287
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/simple; d=3Dsino-progres=
+s.com;
+        s=3Ds123456; t=3D1500628413;
+        bh=3DqJDiryWAQh4oMPA8UrSe1d1z3H5ZE3gKNhla62xW6rI=3D;
+        h=3DSubject:From:Date:Message-ID;
+        b=3DgU4lquCU52v6Z8LegbCuJD6dHWu93Vxwz9kBBy+8vOQDqhqtu/uhyrg2u9fqQq8=
+wf
+         MZ7vwbArJwGZA8a5tVdch6T03s5V1l4PAqPng/ZNyupxhPTWUwR8+nvLuNvymmcVsL
+         hKZ8KfNfrwZ2LAvr5qCE1S81hr0PNNve5RasvThk=3D
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,david.stroud@go2tigers.com,
+Return-Path: overseas10@sino-progress.com
+X-EXCLAIMER-MD-CONFIG: 8f16255f-3bb4-4ff0-a697-96e4efc7e946
+
+
+--5ea4f416-100b-4e1b-a3d8-9b7b7ee44ff1
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:dav=
+id.stroud@go2tigers.com">david.stroud@go2tigers.com</a><br>
+The e-mail address you entered couldn't be found. Please check the recipien=
+t's e-mail address and try to resend the message. If the problem continues,=
+ please contact your helpdesk.<br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: Go2Tigers.com</p>
+<p>david.stroud@go2tigers.com<br>
+ #550 5.1.1 RESOLVER.ADR.RecipNotFound; not found ##</p>
+<p>Original message headers:</p>
+<pre>Received: from server45.appriver.com (69.20.58.226) by
+ 826235-OrdExch1.tigers.local (192.168.8.152) with Microsoft SMTP Server id
+ 14.3.301.0; Fri, 21 Jul 2017 04:14:53 -0500
+X-Note: Xit Build: 3/21/2017 2:04:32 PM UTC (2.6.15.0) XIT_SCAN_PASSED
+Received: from [10.238.8.88] (HELO inbound.appriver.com)  by
+ server45.appriver.com (CommuniGate Pro SMTP 5.3.12)  with ESMTP id 9101467=
+53
+ for david.stroud@go2tigers.com; Fri, 21 Jul 2017 05:14:53 -0400
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Note-AR-ScanTimeLocal: 07/21/2017 5:14:16 AM
+X-Note: SecureTide Build: 7/10/2017 6:38:16 PM UTC (2.6.19.12)
+X-Note: Filtered by 10.238.8.88
+X-Policy: go2tigers.com
+X-Primary: david.stroud@go2tigers.com
+X-Virus-Scan: V-
+X-Note: SPF: IP: 47.89.186.249  DOM: sino-progress.com ADDR: overseas10@sin=
+o-progress.com
+X-Note: SPF: Pass
+X-Note: ICH-CT/SI:0-2898/SG:4 7/21/2017 5:13:20 AM
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-96/SG:6 7/21/2017 5:13:20 AM
+X-GBUdb-Analysis: 0, 47.89.186.249, Ugly c=3D0.444918 p=3D-0.146667 Source =
+Normal
+X-Signature-Violations: 0-0-0-16777-c
+X-Note: Spam Tests Failed:=20
+X-Country-Path: PRIVATE-&gt;China-&gt;United States-&gt;United States-&gt;U=
+nited States
+X-Note-Sending-IP: 47.89.186.249
+X-Note-Reverse-DNS: smtpc2.chinaemail.cn
+X-Note-Return-Path: overseas10@sino-progress.com
+X-Note: User Rule Hits:=20
+X-Note: Global Rule Hits: G279 G280 G281 G282 G286 G287 G416 G456=20
+X-Note: Encrypt Rule Hits:=20
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [47.89.186.249] (HELO mx100.chinaemail.cn)  by
+ inbound.appriver.com (CommuniGate Pro SMTP 6.1.7)  with ESMTPS id 16938991=
+4
+ for david.stroud@go2tigers.com; Fri, 21 Jul 2017 05:14:16 -0400
+Received: from smtpc1.chinaemail.cn (smtpc1.chinaemail.cn [184.173.76.226])=
+	by
+ mx100.chinaemail.cn (Postfix) with ESMTP id 5B0C0CF06A	for
+ &lt;david.stroud@go2tigers.com&gt;; Fri, 21 Jul 2017 17:14:52 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [219.238.233.132])	by
+ smtpc1.chinaemail.cn (Postfix) with ESMTP id 75527136	for
+ &lt;david.stroud@go2tigers.com&gt;; Fri, 21 Jul 2017 16:56:08 +0800 (CST)
+Received: from [192.168.1.203] (unknown [218.18.112.251])	(Authenticated
+ sender: overseas10@sino-progress.com)	by s151v.chinaemail.cn (Bossmail) wi=
+th
+ ESMTP id B4DD54A230B	for &lt;david.stroud@go2tigers.com&gt;; Fri, 21 Jul 2=
+017
+ 17:13:33 +0800 (CST)
+Content-Type: multipart/mixed;
+	boundary=3D&quot;=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D693949033693=
+2975072=3D=3D&quot;
+MIME-Version: 1.0
+Subject: Up to date OceanFreight Rate by China-Progress
+From: =3D?utf-8?q?Joseph=3D5FSinoProgress?=3D &lt;overseas10@sino-progress.=
+com&gt;
+To: &lt;david.stroud@go2tigers.com&gt;
+Date: Fri, 21 Jul 2017 17:14:49 +0800
+Message-ID: &lt;150062848937.6808.17343586564747538641@DESKTOP-UIM96J7&gt;
+X-MID: 2093652882.3748777068.6.1500628413.818069.7287
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/simple; d=3Dsino-progres=
+s.com;
+	s=3Ds123456; t=3D1500628413;
+	bh=3DqJDiryWAQh4oMPA8UrSe1d1z3H5ZE3gKNhla62xW6rI=3D;
+	h=3DSubject:From:Date:Message-ID;
+	b=3DgU4lquCU52v6Z8LegbCuJD6dHWu93Vxwz9kBBy+8vOQDqhqtu/uhyrg2u9fqQq8wf
+	 MZ7vwbArJwGZA8a5tVdch6T03s5V1l4PAqPng/ZNyupxhPTWUwR8+nvLuNvymmcVsL
+	 hKZ8KfNfrwZ2LAvr5qCE1S81hr0PNNve5RasvThk=3D
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,david.stroud@go2tigers.com,
+Return-Path: overseas10@sino-progress.com
+X-EXCLAIMER-MD-CONFIG: 8f16255f-3bb4-4ff0-a697-96e4efc7e946
+</pre>
+</font>
+</body>
+</html>=
+
+--5ea4f416-100b-4e1b-a3d8-9b7b7ee44ff1--
+
+--5d166fbf-641d-4b97-80b1-e6265ba8a2d2
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;Go2Tigers.com
+Received-From-MTA: dns;server45.appriver.com
+Arrival-Date: Fri, 21 Jul 2017 09:14:53 +0000
+
+Final-Recipient: rfc822;david.stroud@go2tigers.com
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+
+
+--5d166fbf-641d-4b97-80b1-e6265ba8a2d2
+Content-Type: message/rfc822
+
+Received: from server45.appriver.com (69.20.58.226) by
+ 826235-OrdExch1.tigers.local (192.168.8.152) with Microsoft SMTP Server id
+ 14.3.301.0; Fri, 21 Jul 2017 04:14:53 -0500
+X-Note: Xit Build: 3/21/2017 2:04:32 PM UTC (2.6.15.0) XIT_SCAN_PASSED
+Received: from [10.238.8.88] (HELO inbound.appriver.com)  by
+ server45.appriver.com (CommuniGate Pro SMTP 5.3.12)  with ESMTP id 910146753
+ for david.stroud@go2tigers.com; Fri, 21 Jul 2017 05:14:53 -0400
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Note-AR-ScanTimeLocal: 07/21/2017 5:14:16 AM
+X-Note: SecureTide Build: 7/10/2017 6:38:16 PM UTC (2.6.19.12)
+X-Note: Filtered by 10.238.8.88
+X-Policy: go2tigers.com
+X-Primary: david.stroud@go2tigers.com
+X-Virus-Scan: V-
+X-Note: SPF: IP: 47.89.186.249  DOM: sino-progress.com ADDR: overseas10@sino-progress.com
+X-Note: SPF: Pass
+X-Note: ICH-CT/SI:0-2898/SG:4 7/21/2017 5:13:20 AM
+X-Note-SnifferID: 0
+X-Note: TCH-CT/SI:0-96/SG:6 7/21/2017 5:13:20 AM
+X-GBUdb-Analysis: 0, 47.89.186.249, Ugly c=0.444918 p=-0.146667 Source Normal
+X-Signature-Violations: 0-0-0-16777-c
+X-Note: Spam Tests Failed: 
+X-Country-Path: PRIVATE->China->United States->United States->United States
+X-Note-Sending-IP: 47.89.186.249
+X-Note-Reverse-DNS: smtpc2.chinaemail.cn
+X-Note-Return-Path: overseas10@sino-progress.com
+X-Note: User Rule Hits: 
+X-Note: Global Rule Hits: G279 G280 G281 G282 G286 G287 G416 G456 
+X-Note: Encrypt Rule Hits: 
+X-Note: Mail Class: VALID
+X-Note: Headers Injected
+Received: from [47.89.186.249] (HELO mx100.chinaemail.cn)  by
+ inbound.appriver.com (CommuniGate Pro SMTP 6.1.7)  with ESMTPS id 169389914
+ for david.stroud@go2tigers.com; Fri, 21 Jul 2017 05:14:16 -0400
+Received: from smtpc1.chinaemail.cn (smtpc1.chinaemail.cn [184.173.76.226])	by
+ mx100.chinaemail.cn (Postfix) with ESMTP id 5B0C0CF06A	for
+ <david.stroud@go2tigers.com>; Fri, 21 Jul 2017 17:14:52 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [219.238.233.132])	by
+ smtpc1.chinaemail.cn (Postfix) with ESMTP id 75527136	for
+ <david.stroud@go2tigers.com>; Fri, 21 Jul 2017 16:56:08 +0800 (CST)
+Received: from [192.168.1.203] (unknown [218.18.112.251])	(Authenticated
+ sender: overseas10@sino-progress.com)	by s151v.chinaemail.cn (Bossmail) with
+ ESMTP id B4DD54A230B	for <david.stroud@go2tigers.com>; Fri, 21 Jul 2017
+ 17:13:33 +0800 (CST)
+Content-Type: multipart/mixed;
+	boundary="===============6939490336932975072=="
+MIME-Version: 1.0
+Subject: Up to date OceanFreight Rate by China-Progress
+From: =?utf-8?q?Joseph=5FSinoProgress?= <overseas10@sino-progress.com>
+To: <david.stroud@go2tigers.com>
+Date: Fri, 21 Jul 2017 17:14:49 +0800
+Message-ID: <150062848937.6808.17343586564747538641@DESKTOP-UIM96J7>
+X-MID: 2093652882.3748777068.6.1500628413.818069.7287
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sino-progress.com;
+	s=s123456; t=1500628413;
+	bh=qJDiryWAQh4oMPA8UrSe1d1z3H5ZE3gKNhla62xW6rI=;
+	h=Subject:From:Date:Message-ID;
+	b=gU4lquCU52v6Z8LegbCuJD6dHWu93Vxwz9kBBy+8vOQDqhqtu/uhyrg2u9fqQq8wf
+	 MZ7vwbArJwGZA8a5tVdch6T03s5V1l4PAqPng/ZNyupxhPTWUwR8+nvLuNvymmcVsL
+	 hKZ8KfNfrwZ2LAvr5qCE1S81hr0PNNve5RasvThk=
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,david.stroud@go2tigers.com,
+Return-Path: overseas10@sino-progress.com
+X-EXCLAIMER-MD-CONFIG: 8f16255f-3bb4-4ff0-a697-96e4efc7e946
+
+--===============6939490336932975072==
+Content-Type: multipart/alternative;
+	boundary="===============7939456822167412748=="
+MIME-Version: 1.0
+
+--===============7939456822167412748==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+--===============7939456822167412748==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+	<head>
+		<!-- NAME: SIMPLE TEXT -->
+		<!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+		<meta charset=3D"UTF-8">
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+		<title>Greetings From China Progress International Freight Forwarding Com=
+pany</title>
+	    <style type=3D"text/css">
+<!--
+.STYLE1 {
+	color: #333333;
+	font-weight: bold;
+}
+.STYLE2 {color: #333333}
+.STYLE5 {
+	font-style: italic;
+	color: #000000;
+}
+.STYLE8 {
+	font-style: italic;
+	color: #666666;
+}
+.STYLE13 {color: #000000}
+-->
+        </style>
+</head>
+    <body>
+	=09
+        <center>
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable">
+                <tr>
+                    <td align=3D"left" valign=3D"top" id=3D"bodyCell">
+                        <!-- BEGIN TEMPLATE // -->
+						<!--[if gte mso 9]>
+						<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" width=3D"600" style=3D"width:600px;">
+						<tr>
+						<td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:600p=
+x;">
+						<![endif]-->
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" class=3D"templateContainer">
+                            <tr>
+                                <td valign=3D"top" id=3D"templateHeader"></=
+td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateBody"><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D=
+"mcnTextBlock" style=3D"min-width:100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"padding=
+-top:9px;">
+              	<!--[if mso]>
+				<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" style=3D"width:100%;">
+				<tr>
+				<![endif]-->
+			   =20
+				<!--[if mso]>
+				<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+				<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"max-width:100%; min-width:100%;" width=3D"100%" class=
+=3D"mcnTextContentContainer">
+                    <tbody><tr>
+                       =20
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18p=
+x;">
+                       =20
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif">Dear Mr. David Stroud ,<br>
+                                <br>
+                              Greetings from  <strong>China-Progress Int'l =
+Freight Forwarding</strong>, China.<br>
+  <br>
+                              This is Joseph,&nbsp;it is so nice to know yo=
+ur good company from<strong>&nbsp;WCA members Directory .</strong></p>
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif">                              We are 14 years experienc=
+ed freight forwarder in Shenzhen.    Wondering if we have chance<strong> to=
+ be your cooperating handler </strong>in China.  <br>
+                            </p>
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif">Here is updated Freight Rate from China to UK, hope it =
+is helpful.</p>
+                            <table width=3D"492" height=3D"198" border=3D"1=
+" cellpadding=3D"0" cellspacing=3D"0">
+                              <col width=3D"113">
+                              <col width=3D"72" span=3D"5">
+                              <tr height=3D"18">
+                                <td width=3D"473" height=3D"36" colspan=3D"=
+5" bordercolor=3D"#999999"><div align=3D"center" class=3D"STYLE1">Ocean Fre=
+ight Rate CN-UK Jul21</div></td>
+                              </tr>
+                             =20
+                              <tr height=3D"40">
+                                <td width=3D"473" height=3D"40" bordercolor=
+=3D"#999999" bgcolor=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE=
+2">POL</span></div></td>
+                                <td width=3D"473" bordercolor=3D"#999999" b=
+gcolor=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE2">POD</span><=
+/div></td>
+                                <td width=3D"473" bordercolor=3D"#999999" b=
+gcolor=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE2">Freight    =
+20'GP($)</span></div></td>
+                                <td width=3D"473" bordercolor=3D"#999999" b=
+gcolor=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE2">Freight    =
+40GP($)</span></div></td>
+                                <td width=3D"473" bordercolor=3D"#999999" b=
+gcolor=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE2">Freight    =
+40HQ($)</span></div></td>
+                              </tr>
+                              <tr height=3D"20">
+                                <td height=3D"20" bordercolor=3D"#999999"><=
+div align=3D"center"><span class=3D"STYLE2">SZX</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">Felixstowe</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">925</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter">1600</div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter">1600</div></td>
+                              </tr>
+                              <tr height=3D"20">
+                                <td height=3D"20" bordercolor=3D"#999999"><=
+div align=3D"center"><span class=3D"STYLE2">SZX</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter">SouthAmpton</div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter">875</div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter">1450</div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter">1500</div></td>
+                              </tr>
+                             =20
+                             =20
+                              <tr height=3D"20">
+                                <td height=3D"20" bordercolor=3D"#999999"><=
+div align=3D"center"><span class=3D"STYLE2">TNJ,TAO,SHA</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">Felixstowe</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">875</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter">1650</div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter">1650</div></td>
+                              </tr>
+                              <tr height=3D"20">
+                                <td height=3D"20" bordercolor=3D"#999999"><=
+div align=3D"center"><span class=3D"STYLE2">TNJ,TAO,SHA</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter">SouthAmpton</div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter">875</div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter">1650</div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter">1650</div></td>
+                              </tr>
+                            </table>
+                            <p>Please kindly let me know if anything we can=
+ help you with or<em> if I should not disturb you with this.</em></p>
+                            <p><br>
+                              <strong>We wish to be your trusted partner in=
+ China.</strong><br>
+                              <span class=3D"STYLE13"><br>
+                                <em><strong>China Progress is&nbsp; </stron=
+g></em></span></p>
+                            <ul class=3D"STYLE5">
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>14 years experienced</strong> Freight Forwarder&nbsp;</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+member of <strong>WCA, FIATA, CIFA</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+NVOCC Class-A freight forwarder</span></li>
+</ul>
+                            <span class=3D"STYLE13" style=3D"font-family:ar=
+ial,helvetica neue,helvetica,sans-serif"><em> <strong>We have</strong></em>=
+</span>
+
+<ul class=3D"STYLE5">
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>4 office</strong> in China (located in <strong>Shenzhen, Guangzhou =
+, Shanghai, Qingdao</strong> respectively)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>3 overseas office</strong> (located in <strong>US, Canada and Vietn=
+am</strong> respectively.)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>200+ stuff</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>110+ container trucks</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>1000 sq ft warehouse</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Our own broker office in Shenzhen</strong></span></li>
+</ul>
+<span class=3D"STYLE13" style=3D"font-family:arial,helvetica neue,helvetica=
+,sans-serif"><em> <strong>Our service </strong>covers</em></span>
+
+<ul class=3D"STYLE8">
+	<li class=3D"STYLE13"><span style=3D"font-family:arial,helvetica neue,helv=
+etica,sans-serif">Sea Freight</span></li>
+	<li class=3D"STYLE13"><span style=3D"font-family:arial,helvetica neue,helv=
+etica,sans-serif">Air Freight</span></li>
+	<li class=3D"STYLE13"><span style=3D"font-family:arial,helvetica neue,helv=
+etica,sans-serif">Logistics</span></li>
+	<li class=3D"STYLE13"><span style=3D"font-family:arial,helvetica neue,helv=
+etica,sans-serif">Transport and Distribution</span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>Please don't hesitate to contact me for any assistance you need from Ch=
+ina.</strong></span>
+
+<div><br>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">I am =
+looking forward to your reply! Wish we could start cooperation very soon .<=
+/span><br>
+&nbsp;
+<div>
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Thanks &amp; Regards,</span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Joseph Li&nbsp;</strong></span></div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Overseas Dept.<br>
+Email: overseas10@sino-progress.com<br>
+<strong><em>Service Drives Value=E2=80=A6=E2=80=A6</em></strong><br>
+<strong>CHINA&nbsp;PROGRESS INT'L FORWARDING CO.,LTD&nbsp;</strong><br>
+NVOCC:MOC-NV 03517<br>
+Cell: +86-13714780856<br>
+<a href=3D"http://www.sino-progress.com/">WWW.SINO-PROGRESS.COM</a><br>
+&nbsp;CHINA&nbsp; -&nbsp;&nbsp; VIETNAM &nbsp;-&nbsp; U.S.A.&nbsp; &nbsp;-&=
+nbsp; &nbsp;CANADA</span></div>
+</div>
+
+<div>
+<div align=3D"left"><span style=3D"font-family:arial,helvetica neue,helveti=
+ca,sans-serif"><img data-file-id=3D"2715261" src=3D"https://gallery.mailchi=
+mp.com/3cad518a16e6e9e8280a70c63/images/114709a2-d4d1-4ae6-a900-90d97573805=
+1.jpg" style=3D"border: 0px  ; margin: 0px;"></span></div>
+</div>
+</div>                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+               =20
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateFooter"></=
+td>
+                            </tr>
+                        </table>
+						<!--[if gte mso 9]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>=
+
+--===============7939456822167412748==--
+
+--===============6939490336932975072==--
+
+--5d166fbf-641d-4b97-80b1-e6265ba8a2d2--

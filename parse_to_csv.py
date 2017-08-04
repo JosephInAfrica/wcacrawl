@@ -6,7 +6,9 @@ import csv
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 tempdir = {'us': basedir+'\\temp'+'\\us\\', 'uk': basedir +
-           '\\temp'+'\\uk\\', 'canada': basedir+'\\temp'+'\\canada\\', }
+           '\\temp'+'\\uk\\', 'canada': basedir+'\\temp'+'\\canada\\',
+           'malaysia': basedir+'\\temp\\'+'malaysia\\',
+           'newzealand': basedir+'\\temp\\'+'newzealand\\'}
 
 
 class Company(object):
@@ -155,10 +157,10 @@ def file_to_row(file):
     company = get_company_obj(file)
     contacts = get_contact_obj(file)
 
-    rows = [[contact.name, contact.title, contact.email,
-             contact.phone, company.name]for contact in contacts]
+    rows = [[contact.name, contact.email, company.name, contact.title,
+             contact.phone, 'WCA', ]for contact in contacts]
     if len(contacts) == 0:
-        return [[company.name, '', company.email, company.phone, company.name], ]
+        return [[company.name,  company.email, company.name, '', company.phone, 'WCA'], ]
     return rows
 
 
@@ -176,7 +178,7 @@ def parse(nation):
                 print(row)
 
 
-parse('us')
+parse('newzealand')
 # file=tempdir['us']+'wcaworld.comengmembers.aspcid=103354.txt'
 
 # print (get_table_soup(file))

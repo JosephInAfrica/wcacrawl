@@ -1,0 +1,61 @@
+Return-Path: <tara.v@cfstransportation.com>
+Received: from mxi95.chinaemail.cn (unknown [115.182.8.95])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id C2D0F4A22E5
+	for <overseas10@sino-progress.com>; Tue, 11 Jul 2017 15:00:19 +0800 (CST)
+X-SBRS: 3.4
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1AdAwANcGRZhqzcVdFdHQEFAQsBgwCCUo58kFmXVANcIQGFSwEBK4NPEwECAQEBAQEBARMBAQEICwsIKIVPAiAdAQEvCQ4PAQIFDwIfBwICAx8SAQUBNQUDE4oUAwIBnzM/ix9rgiaDBQEBBYgvCwEBARwIEnmCHYNMiUASAWiCR4JhkV2NNBICgiWRY4F0AReFS4pLk3gzgRU3gR8LdXgGhGQfJYFuVgGFfYIwAQEB
+X-IronPort-AV: E=Sophos;i="5.40,345,1496073600"; 
+   d="scan'208,217";a="204242665"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi95.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 11 Jul 2017 15:00:09 +0800
+Received: from mail-qk0-f172.google.com (mail-qk0-f172.google.com [209.85.220.172])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id D13FFC0AD1
+	for <overseas10@sino-progress.com>; Tue, 11 Jul 2017 14:59:41 +0800 (CST)
+Received: by mail-qk0-f172.google.com with SMTP id 16so92931602qkg.2
+        for <overseas10@sino-progress.com>; Tue, 11 Jul 2017 00:00:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=cfstransportation-com.20150623.gappssmtp.com; s=20150623;
+        h=to:from:date:message-id:subject:mime-version
+         :content-transfer-encoding:content-disposition:precedence
+         :auto-submitted;
+        bh=WpyPcyJWrEKKFok3tNPcDF5yLkVZfLKD+roDs8dpGqk=;
+        b=fkyFwQNg08Fzc6oTQGkx9lbzFUEsC5rxXUBQc4FH/3qQgWU26qywAlvpPjVsL4c9Lk
+         kvj+0snc8koT6VkLG1UmPosTicHrtwy6e6l/fKHukzzNg65Z9lvMCnNtaOqfwxW7HbDD
+         VEJeK9rEG4ExzNmCNRoi678OcN6nW/LQHt19xwXxMAim7iM3zZYiDA+97K7CaECFXtgA
+         4NZU8eH/Yg9C7IKs7eMj2AhzGmrKtEi7J8Ih0OKhohvpPAs2hJVh+P4r+n9hv7iVeLCb
+         ZfWlIU+4OoUwr/uES84ahle+6g5pgn7BJgEGjnbXHhETwLmIr+FaHArHjl/U2fUjv5Fp
+         kpzw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:to:from:date:message-id:subject:mime-version
+         :content-transfer-encoding:content-disposition:precedence
+         :auto-submitted;
+        bh=WpyPcyJWrEKKFok3tNPcDF5yLkVZfLKD+roDs8dpGqk=;
+        b=BnY1DXOKn2qOXQQYNILQtIKs7CJiSySJPJAPBe7r0WL50aN/+uYy/5BDSh+TfWMuhm
+         3dXhlSq0y3KQ7Zvrl1szkxwHFCzNsWLQFIwA/9o5kyFNbq5YIIBjVbDxVEcpCWRYvKmD
+         6A9mJWCNP+vrhbyvPQdWzfElYK9/A+iH98h01IaCEVrrVTeO4sj2QAx11qB7KGN/5cFM
+         8E9TqxN89jfwejgfR4ndghBN+EaVRd6m9OcmnmUzD0UwYLqw1rYI9mxA3IMHFwnacv5l
+         x57RS0mUJA3Rjj4XoV9zf2UXxE7F1cPziISnZYT9NV5bBYXHVvrGoYsBUa2GJ2p7SeHx
+         ocZw==
+X-Gm-Message-State: AIVw112iCspUPqwl8xY+uYeSkKJ/kJh+sG1UU6vLnzvhPp7Lx5OWuXKQ
+	inFpRvqyK6vdvEjEyMMnDYU9HuLOkXwaGQyY6oPq3nxoVbod1Q==
+X-Received: by 10.55.166.207 with SMTP id p198mr3562573qke.132.1499756406087;
+        Tue, 11 Jul 2017 00:00:06 -0700 (PDT)
+To: overseas10@sino-progress.com
+From: "Tara VanBuskirk" <tara.v@cfstransportation.com>
+Date: Tue, 11 Jul 2017 00:00:05 -0700
+Message-ID: <CAP709DCRtuJYEoj4707SNRRhZRJnZKtXvxwgseodErHWXJRj9Q@mail.gmail.com>
+Subject: Tara VanBuskirk is no longer with Celestial Freight Solutions Re: Looking for a Partner in USA--ChinaProgress
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+Precedence: bulk
+X-Autoreply: yes
+X-MID: 2093652882.976865224.5.1499756419.804475.18543
+X-Rate: Yes
+X-Real-From: tara.v@cfstransportation.com
+X-Rcpt: ,overseas10@sino-progress.com,
+
+<div dir="ltr"><div><font color="#ff0000" size="2">Please note, Tara Van Buskirk is no longer with Celestial Freight Solutions. Please send any correspondence to our group email at <a href="mailto:laxint@cfstransportation.com" target="_blank">laxint@cfstransportation.com</a></font></div></div>

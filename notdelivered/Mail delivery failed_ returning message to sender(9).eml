@@ -1,0 +1,113 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi110.chinaemail.cn (unknown [115.182.8.110])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id A21E84A22E3
+	for <overseas10@sino-progress.com>; Thu, 20 Jul 2017 12:03:18 +0800 (CST)
+X-SBRS: 3.5
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1BuEQBGH3BZhz/9/kF5BgyELhCBFIUriGJxpnmCMQuBYIM7AoQtDQECAQEBAQEBARMBAQEKCwkIKIVHAQMEAj0BATgrAwECPz8hii8DAguvSIJ9FIMGAQEFhGE1gygIgyiFLQGHcQEBOwYmhliIK4hhjQKBaIVjg0QMiQqCV49NlVxNgRRSI4FTg1o1DxyCA1qGcIIwAQEB
+X-IPAS-Result: A1BuEQBGH3BZhz/9/kF5BgyELhCBFIUriGJxpnmCMQuBYIM7AoQtDQECAQEBAQEBARMBAQEKCwkIKIVHAQMEAj0BATgrAwECPz8hii8DAguvSIJ9FIMGAQEFhGE1gygIgyiFLQGHcQEBOwYmhliIK4hhjQKBaIVjg0QMiQqCV49NlVxNgRRSI4FTg1o1DxyCA1qGcIIwAQEB
+X-IronPort-AV: E=Sophos;i="5.40,382,1496073600"; 
+   d="scan'208";a="460017361"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi110.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 20 Jul 2017 12:04:18 +0800
+Received: from walmailout07.yourhostingaccount.com (walmailout07.yourhostingaccount.com [65.254.253.63])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id 47FD8C0A18
+	for <overseas10@sino-progress.com>; Thu, 20 Jul 2017 12:03:50 +0800 (CST)
+Received: from mailscan12.yourhostingaccount.com ([10.1.15.12] helo=walmailscan12.yourhostingaccount.com)
+	by walmailout07.yourhostingaccount.com with esmtp (Exim)
+	id 1dY2hD-00022V-CN
+	for overseas10@sino-progress.com; Thu, 20 Jul 2017 00:04:15 -0400
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=yourhostingaccount.com; s=dkim; h=Date:Message-Id:Subject:MIME-Version:
+	Content-Type:To:From:Sender:Reply-To:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=G8deuq6tKI3pdPVAztBYbCfT+pHMRg+A6C4nxk+ArOs=; b=IYkfxZw2aPCiEPWICmAOVkl8ju
+	OGcwPYGK1ZuNgLUkoJd9aGN2ArcnPMAYeHDYO0Z07qyu7Mge+Xsgip77zzu//+RvDArosMgTM15qY
+	ZldoJLGlt+wGDLsfkpnvBuL7vkEG9B/rMI/CJ1s8STaSZiV6PgyTYrKMh7jRg+PSXu90ciVMJSF1c
+	wXJ0nsdnXJZw0yeFVOUArqkb0uX0afkjsT/UFr2dhmOFaH0lssy4xuG3GB3AGRHsSwzaVj+WeXC6V
+	iFBThlIAEWU+T5XCrzTd4LHOCadhWIMhnnze/s0OIIe08sxTeUMvmZcWvV8ZrSOzp3k+3pT78WM9S
+	iSLikgJQ==;
+Received: from Debian-exim by walmailscan12.yourhostingaccount.com with local (Exim)
+	id 1dY2hC-0006oL-Tu
+	for overseas10@sino-progress.com; Thu, 20 Jul 2017 00:04:14 -0400
+X-Failed-Recipients: bounce@accountsupport.com
+From: Mail Delivery System <Mailer-Daemon@yourhostingaccount.com>
+To: overseas10@sino-progress.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1500523454-eximdsn-720477349
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1dY2hC-0006oL-Tu@walmailscan12.yourhostingaccount.com>
+Date: Thu, 20 Jul 2017 00:04:14 -0400
+X-MID: 2093652882.1054338317.8.1500523398.665396.21374
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--1500523454-eximdsn-720477349
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  bounce@accountsupport.com
+    (generated from mchlomoudis@norfolkmarineterminals.com)
+    There is no one at this address
+
+--1500523454-eximdsn-720477349
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; walmailscan12.yourhostingaccount.com
+
+Action: failed
+Final-Recipient: rfc822;bounce@accountsupport.com
+Status: 5.0.0
+
+--1500523454-eximdsn-720477349
+Content-type: text/rfc822-headers
+
+Return-path: <overseas10@sino-progress.com>
+Received: from [10.114.3.14] (helo=smtp.maileig.com)
+	by walmailscan12.yourhostingaccount.com with esmtp (Exim)
+	id 1dY2hC-0005BH-Ml
+	for mchlomoudis@norfolkmarineterminals.com; Thu, 20 Jul 2017 00:04:14 -0400
+Received: from mx100.chinaemail.cn ([47.89.186.249])
+	by walimpinc14 with bizsmtp
+	id ms481v00s5PGwUX01s494j; Thu, 20 Jul 2017 00:04:12 -0400
+X-EN-OrigIP: 47.89.186.249
+X-EN-IMPSID: ms481v00s5PGwUX01s494j
+Received: from smtpc1.chinaemail.cn (smtpc1.chinaemail.cn [184.173.76.226])
+	by mx100.chinaemail.cn (Postfix) with ESMTP id 37541CF051
+	for <mchlomoudis@norfolkmarineterminals.com>; Thu, 20 Jul 2017 12:04:08 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [219.238.233.132])
+	by smtpc1.chinaemail.cn (Postfix) with ESMTP id A9AD1109
+	for <mchlomoudis@norfolkmarineterminals.com>; Thu, 20 Jul 2017 11:45:27 +0800 (CST)
+Received: from [192.168.1.203] (unknown [14.20.30.239])
+	(Authenticated sender: overseas10@sino-progress.com)
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 8BA214A22EF
+	for <mchlomoudis@norfolkmarineterminals.com>; Thu, 20 Jul 2017 12:02:59 +0800 (CST)
+Content-Type: multipart/mixed; boundary="===============8824795084849127712=="
+MIME-Version: 1.0
+Subject: Updated Freight Rate from China
+From: =?utf-8?q?Joseph=5FSinoProgress?= <overseas10@sino-progress.com>
+To: mchlomoudis@norfolkmarineterminals.com
+Date: Thu, 20 Jul 2017 12:04:04 +0800
+Message-ID: <150052344462.2372.8803975816034994028@DESKTOP-UIM96J7>
+X-MID: 2093652882.3498216959.6.1500523379.645630.1148
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sino-progress.com;
+	s=s123456; t=1500523379;
+	bh=+th8cfxHAEXXgog7mR7vb3XK9rSchlM82DLS1nyx8LM=;
+	h=Subject:From:Date:Message-ID;
+	b=wX9swXLzXd1PDlutapPMn5tfTAcfEMyqKG1Ww5rHpCGduUPu4W6zfTeJoMPCs4Qhi
+	 VAFvacvAQYlT/oIdflHbYNTuxYbm53rMSBQnrjPPI05MgUsE4NJIR5MJ3QKtGa25o1
+	 p0XeYPT3z61vrmKnFsV3LQowYLl5P291KKGsLq2o=
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,mchlomoudis@norfolkmarineterminals.com,
+X-EN-Class: impinc
+
+
+--1500523454-eximdsn-720477349--

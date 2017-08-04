@@ -1,0 +1,49 @@
+Return-Path: <gdoug@westelcom.com>
+Received: from mxi110.chinaemail.cn (unknown [115.182.8.110])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id E950E4A22F7
+	for <overseas10@sino-progress.com>; Wed, 19 Jul 2017 17:28:22 +0800 (CST)
+X-SBRS: 3.4
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1CUAwCKE29Zhiis6MxcHAEBBAEBCgEBg1eBe45+pnOCECGFHAIIAoQeEQECAQEBAQEBARMBAQEICwsIKIVIAgEDAQIMARMPAVUBCxoCJgICA1QGEwWKKgMCAa4gAQFqgiaLBwEBAQcBAQEBJIELgh2IUoQ7EgE5L4JHgmEFl0SHdZYNAYk5hwGVXDkLgRILdRWFbIIPWoYjgjABAQE
+X-IPAS-Result: A1CUAwCKE29Zhiis6MxcHAEBBAEBCgEBg1eBe45+pnOCECGFHAIIAoQeEQECAQEBAQEBARMBAQEICwsIKIVIAgEDAQIMARMPAVUBCxoCJgICA1QGEwWKKgMCAa4gAQFqgiaLBwEBAQcBAQEBJIELgh2IUoQ7EgE5L4JHgmEFl0SHdZYNAYk5hwGVXDkLgRILdRWFbIIPWoYjgjABAQE
+X-IronPort-AV: E=Sophos;i="5.40,380,1496073600"; 
+   d="scan'208";a="459852205"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi110.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 19 Jul 2017 17:29:15 +0800
+Received: from gate.forward.smtp.iad3a.emailsrvr.com (gate.forward.smtp.iad3a.emailsrvr.com [204.232.172.40])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id 53EDCC0A44
+	for <overseas10@sino-progress.com>; Wed, 19 Jul 2017 17:28:46 +0800 (CST)
+X-Virus-Scanned: OK
+X-MessageSniffer-Scan-Result: 0
+X-MessageSniffer-Rules: 0-0-0-2049-c
+X-CMAE-Scan-Result: 0
+X-CNFS-Analysis: v=2.2 cv=PtbRVEE3 c=1 sm=1 tr=0 a=I9kXqmnWSXd6K8qQDcT5Vg==:117 a=KiCxJD0x+Pe5VASQKmYoJrcyuOo=:19 a=IkcTkHD0fZMA:10 a=G3gG6ho9WtcA:10 a=ZZnuYtJkoWoA:10 a=mH9sWBZJAAAA:8 a=rINeVj0XpWg6TmjOQTsA:9 a=1aAs6hCJkg7DRKvP:21 a=GdNen2JlG9zZX9-8:21 a=QEXdDO2ut3YA:10 a=MgOxmkDw6BcA:10 a=8DpJyJSBpkcA:10 a=jO83tw6VH85u0nPKYT4Y:22
+Authentication-Results: smtp13.gate.iad3a.rsapps.net; iprev=pass policy.iprev="172.27.255.128"; spf=softfail smtp.mailfrom="gdoug@westelcom.com" smtp.helo="store504a.mail.iad3a.rsapps.net"; dkim=none (message not signed) header.d=none; dmarc=none (p=nil; dis=none) header.from=westelcom.com
+X-Classification-ID: b83acc90-6c64-11e7-97b1-bc305bf65e38-1-1
+Received: from [172.27.255.128] ([172.27.255.128:55921] helo=store504a.mail.iad3a.rsapps.net)
+	by smtp13.gate.iad3a.rsapps.net (envelope-from <gdoug@westelcom.com>)
+	(ecelerity 4.2.1.56364 r(Core:4.2.1.14)) with ESMTPS (cipher=DHE-RSA-AES256-GCM-SHA384) 
+	id 44/C1-11900-6662F695; Wed, 19 Jul 2017 05:29:10 -0400
+Received: by store504a.mail.iad3a (SMTP Server, from userid 5000)
+	id 249D8E0508; Wed, 19 Jul 2017 05:29:10 -0400 (EDT)
+X-Sieve: Pigeonhole Sieve 0.4.8 (0c4ae064f307+)
+Message-ID: <dovecot-sieve-1500456550-116233-2@store504a.mail.iad3a.rsapps.net>
+Date: Wed, 19 Jul 2017 05:29:10 -0400
+From: <gdoug@westelcom.com>
+To: <overseas10@sino-progress.com>
+Subject: Re: Up to date OceanFreight Rate by China-Progress
+In-Reply-To: <150045653677.6736.12429132463779342375@DESKTOP-UIM96J7>
+References: <150045653677.6736.12429132463779342375@DESKTOP-UIM96J7>
+Precedence: bulk
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-MID: 2093652882.615893192.8.1500456502.971299.32323
+X-Rate: Yes
+X-Real-From: gdoug@westelcom.com
+X-Rcpt: ,overseas10@sino-progress.com,
+
+I no longer use this email address. My current email address is garry@northcountrychamber.com
+
+Thank you.
+

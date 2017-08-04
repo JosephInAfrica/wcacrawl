@@ -1,0 +1,46 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi95.chinaemail.cn (unknown [115.182.8.95])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 693D54A22EA
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:24:28 +0800 (CST)
+X-SBRS: 2.8
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1C+AQDt8F1ZgN9OZZJ4AQEEAQEKAQGEPIEQjnyTX5VXgk0BhwYVAQIBAQEBAQEBEwEBCQ0JCCaFc4ELAiYCXxOIOwSBWAMVAwILr3kBAQFpgiaHOwN5g0CBC4IcjQwSAYMvgmaJTAMZiD2MZgKHRYM/DIpnbo88lTY1NWwLdYUhAQoBAQGCRnUBAQGGUIIwAQEB
+X-IronPort-AV: E=Sophos;i="5.40,316,1496073600"; 
+   d="scan'208";a="203966991"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi95.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 06 Jul 2017 16:24:08 +0800
+Received: from eu-smtp-delivery-223.mimecast.com (eu-smtp-delivery-223.mimecast.com [146.101.78.223])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id 6BB57C0A3A
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:23:40 +0800 (CST)
+Message-Id: <16244504-1499329440499@uk-mta-17.uk.mimecast.lan>
+Date: Thu, 06 Jul 2017 09:24:05 +0100
+From: "Domain Postmaster Address" <postmaster@excess-baggage.com>
+To: "Joseph_China-Progress" <overseas10@sino-progress.com>
+Subject: [Postmaster] Email Delivery Failure
+X-MC-System: =5k/bueLaFh8/TFkhOgW6cWAz7ekPhcZxJe2RZvtJqRs9AyZWK9r5FARLx4xi8ffhPXLMebJCVArL+wF/zuyraTOALFQabG38
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-MID: 2093652882.787248743.1.1499329468.461250.26751
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+This is a delivery failure notification message indicating that
+an email you addressed to email address :
+-- airfreight@excess-baggage.com
+
+could not be delivered. The problem appears to be :
+-- Recipient email address is possibly incorrect
+
+Additional information follows :
+-- 5.4.1 [airfreight@excess-baggage.com]: Recipient address rejected: Acces=
+s denied [AM5EUR03FT058.eop-EUR03.prod.protection.outlook.com]
+
+This condition occurred after 1 attempt(s) to deliver over
+a period of 0 hour(s).
+
+If you sent the email to multiple recipients, you will receive one
+of these messages for each one which failed delivery,  otherwise
+they have been sent.
+
+

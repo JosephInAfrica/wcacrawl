@@ -1,0 +1,1067 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi145.chinaemail.cn (unknown [124.202.155.145])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 94A524A2307
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:19:34 +0800 (CST)
+X-SBRS: 2.3
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1CBCwDG011Ze6DZosBcHAEFAQsBgnA9gRCBEIUjiVmQVCKYQoUfTwIeAhSDLhQBAgEBAQEBAQETAQEJDQoHKHEBBAmESAEDAyMKOQsYCRMDAQIdBAcDAgJGCQgGE4ovAwEBC5IinWOCJotGDAElgR6CCYREaAEBKguFXYFMEAIBBjYGgm0WgksFgSwBiCKEU4QDjD4mAodHh0SHBlaEdINOhnpHlG82gSALgQaBQoQZBRyBaHUBggEZhDiCMAEBAQ
+X-IPAS-Result: A1CBCwDG011Ze6DZosBcHAEFAQsBgnA9gRCBEIUjiVmQVCKYQoUfTwIeAhSDLhQBAgEBAQEBAQETAQEJDQoHKHEBBAmESAEDAyMKOQsYCRMDAQIdBAcDAgJGCQgGE4ovAwEBC5IinWOCJotGDAElgR6CCYREaAEBKguFXYFMEAIBBjYGgm0WgksFgSwBiCKEU4QDjD4mAodHh0SHBlaEdINOhnpHlG82gSALgQaBQoQZBRyBaHUBggEZhDiCMAEBAQ
+X-IronPort-AV: E=Sophos;i="5.40,315,1496073600"; 
+   d="scan'208,217";a="98274406"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi145.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 06 Jul 2017 16:19:32 +0800
+Received: from bounce6a.electric.net (bounce6a.electric.net [192.162.217.160])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id 53563C0A10
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:18:49 +0800 (CST)
+Received: from out6b.electric.net ([192.162.217.52] helo=smtp-out6.electric.net)
+	by bounce6a.electric.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.87)
+	id 1dT20C-00048Z-Pv
+	for overseas10@sino-progress.com; Thu, 06 Jul 2017 01:19:08 -0700
+Received: from 1dT20C-000BDB-UP by out6b.electric.net with emc1-ok (Exim 4.87)
+	id 1dT20C-000BF7-VX
+	for overseas10@sino-progress.com; Thu, 06 Jul 2017 01:19:08 -0700
+Received: by emcmailer; Thu, 06 Jul 2017 01:19:08 -0700
+Received: from [77.89.146.226] (helo=remote.coventryairport.co.uk)
+	by out6b.electric.net with esmtps (TLSv1:ECDHE-RSA-AES256-SHA:256)
+	(Exim 4.87)
+	id 1dT20C-000BDB-UP
+	for overseas10@sino-progress.com; Thu, 06 Jul 2017 01:19:08 -0700
+MIME-Version: 1.0
+From: <postmaster2@coventryairport.co.uk>
+To: <overseas10@sino-progress.com>
+Date: Thu, 6 Jul 2017 09:18:56 +0100
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="286b013d-8251-4318-a220-69128358bc65"
+Content-Language: en-GB
+Message-ID: <c0d5aabc-1a56-4e00-9447-10aef03ded3a@coventryairport.co.uk>
+In-Reply-To: <149932910212.4788.2102030281648889507@DESKTOP-UIM96J7>
+References: <149932910212.4788.2102030281648889507@DESKTOP-UIM96J7>
+Subject: Undeliverable: Looking for a Partner in UK--ChinaProgress
+X-Outbound-IP: 77.89.146.226
+X-Env-From: 
+X-Proto: esmtps
+X-Revdns: 
+X-HELO: remote.coventryairport.co.uk
+X-TLS: TLSv1:ECDHE-RSA-AES256-SHA:256
+X-Authenticated_ID: 
+X-PolicySMART: 4226192
+X-Virus-Status: Scanned by VirusSMART (c)
+X-Virus-Status: Scanned by VirusSMART (s)
+X-MID: 2093652882.1882174181.2.1499329174.610133.17029
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--286b013d-8251-4318-a220-69128358bc65
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="57a2e965-af1c-45f5-874a-947ecc4ccdfb"
+
+--57a2e965-af1c-45f5-874a-947ecc4ccdfb
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+InfoDistGroupArchive@coventryairport.co.uk<mailto:InfoDistGroupArchive@cove=
+ntryairport.co.uk>
+The recipient's mailbox is full and can't accept messages now. Please try r=
+esending this message later, or contact the recipient directly.
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: coventryairport.co.uk
+
+InfoDistGroupArchive@coventryairport.co.uk
+#554-5.2.2 mailbox full 554 5.2.2 STOREDRV.Deliver.Exception:QuotaExceededE=
+xception.MapiExceptionQuotaExceeded; Failed to process message due to a per=
+manent exception with message Cannot complete delivery-time processing. 16.=
+55847:C02F0000, 17.43559:00000000A6020000000000000900000000000000, 255.2322=
+6:00000000, 255.27962:0A000000, 255.27962:0E000000, 255.27962:0A000000, 255=
+.27962:9E000000, 255.17082:D9040000, 0.18273:00000000, 4.21921:D9040000, 25=
+5.27962:FA000000, 255.1494:43000000, 255.1238:21130000, 1.36537:0201FE67, 6=
+.5587:0F0104800201FE670F010480, 4.33375:0F010480, 6.21970:0F010480B08413360=
+F010480, 4.31473:0F010480, 4.23921:EC030000, 6.21970:0F010480030022670F0104=
+80, 4.23921:EC030000, 6.21970:0F0104800300216703001D30, 4.7477:D9040000, 4.=
+6167:D9040000, 0.61527:0F010480, 4.5041:D9040000, 4.4465:D9040000, 4.6833:D=
+9040000, 0.50217:0F010480, 4.5093:D9040000, 4.5318:D9040000, 4.10104:D90400=
+00, 1.64937:94BB4A5B, 1.43123:AABE0700, 4.60457:0F010480, 4.4353:0F010480, =
+0.57449:0F010480, 4.6025:05000780, 4.5257:05000780, 4.4606:D9040000, 255.17=
+50:00000000, 0.26849:0F010480, 255.21817:D9040000 ##
+
+Original message headers:
+
+Received: from in6a.electric.net (192.162.217.10) by
+ remote.coventryairport.co.uk (10.35.178.6) with Microsoft SMTP Server (TLS=
+)
+ id 14.3.319.2; Thu, 6 Jul 2017 09:18:55 +0100
+Received: from 1dT1zx-0007p6-3g by in6a.electric.net with hostsite:217262
+ (Exim 4.87)    (envelope-from <overseas10@sino-progress.com>)  id
+ 1dT1zz-00012h-56       for enquiries@coventryairport.co.uk; Thu, 06 Jul 20=
+17
+ 01:18:55 -0700
+Received: by emcmailer; Thu, 06 Jul 2017 01:18:55 -0700
+Received-SPF: pass (in6a.electric.net: domain of sino-progress.com designat=
+es 98.126.34.178 as permitted sender) client-ip=3D98.126.34.178; envelope-f=
+rom=3Doverseas10@sino-progress.com; helo=3Dmx100.chinaemail.cn;
+Received: from mx100.chinaemail.cn ([98.126.34.178])    by in6a.electric.ne=
+t with
+ esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)       (Exim 4.87)     (en=
+velope-from
+ <overseas10@sino-progress.com>)        id 1dT1zx-0007p6-3g     for
+ enquiries@coventryairport.co.uk; Thu, 06 Jul 2017 01:18:53 -0700
+Received: from smptc1.chinaemail.cn (mx100.chinaemail.cn [67.222.145.67])  =
+     by
+ mx100.chinaemail.cn (Postfix) with ESMTP id 4E0F52AF875        for
+ <enquiries@coventryairport.co.uk>; Thu,  6 Jul 2017 16:25:36 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [124.202.155.146])  by
+ smptc1.chinaemail.cn (Postfix) with ESMTP id EF90A950234       for
+ <enquiries@coventryairport.co.uk>; Thu,  6 Jul 2017 16:14:38 +0800 (CST)
+Received: from [192.168.1.203] (unknown [113.110.149.149])      (Authentica=
+ted
+ sender: overseas10@sino-progress.com)  by s151v.chinaemail.cn (Bossmail) w=
+ith
+ ESMTP id 70FC54A2306   for <enquiries@coventryairport.co.uk>; Thu,  6 Jul =
+2017
+ 16:18:17 +0800 (CST)
+Content-Type: multipart/mixed;
+        boundary=3D"=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D2156798790=
+802915695=3D=3D"
+MIME-Version: 1.0
+Subject: Looking for a Partner in UK--ChinaProgress
+From: =3D?utf-8?q?Joseph=3D5FChina-Progress?=3D <overseas10@sino-progress.c=
+om>
+To: <enquiries@coventryairport.co.uk>
+Date: Thu, 6 Jul 2017 16:18:22 +0800
+Message-ID: <149932910212.4788.2102030281648889507@DESKTOP-UIM96J7>
+X-MID: 2093652882.168640838.10.1499329097.541252.18484
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/simple; d=3Dsino-progres=
+s.com;
+        s=3Ds123456; t=3D1499329097;
+        bh=3DkLJePVZNkDu5Qs6IBFISBF3JuI9O61R/DfBpLmF07FQ=3D;
+        h=3DSubject:From:Date:Message-ID;
+        b=3DVE66ZpoBFzrmsh5+Jlauu35lH7YrbGIi8OnNum3i/lGqSX7eD58IBlVignHYHna=
+yK
+         fJPcTBfM0n/aBn5RBXS2aq0OLwIgZqLr5Pvcknd/QKz7h9AYO+2lk3EX5eLrlxk5KG
+         2nw3nYz3j21acO1MumVIMk4GysWmGr8s6x18bHGs=3D
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,enquiries@coventryairport.co.uk,
+X-FM-OS: Linux 3.x
+X-FM-GeoIP: US
+X-Proto: esmtps
+X-Revdns: mx100.chinaemail.cn
+X-HELO: mx100.chinaemail.cn
+X-TLS: TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256
+X-Authenticated_ID:
+X-Origin-IP: 98.126.34.178
+X-Env-From: overseas10@sino-progress.com
+X-DKIM: invalid
+X-PolicySMART: 4226162
+X-SPAM-Status: NO, 0.0 / 4.0
+X-Virus-Status: Scanned by VirusSMART (c)
+X-Virus-Status: Scanned by VirusSMART (s)
+Return-Path: overseas10@sino-progress.com
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+
+
+--57a2e965-af1c-45f5-874a-947ecc4ccdfb
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:Inf=
+oDistGroupArchive@coventryairport.co.uk">InfoDistGroupArchive@coventryairpo=
+rt.co.uk</a><br>
+The recipient's mailbox is full and can't accept messages now. Please try r=
+esending this message later, or contact the recipient directly.<br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: coventryairport.co.uk</p>
+<p>InfoDistGroupArchive@coventryairport.co.uk<br>
+ #554-5.2.2 mailbox full
+554 5.2.2 STOREDRV.Deliver.Exception:QuotaExceededException.MapiExceptionQu=
+otaExceeded; Failed to process message due to a permanent exception with me=
+ssage Cannot complete delivery-time processing. 16.55847:C02F0000, 17.43559=
+:00000000A6020000000000000900000000000000, 255.23226:00000000, 255.27962:0A=
+000000, 255.27962:0E000000, 255.27962:0A000000, 255.27962:9E000000, 255.170=
+82:D9040000, 0.18273:00000000, 4.21921:D9040000, 255.27962:FA000000, 255.14=
+94:43000000, 255.1238:21130000, 1.36537:0201FE67, 6.5587:0F0104800201FE670F=
+010480, 4.33375:0F010480, 6.21970:0F010480B08413360F010480, 4.31473:0F01048=
+0, 4.23921:EC030000, 6.21970:0F010480030022670F010480, 4.23921:EC030000, 6.=
+21970:0F0104800300216703001D30, 4.7477:D9040000, 4.6167:D9040000, 0.61527:0=
+F010480, 4.5041:D9040000, 4.4465:D9040000, 4.6833:D9040000, 0.50217:0F01048=
+0, 4.5093:D9040000, 4.5318:D9040000, 4.10104:D9040000, 1.64937:94BB4A5B, 1.=
+43123:AABE0700, 4.60457:0F010480, 4.4353:0F010480, 0.57449:0F010480, 4.6025=
+:05000780, 4.5257:05000780, 4.4606:D9040000, 255.1750:00000000, 0.26849:0F0=
+10480, 255.21817:D9040000 ##</p>
+<p>Original message headers:</p>
+<pre>Received: from in6a.electric.net (192.162.217.10) by
+ remote.coventryairport.co.uk (10.35.178.6) with Microsoft SMTP Server (TLS=
+)
+ id 14.3.319.2; Thu, 6 Jul 2017 09:18:55 +0100
+Received: from 1dT1zx-0007p6-3g by in6a.electric.net with hostsite:217262
+ (Exim 4.87)	(envelope-from &lt;overseas10@sino-progress.com&gt;)	id
+ 1dT1zz-00012h-56	for enquiries@coventryairport.co.uk; Thu, 06 Jul 2017
+ 01:18:55 -0700
+Received: by emcmailer; Thu, 06 Jul 2017 01:18:55 -0700
+Received-SPF: pass (in6a.electric.net: domain of sino-progress.com designat=
+es 98.126.34.178 as permitted sender) client-ip=3D98.126.34.178; envelope-f=
+rom=3Doverseas10@sino-progress.com; helo=3Dmx100.chinaemail.cn;
+Received: from mx100.chinaemail.cn ([98.126.34.178])	by in6a.electric.net w=
+ith
+ esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)	(Exim 4.87)	(envelope-fro=
+m
+ &lt;overseas10@sino-progress.com&gt;)	id 1dT1zx-0007p6-3g	for
+ enquiries@coventryairport.co.uk; Thu, 06 Jul 2017 01:18:53 -0700
+Received: from smptc1.chinaemail.cn (mx100.chinaemail.cn [67.222.145.67])	b=
+y
+ mx100.chinaemail.cn (Postfix) with ESMTP id 4E0F52AF875	for
+ &lt;enquiries@coventryairport.co.uk&gt;; Thu,  6 Jul 2017 16:25:36 +0800 (=
+CST)
+Received: from s151v.chinaemail.cn (unknown [124.202.155.146])	by
+ smptc1.chinaemail.cn (Postfix) with ESMTP id EF90A950234	for
+ &lt;enquiries@coventryairport.co.uk&gt;; Thu,  6 Jul 2017 16:14:38 +0800 (=
+CST)
+Received: from [192.168.1.203] (unknown [113.110.149.149])	(Authenticated
+ sender: overseas10@sino-progress.com)	by s151v.chinaemail.cn (Bossmail) wi=
+th
+ ESMTP id 70FC54A2306	for &lt;enquiries@coventryairport.co.uk&gt;; Thu,  6 =
+Jul 2017
+ 16:18:17 +0800 (CST)
+Content-Type: multipart/mixed;
+	boundary=3D&quot;=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D215679879080=
+2915695=3D=3D&quot;
+MIME-Version: 1.0
+Subject: Looking for a Partner in UK--ChinaProgress
+From: =3D?utf-8?q?Joseph=3D5FChina-Progress?=3D &lt;overseas10@sino-progres=
+s.com&gt;
+To: &lt;enquiries@coventryairport.co.uk&gt;
+Date: Thu, 6 Jul 2017 16:18:22 +0800
+Message-ID: &lt;149932910212.4788.2102030281648889507@DESKTOP-UIM96J7&gt;
+X-MID: 2093652882.168640838.10.1499329097.541252.18484
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/simple; d=3Dsino-progres=
+s.com;
+	s=3Ds123456; t=3D1499329097;
+	bh=3DkLJePVZNkDu5Qs6IBFISBF3JuI9O61R/DfBpLmF07FQ=3D;
+	h=3DSubject:From:Date:Message-ID;
+	b=3DVE66ZpoBFzrmsh5+Jlauu35lH7YrbGIi8OnNum3i/lGqSX7eD58IBlVignHYHnayK
+	 fJPcTBfM0n/aBn5RBXS2aq0OLwIgZqLr5Pvcknd/QKz7h9AYO+2lk3EX5eLrlxk5KG
+	 2nw3nYz3j21acO1MumVIMk4GysWmGr8s6x18bHGs=3D
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,enquiries@coventryairport.co.uk,
+X-FM-OS: Linux 3.x
+X-FM-GeoIP: US
+X-Proto: esmtps
+X-Revdns: mx100.chinaemail.cn
+X-HELO: mx100.chinaemail.cn
+X-TLS: TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256
+X-Authenticated_ID:
+X-Origin-IP: 98.126.34.178
+X-Env-From: overseas10@sino-progress.com
+X-DKIM: invalid
+X-PolicySMART: 4226162
+X-SPAM-Status: NO, 0.0 / 4.0
+X-Virus-Status: Scanned by VirusSMART (c)
+X-Virus-Status: Scanned by VirusSMART (s)
+Return-Path: overseas10@sino-progress.com
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+</pre>
+</font>
+</body>
+</html>=
+
+--57a2e965-af1c-45f5-874a-947ecc4ccdfb--
+
+--286b013d-8251-4318-a220-69128358bc65
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;coventryairport.co.uk
+Received-From-MTA: dns;in6a.electric.net
+Arrival-Date: Thu, 6 Jul 2017 08:18:55 +0000
+
+Final-Recipient: rfc822;InfoDistGroupArchive@coventryairport.co.uk
+Action: failed
+Status: 5.2.2
+Diagnostic-Code: smtp;554-5.2.2 mailbox full
+ 554 5.2.2 STOREDRV.Deliver.Exception:QuotaExceededException.MapiExceptionQuotaExceeded; Failed to process message due to a permanent exception with message Cannot complete delivery-time processing. 16.55847:C02F0000, 17.43559:00000000A6020000000000000900000000000000, 255.23226:00000000, 255.27962:0A000000, 255.27962:0E000000, 255.27962:0A000000, 255.27962:9E000000, 255.17082:D9040000, 0.18273:00000000, 4.21921:D9040000, 255.27962:FA000000, 255.1494:43000000, 255.1238:21130000, 1.36537:0201FE67, 6.5587:0F0104800201FE670F010480, 4.33375:0F010480, 6.21970:0F010480B08413360F010480, 4.31473:0F010480, 4.23921:EC030000, 6.21970:0F010480030022670F010480, 4.23921:EC030000, 6.21970:0F0104800300216703001D30, 4.7477:D9040000, 4.6167:D9040000, 0.61527:0F010480, 4.5041:D9040000, 4.4465:D9040000, 4.6833:D9040000, 0.50217:0F010480, 4.5093:D9040000, 4.5318:D9040000, 4.10104:D9040000, 1.64937:94BB4A5B, 1.43123:AABE0700, 4.60457:0F010480, 4.4353:0F010480, 0.57449:0F010480, 4.6025:05000780, 4.5
+ 257:0500
+ 0780, 4.4606:D9040000, 255.1750:00000000, 0.26849:0F010480, 255.21817:D9040000
+
+
+--286b013d-8251-4318-a220-69128358bc65
+Content-Type: message/rfc822
+
+Received: from in6a.electric.net (192.162.217.10) by
+ remote.coventryairport.co.uk (10.35.178.6) with Microsoft SMTP Server (TLS)
+ id 14.3.319.2; Thu, 6 Jul 2017 09:18:55 +0100
+Received: from 1dT1zx-0007p6-3g by in6a.electric.net with hostsite:217262
+ (Exim 4.87)	(envelope-from <overseas10@sino-progress.com>)	id
+ 1dT1zz-00012h-56	for enquiries@coventryairport.co.uk; Thu, 06 Jul 2017
+ 01:18:55 -0700
+Received: by emcmailer; Thu, 06 Jul 2017 01:18:55 -0700
+Received-SPF: pass (in6a.electric.net: domain of sino-progress.com designates 98.126.34.178 as permitted sender) client-ip=98.126.34.178; envelope-from=overseas10@sino-progress.com; helo=mx100.chinaemail.cn;
+Received: from mx100.chinaemail.cn ([98.126.34.178])	by in6a.electric.net with
+ esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)	(Exim 4.87)	(envelope-from
+ <overseas10@sino-progress.com>)	id 1dT1zx-0007p6-3g	for
+ enquiries@coventryairport.co.uk; Thu, 06 Jul 2017 01:18:53 -0700
+Received: from smptc1.chinaemail.cn (mx100.chinaemail.cn [67.222.145.67])	by
+ mx100.chinaemail.cn (Postfix) with ESMTP id 4E0F52AF875	for
+ <enquiries@coventryairport.co.uk>; Thu,  6 Jul 2017 16:25:36 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [124.202.155.146])	by
+ smptc1.chinaemail.cn (Postfix) with ESMTP id EF90A950234	for
+ <enquiries@coventryairport.co.uk>; Thu,  6 Jul 2017 16:14:38 +0800 (CST)
+Received: from [192.168.1.203] (unknown [113.110.149.149])	(Authenticated
+ sender: overseas10@sino-progress.com)	by s151v.chinaemail.cn (Bossmail) with
+ ESMTP id 70FC54A2306	for <enquiries@coventryairport.co.uk>; Thu,  6 Jul 2017
+ 16:18:17 +0800 (CST)
+Content-Type: multipart/mixed;
+	boundary="===============2156798790802915695=="
+MIME-Version: 1.0
+Subject: Looking for a Partner in UK--ChinaProgress
+From: =?utf-8?q?Joseph=5FChina-Progress?= <overseas10@sino-progress.com>
+To: <enquiries@coventryairport.co.uk>
+Date: Thu, 6 Jul 2017 16:18:22 +0800
+Message-ID: <149932910212.4788.2102030281648889507@DESKTOP-UIM96J7>
+X-MID: 2093652882.168640838.10.1499329097.541252.18484
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sino-progress.com;
+	s=s123456; t=1499329097;
+	bh=kLJePVZNkDu5Qs6IBFISBF3JuI9O61R/DfBpLmF07FQ=;
+	h=Subject:From:Date:Message-ID;
+	b=VE66ZpoBFzrmsh5+Jlauu35lH7YrbGIi8OnNum3i/lGqSX7eD58IBlVignHYHnayK
+	 fJPcTBfM0n/aBn5RBXS2aq0OLwIgZqLr5Pvcknd/QKz7h9AYO+2lk3EX5eLrlxk5KG
+	 2nw3nYz3j21acO1MumVIMk4GysWmGr8s6x18bHGs=
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,enquiries@coventryairport.co.uk,
+X-FM-OS: Linux 3.x
+X-FM-GeoIP: US
+X-Proto: esmtps
+X-Revdns: mx100.chinaemail.cn
+X-HELO: mx100.chinaemail.cn
+X-TLS: TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256
+X-Authenticated_ID:
+X-Origin-IP: 98.126.34.178
+X-Env-From: overseas10@sino-progress.com
+X-DKIM: invalid
+X-PolicySMART: 4226162
+X-SPAM-Status: NO, 0.0 / 4.0
+X-Virus-Status: Scanned by VirusSMART (c)
+X-Virus-Status: Scanned by VirusSMART (s)
+Return-Path: overseas10@sino-progress.com
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+
+--===============2156798790802915695==
+Content-Type: multipart/alternative;
+	boundary="===============0296442303001873917=="
+MIME-Version: 1.0
+
+--===============0296442303001873917==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+--===============0296442303001873917==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+	<head>
+		<!-- NAME: SIMPLE TEXT -->
+		<!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+		<meta charset=3D"UTF-8">
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+		<title>Greetings From China Progress International Freight Forwarding Com=
+pany</title>
+       =20
+    <style type=3D"text/css">
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=3Dtel],a[href^=3Dsms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.Ext=
+ernalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		#bodyCell{
+			padding:10px;
+		}
+		.templateContainer{
+			max-width:600px !important;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want =
+to choose colors that match your company's branding.
+	*/
+		body,#bodyTable{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want =
+to choose colors that match your company's branding.
+	*/
+		#bodyCell{
+			/*@editable*/border-top:0;
+		}
+	/*
+	@tab Page
+	@section Email Border
+	@tip Set the border for your email.
+	*/
+		.templateContainer{
+			/*@editable*/border:0;
+		}
+	/*
+	@tab Page
+	@section Heading 1
+	@tip Set the styling for all first-level headings in your emails. These sh=
+ould be the largest of your headings.
+	@style heading 1
+	*/
+		h1{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:26px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 2
+	@tip Set the styling for all second-level headings in your emails.
+	@style heading 2
+	*/
+		h2{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:22px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 3
+	@tip Set the styling for all third-level headings in your emails.
+	@style heading 3
+	*/
+		h3{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:20px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 4
+	@tip Set the styling for all fourth-level headings in your emails. These s=
+hould be the smallest of your headings.
+	@style heading 4
+	*/
+		h4{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:18px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Style
+	@tip Set the borders for your email's header area.
+	*/
+		#templateHeader{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Header
+	@section Header Text
+	@tip Set the styling for your email's header text. Choose a size and color=
+ that is easy to read.
+	*/
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Link
+	@tip Set the styling for your email's header links. Choose a color that he=
+lps them stand out from your text.
+	*/
+		#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Body
+	@section Body Style
+	@tip Set the borders for your email's body area.
+	*/
+		#templateBody{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Body
+	@section Body Text
+	@tip Set the styling for your email's body text. Choose a size and color t=
+hat is easy to read.
+	*/
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Body
+	@section Body Link
+	@tip Set the styling for your email's body links. Choose a color that help=
+s them stand out from your text.
+	*/
+		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Footer
+	@section Footer Style
+	@tip Set the borders for your email's footer area.
+	*/
+		#templateFooter{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Footer
+	@section Footer Text
+	@tip Set the styling for your email's footer text. Choose a size and color=
+ that is easy to read.
+	*/
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Footer
+	@section Footer Link
+	@tip Set the styling for your email's footer links. Choose a color that he=
+lps them stand out from your text.
+	*/
+		#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
+			/*@editable*/color:#202020;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	@media only screen and (min-width:768px){
+		.templateContainer{
+			width:600px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#bodyCell{
+			padding-top:10px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImage{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCapti=
+onBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcn=
+ImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionR=
+ightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRi=
+ghtImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCar=
+dRightTextContentContainer{
+			max-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer{
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupContent{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter =
+.mcnTextContent{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardTopImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:=
+last-child .mcnTextContent{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardBottomImageContent{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockInner{
+			padding-top:0 !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockOuter{
+			padding-top:9px !important;
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnTextContent,.mcnBoxedTextContentColumn{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+			padding-right:18px !important;
+			padding-bottom:0 !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcpreview-image-uploader{
+			display:none !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 1
+	@tip Make the first-level headings larger in size for better readability o=
+n small screens.
+	*/
+		h1{
+			/*@editable*/font-size:22px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 2
+	@tip Make the second-level headings larger in size for better readability =
+on small screens.
+	*/
+		h2{
+			/*@editable*/font-size:20px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 3
+	@tip Make the third-level headings larger in size for better readability o=
+n small screens.
+	*/
+		h3{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 4
+	@tip Make the fourth-level headings larger in size for better readability =
+on small screens.
+	*/
+		h4{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Boxed Text
+	@tip Make the boxed text larger in size for better readability on small sc=
+reens. We recommend a font size of at least 16px.
+	*/
+		table.mcnBoxedTextContentContainer td.mcnTextContent,td.mcnBoxedTextConte=
+ntContainer td.mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Header Text
+	@tip Make the header text larger in size for better readability on small s=
+creens.
+	*/
+		td#templateHeader td.mcnTextContent,td#templateHeader td.mcnTextContent p=
+{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Body Text
+	@tip Make the body text larger in size for better readability on small scr=
+eens. We recommend a font size of at least 16px.
+	*/
+		td#templateBody td.mcnTextContent,td#templateBody td.mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Footer Text
+	@tip Make the footer content text larger in size for better readability on=
+ small screens.
+	*/
+		td#templateFooter td.mcnTextContent,td#templateFooter td.mcnTextContent p=
+{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}</style></head>
+    <body>
+		<!--*|IF:MC_PREVIEW_TEXT|*-->
+		<!--[if !gte mso 9]><!----><span class=3D"mcnPreviewText" style=3D"displa=
+y:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opac=
+ity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT=
+|*</span><!--<![endif]-->
+		<!--*|END:IF|*-->
+        <center>
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable">
+                <tr>
+                    <td align=3D"left" valign=3D"top" id=3D"bodyCell">
+                        <!-- BEGIN TEMPLATE // -->
+						<!--[if gte mso 9]>
+						<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" width=3D"600" style=3D"width:600px;">
+						<tr>
+						<td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:600p=
+x;">
+						<![endif]-->
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" class=3D"templateContainer">
+                            <tr>
+                                <td valign=3D"top" id=3D"templateHeader"></=
+td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateBody"><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D=
+"mcnTextBlock" style=3D"min-width:100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"padding=
+-top:9px;">
+              	<!--[if mso]>
+				<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" style=3D"width:100%;">
+				<tr>
+				<![endif]-->
+			   =20
+				<!--[if mso]>
+				<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+				<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"max-width:100%; min-width:100%;" width=3D"100%" class=
+=3D"mcnTextContentContainer">
+                    <tbody><tr>
+                       =20
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18p=
+x;">
+                       =20
+                            <span style=3D"font-family:arial,helvetica neue=
+,helvetica,sans-serif">Dear manager of Coventry - West Midlands Internation=
+al Airport ,<br>
+<br>
+Greetings from <strong>China-Progress Int'l Freight Forwarding</strong>, Ch=
+ina!<br>
+<br>
+This is Joseph,&nbsp;it is so nice to know your good company from<strong>&n=
+bsp;AZFreight Members Directory.</strong><br>
+<br>
+We are looking for a reliable cooperator in <strong>UK,</strong> who can be=
+ our representative to provide local service and free-handling.&nbsp;<br>
+<br>
+<strong>And also we wish to be your trusted partner in China.</strong><br>
+<br>
+<strong>China Progress is&nbsp;</strong></span>
+
+<ul>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>14 years experienced</strong> Freight Forwarder&nbsp;</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+member of <strong>WCA, FIATA, CIFA</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+NVOCC Class-A freight forwarder</span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>We have</strong></span>
+
+<ul>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>4 office</strong> in China (located in <strong>Shenzhen, Guangzhou =
+, Shanghai, Qingdao</strong> respectively)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>3 overseas office</strong> (located in <strong>US, Canada and Vietn=
+am</strong> respectively.)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>200+ stuff</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>55 container trucks</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>1000 sq ft warehouse</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Our own broker office in Shenzhen</strong></span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>Our service </strong>covers</span>
+
+<ul>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Sea Freight</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Air Freight</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Logistics</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Transport and Distribution</span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>Please don't hesitate to contact me for any assistance you need from Ch=
+ina.</strong></span>
+
+<div><br>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">I am =
+looking forward to your reply! Wish we could start cooperation very soon .<=
+/span><br>
+&nbsp;
+<div>
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Thanks &amp; Regards,</span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Joseph Li&nbsp;</strong></span></div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Overseas Dept.<br>
+Email: overseas10@sino-progress.com<br>
+<strong><em>Service Drives Value=E2=80=A6=E2=80=A6</em></strong><br>
+<strong>CHINA&nbsp;PROGRESS INT'L FORWARDING CO.,LTD&nbsp;</strong><br>
+NVOCC:MOC-NV 03517<br>
+Cell: +86-13714780856<br>
+<a href=3D"http://www.sino-progress.com/">WWW.SINO-PROGRESS.COM</a><br>
+&nbsp;CHINA&nbsp; -&nbsp;&nbsp; VIETNAM &nbsp;-&nbsp; U.S.A.&nbsp; &nbsp;-&=
+nbsp; &nbsp;CANADA</span></div>
+</div>
+
+<div>
+<div align=3D"left"><span style=3D"font-family:arial,helvetica neue,helveti=
+ca,sans-serif"><img data-file-id=3D"2715261" src=3D"https://gallery.mailchi=
+mp.com/3cad518a16e6e9e8280a70c63/images/114709a2-d4d1-4ae6-a900-90d97573805=
+1.jpg" style=3D"border: 0px  ; margin: 0px;"></span></div>
+</div>
+</div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+               =20
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateFooter"></=
+td>
+                            </tr>
+                        </table>
+						<!--[if gte mso 9]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>=
+
+--===============0296442303001873917==--
+
+--===============2156798790802915695==--
+
+--286b013d-8251-4318-a220-69128358bc65--

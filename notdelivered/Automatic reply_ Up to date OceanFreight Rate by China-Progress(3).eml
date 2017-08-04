@@ -1,0 +1,140 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi110.chinaemail.cn (unknown [115.182.8.110])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id B46A64A22F7
+	for <overseas10@sino-progress.com>; Wed, 19 Jul 2017 17:15:52 +0800 (CST)
+X-SBRS: 3.5
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1BUAQCKE29ZhzPzUthcHAEBBAEBCgEBgxGBLYEUB453kQuYJIk4FAECAQEBAQEBARMBAQEIDQkIKIU+CgZAAQEXIQ8CAQsBQlcCBBMIAYlCZAECAQELow4CiwYBAQGDD4MGAQEFiCQIE4MVig4Bgn4SAQqGBp8pFYFogR+LV4UyghUZhTaDU4cBlB8BgTw2gSALgQIIhQwBQIISdgGGIoEjAYEMAQEB
+X-IPAS-Result: A1BUAQCKE29ZhzPzUthcHAEBBAEBCgEBgxGBLYEUB453kQuYJIk4FAECAQEBAQEBARMBAQEIDQkIKIU+CgZAAQEXIQ8CAQsBQlcCBBMIAYlCZAECAQELow4CiwYBAQGDD4MGAQEFiCQIE4MVig4Bgn4SAQqGBp8pFYFogR+LV4UyghUZhTaDU4cBlB8BgTw2gSALgQIIhQwBQIISdgGGIoEjAYEMAQEB
+X-IronPort-AV: E=Sophos;i="5.40,380,1496073600"; 
+   d="scan'208,217";a="459848935"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi110.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 19 Jul 2017 17:16:45 +0800
+Received: from mail2.bemta8.messagelabs.com (mail2.bemta8.messagelabs.com [216.82.243.51])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id 0A9FCC0817
+	for <overseas10@sino-progress.com>; Wed, 19 Jul 2017 17:16:16 +0800 (CST)
+Received: from [216.82.242.44] by server-16.bemta-8.messagelabs.com id 07/D7-01731-9732F695; Wed, 19 Jul 2017 09:16:41 +0000
+X-Brightmail-Tracker: H4sIAAAAAAAAA1VSWUwTURTtm7bTQRnzaBGvVVzqriyCSyAaMEb
+  UGE00cQEThUHHtnQZ7FQD4UOMEqASIgYNIGERAcVgFHeUKP1wg1iDEFCUD2tcwA1MRBDEDs+i
+  /ryce8675573chm5uo7WMnyKnbdZObOOHqdoa7SvDU6dJcQt7rw+I+JUbb1qFVpf0fIYbUY7l
+  UZropCSoDT8eFBDJ7snpNzMqkfp6LuvA/kwanwHQfOTbQ40jlHgHgqcfS/kUqHGBRS0XW2nya
+  0uBGVHTQ7EMDQG6HLsl2h/vBwut3ZQEq3B6+Fd0XZCr4Sjz4eUEu2Pw+FwjkGiFXgOZN/qVUm
+  YxbHQ3ZivIOZrwJnRMDrIB8fAueIMpYQBYzh7xyUnOBA+lpaMWgIOgl5nNKEnwgf3L6UUGOEC
+  BHfbcmkixMFnB+lFeBrUD1yiCL8CctxvVV7PltJjiHhugtIsu+QD+BkFNZ2ZNCle0zB4so72D
+  n57YQ7pNYGr9iUiWIAzrkqK3G9SQkd575/QU6Gqvx4RoVoJFYXO0ZdpsBZetWaj42hBkaeUYy
+  vkDY2oikY/xg8eFb5RED4Iym730QQvgqryHrkXN99zU//yZYiuQfNF3naQtwWHRYQk2ox6g93
+  CGc3BYYsjQiy8KHJ63swliiF7BEsd8uzMIZkM3UTXXOucaDJD6SayxawQp56QKOxNNXCiId52
+  wMyLTjSVYXTAhuo8mp+N1/Mp+4xmz+J5ZWB8df7sTklmxWTOIhr1RHqMIpm6goHvFOP8+bCfY
+  u5Lp1phFay8dhI7XWrAUoPhgHXMzrvKLShQq2GRTCZT+ybzNovR/r/ejSYxSKdhjZKLr9FqH5
+  va7QlEeQJpNpmlQHbur6RNR0u++e9YljbQnwGDCQZ2Y9T46oZpASc605vCxd3R2z9dzGW7YnZ
+  VJj1dt3TuitNCbBJsnJk9z9K8NyZItfV9fknU7bwtHaEBG4ajjqwc+Xq5Mk8fVGtX74h10QtQ
+  6FzT7mFT6s8r+V9uXJs9lBCf1hCZ1Z45flBYfX5NFRWuMO2a4tYpRAMXtlBuE7nfDjubNcUDA
+  AA=
+X-Msg-Ref: server-11.tower-197.messagelabs.com!1500455778!100039006!4
+X-Originating-IP: [213.193.116.70]
+X-StarScan-Received:
+X-StarScan-Version: 9.4.25; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 45828 invoked from network); 19 Jul 2017 09:16:41 -0000
+Received: from 213-193-116-70.static.cablecom.ch (HELO GVA-MPEXFE1.corp.ad.iata.org) (213.193.116.70)
+  by server-11.tower-197.messagelabs.com with AES256-SHA encrypted SMTP; 19 Jul 2017 09:16:41 -0000
+Received: from EUR02-HE1-obe.outbound.protection.outlook.com (10.72.223.252)
+ by o365.iata.org (10.72.1.31) with Microsoft SMTP Server (TLS) id 14.3.158.1;
+ Wed, 19 Jul 2017 11:16:33 +0200
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=iata.org; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=pQE/hN0ZMkc46G+8V+am8ynWwCpt7sPL6rGimjpDCIE=;
+ b=H/mHBdyOwfGme+9XfxhzCidH1qOUFt4d3XvvoZ8ASisL0G5VPHrj8ha9kivMNTNiy5pMuucxOCDYv/NgJXQOjjhyT5W0l8+wqFfwKv9YMC870KIJZSw5m3XtidP0ok9mmInz/utMMFTkkPH3P2Eiw4bKv+TExuQRvvoR/hHsQUc=
+Received: from VI1PR0501MB2463.eurprd05.prod.outlook.com (10.168.136.14) by
+ VI1PR0501MB2461.eurprd05.prod.outlook.com (10.168.136.12) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1261.13; Wed, 19 Jul 2017 09:16:32 +0000
+Received: from VI1PR0501MB2463.eurprd05.prod.outlook.com ([::1]) by
+ VI1PR0501MB2463.eurprd05.prod.outlook.com ([fe80::7173:5930:e7a3:4ab1%17])
+ with Microsoft SMTP Server id 15.01.1261.024; Wed, 19 Jul 2017 09:16:32 +0000
+From: CNS <cns@iata.org>
+To: Joseph_SinoProgress <overseas10@sino-progress.com>
+Subject: Automatic reply: Up to date OceanFreight Rate by China-Progress
+Thread-Topic: Up to date OceanFreight Rate by China-Progress
+Thread-Index: AQHTAG+z7jSdgnyaEk+7MIpbeWQaF6Ja3oxJ
+Date: Wed, 19 Jul 2017 09:16:32 +0000
+Message-ID: <041367b9f97a45ad95277838df1fea03@VI1PR0501MB2463.eurprd05.prod.outlook.com>
+References: <150045576425.8280.14217444926541124643@DESKTOP-UIM96J7>
+In-Reply-To: <150045576425.8280.14217444926541124643@DESKTOP-UIM96J7>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: cns@iata.org
+X-MS-TNEF-Correlator:
+x-ms-exchange-parent-message-id: <150045576425.8280.14217444926541124643@DESKTOP-UIM96J7>
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 0f5ebd6d-f6aa-4a29-2474-08d4ce86d8b8
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(22001)(300000502095)(300135100095)(2017030254075)(300000503095)(300135400095)(2017052603031)(201703131423075)(201703031133081)(300000504095)(300135200095)(300000505095)(300135600095)(300000506095)(300135500095);SRVR:VI1PR0501MB2461;
+x-microsoft-exchange-diagnostics: 1;VI1PR0501MB2461;7:2ybwFbjRBQh6sxcSWlEkkDEaDrrS91qEYA9blQTnYjbTjXVncXfwFaclbP/2M3o2E1TlQrH2vNQBql13hn4qA1V/a2Zp9nmvhoyr/uDsytzYAuE8vZj9SPjQ52iPmBO4gWT/6KnH4lvwDKke9WzxxRB9JWCFpd2wThHYnqJ4wxbR7lkfFSrN7fnu5DgB2nGQW3K5FR9EyzjYzxSwAtXYKKynpLHn0aNDHY6lA8sgyhKXAFw2/7aUCqlsqUw/jpUbokp5jkFm2cqf6LpU3xdGrZuhjr0KtCI4IdlctLHC3xY0nzA9yr4+Uaf39mT9c7GUBDVCdqXO6CWS/iM22bAIZEe/owZURZaFExSd8Pb/U7QUaWFI/KCX9WOxtxqL0JW2ZSA0v/vwyGN9qDd88gvRav2YkLqBvvo6FGnd5xBTce04G0qWQUINAYDFc0HMnO30+Ty4ya8uZ/ELPOcAqbzQ48yYgHUg5UF1SDz823IkBVr29qj+AH7BhHNQDgat49Wi2eFikayzQSM7sdyFW/GIEN7iS+BXoHskVUpt9eCnC0okN48q3s9Qmy4aWB/lcOKsYg7YymUPb5Nlk6tGVhtkuRDSX/5DWYMJ9QJ3f31KGIAVUU09Mdnh7JXlr6sd4uaMGkrtJ3/QzRKcbpXFRzIfj0qxaIKFfMDhcv2lrmUsPGpnQJGwpBgmjU6coXhXlyNlm2gcR+J5jpkfEQQVH0EOK90mGRjTIiK1hiWOw4mTgQ0j9iSCrhw6r6eRip/g+mL4GeHq9VR6xq8GnDjiUZ4vfPCp25zNdxJLZgdv6AVURVo=
+x-ms-traffictypediagnostic: VI1PR0501MB2461:
+x-exchange-antispam-report-test: UriScan:(236129657087228)(48057245064654)(20845706936674)(78559965135000);
+x-microsoft-antispam-prvs: <VI1PR0501MB24619DA344E350B3CDEBCE97B8A60@VI1PR0501MB2461.eurprd05.prod.outlook.com>
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(6040450)(601004)(2401047)(2017060910075)(8121501046)(5005006)(3002001)(93006095)(10201501046)(100000703101)(100105400095)(6041248)(20161123558100)(20161123560025)(201703131423075)(201702281528075)(201703061421075)(201703061750153)(20161123555025)(20161123562025)(20161123564025)(6072148)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:VI1PR0501MB2461;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:VI1PR0501MB2461;
+x-forefront-prvs: 0373D94D15
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(50650200002)(6009001)(39410400002)(39840400002)(39450400003)(39850400002)(39400400002)(53936002)(102836003)(5660300001)(33646002)(2906002)(7696004)(74316002)(3110400002)(3660700001)(78352004)(3280700002)(6916009)(2950100002)(42882006)(53096004)(81166006)(8936002)(8676002)(189998001)(6506006)(25786009)(38730400002)(6436002)(6306002)(9686003)(54896002)(108616004)(99286003)(55016002)(498600001)(110136004)(966005)(54356999)(24736003)(53346004)(76176999)(50986999)(3720700003)(80100003);DIR:OUT;SFP:1501;SCL:1;SRVR:VI1PR0501MB2461;H:VI1PR0501MB2463.eurprd05.prod.outlook.com;FPR:;SPF:None;MLV:ovrnspm;PTR:InfoNoRecords;LANG:en;
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_041367b9f97a45ad95277838df1fea03VI1PR0501MB2463eurprd05_"
+MIME-Version: 1.0
+X-MS-Exchange-CrossTenant-originalarrivaltime: 19 Jul 2017 09:16:32.2031
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: ad221784-72a8-4263-ac86-0ccc6b152cd8
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR0501MB2461
+X-OriginatorOrg: iata.org
+X-MID: 2093652882.1054338317.6.1500455752.742596.10772
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--_000_041367b9f97a45ad95277838df1fea03VI1PR0501MB2463eurprd05_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+CNS e-Mail is being forwarded to Teresita Garcia-Maso
+
+
+CONFIDENTIAL NOTICE
+The content of this email is confidential and intended only for the individ=
+ual to which it is addressed. If you are not the named addressee, you shoul=
+d not disseminate, distribute or copy this e-mail. Please notify the sender=
+ and delete this email from your system if received in error. This email co=
+ntains a digital signature certified by Global Sign to verify its authentic=
+ity and origin. If you receive a suspicious email, please forward it to inf=
+ormation.security@iata.org. For more information, please refer to http://ww=
+w.iata.org/Pages/fraudulent-email.aspx.
+
+--_000_041367b9f97a45ad95277838df1fea03VI1PR0501MB2463eurprd05_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+</head>
+<body>
+CNS e-Mail is being forwarded to Teresita Garcia-Maso
+<h5><font color=3D"gray" family=3D"Arial"><br>
+<br>
+<b><u>CONFIDENTIAL NOTICE</b></u><br>
+The content of this email is confidential and intended only for the individ=
+ual to which it is addressed. If you are not the named addressee, you shoul=
+d not disseminate, distribute or copy this e-mail. Please notify the sender=
+ and delete this email from your
+ system if received in error. This email contains a digital signature certi=
+fied by Global Sign to verify its authenticity and origin. If you receive a=
+ suspicious email, please forward it to information.security@iata.org. For =
+more information, please refer to
+ http://www.iata.org/Pages/fraudulent-email.aspx. </h5>
+</font>
+</body>
+</html>
+
+--_000_041367b9f97a45ad95277838df1fea03VI1PR0501MB2463eurprd05_--

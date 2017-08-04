@@ -1,0 +1,1575 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi145.chinaemail.cn (unknown [124.202.155.145])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id C51E84A2318
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:18:22 +0800 (CST)
+X-SBRS: 3.5
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1CGAgDG011Zh0hJWtB2AQEBAwEBAQkBAQGCcD2BABCBEIUjiVmQVCKLZ3uLYIJLAYJTTwIeAhSDLhQBAgEBAQEBAQETAQEBCgsJCCiFRwEDAxoBCAo5CxgJEwMBAh4DBwMCAkYJCAYTiDsEgVgDFQMCC5IinWOCJoc8A3mDDgEBCAEBAQEkgR6CCYREaAEBKguHKRECAQU2BoJtFoJQiU+EU4QDjD4oh0eOSlaEdIkGgUJHlG82NGwLdYVsBRyCA1oBAQGJAAEBAQ
+X-IPAS-Result: A1CGAgDG011Zh0hJWtB2AQEBAwEBAQkBAQGCcD2BABCBEIUjiVmQVCKLZ3uLYIJLAYJTTwIeAhSDLhQBAgEBAQEBAQETAQEBCgsJCCiFRwEDAxoBCAo5CxgJEwMBAh4DBwMCAkYJCAYTiDsEgVgDFQMCC5IinWOCJoc8A3mDDgEBCAEBAQEkgR6CCYREaAEBKguHKRECAQU2BoJtFoJQiU+EU4QDjD4oh0eOSlaEdIkGgUJHlG82NGwLdYVsBRyCA1oBAQGJAAEBAQ
+X-IronPort-AV: E=Sophos;i="5.40,315,1496073600"; 
+   d="scan'208,217";a="98274239"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi145.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 06 Jul 2017 16:18:13 +0800
+Received: from smtpna1.atlasair.com (smtpna1.atlasair.com [208.90.73.72])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id AB77EC0A5D
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:17:28 +0800 (CST)
+MIME-Version: 1.0
+From: <postmaster@AtlasAir.com>
+To: <overseas10@sino-progress.com>
+Date: Thu, 6 Jul 2017 04:17:46 -0400
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="7bd8fbd2-eb5b-4e3c-bd24-f39451ccbd2f"
+Content-Language: en-US
+Message-ID: <fefaf98c-2b68-4624-90e0-634d1f65dc49@AtlasAir.com>
+In-Reply-To: <149932904659.4788.16373088952179772757@DESKTOP-UIM96J7>
+References: <149932904659.4788.16373088952179772757@DESKTOP-UIM96J7>
+Subject: Undeliverable: Looking for a Partner in UK--ChinaProgress
+X-MID: 2093652882.1882174181.10.1499329102.808915.16103
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--7bd8fbd2-eb5b-4e3c-bd24-f39451ccbd2f
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="dc3d7195-5d11-49e3-bf84-2d7061e82dc0"
+
+--dc3d7195-5d11-49e3-bf84-2d7061e82dc0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+tony.carder@atlasair.com<mailto:tony.carder@atlasair.com>
+The e-mail address you entered couldn't be found. Please check the recipien=
+t's e-mail address and try to resend the message. If the problem continues,=
+ please contact your helpdesk.
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: AtlasAir.com
+
+tony.carder@atlasair.com
+#550 5.1.1 RESOLVER.ADR.RecipNotFound; not found ##rfc822;tony.carder@atlas=
+air.com
+
+Original message headers:
+
+Received: from SXDCEXEDGE01.aawh.atlasair.com (192.168.210.71) by
+ SXDCEXHTC04.aawh.atlasair.com (172.19.31.18) with Microsoft SMTP Server (T=
+LS)
+ id 14.3.266.1; Thu, 6 Jul 2017 04:17:45 -0400
+Received: from NAM03-BY2-obe.outbound.protection.outlook.com (216.32.180.50=
+)
+ by SXDCEXEDGE01.aawh.atlasair.com (192.168.210.71) with Microsoft SMTP Ser=
+ver
+ id 14.3.266.1; Thu, 6 Jul 2017 04:10:15 -0400
+Received: from BLUPR05CA0071.namprd05.prod.outlook.com (10.141.20.41) by
+ BN3PR0501MB1154.namprd05.prod.outlook.com (10.160.113.151) with Microsoft
+ SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1240.6; Thu, =
+6 Jul
+ 2017 08:17:42 +0000
+Received: from CY1NAM02FT024.eop-nam02.prod.protection.outlook.com
+ (2a01:111:f400:7e45::205) by BLUPR05CA0071.outlook.office365.com
+ (2a01:111:e400:855::41) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1240.6 via
+ Frontend Transport; Thu, 6 Jul 2017 08:17:42 +0000
+Authentication-Results: spf=3Dpass (sender IP is 98.126.12.226)
+ smtp.mailfrom=3Dsino-progress.com; atlasair.com; dkim=3Dfail (no key for
+ signature) header.d=3Dsino-progress.com;atlasair.com; dmarc=3Dtemperror
+ action=3Dnone header.from=3Dsino-progress.com;
+Received-SPF: Pass (protection.outlook.com: domain of sino-progress.com
+ designates 98.126.12.226 as permitted sender)
+ receiver=3Dprotection.outlook.com; client-ip=3D98.126.12.226;
+ helo=3Dsmtpc2.chinaemail.cn;
+Received: from smtpc2.chinaemail.cn (98.126.12.226) by
+ CY1NAM02FT024.mail.protection.outlook.com (10.152.74.210) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P=
+384) id
+ 15.1.1220.9 via Frontend Transport; Thu, 6 Jul 2017 08:17:41 +0000
+Received: from smptc1.chinaemail.cn (mx100.chinaemail.cn [67.222.145.67])  =
+     by
+ smtpc2.chinaemail.cn (Postfix) with ESMTP id 69C6A211BED       for
+ <tony.carder@atlasair.com>; Thu,  6 Jul 2017 16:17:10 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [124.202.155.146])  by
+ smptc1.chinaemail.cn (Postfix) with ESMTP id 967823478041      for
+ <tony.carder@atlasair.com>; Thu,  6 Jul 2017 16:13:39 +0800 (CST)
+Received: from [192.168.1.203] (unknown [113.110.149.149])      (Authentica=
+ted
+ sender: overseas10@sino-progress.com)  by s151v.chinaemail.cn (Bossmail) w=
+ith
+ ESMTP id E389D4A2314   for <tony.carder@atlasair.com>; Thu,  6 Jul 2017
+ 16:17:21 +0800 (CST)
+Content-Type: multipart/mixed;
+        boundary=3D"=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D7706736366=
+400424270=3D=3D"
+MIME-Version: 1.0
+Subject: Looking for a Partner in UK--ChinaProgress
+From: =3D?utf-8?q?Joseph=3D5FChina-Progress?=3D <overseas10@sino-progress.c=
+om>
+To: <tony.carder@atlasair.com>
+Date: Thu, 6 Jul 2017 16:17:26 +0800
+Message-ID: <149932904659.4788.16373088952179772757@DESKTOP-UIM96J7>
+X-MID: 2093652882.2023285583.7.1499329042.8611.18898
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/simple; d=3Dsino-progres=
+s.com;
+        s=3Ds123456; t=3D1499329042;
+        bh=3DSGcTVO84PkOhuf72OMALJwqH170EWx4kReSTmcNZ4l8=3D;
+        h=3DSubject:From:Date:Message-ID;
+        b=3DTFXVo8+5z8PDa1XfLl/Vo/Sy/SYLWW5h1bhmROEue+7xZCfh/fdX9BCVNAeI9A/=
+j0
+         KP6PxbLvUK13AJN6aucUbk8roe75/VXe9dt0rsTo5QyehwS6ldluGAqaE459tTCnE4
+         xn0LztHcaKe9UWu4mUKMXR/DBdPFjrVcsnk1WfNw=3D
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,tony.carder@atlasair.com,
+Return-Path: overseas10@sino-progress.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 2eec8d43-0dd7-4584-b232-bd179dbd1610:0
+X-MS-Office365-Filtering-HT: Tenant
+X-Forefront-Antispam-Report: CIP:98.126.12.226;IPV:NLI;CTRY:US;EFV:NLI;SFV:=
+NSPM;SFS:(8156002)(2970300002)(438002)(2950300007)(252514010)(199003)(18900=
+2)(7596002)(626005)(6916009)(189998001)(19630485002)(100306002)(8676002)(88=
+526003)(77096006)(117156002)(512874002)(606006)(5660300001)(50986999)(23510=
+01)(54356999)(110136004)(19627405001)(84326002)(4610100001)(7636002)(554214=
+002)(2476003)(733005)(9686003)(33716001)(956001)(6306002)(270700001)(356003=
+)(5140100006)(1096003)(106466001)(236005)(16003)(89386003)(86362001)(393484=
+003)(24616003)(19623405001);DIR:INB;SFP:;SCL:1;SRVR:BN3PR0501MB1154;H:smtpc=
+2.chinaemail.cn;FPR:;SPF:Pass;MLV:ovrnspm;A:1;MX:3;PTR:smtpc2.chinaemail.cn=
+;LANG:en;
+X-Microsoft-Exchange-Diagnostics: =3D?us-ascii?Q?1;CY1NAM02FT024;1:UHH5qa0a=
+JpzcIIdyg95hwNQZzhY7G8fNH1bVNdJsAC?=3D
+ =3D?us-ascii?Q?6df/yq8Qff9JKkAdEWoApqyllsUAcWKCj/+CVWYj7ncBpWXNqvdEhbruZmP=
+v?=3D
+ =3D?us-ascii?Q?EFKLAsRkRMQymUptKFalig0J6A5L3oGw9xWh5j8+gaTeUYbX6tAuwixxnUN=
+Z?=3D
+ =3D?us-ascii?Q?L0xgdMcFdv3ViXAs51rnmSJJ4fejsUsP7OX0FJv5ZhvefTeyxI4hEgJ16p8=
+g?=3D
+ =3D?us-ascii?Q?kr3CT52bHtxJGCRuXVfieyyRWA8PRlyUUMGPxWnAT6jyKvdponrYJ24qliz=
+J?=3D
+ =3D?us-ascii?Q?ULIkhe4Uarf78lBztQfNQ9LS9vYNl2B+3SX42Cm/K6+6TKzfwCmRBerZ6xP=
+/?=3D
+ =3D?us-ascii?Q?Alk2wqZaBq3MLxB316ByJhOLYFCdhHEgOzT0ZFTwTrRvVyCoql0WnDLpGhV=
+M?=3D
+ =3D?us-ascii?Q?2dbu3LWFZpbGWvSD5KX1G/OYNVdlpMiuDuwanCxnx+1wEw9ALvFGw02HQjS=
+8?=3D
+ =3D?us-ascii?Q?IBgZUcPb0Xy748tENvrHtXKqvbzg+r1arVBNn4BH0j6cz3n9Zgc6lk3Tm5o=
+q?=3D
+ =3D?us-ascii?Q?LLjS2MDozoHQ0qpb+PARa99/Swi77WsdNxN6aetCBW9vJJopAZvIq+OligB=
+E?=3D
+ =3D?us-ascii?Q?mWxNZ9W7o1DKea9UBSRjjXB4sm9pTjQik3ZRn4O8bEjmOW4LfnKrlMn6vhc=
+9?=3D
+ =3D?us-ascii?Q?en8GblQ+QfprGLiGfH5ZdoJwcYYAk7ph6PPjLtzNPH18sGgEmYHE1MvP50A=
+y?=3D
+ =3D?us-ascii?Q?03K7JB8DZ8ciwdCo9+sw+ZMrSYP/C4nybnzWyh2rwAPF3lr1FD4pMbZPBaB=
+j?=3D
+ =3D?us-ascii?Q?UcclBxXmYnCP+Ya4yAWW+oEWsqhR5GB2kpK/jr86VQUMOjtIEDuI6dbzObk=
+g?=3D
+ =3D?us-ascii?Q?rYbjlGyDt9M9GI1hPBHsdgcnsB62T8S/E+RSDMGHS6CKoROXQcSIBhIMxdM=
+s?=3D
+ =3D?us-ascii?Q?4X73rP9Bev9vAwoL434YKjsd+gCkKgIOe9BsVxMxMvRVNlMjW+i9XfCs410=
+X?=3D
+ =3D?us-ascii?Q?j/0lK6ouirGT/vVKVF2Le8rQGovc3OG+FWjOI86LEZ2RIAgZgR/BEsSX8Ag=
+a?=3D
+ =3D?us-ascii?Q?H9j+jC2p0Y4m62Ee2v17J/8v+UwJB/ITvLi/GjfGWmEQE45d8vhfgqj+v4u=
+h?=3D
+ =3D?us-ascii?Q?RZvzcQJzLbpsQjKT9fx9z0/IT+Tu9GcT5DglGjTKOh3bjsGA=3D3D=3D3D?=
+=3D
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 75a6430b-2c12-4d53-ecac-08d4c44778=
+bf
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(300000500095)(3001350000=
+95)(300000501095)(300135300095)(22001)(300000502095)(300135100095)(23075)(3=
+002016)(300000503095)(300135400095)(71702078)(300000504095)(300135200095)(3=
+00000505095)(300135600095)(300000506095)(300135500095);SRVR:BN3PR0501MB1154=
+;
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;3:5lN5JjX6DB0ilrY98lskT=
+pqDrsl3CTXGr4ovDyxGRzDeadb1BTsnMJhfp8ZF4ORALZRv0An+Riol/0inr/xshy7duovjUh4Q=
+ugCU3xTFg3HTjCqjegUcaQFuDCkvjvXYZxr8I3vJRBwcbE3/CvbAHUZZv+QkDjN1sK9XZOdh8kS=
+mO3fwha6FAFn1H4nFjFdQE8HJ8DaOCONUQOJh23iWgvQRyO9L20kV6Td26W+4G019P2nlcuhmqm=
+avH9F5rzyjvBhhm0TiXrH7iR5Jj/jflJXGt6gV1qlplw2aruWCPWq8xBSIr8EYEXXMcdhb9J7K9=
+KqDFT5RJ2u4Fevh8mswVScvyv1Yg6egw4epL40PKN9Zan53R5xWM9Sq4J6mAXr8pcRtIRwL5dd1=
+cfEBWGYbAhG3ayeKoIJhiMCRKVAl9/fNsnQbHD+FSleZBqeMlenLuqDazvN2jb2jpYwME9dyZiP=
+8tWa6UQu126CxNiAiy3YS+N+8DviHmaWn5zb1Q1zZdwTWCBPsVFFduppdBC2qLXtPqFxspXAfz+=
+D4P1wjBOe/QnzusK9h5wNw0o8hXFo5OXyyHXAETJT3K1aBqhhrN0HEy7cls3SETEAhrzZI7XuMQ=
+48/DGaRIVKT1qA6fkI14xQjEoOosB+4Fa7zghuORPK0BJKS249A8+3scn2djSfKnpSxm1uToNTZ=
+sK807VtMBac4PQ7u7dB7/owtIgquBqWIAen9fU/AoWpjuo3MDNZqOmkmwOoSsNO9VOIlTP/J8P1=
+0ppuC5kP3II5UbzqPngxzexfkujONt9c4K6aVzyo/aO6BrT2Zahge+0NFFtM28Kvn7yTm2/eDHw=
+N5lei5xw=3D=3D
+X-MS-TrafficTypeDiagnostic: BN3PR0501MB1154:
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;25:u66zbTRgwezX/dFcIVfw=
+SYrAB+rPGeqBD6Qkcnjk2WATLqmsHA6Lk1P6H1ZVtzXvL6H3AyrfnUjvCn5mTLOkDlaCPFWrnI9=
+XOkYSPWp3H4/Wrvc+uVjLrJ+J85hO/buxo0lDTgx973K5II4QyMEZsTLzvzEKKrGhFLGbGHRVsI=
+UZ9NWl0s3BTN07kNZa+1HeGuVIn5K5B+A21AKYt4whCRiNfKHqNuRPvEI5OEq8SydzTxtqaQ8D2=
+pS3M3YfSi/i1oBYdrtHDrlPewJNxEdRrJL62KQneeSqz9d8m/ZLpbFPFxgJ0h3cW7/9DJCuHNzz=
+sMC9uSWw3GYXqO8en1c/78nfIr9pp+48VnSo9E26AoNV25fxW4v6/VRdho76PDm5xxFIdOi+Nl/=
+s/qA3Xxp1nqoW0qxzTzRt4iQIgw48uXgf+YkvUGCi/2YN6ZyT4OXMQytpuDadnJQRoAJp/o/Tfg=
+LAwGGj4DD5wyaNzIJFaN11n4WtEZVWPCc01GaSu3jC0d/UJWPjtI7jwSXtrzwta4gZZO+A3rDzS=
+q0SUPklfU2kyGtPF3RK+Gu4lP4JeAy8hP3KtR/LwMDcsR5F3cjTl7FbAEq7EKXvL4WBMVm0wluJ=
+clAgCWyliceWWGhmhdOXccIYQ8q/8mgmmbKHMSJA83lWGBCzZrOiDX+J4mMp6tjI895xl6K+2+s=
+9n8lzHH/s01JMD3BOqCV7gwFkCSwZJA4n3eLJC3N80gwMIijArZhndYXapGr9522RT5AqOv6M7Y=
+DZn9rk6ujRof2Q77ZuKD4M6bzqFaZsJt6731KbnFeqL5ta8gAx+W/UA8ed5szmdGbuOZhitj724=
+Gj72ofc63owWVlEsgun8n8s6y1OF4bHPsCMMJU7exV9XRbUk40DhX8F1v7x5K2R5MWzmlkZFefg=
+ZYGxzFxqLSk5NV04pxk=3D
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;31:iPpS8hzhky5aiz7HNQRW=
+XBYZwlVOnDRzbMCtg1JTbRvpshpZFj3pwAm7plDVHbz4o1WYXAxZ7kWu0ehAl4OHZYPkqJXYBVu=
+TS2PrQ/Vv1+xyU6tgugV0jq71VZ4IkXzSL0VgD9OAziOnCH3M6GiPSAqyS8+YnTvGO4M4c4lFfP=
+OkEUqGNrMkULY8cnxUAZxkGf+bsDM3sntiaHxlA6jznJ9IUCHloDBC/d5gGKSL1ZwsDlCtPyX2h=
+AVIWFCHpHdOhmqGoOuv2jN15wGs/XJ/TDN3iOJgCA+ewOaida2C8xbofgnShb1sYU72NmsvM90n=
+AS7hKS6VuE9PVQp12rLTcbdTz9s/V37rHkEgyzni78ZzPjTd1Ww4SgHk+s2E8JTKl7ECfDqsPh7=
+hrde6iptF7cvq2ajAWoShGbH2jmy2P8YsKNL27M+YNnVJXnNydqHEZub9ck8B41Tm44wReSBdpV=
+2PXZeQujQcVm1vN+Ofiqx6c1XHxK0ycrM+hQOPJpZQCR6tX7yALXQjx7Z59Zcn1kDu3Pu8kNYKe=
+SbgpaHvX7iG1hYHsX5QFt7vhBhlpqH3kow2rkdDZ9/HGRENZ7YwYSzjxixvUlz0YwdDnWjKReZu=
+usyZee0Ip0zWuEcCjBGqR/l4wmtDTEyTJ/l4wYwF2ZXnfuPt5fcHeQARP0s+73Z4aGL/KjEsHwO=
+WRXKwMdc3+TsKFKoGJl3kO5fuwQAh0PIsxFWBjEl14mZrQHUapn/Z6nUbdBGFFJyfP4dwyd+90U=
+NZIuH5oBPFuEXfhajOGQ=3D=3D
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;20:Bh544cR/0t7BUpQh5f3t=
+vBMMfYOOJ3qt1rVBY52kI1zu4LvnT9VNcJUgeV27SW6nwPcsY1f98/+6Ukoz3SoCCcF6k9/Sw/n=
+yh0AZUT8WVvT8g8EQMIoPk6PLYnjSc1OHhpmXmXKLNGJNBS0mk1nen4GqkGAXlX8Zy8d36FYZop=
+S8gUiq0PT87PmJW30anHX/uiEi2mhiwL6xTzMMuDPLQ+IOUwLfTSq86QPI4tcLMWnvx0BXNfro1=
+8m1FJJeOC0kCMgeKW7jlXh9gJkCeDJSKBi9f14tJ8D3Tj5CJtTDHoisdufS9yXP8u2sDl+GQdgm=
+kC7gUPTyCJrT7DilFDYrXplzCBXoe8VktzXXN6emWk7ihr8GmNZD0xrhN83/tkmJ0BdLFnM6EAB=
+e1KyQe81oI37D7XjAGcZ+JvEnI/XwwFo0ngF+9wPnnw/lxWoZB+FeBNp5wQZIZs6tdOEFfPH+h6=
+xmvhR3eWKzAaCl66h0gyKCGq0XuM38qjBaQtNXULBO
+X-Exchange-Antispam-Report-Test: UriScan:(151999592597050)(236129657087228)=
+(48057245064654)(269995582827781)(231433314529491)(92977632026198);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(100000700101)(1001=
+05000095)(100000701101)(100105300095)(100000702101)(100105100095)(601004)(2=
+401047)(13016025)(13018025)(8121501046)(9101536074)(3002001)(10201501046)(1=
+00000703101)(100105400095)(93006095)(93004095)(100000704101)(100105200095)(=
+100000705101)(100105500095);SRVR:BN3PR0501MB1154;BCL:0;PCL:0;RULEID:(100000=
+800101)(100110000095)(100000801101)(100110300095)(100000802101)(10011010009=
+5)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(10=
+0110500095);SRVR:BN3PR0501MB1154;
+X-Microsoft-Exchange-Diagnostics: =3D?us-ascii?Q?1;BN3PR0501MB1154;4:QIFupI=
+yFw6nxJ3iXNESrmvLBHIDBCyd8OStNS2Dd?=3D
+ =3D?us-ascii?Q?fLwmYW/hEf0Xr/Fq7vXxAoI2AtabU4UmgoORxMDvZvBrh0VNm6YG1KKY9Yr=
+C?=3D
+ =3D?us-ascii?Q?W3mBq93ZYDXMH2mOovUUxNVnIceIBETWQDmd/kgldVAVx3IsNJ7z0tHpRQE=
+f?=3D
+ =3D?us-ascii?Q?m0CYbLsa1KV+g5EbnfCILZmcdiidc3XAvCCZNUkbz0OeCJ6NXQmgBlkGkyr=
+N?=3D
+ =3D?us-ascii?Q?JyEIhOkwMaQKbCvx2Zdq6tzw/k6Z8373Ys5j/YWj0k48wJPIwsHrUA6QPAM=
++?=3D
+ =3D?us-ascii?Q?NWYopohGecD1RrLpjD45Dz2lO6noD+wId2ljGpLJQGv5klbwStVNYHehqwe=
+a?=3D
+ =3D?us-ascii?Q?a9w7hXXWic88mDKHpPhzWnbbmbMsStfrT2VNVij2R8vdeHl/MIj/Oya8LqC=
+z?=3D
+ =3D?us-ascii?Q?BsN3Jt2Ms7XNc+KPmBpHvr9yf3sKlPNkIJWdPF5v8ctWUPDnHgjs1mHr3QY=
+x?=3D
+ =3D?us-ascii?Q?zsmoJzNrZjoYIspqf2sxDZtsi2q0Ksp1stESkSZG+dSC4g8jyvFup/oMym/=
+0?=3D
+ =3D?us-ascii?Q?NxZrXAKfCpb0eQM1tjeUZOghkFHyGi0oA0JZ1do/X1YumSblDCOuymrJlXi=
+4?=3D
+ =3D?us-ascii?Q?0N9f10R2eiNuwwEgeXMkMnHGnXy5YdTYNycsTgLCieTuHSCwnvlX5pAFgTd=
+N?=3D
+ =3D?us-ascii?Q?+YgyIsXO8AyHCYKQuMHnrfkqCm8Ra4nkh/ZhuUNtdSeAHSf54ofVW2VJEDQ=
+i?=3D
+ =3D?us-ascii?Q?W3Ef0S4nxsTaW7NGZ0oa+D9zQdTFYSocBKsYYLFuGi7SxHcAJUa8hBcj0AP=
+F?=3D
+ =3D?us-ascii?Q?oiygVXKEo308kskjJFTSDhzclerRBmaOhtOEb7vineOVKjBCdissjC92RYa=
+Z?=3D
+ =3D?us-ascii?Q?uqyb1oWOo8AOwxEbWrVJWP5o7XoxBdWBZ+qd3k/FpEGPWJOJmHX69jf24tT=
+T?=3D
+ =3D?us-ascii?Q?3iqLekEEsN5uOYIuvYlxqcSt8Plw3vvHFzpMzUXwyvLiH/WL7lkCThCxNgZ=
+D?=3D
+ =3D?us-ascii?Q?Wcq1HGhlca5UPdBb/Kzz2Wq69/wrNcsMIviAD6BLPZ8BY4BHtEykZ0LR8B6=
+y?=3D
+ =3D?us-ascii?Q?0rVSsRw1xXaYpt4OFzw3D54mHEsEiiJ1H7Nj8TXMRWk18Q=3D3D=3D3D?=
+=3D
+X-Microsoft-Exchange-Diagnostics: =3D?us-ascii?Q?1;BN3PR0501MB1154;23:769da=
+RVBYY4HggE9SKrViIBsww6XJuCODAdf2qf?=3D
+ =3D?us-ascii?Q?+Dt0C9tDp15vPL4+KuIWDFkq3rwPvV0vbhmfC1fxbsyTrqnvMUYO9ZNPBPE=
+W?=3D
+ =3D?us-ascii?Q?csLTz28ReNNOfmS1nRYifC8PW6BcxoLGKeTUv2N4NNQ436AGSiUMl3f8rmH=
+l?=3D
+ =3D?us-ascii?Q?GHlVYDp3OBYwAmdrOKgWgYGik/5ISMW781oM26BUyhznz2sn6taEpr02K0+=
+/?=3D
+ =3D?us-ascii?Q?WioSWUFqFd5eoxPDGXDGNeBtktujywmX4BAN0zQZll8UTUySHGQsZuBhIWY=
+f?=3D
+ =3D?us-ascii?Q?WW5jE8jHZIk1kV7WpGv0sJlhikzlA+ZsM4sKo83FARgsX+NPTTLW5LCuEAd=
+e?=3D
+ =3D?us-ascii?Q?/fTE8YWIxnU5TFFVBCQ5av8gpdsAP+QGLcg9F2rli7/LgXXv+ON4uYWiFwE=
+S?=3D
+ =3D?us-ascii?Q?U7CFi/lKNiCCvgMUKLgqz03Ccni2k2u5+XB8/Ukh+Qs2GCz7uCQoXyWAq0w=
+x?=3D
+ =3D?us-ascii?Q?a14SkJ4C9E0zoSFPBL198enohRVe/eAM5CuGyTinoqrInF4ELE/8HpTwp7k=
+S?=3D
+ =3D?us-ascii?Q?rpXONxd1AzTiAo54HEH1yBYMkxrwv6bB4ri/nmt28gvjuTOnwT/hQcaXs9Q=
+/?=3D
+ =3D?us-ascii?Q?r5ISHF408k7KrfsSBRA9/UKmgFElgKXWT7glk8XNP6PrNjXxMYh4fmsU28j=
+d?=3D
+ =3D?us-ascii?Q?xEkkIotJ7OG773FJeMHPRoTk8gHAUAVXkCibGf7PcSH2fzOeQKdK/uPKu5C=
+J?=3D
+ =3D?us-ascii?Q?NWktkImGgOA1H3WGHlQa85LAagxJxIlS2sxzmYg3hiI/kfke9FHdw1/D2yg=
+2?=3D
+ =3D?us-ascii?Q?WdGyiccDsBIM1HmIJ7K64Jjvp9GkG1YFr9CKycCXmewyslaPnFYF9nuWJ+c=
+m?=3D
+ =3D?us-ascii?Q?txbKAMzaBe/qiqrATvlHIc2K8Hzn2vzLvZSlEdWn+CVF+Mgv8RfkA/v7Zs7=
+g?=3D
+ =3D?us-ascii?Q?Q9YMfFpDqerCwlcuog74wF0MHgR1/qw+aEDh2+UN5tvDKuAXGqGcIfQWek+=
+j?=3D
+ =3D?us-ascii?Q?6KkaZ+6Z5GehI8AOl4oxJolwJDamqCw/mjwbeVjq0VL+kkeQ1a352ZZqYZV=
+x?=3D
+ =3D?us-ascii?Q?DSeB53ip25XkPRmMkSNV/FYerc23GwO+WOsJRm979Jzr0Bai32tzUza8yI7=
+D?=3D
+ =3D?us-ascii?Q?0Y8WoqQ9xyi+cBl6qT2h34MiqlEj4VlSoLsPrI5uJqw+BDdoyMUCVW0lWPY=
+m?=3D
+ =3D?us-ascii?Q?7lAFbKq7VfNI=3D3D?=3D
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;6:bv+wwo3DF3si5YtSgnDtd=
+3FwULObGgJKB7p87TbZzfVMiYL9+ZPwQ/Kk3v4JejcsXop5mJPT3FqFPGRk7A0ZUup81sVlz1Vt=
+BbicylBV4clHwdqmhPYZIlL4B0+NmySVICcwVXua/FHMaOFoW/CjK1yNYrPzAM+nUqOgpBJ4PyC=
+VLS3DAv/ODoGB5hmafNGAhA1jUF3DVO36i9NS4mJIIAQwRM8p9rinoEsBo4jRei00HnjLLKlVLo=
+k4oH9RXKbfUnVyVczxbODgdTP9SlB2qRBS4fhWRZt2yyhkIMAgd2MQ3DF0uGfa9iL8T8M7jrTxf=
+UEMrVj2WQrDWtU1MKgICVEtCwWi+B3/+mrYpRXLQlCHM9f/EJkiL203LxKchnQeLS7+jbXptVL7=
+JeBCkasdV7vKEulwjS6ilnro90RapaU3brGbjb14oZFlvDwK2QS2Q6EaYOh3JKow8eqY5OyvaMv=
+L7p4fhi0m/pNk4zzXYO3kT5MajeRi+2E06X/46HB79ZmLCPzUZHh4qS+v+P7pP1U6Ed3HRZwzfp=
+8uH0cRwCkDXa3XhlfEVDQejVj0nvBSfgfv+jyNpW1bc76n3zFvunPn+1GMoYO6/07z/Z3bz3vfv=
+MQFjcaUL55LbpPsBSEFn8s7+DNEr1j+AF9Q9c6xM5zwv/ccXaziGds/S7gmujl5NIFzFuxzTyiD=
+Gm16w6dqM/v00ZRxsAM8G3weewI59k4kp1PrgGsYZMFMu0QD4b9gLHLyDrtJwtTbN4kzC7naucf=
+IVq+hYXrYGDPkLolgpyONkCJaV7+x2YljbENa+nW0YSsdIy8W9ZJneaJPN90rGgqGNhiTdTwfH5=
+eDHMQ3+ArI9dHABU1sJW86+97CfTqTZqt1bi8wXE7NuCze2ajgDUq5M1pd3A2MhMAoWyYCa8uGv=
+nluKDmmzEtyMgJE3S8=3D
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;5:FPmZsPAqZFvlQeGVjlVUv=
+OAkYxrxP3QToALDFX0A1p3h54NZxfJQzTm/1YbsWd78H1cBhKcXyc3+TTyvlqoC/c2RtaU5blzP=
+3y4AVyFPhLjncNJS6XbtPRlBCk2IoDmu+YX2WO5EEt0sMGMJZOPsH2L1lfrN+YeONm/wzC7h9rr=
+P045n5C7aVIyDkEDUUvLhXVpu70eoO9a77pk+r5x6XEc5Su1iSH4SeTU0+AJkofxRjjJSy2Jmw0=
+bcGN+/6iy2/xtMfcJVlXW4S/GRAMeg2J+U2d9vsXwIFjPNGioPoz0kjAenc6SwRfaf/mrACgkyU=
+IxSqK9jcSbUVVA6FqMEPCURTJU4Kw7httPVje6xyW35JmJlZ7ORS2FANbzVFKgewo0HHUI3Inz7=
+Z3YPHO7zhazYJWHdUMTqQCfHFd/50Ipn4AyeB+pXqitoeMsyBT6uCQ+jDT1P0elflgFUyN4OjdW=
+7mHjSMpwjy3biR5m7MvQuFA6Hq+BUjagFDo3tWdkS;24:U6zffyKX/VM+wBVNcdAfQfiVp2s0kN=
+IAXpnvjvDjtNIVHWW2xsvUIij0vPyj5+7iEyJt8s93mIAkJIYsF+z/MzDSUfdZ7zqLNqHOFfEzn=
+oE=3D
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;7:RvcVxGWPCeZofHBbdainy=
+uv77YHLIkr6v2Msh288TnfGH3WwziOfWA0EsZtciaRXpjikC4ONNmUPhOROoYjMRiYB2uRkKSsy=
+hcGXCuHwV4qF5Hvv4TDbDb8Kh9gFxP4K910KfG/GQaDUbWysSpkJHo2vb2Vt8yNKmQXu0vwBs2A=
+7LDpxMNiVyxwXONaK6WOaRPirIdQOo9TLImoiY1lkWu16tZzRLzqN/R09f9p+JR7NIcZRgvT58Y=
+gzsbYq9YBA+QhCCEi6gDFXFyFmnmtkxOn7KjKwJCB7pqK4qUA5KBHYlhnDlrav2JIGTulW8RiKC=
+lgsyQzmXbTWm4KUwAlUcXfbAK2JN9tmL9IEYkidtC9ICerUgcgZAlGBhj60/NRp5MkT6I2W0Eo7=
+PvsS6MN1XvHc7oxjJ3XAxlOYEGa1K5XsxvO/ei3KUul8m+smvM2h+1F5pO48axVrORC9Kaj6vDI=
+1QXsgHnyYaYqMf6VXGHmn3us/g7bWNjzYarSeiaTCD/UHYtnF/NFINuQqKkxksTU8Bci/TiIbfh=
+/Rm/vlyRyaFw4qBal/K7xf1jRZ/fJOBoeio2TMrlWgUlEzSrX+X8vVqKov3vM0/Vp0WuckUyD8Y=
+qNpdepTQs0XaNTClFFlmDICKQnGQPDSc4v/jkwMZuSPxACr9ayt5cPlIl0KOrHcBFV5IBR1WhQy=
+xYqwUQO0Bln7MGEytkGCoHMyqg8wyFsXMmBHyrWhd7fJi5hOZ8C4DN6yrYqwN6eEwcepE0Vz/Lf=
+AbwwmTEdKmX+fu1/EQkFYvU+YZzBv9MNQSUWnWq2IGY4ECmVv0EzydYs80bzEtkAdn4wnvgX8xK=
+QDhIdcFrY5emjCrZsYzJT/9zcC+Ko=3D
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 06 Jul 2017 08:17:41.1460
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 2eec8d43-0dd7-4584-b232-bd179dbd1610
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN3PR0501MB1154
+X-OrganizationHeadersPreserved: BN3PR0501MB1154.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: SXDCEXEDGE01.aawh.atlasair.com
+
+
+--dc3d7195-5d11-49e3-bf84-2d7061e82dc0
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:ton=
+y.carder@atlasair.com">tony.carder@atlasair.com</a><br>
+The e-mail address you entered couldn't be found. Please check the recipien=
+t's e-mail address and try to resend the message. If the problem continues,=
+ please contact your helpdesk.<br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: AtlasAir.com</p>
+<p>tony.carder@atlasair.com<br>
+ #550 5.1.1 RESOLVER.ADR.RecipNotFound; not found ##rfc822;tony.carder@atla=
+sair.com</p>
+<p>Original message headers:</p>
+<pre>Received: from SXDCEXEDGE01.aawh.atlasair.com (192.168.210.71) by
+ SXDCEXHTC04.aawh.atlasair.com (172.19.31.18) with Microsoft SMTP Server (T=
+LS)
+ id 14.3.266.1; Thu, 6 Jul 2017 04:17:45 -0400
+Received: from NAM03-BY2-obe.outbound.protection.outlook.com (216.32.180.50=
+)
+ by SXDCEXEDGE01.aawh.atlasair.com (192.168.210.71) with Microsoft SMTP Ser=
+ver
+ id 14.3.266.1; Thu, 6 Jul 2017 04:10:15 -0400
+Received: from BLUPR05CA0071.namprd05.prod.outlook.com (10.141.20.41) by
+ BN3PR0501MB1154.namprd05.prod.outlook.com (10.160.113.151) with Microsoft
+ SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1240.6; Thu, =
+6 Jul
+ 2017 08:17:42 +0000
+Received: from CY1NAM02FT024.eop-nam02.prod.protection.outlook.com
+ (2a01:111:f400:7e45::205) by BLUPR05CA0071.outlook.office365.com
+ (2a01:111:e400:855::41) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1240.6 via
+ Frontend Transport; Thu, 6 Jul 2017 08:17:42 +0000
+Authentication-Results: spf=3Dpass (sender IP is 98.126.12.226)
+ smtp.mailfrom=3Dsino-progress.com; atlasair.com; dkim=3Dfail (no key for
+ signature) header.d=3Dsino-progress.com;atlasair.com; dmarc=3Dtemperror
+ action=3Dnone header.from=3Dsino-progress.com;
+Received-SPF: Pass (protection.outlook.com: domain of sino-progress.com
+ designates 98.126.12.226 as permitted sender)
+ receiver=3Dprotection.outlook.com; client-ip=3D98.126.12.226;
+ helo=3Dsmtpc2.chinaemail.cn;
+Received: from smtpc2.chinaemail.cn (98.126.12.226) by
+ CY1NAM02FT024.mail.protection.outlook.com (10.152.74.210) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P=
+384) id
+ 15.1.1220.9 via Frontend Transport; Thu, 6 Jul 2017 08:17:41 +0000
+Received: from smptc1.chinaemail.cn (mx100.chinaemail.cn [67.222.145.67])	b=
+y
+ smtpc2.chinaemail.cn (Postfix) with ESMTP id 69C6A211BED	for
+ &lt;tony.carder@atlasair.com&gt;; Thu,  6 Jul 2017 16:17:10 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [124.202.155.146])	by
+ smptc1.chinaemail.cn (Postfix) with ESMTP id 967823478041	for
+ &lt;tony.carder@atlasair.com&gt;; Thu,  6 Jul 2017 16:13:39 +0800 (CST)
+Received: from [192.168.1.203] (unknown [113.110.149.149])	(Authenticated
+ sender: overseas10@sino-progress.com)	by s151v.chinaemail.cn (Bossmail) wi=
+th
+ ESMTP id E389D4A2314	for &lt;tony.carder@atlasair.com&gt;; Thu,  6 Jul 201=
+7
+ 16:17:21 +0800 (CST)
+Content-Type: multipart/mixed;
+	boundary=3D&quot;=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D770673636640=
+0424270=3D=3D&quot;
+MIME-Version: 1.0
+Subject: Looking for a Partner in UK--ChinaProgress
+From: =3D?utf-8?q?Joseph=3D5FChina-Progress?=3D &lt;overseas10@sino-progres=
+s.com&gt;
+To: &lt;tony.carder@atlasair.com&gt;
+Date: Thu, 6 Jul 2017 16:17:26 +0800
+Message-ID: &lt;149932904659.4788.16373088952179772757@DESKTOP-UIM96J7&gt;
+X-MID: 2093652882.2023285583.7.1499329042.8611.18898
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/simple; d=3Dsino-progres=
+s.com;
+	s=3Ds123456; t=3D1499329042;
+	bh=3DSGcTVO84PkOhuf72OMALJwqH170EWx4kReSTmcNZ4l8=3D;
+	h=3DSubject:From:Date:Message-ID;
+	b=3DTFXVo8+5z8PDa1XfLl/Vo/Sy/SYLWW5h1bhmROEue+7xZCfh/fdX9BCVNAeI9A/j0
+	 KP6PxbLvUK13AJN6aucUbk8roe75/VXe9dt0rsTo5QyehwS6ldluGAqaE459tTCnE4
+	 xn0LztHcaKe9UWu4mUKMXR/DBdPFjrVcsnk1WfNw=3D
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,tony.carder@atlasair.com,
+Return-Path: overseas10@sino-progress.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 2eec8d43-0dd7-4584-b232-bd179dbd1610:0
+X-MS-Office365-Filtering-HT: Tenant
+X-Forefront-Antispam-Report: CIP:98.126.12.226;IPV:NLI;CTRY:US;EFV:NLI;SFV:=
+NSPM;SFS:(8156002)(2970300002)(438002)(2950300007)(252514010)(199003)(18900=
+2)(7596002)(626005)(6916009)(189998001)(19630485002)(100306002)(8676002)(88=
+526003)(77096006)(117156002)(512874002)(606006)(5660300001)(50986999)(23510=
+01)(54356999)(110136004)(19627405001)(84326002)(4610100001)(7636002)(554214=
+002)(2476003)(733005)(9686003)(33716001)(956001)(6306002)(270700001)(356003=
+)(5140100006)(1096003)(106466001)(236005)(16003)(89386003)(86362001)(393484=
+003)(24616003)(19623405001);DIR:INB;SFP:;SCL:1;SRVR:BN3PR0501MB1154;H:smtpc=
+2.chinaemail.cn;FPR:;SPF:Pass;MLV:ovrnspm;A:1;MX:3;PTR:smtpc2.chinaemail.cn=
+;LANG:en;
+X-Microsoft-Exchange-Diagnostics: =3D?us-ascii?Q?1;CY1NAM02FT024;1:UHH5qa0a=
+JpzcIIdyg95hwNQZzhY7G8fNH1bVNdJsAC?=3D
+ =3D?us-ascii?Q?6df/yq8Qff9JKkAdEWoApqyllsUAcWKCj/+CVWYj7ncBpWXNqvdEhbruZmP=
+v?=3D
+ =3D?us-ascii?Q?EFKLAsRkRMQymUptKFalig0J6A5L3oGw9xWh5j8+gaTeUYbX6tAuwixxnUN=
+Z?=3D
+ =3D?us-ascii?Q?L0xgdMcFdv3ViXAs51rnmSJJ4fejsUsP7OX0FJv5ZhvefTeyxI4hEgJ16p8=
+g?=3D
+ =3D?us-ascii?Q?kr3CT52bHtxJGCRuXVfieyyRWA8PRlyUUMGPxWnAT6jyKvdponrYJ24qliz=
+J?=3D
+ =3D?us-ascii?Q?ULIkhe4Uarf78lBztQfNQ9LS9vYNl2B+3SX42Cm/K6+6TKzfwCmRBerZ6xP=
+/?=3D
+ =3D?us-ascii?Q?Alk2wqZaBq3MLxB316ByJhOLYFCdhHEgOzT0ZFTwTrRvVyCoql0WnDLpGhV=
+M?=3D
+ =3D?us-ascii?Q?2dbu3LWFZpbGWvSD5KX1G/OYNVdlpMiuDuwanCxnx+1wEw9ALvFGw02HQjS=
+8?=3D
+ =3D?us-ascii?Q?IBgZUcPb0Xy748tENvrHtXKqvbzg+r1arVBNn4BH0j6cz3n9Zgc6lk3Tm5o=
+q?=3D
+ =3D?us-ascii?Q?LLjS2MDozoHQ0qpb+PARa99/Swi77WsdNxN6aetCBW9vJJopAZvIq+OligB=
+E?=3D
+ =3D?us-ascii?Q?mWxNZ9W7o1DKea9UBSRjjXB4sm9pTjQik3ZRn4O8bEjmOW4LfnKrlMn6vhc=
+9?=3D
+ =3D?us-ascii?Q?en8GblQ+QfprGLiGfH5ZdoJwcYYAk7ph6PPjLtzNPH18sGgEmYHE1MvP50A=
+y?=3D
+ =3D?us-ascii?Q?03K7JB8DZ8ciwdCo9+sw+ZMrSYP/C4nybnzWyh2rwAPF3lr1FD4pMbZPBaB=
+j?=3D
+ =3D?us-ascii?Q?UcclBxXmYnCP+Ya4yAWW+oEWsqhR5GB2kpK/jr86VQUMOjtIEDuI6dbzObk=
+g?=3D
+ =3D?us-ascii?Q?rYbjlGyDt9M9GI1hPBHsdgcnsB62T8S/E+RSDMGHS6CKoROXQcSIBhIMxdM=
+s?=3D
+ =3D?us-ascii?Q?4X73rP9Bev9vAwoL434YKjsd+gCkKgIOe9BsVxMxMvRVNlMjW+i9XfCs410=
+X?=3D
+ =3D?us-ascii?Q?j/0lK6ouirGT/vVKVF2Le8rQGovc3OG+FWjOI86LEZ2RIAgZgR/BEsSX8Ag=
+a?=3D
+ =3D?us-ascii?Q?H9j+jC2p0Y4m62Ee2v17J/8v+UwJB/ITvLi/GjfGWmEQE45d8vhfgqj+v4u=
+h?=3D
+ =3D?us-ascii?Q?RZvzcQJzLbpsQjKT9fx9z0/IT+Tu9GcT5DglGjTKOh3bjsGA=3D3D=3D3D?=
+=3D
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 75a6430b-2c12-4d53-ecac-08d4c44778=
+bf
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(300000500095)(3001350000=
+95)(300000501095)(300135300095)(22001)(300000502095)(300135100095)(23075)(3=
+002016)(300000503095)(300135400095)(71702078)(300000504095)(300135200095)(3=
+00000505095)(300135600095)(300000506095)(300135500095);SRVR:BN3PR0501MB1154=
+;
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;3:5lN5JjX6DB0ilrY98lskT=
+pqDrsl3CTXGr4ovDyxGRzDeadb1BTsnMJhfp8ZF4ORALZRv0An+Riol/0inr/xshy7duovjUh4Q=
+ugCU3xTFg3HTjCqjegUcaQFuDCkvjvXYZxr8I3vJRBwcbE3/CvbAHUZZv+QkDjN1sK9XZOdh8kS=
+mO3fwha6FAFn1H4nFjFdQE8HJ8DaOCONUQOJh23iWgvQRyO9L20kV6Td26W+4G019P2nlcuhmqm=
+avH9F5rzyjvBhhm0TiXrH7iR5Jj/jflJXGt6gV1qlplw2aruWCPWq8xBSIr8EYEXXMcdhb9J7K9=
+KqDFT5RJ2u4Fevh8mswVScvyv1Yg6egw4epL40PKN9Zan53R5xWM9Sq4J6mAXr8pcRtIRwL5dd1=
+cfEBWGYbAhG3ayeKoIJhiMCRKVAl9/fNsnQbHD+FSleZBqeMlenLuqDazvN2jb2jpYwME9dyZiP=
+8tWa6UQu126CxNiAiy3YS+N+8DviHmaWn5zb1Q1zZdwTWCBPsVFFduppdBC2qLXtPqFxspXAfz+=
+D4P1wjBOe/QnzusK9h5wNw0o8hXFo5OXyyHXAETJT3K1aBqhhrN0HEy7cls3SETEAhrzZI7XuMQ=
+48/DGaRIVKT1qA6fkI14xQjEoOosB+4Fa7zghuORPK0BJKS249A8+3scn2djSfKnpSxm1uToNTZ=
+sK807VtMBac4PQ7u7dB7/owtIgquBqWIAen9fU/AoWpjuo3MDNZqOmkmwOoSsNO9VOIlTP/J8P1=
+0ppuC5kP3II5UbzqPngxzexfkujONt9c4K6aVzyo/aO6BrT2Zahge+0NFFtM28Kvn7yTm2/eDHw=
+N5lei5xw=3D=3D
+X-MS-TrafficTypeDiagnostic: BN3PR0501MB1154:
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;25:u66zbTRgwezX/dFcIVfw=
+SYrAB+rPGeqBD6Qkcnjk2WATLqmsHA6Lk1P6H1ZVtzXvL6H3AyrfnUjvCn5mTLOkDlaCPFWrnI9=
+XOkYSPWp3H4/Wrvc+uVjLrJ+J85hO/buxo0lDTgx973K5II4QyMEZsTLzvzEKKrGhFLGbGHRVsI=
+UZ9NWl0s3BTN07kNZa+1HeGuVIn5K5B+A21AKYt4whCRiNfKHqNuRPvEI5OEq8SydzTxtqaQ8D2=
+pS3M3YfSi/i1oBYdrtHDrlPewJNxEdRrJL62KQneeSqz9d8m/ZLpbFPFxgJ0h3cW7/9DJCuHNzz=
+sMC9uSWw3GYXqO8en1c/78nfIr9pp+48VnSo9E26AoNV25fxW4v6/VRdho76PDm5xxFIdOi+Nl/=
+s/qA3Xxp1nqoW0qxzTzRt4iQIgw48uXgf+YkvUGCi/2YN6ZyT4OXMQytpuDadnJQRoAJp/o/Tfg=
+LAwGGj4DD5wyaNzIJFaN11n4WtEZVWPCc01GaSu3jC0d/UJWPjtI7jwSXtrzwta4gZZO+A3rDzS=
+q0SUPklfU2kyGtPF3RK+Gu4lP4JeAy8hP3KtR/LwMDcsR5F3cjTl7FbAEq7EKXvL4WBMVm0wluJ=
+clAgCWyliceWWGhmhdOXccIYQ8q/8mgmmbKHMSJA83lWGBCzZrOiDX+J4mMp6tjI895xl6K+2+s=
+9n8lzHH/s01JMD3BOqCV7gwFkCSwZJA4n3eLJC3N80gwMIijArZhndYXapGr9522RT5AqOv6M7Y=
+DZn9rk6ujRof2Q77ZuKD4M6bzqFaZsJt6731KbnFeqL5ta8gAx+W/UA8ed5szmdGbuOZhitj724=
+Gj72ofc63owWVlEsgun8n8s6y1OF4bHPsCMMJU7exV9XRbUk40DhX8F1v7x5K2R5MWzmlkZFefg=
+ZYGxzFxqLSk5NV04pxk=3D
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;31:iPpS8hzhky5aiz7HNQRW=
+XBYZwlVOnDRzbMCtg1JTbRvpshpZFj3pwAm7plDVHbz4o1WYXAxZ7kWu0ehAl4OHZYPkqJXYBVu=
+TS2PrQ/Vv1+xyU6tgugV0jq71VZ4IkXzSL0VgD9OAziOnCH3M6GiPSAqyS8+YnTvGO4M4c4lFfP=
+OkEUqGNrMkULY8cnxUAZxkGf+bsDM3sntiaHxlA6jznJ9IUCHloDBC/d5gGKSL1ZwsDlCtPyX2h=
+AVIWFCHpHdOhmqGoOuv2jN15wGs/XJ/TDN3iOJgCA+ewOaida2C8xbofgnShb1sYU72NmsvM90n=
+AS7hKS6VuE9PVQp12rLTcbdTz9s/V37rHkEgyzni78ZzPjTd1Ww4SgHk+s2E8JTKl7ECfDqsPh7=
+hrde6iptF7cvq2ajAWoShGbH2jmy2P8YsKNL27M+YNnVJXnNydqHEZub9ck8B41Tm44wReSBdpV=
+2PXZeQujQcVm1vN+Ofiqx6c1XHxK0ycrM+hQOPJpZQCR6tX7yALXQjx7Z59Zcn1kDu3Pu8kNYKe=
+SbgpaHvX7iG1hYHsX5QFt7vhBhlpqH3kow2rkdDZ9/HGRENZ7YwYSzjxixvUlz0YwdDnWjKReZu=
+usyZee0Ip0zWuEcCjBGqR/l4wmtDTEyTJ/l4wYwF2ZXnfuPt5fcHeQARP0s+73Z4aGL/KjEsHwO=
+WRXKwMdc3+TsKFKoGJl3kO5fuwQAh0PIsxFWBjEl14mZrQHUapn/Z6nUbdBGFFJyfP4dwyd+90U=
+NZIuH5oBPFuEXfhajOGQ=3D=3D
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;20:Bh544cR/0t7BUpQh5f3t=
+vBMMfYOOJ3qt1rVBY52kI1zu4LvnT9VNcJUgeV27SW6nwPcsY1f98/+6Ukoz3SoCCcF6k9/Sw/n=
+yh0AZUT8WVvT8g8EQMIoPk6PLYnjSc1OHhpmXmXKLNGJNBS0mk1nen4GqkGAXlX8Zy8d36FYZop=
+S8gUiq0PT87PmJW30anHX/uiEi2mhiwL6xTzMMuDPLQ+IOUwLfTSq86QPI4tcLMWnvx0BXNfro1=
+8m1FJJeOC0kCMgeKW7jlXh9gJkCeDJSKBi9f14tJ8D3Tj5CJtTDHoisdufS9yXP8u2sDl+GQdgm=
+kC7gUPTyCJrT7DilFDYrXplzCBXoe8VktzXXN6emWk7ihr8GmNZD0xrhN83/tkmJ0BdLFnM6EAB=
+e1KyQe81oI37D7XjAGcZ+JvEnI/XwwFo0ngF+9wPnnw/lxWoZB+FeBNp5wQZIZs6tdOEFfPH+h6=
+xmvhR3eWKzAaCl66h0gyKCGq0XuM38qjBaQtNXULBO
+X-Exchange-Antispam-Report-Test: UriScan:(151999592597050)(236129657087228)=
+(48057245064654)(269995582827781)(231433314529491)(92977632026198);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(100000700101)(1001=
+05000095)(100000701101)(100105300095)(100000702101)(100105100095)(601004)(2=
+401047)(13016025)(13018025)(8121501046)(9101536074)(3002001)(10201501046)(1=
+00000703101)(100105400095)(93006095)(93004095)(100000704101)(100105200095)(=
+100000705101)(100105500095);SRVR:BN3PR0501MB1154;BCL:0;PCL:0;RULEID:(100000=
+800101)(100110000095)(100000801101)(100110300095)(100000802101)(10011010009=
+5)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(10=
+0110500095);SRVR:BN3PR0501MB1154;
+X-Microsoft-Exchange-Diagnostics: =3D?us-ascii?Q?1;BN3PR0501MB1154;4:QIFupI=
+yFw6nxJ3iXNESrmvLBHIDBCyd8OStNS2Dd?=3D
+ =3D?us-ascii?Q?fLwmYW/hEf0Xr/Fq7vXxAoI2AtabU4UmgoORxMDvZvBrh0VNm6YG1KKY9Yr=
+C?=3D
+ =3D?us-ascii?Q?W3mBq93ZYDXMH2mOovUUxNVnIceIBETWQDmd/kgldVAVx3IsNJ7z0tHpRQE=
+f?=3D
+ =3D?us-ascii?Q?m0CYbLsa1KV+g5EbnfCILZmcdiidc3XAvCCZNUkbz0OeCJ6NXQmgBlkGkyr=
+N?=3D
+ =3D?us-ascii?Q?JyEIhOkwMaQKbCvx2Zdq6tzw/k6Z8373Ys5j/YWj0k48wJPIwsHrUA6QPAM=
++?=3D
+ =3D?us-ascii?Q?NWYopohGecD1RrLpjD45Dz2lO6noD+wId2ljGpLJQGv5klbwStVNYHehqwe=
+a?=3D
+ =3D?us-ascii?Q?a9w7hXXWic88mDKHpPhzWnbbmbMsStfrT2VNVij2R8vdeHl/MIj/Oya8LqC=
+z?=3D
+ =3D?us-ascii?Q?BsN3Jt2Ms7XNc+KPmBpHvr9yf3sKlPNkIJWdPF5v8ctWUPDnHgjs1mHr3QY=
+x?=3D
+ =3D?us-ascii?Q?zsmoJzNrZjoYIspqf2sxDZtsi2q0Ksp1stESkSZG+dSC4g8jyvFup/oMym/=
+0?=3D
+ =3D?us-ascii?Q?NxZrXAKfCpb0eQM1tjeUZOghkFHyGi0oA0JZ1do/X1YumSblDCOuymrJlXi=
+4?=3D
+ =3D?us-ascii?Q?0N9f10R2eiNuwwEgeXMkMnHGnXy5YdTYNycsTgLCieTuHSCwnvlX5pAFgTd=
+N?=3D
+ =3D?us-ascii?Q?+YgyIsXO8AyHCYKQuMHnrfkqCm8Ra4nkh/ZhuUNtdSeAHSf54ofVW2VJEDQ=
+i?=3D
+ =3D?us-ascii?Q?W3Ef0S4nxsTaW7NGZ0oa+D9zQdTFYSocBKsYYLFuGi7SxHcAJUa8hBcj0AP=
+F?=3D
+ =3D?us-ascii?Q?oiygVXKEo308kskjJFTSDhzclerRBmaOhtOEb7vineOVKjBCdissjC92RYa=
+Z?=3D
+ =3D?us-ascii?Q?uqyb1oWOo8AOwxEbWrVJWP5o7XoxBdWBZ+qd3k/FpEGPWJOJmHX69jf24tT=
+T?=3D
+ =3D?us-ascii?Q?3iqLekEEsN5uOYIuvYlxqcSt8Plw3vvHFzpMzUXwyvLiH/WL7lkCThCxNgZ=
+D?=3D
+ =3D?us-ascii?Q?Wcq1HGhlca5UPdBb/Kzz2Wq69/wrNcsMIviAD6BLPZ8BY4BHtEykZ0LR8B6=
+y?=3D
+ =3D?us-ascii?Q?0rVSsRw1xXaYpt4OFzw3D54mHEsEiiJ1H7Nj8TXMRWk18Q=3D3D=3D3D?=
+=3D
+X-Microsoft-Exchange-Diagnostics: =3D?us-ascii?Q?1;BN3PR0501MB1154;23:769da=
+RVBYY4HggE9SKrViIBsww6XJuCODAdf2qf?=3D
+ =3D?us-ascii?Q?+Dt0C9tDp15vPL4+KuIWDFkq3rwPvV0vbhmfC1fxbsyTrqnvMUYO9ZNPBPE=
+W?=3D
+ =3D?us-ascii?Q?csLTz28ReNNOfmS1nRYifC8PW6BcxoLGKeTUv2N4NNQ436AGSiUMl3f8rmH=
+l?=3D
+ =3D?us-ascii?Q?GHlVYDp3OBYwAmdrOKgWgYGik/5ISMW781oM26BUyhznz2sn6taEpr02K0+=
+/?=3D
+ =3D?us-ascii?Q?WioSWUFqFd5eoxPDGXDGNeBtktujywmX4BAN0zQZll8UTUySHGQsZuBhIWY=
+f?=3D
+ =3D?us-ascii?Q?WW5jE8jHZIk1kV7WpGv0sJlhikzlA+ZsM4sKo83FARgsX+NPTTLW5LCuEAd=
+e?=3D
+ =3D?us-ascii?Q?/fTE8YWIxnU5TFFVBCQ5av8gpdsAP+QGLcg9F2rli7/LgXXv+ON4uYWiFwE=
+S?=3D
+ =3D?us-ascii?Q?U7CFi/lKNiCCvgMUKLgqz03Ccni2k2u5+XB8/Ukh+Qs2GCz7uCQoXyWAq0w=
+x?=3D
+ =3D?us-ascii?Q?a14SkJ4C9E0zoSFPBL198enohRVe/eAM5CuGyTinoqrInF4ELE/8HpTwp7k=
+S?=3D
+ =3D?us-ascii?Q?rpXONxd1AzTiAo54HEH1yBYMkxrwv6bB4ri/nmt28gvjuTOnwT/hQcaXs9Q=
+/?=3D
+ =3D?us-ascii?Q?r5ISHF408k7KrfsSBRA9/UKmgFElgKXWT7glk8XNP6PrNjXxMYh4fmsU28j=
+d?=3D
+ =3D?us-ascii?Q?xEkkIotJ7OG773FJeMHPRoTk8gHAUAVXkCibGf7PcSH2fzOeQKdK/uPKu5C=
+J?=3D
+ =3D?us-ascii?Q?NWktkImGgOA1H3WGHlQa85LAagxJxIlS2sxzmYg3hiI/kfke9FHdw1/D2yg=
+2?=3D
+ =3D?us-ascii?Q?WdGyiccDsBIM1HmIJ7K64Jjvp9GkG1YFr9CKycCXmewyslaPnFYF9nuWJ+c=
+m?=3D
+ =3D?us-ascii?Q?txbKAMzaBe/qiqrATvlHIc2K8Hzn2vzLvZSlEdWn+CVF+Mgv8RfkA/v7Zs7=
+g?=3D
+ =3D?us-ascii?Q?Q9YMfFpDqerCwlcuog74wF0MHgR1/qw+aEDh2+UN5tvDKuAXGqGcIfQWek+=
+j?=3D
+ =3D?us-ascii?Q?6KkaZ+6Z5GehI8AOl4oxJolwJDamqCw/mjwbeVjq0VL+kkeQ1a352ZZqYZV=
+x?=3D
+ =3D?us-ascii?Q?DSeB53ip25XkPRmMkSNV/FYerc23GwO+WOsJRm979Jzr0Bai32tzUza8yI7=
+D?=3D
+ =3D?us-ascii?Q?0Y8WoqQ9xyi+cBl6qT2h34MiqlEj4VlSoLsPrI5uJqw+BDdoyMUCVW0lWPY=
+m?=3D
+ =3D?us-ascii?Q?7lAFbKq7VfNI=3D3D?=3D
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;6:bv+wwo3DF3si5YtSgnDtd=
+3FwULObGgJKB7p87TbZzfVMiYL9+ZPwQ/Kk3v4JejcsXop5mJPT3FqFPGRk7A0ZUup81sVlz1Vt=
+BbicylBV4clHwdqmhPYZIlL4B0+NmySVICcwVXua/FHMaOFoW/CjK1yNYrPzAM+nUqOgpBJ4PyC=
+VLS3DAv/ODoGB5hmafNGAhA1jUF3DVO36i9NS4mJIIAQwRM8p9rinoEsBo4jRei00HnjLLKlVLo=
+k4oH9RXKbfUnVyVczxbODgdTP9SlB2qRBS4fhWRZt2yyhkIMAgd2MQ3DF0uGfa9iL8T8M7jrTxf=
+UEMrVj2WQrDWtU1MKgICVEtCwWi+B3/+mrYpRXLQlCHM9f/EJkiL203LxKchnQeLS7+jbXptVL7=
+JeBCkasdV7vKEulwjS6ilnro90RapaU3brGbjb14oZFlvDwK2QS2Q6EaYOh3JKow8eqY5OyvaMv=
+L7p4fhi0m/pNk4zzXYO3kT5MajeRi+2E06X/46HB79ZmLCPzUZHh4qS+v+P7pP1U6Ed3HRZwzfp=
+8uH0cRwCkDXa3XhlfEVDQejVj0nvBSfgfv+jyNpW1bc76n3zFvunPn+1GMoYO6/07z/Z3bz3vfv=
+MQFjcaUL55LbpPsBSEFn8s7+DNEr1j+AF9Q9c6xM5zwv/ccXaziGds/S7gmujl5NIFzFuxzTyiD=
+Gm16w6dqM/v00ZRxsAM8G3weewI59k4kp1PrgGsYZMFMu0QD4b9gLHLyDrtJwtTbN4kzC7naucf=
+IVq+hYXrYGDPkLolgpyONkCJaV7+x2YljbENa+nW0YSsdIy8W9ZJneaJPN90rGgqGNhiTdTwfH5=
+eDHMQ3+ArI9dHABU1sJW86+97CfTqTZqt1bi8wXE7NuCze2ajgDUq5M1pd3A2MhMAoWyYCa8uGv=
+nluKDmmzEtyMgJE3S8=3D
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;5:FPmZsPAqZFvlQeGVjlVUv=
+OAkYxrxP3QToALDFX0A1p3h54NZxfJQzTm/1YbsWd78H1cBhKcXyc3+TTyvlqoC/c2RtaU5blzP=
+3y4AVyFPhLjncNJS6XbtPRlBCk2IoDmu+YX2WO5EEt0sMGMJZOPsH2L1lfrN+YeONm/wzC7h9rr=
+P045n5C7aVIyDkEDUUvLhXVpu70eoO9a77pk+r5x6XEc5Su1iSH4SeTU0+AJkofxRjjJSy2Jmw0=
+bcGN+/6iy2/xtMfcJVlXW4S/GRAMeg2J+U2d9vsXwIFjPNGioPoz0kjAenc6SwRfaf/mrACgkyU=
+IxSqK9jcSbUVVA6FqMEPCURTJU4Kw7httPVje6xyW35JmJlZ7ORS2FANbzVFKgewo0HHUI3Inz7=
+Z3YPHO7zhazYJWHdUMTqQCfHFd/50Ipn4AyeB+pXqitoeMsyBT6uCQ+jDT1P0elflgFUyN4OjdW=
+7mHjSMpwjy3biR5m7MvQuFA6Hq+BUjagFDo3tWdkS;24:U6zffyKX/VM+wBVNcdAfQfiVp2s0kN=
+IAXpnvjvDjtNIVHWW2xsvUIij0vPyj5+7iEyJt8s93mIAkJIYsF+z/MzDSUfdZ7zqLNqHOFfEzn=
+oE=3D
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;7:RvcVxGWPCeZofHBbdainy=
+uv77YHLIkr6v2Msh288TnfGH3WwziOfWA0EsZtciaRXpjikC4ONNmUPhOROoYjMRiYB2uRkKSsy=
+hcGXCuHwV4qF5Hvv4TDbDb8Kh9gFxP4K910KfG/GQaDUbWysSpkJHo2vb2Vt8yNKmQXu0vwBs2A=
+7LDpxMNiVyxwXONaK6WOaRPirIdQOo9TLImoiY1lkWu16tZzRLzqN/R09f9p+JR7NIcZRgvT58Y=
+gzsbYq9YBA+QhCCEi6gDFXFyFmnmtkxOn7KjKwJCB7pqK4qUA5KBHYlhnDlrav2JIGTulW8RiKC=
+lgsyQzmXbTWm4KUwAlUcXfbAK2JN9tmL9IEYkidtC9ICerUgcgZAlGBhj60/NRp5MkT6I2W0Eo7=
+PvsS6MN1XvHc7oxjJ3XAxlOYEGa1K5XsxvO/ei3KUul8m+smvM2h+1F5pO48axVrORC9Kaj6vDI=
+1QXsgHnyYaYqMf6VXGHmn3us/g7bWNjzYarSeiaTCD/UHYtnF/NFINuQqKkxksTU8Bci/TiIbfh=
+/Rm/vlyRyaFw4qBal/K7xf1jRZ/fJOBoeio2TMrlWgUlEzSrX+X8vVqKov3vM0/Vp0WuckUyD8Y=
+qNpdepTQs0XaNTClFFlmDICKQnGQPDSc4v/jkwMZuSPxACr9ayt5cPlIl0KOrHcBFV5IBR1WhQy=
+xYqwUQO0Bln7MGEytkGCoHMyqg8wyFsXMmBHyrWhd7fJi5hOZ8C4DN6yrYqwN6eEwcepE0Vz/Lf=
+AbwwmTEdKmX+fu1/EQkFYvU+YZzBv9MNQSUWnWq2IGY4ECmVv0EzydYs80bzEtkAdn4wnvgX8xK=
+QDhIdcFrY5emjCrZsYzJT/9zcC+Ko=3D
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 06 Jul 2017 08:17:41.1460
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 2eec8d43-0dd7-4584-b232-bd179dbd1610
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN3PR0501MB1154
+X-OrganizationHeadersPreserved: BN3PR0501MB1154.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: SXDCEXEDGE01.aawh.atlasair.com
+</pre>
+</font>
+</body>
+</html>=
+
+--dc3d7195-5d11-49e3-bf84-2d7061e82dc0--
+
+--7bd8fbd2-eb5b-4e3c-bd24-f39451ccbd2f
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;AtlasAir.com
+Received-From-MTA: dns;SXDCEXEDGE01.aawh.atlasair.com
+Arrival-Date: Thu, 6 Jul 2017 08:17:45 +0000
+
+Original-Recipient: rfc822;tony.carder@atlasair.com
+Final-Recipient: rfc822;tony.carder@atlasair.com
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+
+
+--7bd8fbd2-eb5b-4e3c-bd24-f39451ccbd2f
+Content-Type: message/rfc822
+
+Received: from SXDCEXEDGE01.aawh.atlasair.com (192.168.210.71) by
+ SXDCEXHTC04.aawh.atlasair.com (172.19.31.18) with Microsoft SMTP Server (TLS)
+ id 14.3.266.1; Thu, 6 Jul 2017 04:17:45 -0400
+Received: from NAM03-BY2-obe.outbound.protection.outlook.com (216.32.180.50)
+ by SXDCEXEDGE01.aawh.atlasair.com (192.168.210.71) with Microsoft SMTP Server
+ id 14.3.266.1; Thu, 6 Jul 2017 04:10:15 -0400
+Received: from BLUPR05CA0071.namprd05.prod.outlook.com (10.141.20.41) by
+ BN3PR0501MB1154.namprd05.prod.outlook.com (10.160.113.151) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1240.6; Thu, 6 Jul
+ 2017 08:17:42 +0000
+Received: from CY1NAM02FT024.eop-nam02.prod.protection.outlook.com
+ (2a01:111:f400:7e45::205) by BLUPR05CA0071.outlook.office365.com
+ (2a01:111:e400:855::41) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1240.6 via
+ Frontend Transport; Thu, 6 Jul 2017 08:17:42 +0000
+Authentication-Results: spf=pass (sender IP is 98.126.12.226)
+ smtp.mailfrom=sino-progress.com; atlasair.com; dkim=fail (no key for
+ signature) header.d=sino-progress.com;atlasair.com; dmarc=temperror
+ action=none header.from=sino-progress.com;
+Received-SPF: Pass (protection.outlook.com: domain of sino-progress.com
+ designates 98.126.12.226 as permitted sender)
+ receiver=protection.outlook.com; client-ip=98.126.12.226;
+ helo=smtpc2.chinaemail.cn;
+Received: from smtpc2.chinaemail.cn (98.126.12.226) by
+ CY1NAM02FT024.mail.protection.outlook.com (10.152.74.210) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.1220.9 via Frontend Transport; Thu, 6 Jul 2017 08:17:41 +0000
+Received: from smptc1.chinaemail.cn (mx100.chinaemail.cn [67.222.145.67])	by
+ smtpc2.chinaemail.cn (Postfix) with ESMTP id 69C6A211BED	for
+ <tony.carder@atlasair.com>; Thu,  6 Jul 2017 16:17:10 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [124.202.155.146])	by
+ smptc1.chinaemail.cn (Postfix) with ESMTP id 967823478041	for
+ <tony.carder@atlasair.com>; Thu,  6 Jul 2017 16:13:39 +0800 (CST)
+Received: from [192.168.1.203] (unknown [113.110.149.149])	(Authenticated
+ sender: overseas10@sino-progress.com)	by s151v.chinaemail.cn (Bossmail) with
+ ESMTP id E389D4A2314	for <tony.carder@atlasair.com>; Thu,  6 Jul 2017
+ 16:17:21 +0800 (CST)
+Content-Type: multipart/mixed;
+	boundary="===============7706736366400424270=="
+MIME-Version: 1.0
+Subject: Looking for a Partner in UK--ChinaProgress
+From: =?utf-8?q?Joseph=5FChina-Progress?= <overseas10@sino-progress.com>
+To: <tony.carder@atlasair.com>
+Date: Thu, 6 Jul 2017 16:17:26 +0800
+Message-ID: <149932904659.4788.16373088952179772757@DESKTOP-UIM96J7>
+X-MID: 2093652882.2023285583.7.1499329042.8611.18898
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sino-progress.com;
+	s=s123456; t=1499329042;
+	bh=SGcTVO84PkOhuf72OMALJwqH170EWx4kReSTmcNZ4l8=;
+	h=Subject:From:Date:Message-ID;
+	b=TFXVo8+5z8PDa1XfLl/Vo/Sy/SYLWW5h1bhmROEue+7xZCfh/fdX9BCVNAeI9A/j0
+	 KP6PxbLvUK13AJN6aucUbk8roe75/VXe9dt0rsTo5QyehwS6ldluGAqaE459tTCnE4
+	 xn0LztHcaKe9UWu4mUKMXR/DBdPFjrVcsnk1WfNw=
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,tony.carder@atlasair.com,
+Return-Path: overseas10@sino-progress.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 2eec8d43-0dd7-4584-b232-bd179dbd1610:0
+X-MS-Office365-Filtering-HT: Tenant
+X-Forefront-Antispam-Report: CIP:98.126.12.226;IPV:NLI;CTRY:US;EFV:NLI;SFV:NSPM;SFS:(8156002)(2970300002)(438002)(2950300007)(252514010)(199003)(189002)(7596002)(626005)(6916009)(189998001)(19630485002)(100306002)(8676002)(88526003)(77096006)(117156002)(512874002)(606006)(5660300001)(50986999)(2351001)(54356999)(110136004)(19627405001)(84326002)(4610100001)(7636002)(554214002)(2476003)(733005)(9686003)(33716001)(956001)(6306002)(270700001)(356003)(5140100006)(1096003)(106466001)(236005)(16003)(89386003)(86362001)(393484003)(24616003)(19623405001);DIR:INB;SFP:;SCL:1;SRVR:BN3PR0501MB1154;H:smtpc2.chinaemail.cn;FPR:;SPF:Pass;MLV:ovrnspm;A:1;MX:3;PTR:smtpc2.chinaemail.cn;LANG:en;
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;CY1NAM02FT024;1:UHH5qa0aJpzcIIdyg95hwNQZzhY7G8fNH1bVNdJsAC?=
+ =?us-ascii?Q?6df/yq8Qff9JKkAdEWoApqyllsUAcWKCj/+CVWYj7ncBpWXNqvdEhbruZmPv?=
+ =?us-ascii?Q?EFKLAsRkRMQymUptKFalig0J6A5L3oGw9xWh5j8+gaTeUYbX6tAuwixxnUNZ?=
+ =?us-ascii?Q?L0xgdMcFdv3ViXAs51rnmSJJ4fejsUsP7OX0FJv5ZhvefTeyxI4hEgJ16p8g?=
+ =?us-ascii?Q?kr3CT52bHtxJGCRuXVfieyyRWA8PRlyUUMGPxWnAT6jyKvdponrYJ24qlizJ?=
+ =?us-ascii?Q?ULIkhe4Uarf78lBztQfNQ9LS9vYNl2B+3SX42Cm/K6+6TKzfwCmRBerZ6xP/?=
+ =?us-ascii?Q?Alk2wqZaBq3MLxB316ByJhOLYFCdhHEgOzT0ZFTwTrRvVyCoql0WnDLpGhVM?=
+ =?us-ascii?Q?2dbu3LWFZpbGWvSD5KX1G/OYNVdlpMiuDuwanCxnx+1wEw9ALvFGw02HQjS8?=
+ =?us-ascii?Q?IBgZUcPb0Xy748tENvrHtXKqvbzg+r1arVBNn4BH0j6cz3n9Zgc6lk3Tm5oq?=
+ =?us-ascii?Q?LLjS2MDozoHQ0qpb+PARa99/Swi77WsdNxN6aetCBW9vJJopAZvIq+OligBE?=
+ =?us-ascii?Q?mWxNZ9W7o1DKea9UBSRjjXB4sm9pTjQik3ZRn4O8bEjmOW4LfnKrlMn6vhc9?=
+ =?us-ascii?Q?en8GblQ+QfprGLiGfH5ZdoJwcYYAk7ph6PPjLtzNPH18sGgEmYHE1MvP50Ay?=
+ =?us-ascii?Q?03K7JB8DZ8ciwdCo9+sw+ZMrSYP/C4nybnzWyh2rwAPF3lr1FD4pMbZPBaBj?=
+ =?us-ascii?Q?UcclBxXmYnCP+Ya4yAWW+oEWsqhR5GB2kpK/jr86VQUMOjtIEDuI6dbzObkg?=
+ =?us-ascii?Q?rYbjlGyDt9M9GI1hPBHsdgcnsB62T8S/E+RSDMGHS6CKoROXQcSIBhIMxdMs?=
+ =?us-ascii?Q?4X73rP9Bev9vAwoL434YKjsd+gCkKgIOe9BsVxMxMvRVNlMjW+i9XfCs410X?=
+ =?us-ascii?Q?j/0lK6ouirGT/vVKVF2Le8rQGovc3OG+FWjOI86LEZ2RIAgZgR/BEsSX8Aga?=
+ =?us-ascii?Q?H9j+jC2p0Y4m62Ee2v17J/8v+UwJB/ITvLi/GjfGWmEQE45d8vhfgqj+v4uh?=
+ =?us-ascii?Q?RZvzcQJzLbpsQjKT9fx9z0/IT+Tu9GcT5DglGjTKOh3bjsGA=3D=3D?=
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 75a6430b-2c12-4d53-ecac-08d4c44778bf
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(22001)(300000502095)(300135100095)(23075)(3002016)(300000503095)(300135400095)(71702078)(300000504095)(300135200095)(300000505095)(300135600095)(300000506095)(300135500095);SRVR:BN3PR0501MB1154;
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;3:5lN5JjX6DB0ilrY98lskTpqDrsl3CTXGr4ovDyxGRzDeadb1BTsnMJhfp8ZF4ORALZRv0An+Riol/0inr/xshy7duovjUh4QugCU3xTFg3HTjCqjegUcaQFuDCkvjvXYZxr8I3vJRBwcbE3/CvbAHUZZv+QkDjN1sK9XZOdh8kSmO3fwha6FAFn1H4nFjFdQE8HJ8DaOCONUQOJh23iWgvQRyO9L20kV6Td26W+4G019P2nlcuhmqmavH9F5rzyjvBhhm0TiXrH7iR5Jj/jflJXGt6gV1qlplw2aruWCPWq8xBSIr8EYEXXMcdhb9J7K9KqDFT5RJ2u4Fevh8mswVScvyv1Yg6egw4epL40PKN9Zan53R5xWM9Sq4J6mAXr8pcRtIRwL5dd1cfEBWGYbAhG3ayeKoIJhiMCRKVAl9/fNsnQbHD+FSleZBqeMlenLuqDazvN2jb2jpYwME9dyZiP8tWa6UQu126CxNiAiy3YS+N+8DviHmaWn5zb1Q1zZdwTWCBPsVFFduppdBC2qLXtPqFxspXAfz+D4P1wjBOe/QnzusK9h5wNw0o8hXFo5OXyyHXAETJT3K1aBqhhrN0HEy7cls3SETEAhrzZI7XuMQ48/DGaRIVKT1qA6fkI14xQjEoOosB+4Fa7zghuORPK0BJKS249A8+3scn2djSfKnpSxm1uToNTZsK807VtMBac4PQ7u7dB7/owtIgquBqWIAen9fU/AoWpjuo3MDNZqOmkmwOoSsNO9VOIlTP/J8P10ppuC5kP3II5UbzqPngxzexfkujONt9c4K6aVzyo/aO6BrT2Zahge+0NFFtM28Kvn7yTm2/eDHwN5lei5xw==
+X-MS-TrafficTypeDiagnostic: BN3PR0501MB1154:
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;25:u66zbTRgwezX/dFcIVfwSYrAB+rPGeqBD6Qkcnjk2WATLqmsHA6Lk1P6H1ZVtzXvL6H3AyrfnUjvCn5mTLOkDlaCPFWrnI9XOkYSPWp3H4/Wrvc+uVjLrJ+J85hO/buxo0lDTgx973K5II4QyMEZsTLzvzEKKrGhFLGbGHRVsIUZ9NWl0s3BTN07kNZa+1HeGuVIn5K5B+A21AKYt4whCRiNfKHqNuRPvEI5OEq8SydzTxtqaQ8D2pS3M3YfSi/i1oBYdrtHDrlPewJNxEdRrJL62KQneeSqz9d8m/ZLpbFPFxgJ0h3cW7/9DJCuHNzzsMC9uSWw3GYXqO8en1c/78nfIr9pp+48VnSo9E26AoNV25fxW4v6/VRdho76PDm5xxFIdOi+Nl/s/qA3Xxp1nqoW0qxzTzRt4iQIgw48uXgf+YkvUGCi/2YN6ZyT4OXMQytpuDadnJQRoAJp/o/TfgLAwGGj4DD5wyaNzIJFaN11n4WtEZVWPCc01GaSu3jC0d/UJWPjtI7jwSXtrzwta4gZZO+A3rDzSq0SUPklfU2kyGtPF3RK+Gu4lP4JeAy8hP3KtR/LwMDcsR5F3cjTl7FbAEq7EKXvL4WBMVm0wluJclAgCWyliceWWGhmhdOXccIYQ8q/8mgmmbKHMSJA83lWGBCzZrOiDX+J4mMp6tjI895xl6K+2+s9n8lzHH/s01JMD3BOqCV7gwFkCSwZJA4n3eLJC3N80gwMIijArZhndYXapGr9522RT5AqOv6M7YDZn9rk6ujRof2Q77ZuKD4M6bzqFaZsJt6731KbnFeqL5ta8gAx+W/UA8ed5szmdGbuOZhitj724Gj72ofc63owWVlEsgun8n8s6y1OF4bHPsCMMJU7exV9XRbUk40DhX8F1v7x5K2R5MWzmlkZFefgZYGxzFxqLSk5NV0
+ 4pxk=
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;31:iPpS8hzhky5aiz7HNQRWXBYZwlVOnDRzbMCtg1JTbRvpshpZFj3pwAm7plDVHbz4o1WYXAxZ7kWu0ehAl4OHZYPkqJXYBVuTS2PrQ/Vv1+xyU6tgugV0jq71VZ4IkXzSL0VgD9OAziOnCH3M6GiPSAqyS8+YnTvGO4M4c4lFfPOkEUqGNrMkULY8cnxUAZxkGf+bsDM3sntiaHxlA6jznJ9IUCHloDBC/d5gGKSL1ZwsDlCtPyX2hAVIWFCHpHdOhmqGoOuv2jN15wGs/XJ/TDN3iOJgCA+ewOaida2C8xbofgnShb1sYU72NmsvM90nAS7hKS6VuE9PVQp12rLTcbdTz9s/V37rHkEgyzni78ZzPjTd1Ww4SgHk+s2E8JTKl7ECfDqsPh7hrde6iptF7cvq2ajAWoShGbH2jmy2P8YsKNL27M+YNnVJXnNydqHEZub9ck8B41Tm44wReSBdpV2PXZeQujQcVm1vN+Ofiqx6c1XHxK0ycrM+hQOPJpZQCR6tX7yALXQjx7Z59Zcn1kDu3Pu8kNYKeSbgpaHvX7iG1hYHsX5QFt7vhBhlpqH3kow2rkdDZ9/HGRENZ7YwYSzjxixvUlz0YwdDnWjKReZuusyZee0Ip0zWuEcCjBGqR/l4wmtDTEyTJ/l4wYwF2ZXnfuPt5fcHeQARP0s+73Z4aGL/KjEsHwOWRXKwMdc3+TsKFKoGJl3kO5fuwQAh0PIsxFWBjEl14mZrQHUapn/Z6nUbdBGFFJyfP4dwyd+90UNZIuH5oBPFuEXfhajOGQ==
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;20:Bh544cR/0t7BUpQh5f3tvBMMfYOOJ3qt1rVBY52kI1zu4LvnT9VNcJUgeV27SW6nwPcsY1f98/+6Ukoz3SoCCcF6k9/Sw/nyh0AZUT8WVvT8g8EQMIoPk6PLYnjSc1OHhpmXmXKLNGJNBS0mk1nen4GqkGAXlX8Zy8d36FYZopS8gUiq0PT87PmJW30anHX/uiEi2mhiwL6xTzMMuDPLQ+IOUwLfTSq86QPI4tcLMWnvx0BXNfro18m1FJJeOC0kCMgeKW7jlXh9gJkCeDJSKBi9f14tJ8D3Tj5CJtTDHoisdufS9yXP8u2sDl+GQdgmkC7gUPTyCJrT7DilFDYrXplzCBXoe8VktzXXN6emWk7ihr8GmNZD0xrhN83/tkmJ0BdLFnM6EABe1KyQe81oI37D7XjAGcZ+JvEnI/XwwFo0ngF+9wPnnw/lxWoZB+FeBNp5wQZIZs6tdOEFfPH+h6xmvhR3eWKzAaCl66h0gyKCGq0XuM38qjBaQtNXULBO
+X-Exchange-Antispam-Report-Test: UriScan:(151999592597050)(236129657087228)(48057245064654)(269995582827781)(231433314529491)(92977632026198);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(601004)(2401047)(13016025)(13018025)(8121501046)(9101536074)(3002001)(10201501046)(100000703101)(100105400095)(93006095)(93004095)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:BN3PR0501MB1154;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:BN3PR0501MB1154;
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;BN3PR0501MB1154;4:QIFupIyFw6nxJ3iXNESrmvLBHIDBCyd8OStNS2Dd?=
+ =?us-ascii?Q?fLwmYW/hEf0Xr/Fq7vXxAoI2AtabU4UmgoORxMDvZvBrh0VNm6YG1KKY9YrC?=
+ =?us-ascii?Q?W3mBq93ZYDXMH2mOovUUxNVnIceIBETWQDmd/kgldVAVx3IsNJ7z0tHpRQEf?=
+ =?us-ascii?Q?m0CYbLsa1KV+g5EbnfCILZmcdiidc3XAvCCZNUkbz0OeCJ6NXQmgBlkGkyrN?=
+ =?us-ascii?Q?JyEIhOkwMaQKbCvx2Zdq6tzw/k6Z8373Ys5j/YWj0k48wJPIwsHrUA6QPAM+?=
+ =?us-ascii?Q?NWYopohGecD1RrLpjD45Dz2lO6noD+wId2ljGpLJQGv5klbwStVNYHehqwea?=
+ =?us-ascii?Q?a9w7hXXWic88mDKHpPhzWnbbmbMsStfrT2VNVij2R8vdeHl/MIj/Oya8LqCz?=
+ =?us-ascii?Q?BsN3Jt2Ms7XNc+KPmBpHvr9yf3sKlPNkIJWdPF5v8ctWUPDnHgjs1mHr3QYx?=
+ =?us-ascii?Q?zsmoJzNrZjoYIspqf2sxDZtsi2q0Ksp1stESkSZG+dSC4g8jyvFup/oMym/0?=
+ =?us-ascii?Q?NxZrXAKfCpb0eQM1tjeUZOghkFHyGi0oA0JZ1do/X1YumSblDCOuymrJlXi4?=
+ =?us-ascii?Q?0N9f10R2eiNuwwEgeXMkMnHGnXy5YdTYNycsTgLCieTuHSCwnvlX5pAFgTdN?=
+ =?us-ascii?Q?+YgyIsXO8AyHCYKQuMHnrfkqCm8Ra4nkh/ZhuUNtdSeAHSf54ofVW2VJEDQi?=
+ =?us-ascii?Q?W3Ef0S4nxsTaW7NGZ0oa+D9zQdTFYSocBKsYYLFuGi7SxHcAJUa8hBcj0APF?=
+ =?us-ascii?Q?oiygVXKEo308kskjJFTSDhzclerRBmaOhtOEb7vineOVKjBCdissjC92RYaZ?=
+ =?us-ascii?Q?uqyb1oWOo8AOwxEbWrVJWP5o7XoxBdWBZ+qd3k/FpEGPWJOJmHX69jf24tTT?=
+ =?us-ascii?Q?3iqLekEEsN5uOYIuvYlxqcSt8Plw3vvHFzpMzUXwyvLiH/WL7lkCThCxNgZD?=
+ =?us-ascii?Q?Wcq1HGhlca5UPdBb/Kzz2Wq69/wrNcsMIviAD6BLPZ8BY4BHtEykZ0LR8B6y?=
+ =?us-ascii?Q?0rVSsRw1xXaYpt4OFzw3D54mHEsEiiJ1H7Nj8TXMRWk18Q=3D=3D?=
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;BN3PR0501MB1154;23:769daRVBYY4HggE9SKrViIBsww6XJuCODAdf2qf?=
+ =?us-ascii?Q?+Dt0C9tDp15vPL4+KuIWDFkq3rwPvV0vbhmfC1fxbsyTrqnvMUYO9ZNPBPEW?=
+ =?us-ascii?Q?csLTz28ReNNOfmS1nRYifC8PW6BcxoLGKeTUv2N4NNQ436AGSiUMl3f8rmHl?=
+ =?us-ascii?Q?GHlVYDp3OBYwAmdrOKgWgYGik/5ISMW781oM26BUyhznz2sn6taEpr02K0+/?=
+ =?us-ascii?Q?WioSWUFqFd5eoxPDGXDGNeBtktujywmX4BAN0zQZll8UTUySHGQsZuBhIWYf?=
+ =?us-ascii?Q?WW5jE8jHZIk1kV7WpGv0sJlhikzlA+ZsM4sKo83FARgsX+NPTTLW5LCuEAde?=
+ =?us-ascii?Q?/fTE8YWIxnU5TFFVBCQ5av8gpdsAP+QGLcg9F2rli7/LgXXv+ON4uYWiFwES?=
+ =?us-ascii?Q?U7CFi/lKNiCCvgMUKLgqz03Ccni2k2u5+XB8/Ukh+Qs2GCz7uCQoXyWAq0wx?=
+ =?us-ascii?Q?a14SkJ4C9E0zoSFPBL198enohRVe/eAM5CuGyTinoqrInF4ELE/8HpTwp7kS?=
+ =?us-ascii?Q?rpXONxd1AzTiAo54HEH1yBYMkxrwv6bB4ri/nmt28gvjuTOnwT/hQcaXs9Q/?=
+ =?us-ascii?Q?r5ISHF408k7KrfsSBRA9/UKmgFElgKXWT7glk8XNP6PrNjXxMYh4fmsU28jd?=
+ =?us-ascii?Q?xEkkIotJ7OG773FJeMHPRoTk8gHAUAVXkCibGf7PcSH2fzOeQKdK/uPKu5CJ?=
+ =?us-ascii?Q?NWktkImGgOA1H3WGHlQa85LAagxJxIlS2sxzmYg3hiI/kfke9FHdw1/D2yg2?=
+ =?us-ascii?Q?WdGyiccDsBIM1HmIJ7K64Jjvp9GkG1YFr9CKycCXmewyslaPnFYF9nuWJ+cm?=
+ =?us-ascii?Q?txbKAMzaBe/qiqrATvlHIc2K8Hzn2vzLvZSlEdWn+CVF+Mgv8RfkA/v7Zs7g?=
+ =?us-ascii?Q?Q9YMfFpDqerCwlcuog74wF0MHgR1/qw+aEDh2+UN5tvDKuAXGqGcIfQWek+j?=
+ =?us-ascii?Q?6KkaZ+6Z5GehI8AOl4oxJolwJDamqCw/mjwbeVjq0VL+kkeQ1a352ZZqYZVx?=
+ =?us-ascii?Q?DSeB53ip25XkPRmMkSNV/FYerc23GwO+WOsJRm979Jzr0Bai32tzUza8yI7D?=
+ =?us-ascii?Q?0Y8WoqQ9xyi+cBl6qT2h34MiqlEj4VlSoLsPrI5uJqw+BDdoyMUCVW0lWPYm?=
+ =?us-ascii?Q?7lAFbKq7VfNI=3D?=
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;6:bv+wwo3DF3si5YtSgnDtd3FwULObGgJKB7p87TbZzfVMiYL9+ZPwQ/Kk3v4JejcsXop5mJPT3FqFPGRk7A0ZUup81sVlz1VtBbicylBV4clHwdqmhPYZIlL4B0+NmySVICcwVXua/FHMaOFoW/CjK1yNYrPzAM+nUqOgpBJ4PyCVLS3DAv/ODoGB5hmafNGAhA1jUF3DVO36i9NS4mJIIAQwRM8p9rinoEsBo4jRei00HnjLLKlVLok4oH9RXKbfUnVyVczxbODgdTP9SlB2qRBS4fhWRZt2yyhkIMAgd2MQ3DF0uGfa9iL8T8M7jrTxfUEMrVj2WQrDWtU1MKgICVEtCwWi+B3/+mrYpRXLQlCHM9f/EJkiL203LxKchnQeLS7+jbXptVL7JeBCkasdV7vKEulwjS6ilnro90RapaU3brGbjb14oZFlvDwK2QS2Q6EaYOh3JKow8eqY5OyvaMvL7p4fhi0m/pNk4zzXYO3kT5MajeRi+2E06X/46HB79ZmLCPzUZHh4qS+v+P7pP1U6Ed3HRZwzfp8uH0cRwCkDXa3XhlfEVDQejVj0nvBSfgfv+jyNpW1bc76n3zFvunPn+1GMoYO6/07z/Z3bz3vfvMQFjcaUL55LbpPsBSEFn8s7+DNEr1j+AF9Q9c6xM5zwv/ccXaziGds/S7gmujl5NIFzFuxzTyiDGm16w6dqM/v00ZRxsAM8G3weewI59k4kp1PrgGsYZMFMu0QD4b9gLHLyDrtJwtTbN4kzC7naucfIVq+hYXrYGDPkLolgpyONkCJaV7+x2YljbENa+nW0YSsdIy8W9ZJneaJPN90rGgqGNhiTdTwfH5eDHMQ3+ArI9dHABU1sJW86+97CfTqTZqt1bi8wXE7NuCze2ajgDUq5M1pd3A2MhMAoWyYCa8uGvnluKDmmzEtyMgJE
+ 3S8=
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;5:FPmZsPAqZFvlQeGVjlVUvOAkYxrxP3QToALDFX0A1p3h54NZxfJQzTm/1YbsWd78H1cBhKcXyc3+TTyvlqoC/c2RtaU5blzP3y4AVyFPhLjncNJS6XbtPRlBCk2IoDmu+YX2WO5EEt0sMGMJZOPsH2L1lfrN+YeONm/wzC7h9rrP045n5C7aVIyDkEDUUvLhXVpu70eoO9a77pk+r5x6XEc5Su1iSH4SeTU0+AJkofxRjjJSy2Jmw0bcGN+/6iy2/xtMfcJVlXW4S/GRAMeg2J+U2d9vsXwIFjPNGioPoz0kjAenc6SwRfaf/mrACgkyUIxSqK9jcSbUVVA6FqMEPCURTJU4Kw7httPVje6xyW35JmJlZ7ORS2FANbzVFKgewo0HHUI3Inz7Z3YPHO7zhazYJWHdUMTqQCfHFd/50Ipn4AyeB+pXqitoeMsyBT6uCQ+jDT1P0elflgFUyN4OjdW7mHjSMpwjy3biR5m7MvQuFA6Hq+BUjagFDo3tWdkS;24:U6zffyKX/VM+wBVNcdAfQfiVp2s0kNIAXpnvjvDjtNIVHWW2xsvUIij0vPyj5+7iEyJt8s93mIAkJIYsF+z/MzDSUfdZ7zqLNqHOFfEznoE=
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-Microsoft-Exchange-Diagnostics: 1;BN3PR0501MB1154;7:RvcVxGWPCeZofHBbdainyuv77YHLIkr6v2Msh288TnfGH3WwziOfWA0EsZtciaRXpjikC4ONNmUPhOROoYjMRiYB2uRkKSsyhcGXCuHwV4qF5Hvv4TDbDb8Kh9gFxP4K910KfG/GQaDUbWysSpkJHo2vb2Vt8yNKmQXu0vwBs2A7LDpxMNiVyxwXONaK6WOaRPirIdQOo9TLImoiY1lkWu16tZzRLzqN/R09f9p+JR7NIcZRgvT58YgzsbYq9YBA+QhCCEi6gDFXFyFmnmtkxOn7KjKwJCB7pqK4qUA5KBHYlhnDlrav2JIGTulW8RiKClgsyQzmXbTWm4KUwAlUcXfbAK2JN9tmL9IEYkidtC9ICerUgcgZAlGBhj60/NRp5MkT6I2W0Eo7PvsS6MN1XvHc7oxjJ3XAxlOYEGa1K5XsxvO/ei3KUul8m+smvM2h+1F5pO48axVrORC9Kaj6vDI1QXsgHnyYaYqMf6VXGHmn3us/g7bWNjzYarSeiaTCD/UHYtnF/NFINuQqKkxksTU8Bci/TiIbfh/Rm/vlyRyaFw4qBal/K7xf1jRZ/fJOBoeio2TMrlWgUlEzSrX+X8vVqKov3vM0/Vp0WuckUyD8YqNpdepTQs0XaNTClFFlmDICKQnGQPDSc4v/jkwMZuSPxACr9ayt5cPlIl0KOrHcBFV5IBR1WhQyxYqwUQO0Bln7MGEytkGCoHMyqg8wyFsXMmBHyrWhd7fJi5hOZ8C4DN6yrYqwN6eEwcepE0Vz/LfAbwwmTEdKmX+fu1/EQkFYvU+YZzBv9MNQSUWnWq2IGY4ECmVv0EzydYs80bzEtkAdn4wnvgX8xKQDhIdcFrY5emjCrZsYzJT/9zcC+Ko=
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 06 Jul 2017 08:17:41.1460
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 2eec8d43-0dd7-4584-b232-bd179dbd1610
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN3PR0501MB1154
+X-OrganizationHeadersPreserved: BN3PR0501MB1154.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: SXDCEXEDGE01.aawh.atlasair.com
+
+--===============7706736366400424270==
+Content-Type: multipart/alternative;
+	boundary="===============4117880514604892374=="
+MIME-Version: 1.0
+
+--===============4117880514604892374==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+--===============4117880514604892374==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+	<head>
+		<!-- NAME: SIMPLE TEXT -->
+		<!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+		<meta charset=3D"UTF-8">
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+		<title>Greetings From China Progress International Freight Forwarding Com=
+pany</title>
+       =20
+    <style type=3D"text/css">
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=3Dtel],a[href^=3Dsms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.Ext=
+ernalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		#bodyCell{
+			padding:10px;
+		}
+		.templateContainer{
+			max-width:600px !important;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want =
+to choose colors that match your company's branding.
+	*/
+		body,#bodyTable{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want =
+to choose colors that match your company's branding.
+	*/
+		#bodyCell{
+			/*@editable*/border-top:0;
+		}
+	/*
+	@tab Page
+	@section Email Border
+	@tip Set the border for your email.
+	*/
+		.templateContainer{
+			/*@editable*/border:0;
+		}
+	/*
+	@tab Page
+	@section Heading 1
+	@tip Set the styling for all first-level headings in your emails. These sh=
+ould be the largest of your headings.
+	@style heading 1
+	*/
+		h1{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:26px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 2
+	@tip Set the styling for all second-level headings in your emails.
+	@style heading 2
+	*/
+		h2{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:22px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 3
+	@tip Set the styling for all third-level headings in your emails.
+	@style heading 3
+	*/
+		h3{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:20px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 4
+	@tip Set the styling for all fourth-level headings in your emails. These s=
+hould be the smallest of your headings.
+	@style heading 4
+	*/
+		h4{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:18px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Style
+	@tip Set the borders for your email's header area.
+	*/
+		#templateHeader{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Header
+	@section Header Text
+	@tip Set the styling for your email's header text. Choose a size and color=
+ that is easy to read.
+	*/
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Link
+	@tip Set the styling for your email's header links. Choose a color that he=
+lps them stand out from your text.
+	*/
+		#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Body
+	@section Body Style
+	@tip Set the borders for your email's body area.
+	*/
+		#templateBody{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Body
+	@section Body Text
+	@tip Set the styling for your email's body text. Choose a size and color t=
+hat is easy to read.
+	*/
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Body
+	@section Body Link
+	@tip Set the styling for your email's body links. Choose a color that help=
+s them stand out from your text.
+	*/
+		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Footer
+	@section Footer Style
+	@tip Set the borders for your email's footer area.
+	*/
+		#templateFooter{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Footer
+	@section Footer Text
+	@tip Set the styling for your email's footer text. Choose a size and color=
+ that is easy to read.
+	*/
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Footer
+	@section Footer Link
+	@tip Set the styling for your email's footer links. Choose a color that he=
+lps them stand out from your text.
+	*/
+		#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
+			/*@editable*/color:#202020;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	@media only screen and (min-width:768px){
+		.templateContainer{
+			width:600px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#bodyCell{
+			padding-top:10px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImage{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCapti=
+onBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcn=
+ImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionR=
+ightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRi=
+ghtImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCar=
+dRightTextContentContainer{
+			max-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer{
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupContent{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter =
+.mcnTextContent{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardTopImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:=
+last-child .mcnTextContent{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardBottomImageContent{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockInner{
+			padding-top:0 !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockOuter{
+			padding-top:9px !important;
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnTextContent,.mcnBoxedTextContentColumn{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+			padding-right:18px !important;
+			padding-bottom:0 !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcpreview-image-uploader{
+			display:none !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 1
+	@tip Make the first-level headings larger in size for better readability o=
+n small screens.
+	*/
+		h1{
+			/*@editable*/font-size:22px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 2
+	@tip Make the second-level headings larger in size for better readability =
+on small screens.
+	*/
+		h2{
+			/*@editable*/font-size:20px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 3
+	@tip Make the third-level headings larger in size for better readability o=
+n small screens.
+	*/
+		h3{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 4
+	@tip Make the fourth-level headings larger in size for better readability =
+on small screens.
+	*/
+		h4{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Boxed Text
+	@tip Make the boxed text larger in size for better readability on small sc=
+reens. We recommend a font size of at least 16px.
+	*/
+		table.mcnBoxedTextContentContainer td.mcnTextContent,td.mcnBoxedTextConte=
+ntContainer td.mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Header Text
+	@tip Make the header text larger in size for better readability on small s=
+creens.
+	*/
+		td#templateHeader td.mcnTextContent,td#templateHeader td.mcnTextContent p=
+{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Body Text
+	@tip Make the body text larger in size for better readability on small scr=
+eens. We recommend a font size of at least 16px.
+	*/
+		td#templateBody td.mcnTextContent,td#templateBody td.mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Footer Text
+	@tip Make the footer content text larger in size for better readability on=
+ small screens.
+	*/
+		td#templateFooter td.mcnTextContent,td#templateFooter td.mcnTextContent p=
+{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}</style></head>
+    <body>
+		<!--*|IF:MC_PREVIEW_TEXT|*-->
+		<!--[if !gte mso 9]><!----><span class=3D"mcnPreviewText" style=3D"displa=
+y:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opac=
+ity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT=
+|*</span><!--<![endif]-->
+		<!--*|END:IF|*-->
+        <center>
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable">
+                <tr>
+                    <td align=3D"left" valign=3D"top" id=3D"bodyCell">
+                        <!-- BEGIN TEMPLATE // -->
+						<!--[if gte mso 9]>
+						<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" width=3D"600" style=3D"width:600px;">
+						<tr>
+						<td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:600p=
+x;">
+						<![endif]-->
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" class=3D"templateContainer">
+                            <tr>
+                                <td valign=3D"top" id=3D"templateHeader"></=
+td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateBody"><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D=
+"mcnTextBlock" style=3D"min-width:100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"padding=
+-top:9px;">
+              	<!--[if mso]>
+				<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" style=3D"width:100%;">
+				<tr>
+				<![endif]-->
+			   =20
+				<!--[if mso]>
+				<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+				<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"max-width:100%; min-width:100%;" width=3D"100%" class=
+=3D"mcnTextContentContainer">
+                    <tbody><tr>
+                       =20
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18p=
+x;">
+                       =20
+                            <span style=3D"font-family:arial,helvetica neue=
+,helvetica,sans-serif">Dear manager of Atlas Air ,<br>
+<br>
+Greetings from <strong>China-Progress Int'l Freight Forwarding</strong>, Ch=
+ina!<br>
+<br>
+This is Joseph,&nbsp;it is so nice to know your good company from<strong>&n=
+bsp;AZFreight Members Directory.</strong><br>
+<br>
+We are looking for a reliable cooperator in <strong>UK,</strong> who can be=
+ our representative to provide local service and free-handling.&nbsp;<br>
+<br>
+<strong>And also we wish to be your trusted partner in China.</strong><br>
+<br>
+<strong>China Progress is&nbsp;</strong></span>
+
+<ul>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>14 years experienced</strong> Freight Forwarder&nbsp;</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+member of <strong>WCA, FIATA, CIFA</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+NVOCC Class-A freight forwarder</span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>We have</strong></span>
+
+<ul>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>4 office</strong> in China (located in <strong>Shenzhen, Guangzhou =
+, Shanghai, Qingdao</strong> respectively)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>3 overseas office</strong> (located in <strong>US, Canada and Vietn=
+am</strong> respectively.)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>200+ stuff</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>55 container trucks</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>1000 sq ft warehouse</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Our own broker office in Shenzhen</strong></span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>Our service </strong>covers</span>
+
+<ul>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Sea Freight</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Air Freight</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Logistics</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Transport and Distribution</span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>Please don't hesitate to contact me for any assistance you need from Ch=
+ina.</strong></span>
+
+<div><br>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">I am =
+looking forward to your reply! Wish we could start cooperation very soon .<=
+/span><br>
+&nbsp;
+<div>
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Thanks &amp; Regards,</span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Joseph Li&nbsp;</strong></span></div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Overseas Dept.<br>
+Email: overseas10@sino-progress.com<br>
+<strong><em>Service Drives Value=E2=80=A6=E2=80=A6</em></strong><br>
+<strong>CHINA&nbsp;PROGRESS INT'L FORWARDING CO.,LTD&nbsp;</strong><br>
+NVOCC:MOC-NV 03517<br>
+Cell: +86-13714780856<br>
+<a href=3D"http://www.sino-progress.com/">WWW.SINO-PROGRESS.COM</a><br>
+&nbsp;CHINA&nbsp; -&nbsp;&nbsp; VIETNAM &nbsp;-&nbsp; U.S.A.&nbsp; &nbsp;-&=
+nbsp; &nbsp;CANADA</span></div>
+</div>
+
+<div>
+<div align=3D"left"><span style=3D"font-family:arial,helvetica neue,helveti=
+ca,sans-serif"><img data-file-id=3D"2715261" src=3D"https://gallery.mailchi=
+mp.com/3cad518a16e6e9e8280a70c63/images/114709a2-d4d1-4ae6-a900-90d97573805=
+1.jpg" style=3D"border: 0px  ; margin: 0px;"></span></div>
+</div>
+</div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+               =20
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateFooter"></=
+td>
+                            </tr>
+                        </table>
+						<!--[if gte mso 9]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>=
+
+--===============4117880514604892374==--
+
+--===============7706736366400424270==--
+
+--7bd8fbd2-eb5b-4e3c-bd24-f39451ccbd2f--

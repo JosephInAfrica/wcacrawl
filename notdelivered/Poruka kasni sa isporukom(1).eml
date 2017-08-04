@@ -1,0 +1,135 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi95.chinaemail.cn (unknown [115.182.8.95])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id E022B4A22E2
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 20:41:43 +0800 (CST)
+X-SBRS: 2.5
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1BMAwAdKV5ZfckMyNR5AQUBCwGFTI58k18Bny8UAQIBAQEBAQEBEwEBCxQIh2APUYoyAQGzZIgoPIMSgi94gw4HiXcPAQIBaIUtnw4BAhyBR5QVAZAplTg2gSALhhYBCwGCSHSGMw8XBIIVAQEB
+X-IronPort-AV: E=Sophos;i="5.40,317,1496073600"; 
+   d="scan'208";a="203984563"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi95.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 06 Jul 2017 20:41:45 +0800
+Received: from e11mailgw08.open.telekom.rs (e11mailgw08.open.telekom.rs [212.200.12.201])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id 5DF1EC08E5
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 20:41:17 +0800 (CST)
+Received: from localhost by e11mailgw08.open.telekom.rs;
+  06 Jul 2017 14:41:37 +0200
+Message-Id: <8d7aa1$2oudrt@mailgw08.open.telekom.rs>
+Date: 06 Jul 2017 14:41:37 +0200
+To: overseas10@sino-progress.com
+From: "Mail Delivery System" <MAILER-DAEMON@e11mailgw08.open.telekom.rs>
+Subject: Poruka kasni sa isporukom
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status; boundary="5Zle6.5KwLm0hAz.3m4lWmc4nd6.956/jey"
+X-MID: 2093652882.787248743.2.1499344903.919323.23507
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--5Zle6.5KwLm0hAz.3m4lWmc4nd6.956/jey
+content-type: text/plain;
+    charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Postovani,
+
+Poruka za email adresu: londonap@airserbia.com kasni sa slanjem zbog nedost=
+upnosti destinacije.
+
+
+--5Zle6.5KwLm0hAz.3m4lWmc4nd6.956/jey
+content-type: message/delivery-status
+
+Reporting-MTA: dns; e11mailgw08.open.telekom.rs
+
+Final-Recipient: rfc822;londonap@airserbia.com
+Action: delayed
+Status: 4.0.0 (temporary failure)
+Remote-MTA: dns; [212.200.12.10]
+Diagnostic-Code: smtp; 4.1.0 - Unknown address error 451-'4.2.1 mailbox temporarily disabled: londonap@airserbia.com' (delivery attempts: 8)
+Will-Retry-Until: 09 Jul 2017 10:17:56 +0200
+
+--5Zle6.5KwLm0hAz.3m4lWmc4nd6.956/jey
+content-type: message/rfc822
+
+X-IronPort-AV: E=Sophos;i="5.40,316,1496095200"; 
+   d="scan'208,217";a="93256198"
+Received: from unknown (HELO exchange1.jat.local) ([91.194.217.11])
+  by e12mailgw08.open.telekom.rs with ESMTP; 06 Jul 2017 10:17:32 +0200
+Received: from BEGIT01EX02.JU.AIRSERBIA.COM (10.1.10.31) by
+ EXCHANGE1.jat.local (10.1.20.17) with Microsoft SMTP Server id 14.1.438.0;
+ Thu, 6 Jul 2017 10:17:29 +0200
+X-CrossPremisesHeadersFilteredBySendConnector: BEGIT01EX02.JU.AIRSERBIA.COM
+Received: from BEGIT01EX02.JU.AIRSERBIA.COM (10.1.10.31) by
+ BEGIT01EX02.JU.AIRSERBIA.COM (10.1.10.31) with Microsoft SMTP Server (TLS) id
+ 15.0.1178.4; Thu, 6 Jul 2017 10:18:13 +0200
+Received: from mail6.bemta3.messagelabs.com (195.245.230.39) by
+ BEGIT01EX02.JU.AIRSERBIA.COM (10.1.10.31) with Microsoft SMTP Server (TLS) id
+ 15.0.1178.4 via Frontend Transport; Thu, 6 Jul 2017 10:18:13 +0200
+Return-Path: <overseas10@sino-progress.com>
+Received: from [195.245.230.83] by server-14.bemta-3.messagelabs.com id
+ 44/2A-01862-912FD595; Thu, 06 Jul 2017 08:17:29 +0000
+Authentication-Results: mx.messagelabs.com; spf=pass 
+  (server-8.tower-208.messagelabs.com: domain of sino-progress.com 
+  designates 98.126.12.226 as permitted 
+  sender)smtp.mailfrom=sino-progress.com
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFlrPKsWRWlGSWpSXmKPExsWSVMfzSFf8U2y
+  kwfpuG4vJrQtYHRg95l5fzhbAGMWamZeUX5HAmnG/4T1TQetsxopHbzaxNDB+re9i5OIQEjjN
+  KDHl9UNmCOcgo0T3s25GCOcTo8T6V4uBHE4OZgE/ifOPv7OB2LwCghInZz5hAbGFBYwl3q7aA
+  lbDJuAhMW/GGzBbREBK4vi692D1LAKqEnMePWSE6HWWWLFsK1Ccg0NCwEzi6vY0kF0sAm+YJB
+  4cXs0MUiMhwC2x890BJogaTYkly7whwgoS2z9OYprAyD8LyUWzkFwEEQ+VmPFvMpo4B1BcU2L
+  9Ln1M5fIS29/OYYawNSRa58xlx6ameets5gWMXKsYNYpTi8pSi3QNLfSSijLTM0pyEzNzdA0N
+  jPVyU4uLE9NTcxKTivWS83M3MQIjpp6BgXEH4+/TnocYJTmYlER5xQ/HRgrxJeWnVGYkFmfEF
+  5XmpBYfYpTh4FCS4A36CJQTLEpNT61Iy8wBxi5MWoKDR0mE9887oDRvcUFibnFmOkTqFGMgx4
+  oFW78wcXybuh1Ibprx8xsTxyUwuev3ie9MHIfA5DEQKcSSl5+XKiXO6wKyRwBkUEZpHtwaWDq
+  6xCgrJczLyMDAIMRTkFqUm1mCKv+KUZyDUUmYNxVkCk9mXgncNa+ADmUCOlSxMQbk0JJEhJRU
+  A2Oxj/KHC8o+c0MlNugk7LIQTdr/KHCpe0c8700TresSz95Xf+MxTZPPvXXzmM+jnYrdMQqL5
+  Dbzrpzo+vvmn/83/DcW/pi3dWl1W2qh3/bZOiddbjK8SHMMPXfAf+o8v55Tph+XVqjJir3ue3
+  9vsuvCBy82OBqLsl5cZH2zLEvt9SPpo2tfmu9WYinOSDTUYi4qTgQA6UpbLkIDAAA=
+X-Env-Sender: overseas10@sino-progress.com
+X-Msg-Ref: server-8.tower-208.messagelabs.com!1499329042!12806658!1
+X-Originating-IP: [98.126.12.226]
+X-SpamReason: No, hits=3.2 required=7.0 tests=newsletters: ,
+  BODY_RANDOM_LONG,FROM_EXCESS_QP,HTML_90_100,HTML_MESSAGE,HTML_TINY_FONT,
+  MAILTO_TO_SPAM_ADDR,MIME_HTML_MOSTLY,MPART_ALT_DIFF
+X-StarScan-Received:
+X-StarScan-Version: 9.4.25; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 13536 invoked from network); 6 Jul 2017 08:17:27 -0000
+Received: from smtpc2.chinaemail.cn (HELO smtpc2.chinaemail.cn)
+ (98.126.12.226)  by server-8.tower-208.messagelabs.com with
+ DHE-RSA-AES256-GCM-SHA384 encrypted SMTP; 6 Jul 2017 08:17:27 -0000
+Received: from smptc1.chinaemail.cn (mx100.chinaemail.cn [67.222.145.67])	by
+ smtpc2.chinaemail.cn (Postfix) with ESMTP id 98247211BE9	for
+ <londonap@airserbia.com>; Thu,  6 Jul 2017 16:16:51 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [124.202.155.146])	by
+ smptc1.chinaemail.cn (Postfix) with ESMTP id CBD3734780BA	for
+ <londonap@airserbia.com>; Thu,  6 Jul 2017 16:13:13 +0800 (CST)
+Received: from [192.168.1.203] (unknown [113.110.149.149])	(Authenticated
+ sender: overseas10@sino-progress.com)	by s151v.chinaemail.cn (Bossmail) with
+ ESMTP id 5488C4A22FC	for <londonap@airserbia.com>; Thu,  6 Jul 2017 16:16:58
+ +0800 (CST)
+Content-Type: multipart/mixed;
+	boundary="===============5202358188550181051=="
+MIME-Version: 1.0
+Subject: Looking for a Partner in UK--ChinaProgress
+From: =?utf-8?q?Joseph=5FChina-Progress?= <overseas10@sino-progress.com>
+To: <londonAP@airserbia.com>
+Date: Thu, 6 Jul 2017 16:17:03 +0800
+Message-ID: <149932902298.4788.6922606044903979396@DESKTOP-UIM96J7>
+X-MID: 2093652882.4160285310.4.1499329018.424211.20975
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sino-progress.com;
+	s=s123456; t=1499329018;
+	bh=ZS8CiAWuv5EXoBHHnmCH2/Tr8MJtqFWQEtLaNhvLc8s=;
+	h=Subject:From:Date:Message-ID;
+	b=aE6tFdQ+DFfaoqPaCtgXCXLjaS3jOGthDgZTQi4tKgbfKndvyZny0PLJjmlywbTLC
+	 yhWIvPV+oZ1RvIM4xRLgV/6//pQUOQrEkRTQwsCEWS1U7vQEsBXNkBC/eHGasTUfNo
+	 G0uWPxHoBuA+F9HupSoBdb2asMMAuj/1lFXj2E5Q=
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,londonap@airserbia.com,
+X-OrganizationHeadersPreserved: BEGIT01EX02.JU.AIRSERBIA.COM
+
+--5Zle6.5KwLm0hAz.3m4lWmc4nd6.956/jey--
+
+

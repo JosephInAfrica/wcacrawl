@@ -1,0 +1,334 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi110.chinaemail.cn (unknown [115.182.8.110])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 4E7974A22F5
+	for <overseas10@sino-progress.com>; Thu, 20 Jul 2017 12:05:07 +0800 (CST)
+X-SBRS: 0.8
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A0CAEwBGH3BZbLUifmJ3AQEEAQEKAQGDLS0nAzcBAoEUolwBkxqBMQMCgQiESnEUgy9GEQECAQEBAQEBARMLCwsGKi+FQgoFAQsoAQohIwwHDgINBBBRiU5hBQuST41WkA6CJogjgVKBXoEeggqFLQEBhhI3gRURAgFaglQWGoI2iVaIDFWMWicBHoctgQyLNQ2CDFeEeIpVlVw5AWkzC4QegXgBAQgCAUMcgXQzNgGJHwEBAQ
+X-IPAS-Result: A0CAEwBGH3BZbLUifmJ3AQEEAQEKAQGDLS0nAzcBAoEUolwBkxqBMQMCgQiESnEUgy9GEQECAQEBAQEBARMLCwsGKi+FQgoFAQsoAQohIwwHDgINBBBRiU5hBQuST41WkA6CJogjgVKBXoEeggqFLQEBhhI3gRURAgFaglQWGoI2iVaIDFWMWicBHoctgQyLNQ2CDFeEeIpVlVw5AWkzC4QegXgBAQgCAUMcgXQzNgGJHwEBAQ
+X-IronPort-AV: E=Sophos;i="5.40,382,1496073600"; 
+   d="scan'208,217";a="460017768"
+Received: from mx100.chinaemail.cn ([98.126.34.181])
+  by mxi110.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 20 Jul 2017 12:06:09 +0800
+Received: by mx100.chinaemail.cn (Postfix)
+	id 4E3492AF8CA; Thu, 20 Jul 2017 12:13:41 +0800 (CST)
+Date: Thu, 20 Jul 2017 12:13:41 +0800 (CST)
+From: MAILER-DAEMON@mx100.chinaemail.cn (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: overseas10@sino-progress.com
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="C8CB02AF89D.1500524021/mx100.chinaemail.cn"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20170720041341.4E3492AF8CA@mx100.chinaemail.cn>
+X-MID: 2093652882.1054338317.6.1500523507.326590.30027
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+This is a MIME-encapsulated message.
+
+--C8CB02AF89D.1500524021/mx100.chinaemail.cn
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host mx100.chinaemail.cn.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<jepperson@logisticoninc.com>: host aspmx.l.google.com[74.125.28.27] said:
+    550-5.2.1 The email account that you tried to reach is disabled. Learn more
+    at 550 5.2.1  https://support.google.com/mail/?p=DisabledUser
+    36si270093pla.428 - gsmtp (in reply to RCPT TO command)
+
+--C8CB02AF89D.1500524021/mx100.chinaemail.cn
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mx100.chinaemail.cn
+X-Postfix-Queue-ID: C8CB02AF89D
+X-Postfix-Sender: rfc822; overseas10@sino-progress.com
+Arrival-Date: Thu, 20 Jul 2017 12:13:40 +0800 (CST)
+
+Final-Recipient: rfc822; jepperson@logisticoninc.com
+Original-Recipient: rfc822;jepperson@logisticoninc.com
+Action: failed
+Status: 5.2.1
+Remote-MTA: dns; aspmx.l.google.com
+Diagnostic-Code: smtp; 550-5.2.1 The email account that you tried to reach is
+    disabled. Learn more at 550 5.2.1
+    https://support.google.com/mail/?p=DisabledUser 36si270093pla.428 - gsmtp
+
+--C8CB02AF89D.1500524021/mx100.chinaemail.cn
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Received: from smtpc1.chinaemail.cn (smtpc1.chinaemail.cn [184.173.76.226])
+	by mx100.chinaemail.cn (Postfix) with ESMTP id C8CB02AF89D
+	for <jepperson@logisticoninc.com>; Thu, 20 Jul 2017 12:13:40 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [219.238.233.132])
+	by smtpc1.chinaemail.cn (Postfix) with ESMTP id 4BC9B107
+	for <jepperson@logisticoninc.com>; Thu, 20 Jul 2017 11:47:26 +0800 (CST)
+Received: from [192.168.1.203] (unknown [14.20.30.239])
+	(Authenticated sender: overseas10@sino-progress.com)
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id EC54B4A22EC
+	for <jepperson@logisticoninc.com>; Thu, 20 Jul 2017 12:04:57 +0800 (CST)
+Content-Type: multipart/mixed; boundary="===============8058895272659433214=="
+MIME-Version: 1.0
+Subject: Ocean Freight Rate from China by China-Progress
+From: =?utf-8?q?Joseph=5FSinoProgress?= <overseas10@sino-progress.com>
+To: jepperson@logisticoninc.com
+Date: Thu, 20 Jul 2017 12:06:03 +0800
+Message-ID: <150052356302.2372.2318059029738214612@DESKTOP-UIM96J7>
+X-MID: 2093652882.1802557944.3.1500523498.43709.28061
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sino-progress.com;
+	s=s123456; t=1500523498;
+	bh=rEl8akq6HlsaN0sN6Rp4YEDrG35h7qDLreAJ9YcD7ig=;
+	h=Subject:From:Date:Message-ID;
+	b=wL7VXVuBG0e9Yn6sq6OknXbOT5h7q7MZUad4wlAAzgYVCtDuJfUFxv7Rl+DgD2x31
+	 Hi/brUd1RzsvMuD+ECCSH3Y7jrLPzptPAFTX5wjkYAtBGKmzi4y7U4EVl9NwrXLRvk
+	 eF1/l1eRS13i00KuNW182Jv1MFuoKNf/OpLv4knU=
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,jepperson@logisticoninc.com,
+
+--===============8058895272659433214==
+Content-Type: multipart/alternative;
+ boundary="===============6008346668525472562=="
+MIME-Version: 1.0
+
+--===============6008346668525472562==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+--===============6008346668525472562==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+	<head>
+		<!-- NAME: SIMPLE TEXT -->
+		<!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+		<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Greetings From China Progress International Freight Forwarding Company</title>
+	    <style type="text/css">
+<!--
+.STYLE1 {
+	color: #333333;
+	font-weight: bold;
+}
+.STYLE2 {color: #333333}
+.STYLE5 {
+	font-style: italic;
+	color: #000000;
+}
+.STYLE8 {
+	font-style: italic;
+	color: #666666;
+}
+.STYLE13 {color: #000000}
+-->
+        </style>
+</head>
+    <body>
+		
+        <center>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+                <tr>
+                    <td align="left" valign="top" id="bodyCell">
+                        <!-- BEGIN TEMPLATE // -->
+						<!--[if gte mso 9]>
+						<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+						<tr>
+						<td align="center" valign="top" width="600" style="width:600px;">
+						<![endif]-->
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+                            <tr>
+                                <td valign="top" id="templateHeader"></td>
+                            </tr>
+                            <tr>
+                                <td valign="top" id="templateBody"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+    <tbody class="mcnTextBlockOuter">
+        <tr>
+            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+              	<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+			    
+				<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                    <tbody><tr>
+                        
+                        <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+                        
+                            <p style="font-family:arial,helvetica neue,helvetica,sans-serif">Dear Josh Epperson ,<br>
+                                <br>
+                              Greetings from  <strong>China-Progress Int'l Freight Forwarding</strong>, China.<br>
+  <br>
+                              This is Joseph,&nbsp;it is so nice to know your good company from<strong>&nbsp;WCA members Directory .</strong></p>
+                            <p style="font-family:arial,helvetica neue,helvetica,sans-serif">                              We are 14 years experienced freight forwarder in Shenzhen.    Wondering if we have chance<strong> to be your cooperating handler </strong>in China.  <br>
+                            </p>
+                            <p style="font-family:arial,helvetica neue,helvetica,sans-serif">Here is updated Freight Rate from China to US, hope it is helpful.</p>
+                            <table width="492" height="143" border="1" cellpadding="0" cellspacing="0">
+                              <col width="113">
+                              <col width="72" span="5">
+                              <tr height="18">
+                                <td width="473" height="36" colspan="6" rowspan="2" bordercolor="#999999"><div align="center" class="STYLE1">Freight Rate CN-US Jul19</div></td>
+                              </tr>
+                              <tr height="18"> </tr>
+                              <tr height="40">
+                                <td width="113" height="40" bordercolor="#999999" bgcolor="#FFCC33"><div align="center"><span class="STYLE2">POL</span></div></td>
+                                <td width="72" bordercolor="#999999" bgcolor="#FFCC33"><div align="center"><span class="STYLE2">POD</span></div></td>
+                                <td width="72" bordercolor="#999999" bgcolor="#FFCC33"><div align="center"><span class="STYLE2">Carrier</span></div></td>
+                                <td width="72" bordercolor="#999999" bgcolor="#FFCC33"><div align="center"><span class="STYLE2">Freight    20'GP($)</span></div></td>
+                                <td width="72" bordercolor="#999999" bgcolor="#FFCC33"><div align="center"><span class="STYLE2">Freight    40GP($)</span></div></td>
+                                <td width="72" bordercolor="#999999" bgcolor="#FFCC33"><div align="center"><span class="STYLE2">Freight    40HQ($)</span></div></td>
+                              </tr>
+                              <tr height="20">
+                                <td height="20" bordercolor="#999999"><div align="center"><span class="STYLE2">SZX,TNJ,TAO,SHA</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">LA</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">HPL</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">890</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">1100</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">1100</span></div></td>
+                              </tr>
+                              <tr height="20">
+                                <td height="20" bordercolor="#999999"><div align="center"><span class="STYLE2">SZX,TNJ,TAO,SHA</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">HU</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">OOCL</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">1630</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">1630</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">2025</span></div></td>
+                              </tr>
+                              <tr height="20">
+                                <td height="20" bordercolor="#999999"><div align="center"><span class="STYLE2">SZX,TNJ,TAO,SHA</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">NY</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">UASC</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">1675</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">1675</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">2050</span></div></td>
+                              </tr>
+                              <tr height="20">
+                                <td height="20" bordercolor="#999999"><div align="center"><span class="STYLE2">SZX,TNJ,TAO,SHA</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">CHI</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">HPL</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">2420</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">2420</span></div></td>
+                                <td bordercolor="#999999"><div align="center"><span class="STYLE2">3000</span></div></td>
+                              </tr>
+                            </table>
+                            <p style="font-family:arial,helvetica neue,helvetica,sans-serif">Please kindly let me know if anything we can help you with or if I should not disturb you with this.</p>
+                            <p style="font-family:arial,helvetica neue,helvetica,sans-serif"><br>
+                              <strong>We wish to be your trusted partner in China.</strong><br>
+                              <span class="STYLE13"><br>
+                              <em><strong>China Progress is&nbsp; </strong></em></span></p>
+                            <ul class="STYLE5">
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>14 years experienced</strong> Freight Forwarder&nbsp;</span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif">member of <strong>WCA, FIATA, CIFA</strong></span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif">NVOCC Class-A freight forwarder</span></li>
+</ul>
+                            <span class="STYLE13" style="font-family:arial,helvetica neue,helvetica,sans-serif"><em> <strong>We have</strong></em></span>
+
+<ul class="STYLE5">
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>4 office</strong> in China (located in <strong>Shenzhen, Guangzhou , Shanghai, Qingdao</strong> respectively)</span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>3 overseas office</strong> (located in <strong>US, Canada and Vietnam</strong> respectively.)</span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>200+ stuff</strong></span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>110+ container trucks</strong></span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>1000 sq ft warehouse</strong></span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>Our own broker office in Shenzhen</strong></span></li>
+</ul>
+<span class="STYLE13" style="font-family:arial,helvetica neue,helvetica,sans-serif"><em> <strong>Our service </strong>covers</em></span>
+
+<ul class="STYLE8">
+	<li class="STYLE13"><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Sea Freight</span></li>
+	<li class="STYLE13"><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Air Freight</span></li>
+	<li class="STYLE13"><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Logistics</span></li>
+	<li class="STYLE13"><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Transport and Distribution</span></li>
+</ul>
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif"> <strong>Please don't hesitate to contact me for any assistance you need from China.</strong></span>
+
+<div><br>
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif">I am looking forward to your reply! Wish we could start cooperation very soon .</span><br>
+&nbsp;
+<div>
+<div><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Thanks &amp; Regards,</span></div>
+
+<div>&nbsp;</div>
+
+<div><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>Joseph Li&nbsp;</strong></span></div>
+
+<div><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Overseas Dept.<br>
+Email: overseas10@sino-progress.com<br>
+<strong><em>Service Drives Value……</em></strong><br>
+<strong>CHINA&nbsp;PROGRESS INT'L FORWARDING CO.,LTD&nbsp;</strong><br>
+NVOCC:MOC-NV 03517<br>
+Cell: +86-13714780856<br>
+<a href="http://www.sino-progress.com/">WWW.SINO-PROGRESS.COM</a><br>
+&nbsp;CHINA&nbsp; -&nbsp;&nbsp; VIETNAM &nbsp;-&nbsp; U.S.A.&nbsp; &nbsp;-&nbsp; &nbsp;CANADA</span></div>
+</div>
+
+<div>
+<div align="left"><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><img data-file-id="2715261" src="https://gallery.mailchimp.com/3cad518a16e6e9e8280a70c63/images/114709a2-d4d1-4ae6-a900-90d975738051.jpg" style="border: 0px  ; margin: 0px;"></span></div>
+</div>
+</div>                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+                
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign="top" id="templateFooter"></td>
+                            </tr>
+                        </table>
+						<!--[if gte mso 9]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+--===============6008346668525472562==--
+
+--===============8058895272659433214==--
+
+--C8CB02AF89D.1500524021/mx100.chinaemail.cn--

@@ -1,0 +1,199 @@
+Return-Path: <support@nbaa.zendesk.com>
+Received: from mxi145.chinaemail.cn (unknown [124.202.155.145])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 6410B4A2311
+	for <overseas10@sino-progress.com>; Wed, 19 Jul 2017 17:28:04 +0800 (CST)
+X-SBRS: 3.4
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1CHAAAcGm9ZhoWZocBYAxsBAQEDAQEBCQEBAYJvCoFFgRSOC3ORYZUQghEshRsChBgYAQIBAQEBAQEBEwEBAQoJCwgocRABhEYDAxgLDBEBAQcxDQILBBYCFBICAhsEHhoGGwGKJgMCC6FfAYwma4IPFyeCXwEBBYFghhoBAQEBAQEBAQIBAQEBAQEBAQEBARUIBQ54E4IKhS6CIU80gkWBagwSAQwQDBUmBwGCRBaCS4EwiDKVXB6CfJMLhU+KVIwOK4kjH4E3C1IjFYE+NYNaDxAMgWd2AYQ5gWmCMAEBAQ
+X-IPAS-Result: A1CHAAAcGm9ZhoWZocBYAxsBAQEDAQEBCQEBAYJvCoFFgRSOC3ORYZUQghEshRsChBgYAQIBAQEBAQEBEwEBAQoJCwgocRABhEYDAxgLDBEBAQcxDQILBBYCFBICAhsEHhoGGwGKJgMCC6FfAYwma4IPFyeCXwEBBYFghhoBAQEBAQEBAQIBAQEBAQEBAQEBARUIBQ54E4IKhS6CIU80gkWBagwSAQwQDBUmBwGCRBaCS4EwiDKVXB6CfJMLhU+KVIwOK4kjH4E3C1IjFYE+NYNaDxAMgWd2AYQ5gWmCMAEBAQ
+X-IronPort-AV: E=Sophos;i="5.40,380,1496073600"; 
+   d="scan'208,217";a="99232322"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi145.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 19 Jul 2017 17:28:56 +0800
+Received: from out2.pod9.iad1.zdsys.com (out2.pod9.iad1.zdsys.com [192.161.153.133])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id 600D6C0AD0
+	for <overseas10@sino-progress.com>; Wed, 19 Jul 2017 17:28:26 +0800 (CST)
+Received: from out7.pod14.use1.zdsys.com (out7.pod14.use1.zdsys.com [10.217.51.148])
+	by out2.pod9.iad1.zdsys.com (Postfix) with ESMTP id 6C05C6237F09
+	for <overseas10@sino-progress.com>; Wed, 19 Jul 2017 09:28:49 +0000 (UTC)
+Received: from zendesk.com (unknown [10.217.79.104])
+	by out7.pod14.use1.zdsys.com (Postfix) with ESMTP id 539533000008E
+	for <overseas10@sino-progress.com>; Wed, 19 Jul 2017 09:28:49 +0000 (UTC)
+Date: Wed, 19 Jul 2017 09:28:49 +0000
+From: NBAA Customer Service <support@nbaa.zendesk.com>
+Reply-To: NBAA Customer Service <support+id79130@nbaa.zendesk.com>
+To: Joseph_China-Progress <overseas10@sino-progress.com>
+Message-ID: <30EY877Y6M_596f26513b536_f53f3fb4d7ccb99417674c_sprut@zendesk.com>
+In-Reply-To: <150045651642.6736.10493854721867407333@DESKTOP-UIM96J7>
+References: <30EY877Y6M@zendesk.com>
+ <150045651642.6736.10493854721867407333@DESKTOP-UIM96J7>
+Subject: Re: Updated Freight Rate From China to US
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_596f26514eede_f53f3fb4d7ccb9941769ab";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Auto-Response-Suppress: All
+X-Mailer: Zendesk Mailer
+X-Delivery-Context: event-id-122442727173
+X-Zendesk-From-Account-Id: 1e61dc3
+DKIM-Signature:  v=1; a=rsa-sha256; c=relaxed/relaxed; d=zendesk.com;
+ q=dns/txt; s=zendesk1; t=1500456529;
+ bh=0FThzpbwPGZb3BxMqngWKk+LqK5qErgQv2RhRp0JKSg=;
+ h=date:from:reply-to:to:message-id:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding;
+ b=RYIR5NCAb97esoiUaQg8KftW9sM4wCvXY7rDlwqpoqcLFunNNQIu7D4fCohjiDZkLHd/SoxaAZIXbUZto1lq79nV+wOMsgzoFoF7NgdOTgYVeIJ/v1cAsgDBnrIe4/wo8wJUcECTDwDSdqm9FIN6qxDyOwpXEFWTSYleDaDRJsA=
+X-CMAE-Score: 0
+X-CMAE-Analysis: v=2.1 cv=Y+0FyUqN c=1 sm=1 tr=0
+	a=uh+sSKiPcQ4i74lakBPP/A==:117 a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10
+	a=s5jvgZ67dGcA:10 a=KiCxJD0x+Pe5VASQKmYoJrcyuOo=:19 a=IkcTkHD0fZMA:10
+	a=ZZnuYtJkoWoA:10 a=a-JaYiOkAAAA:8 a=UW9qACzDkuhOdOSHnhEA:9
+	a=QEXdDO2ut3YA:10 a=F_Qn2sV7VvcA:10 a=7nqpgwL4iRIA:10 a=NWVoK91CQyQA:10
+	a=QWUpjbNaGR7nx26A:21 a=_W_S_7VecoQA:10 a=frz4AuCg-hUA:10
+	a=T4qtJWTJHBvVpt5YRwwQ:22
+X-CMAE-Score: 0
+X-CMAE-Analysis: v=2.1 cv=De/q0aZW c=1 sm=1 tr=0
+	a=PJxcoaFCnQlgbub+Uqw1zg==:117 a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10
+	a=s5jvgZ67dGcA:10 a=KiCxJD0x+Pe5VASQKmYoJrcyuOo=:19 a=IkcTkHD0fZMA:10
+	a=G3gG6ho9WtcA:10 a=ZZnuYtJkoWoA:10 a=a-JaYiOkAAAA:8
+	a=UW9qACzDkuhOdOSHnhEA:9 a=QEXdDO2ut3YA:10 a=F_Qn2sV7VvcA:10
+	a=7nqpgwL4iRIA:10 a=NWVoK91CQyQA:10 a=QWUpjbNaGR7nx26A:21 a=_W_S_7VecoQA:10
+	a=frz4AuCg-hUA:10 a=T4qtJWTJHBvVpt5YRwwQ:22
+X-MID: 2093652882.2025375819.4.1500456484.411425.22650
+X-Rate: Yes
+X-Real-From: support@nbaa.zendesk.com
+X-Rcpt: ,overseas10@sino-progress.com,
+
+
+----==_mimepart_596f26514eede_f53f3fb4d7ccb9941769ab
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+##Replies above this line are added to the ticket ##
+
+Thank you for contacting NBAA Membership. Your inquiry is very important =
+to us and we strive to provide you with excellent customer service. Someo=
+ne from Membership will respond to your request in the next six business =
+hours. The NBAA office hours are 9:00 a.m. to 5:00 p.m. Eastern Time, Mon=
+day through Friday. For immediate assistance, please contact the Membersh=
+ip phone at (202) 783-9280. =
+
+
+After your inquiry is resolved you will receive an opportunity to tell us=
+ about the customer service you received. Please take a minute to respond=
+ to the survey and tell us how we did.
+
+If you are having trouble accessing the Members-only areas of the NBAA we=
+bsite, you may need to reset your password. Please visit <a href=3D"http:=
+//www.nbaa.org/password/reset">www.nbaa.org/password/reset</a> to get sta=
+rted. =
+
+
+You can find more information about NBAA Membership online at <a href=3D"=
+http://www.nbaa.org/membership">www.nbaa.org/membership</a>.
+
+Regards,
+
+NBAA Member Services
+
+--------------------------------
+This email is a service from NBAA Customer Service.
+
+
+
+
+
+
+
+
+
+[30EY87-7Y6M]=
+
+----==_mimepart_596f26514eede_f53f3fb4d7ccb9941769ab
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<body bgcolor=3D"#f2f2f2">
+<div style=3D"margin:0px auto;text-align:center;font-size:12px;color:#A2A=
+2A2;padding-bottom:6px">
+  ##Replies above this line are added to the ticket ##
+</div>
+<style type=3D"text/css">
+<!--
+BODY, TD, TH { 	font-family: Arial, Helvetica, sans-serif; =
+
+		font-size: 12px; =
+
+		font-weight: normal; =
+
+		color: #2b2c2c;} =
+
+a:link { 	font-family: Arial, Helvetica, sans-serif; =
+
+		color: #0c5393;} =
+
+a:visited {  	font-family: Arial, Helvetica, sans-serif; =
+
+		color: #0c5393;} =
+
+a:hover { 	font-family: Arial, Helvetica, sans-serif; =
+
+		color: #0c5393;}
+-->
+</style>
+<div align=3D"center">
+  <table cellspacing=3D"0" cellpadding=3D"0" bordercolor=3D"#000000" bord=
+er=3D"1" bgcolor=3D"#ffffff" width=3D"600">
+    <tbody>
+      <tr>
+        <td>
+          <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" bgcolor=
+=3D"#ffffff" width=3D"600">
+            <tbody>
+              <tr><td colspan=3D"3"><img height=3D"116" border=3D"0" widt=
+h=3D"600" src=3D"http://www.nbaa.org/_images/zendesk/top.jpg" alt=3D"NBAA=
+" /></td></tr>
+              <tr>
+                <td width=3D"11"><br />
+		</td>
+                <td width=3D"582">
+                <p><br />
+                 <p>Thank you for contacting NBAA Membership. Your inquir=
+y is very important to us and we strive to provide you with excellent cus=
+tomer service. Someone from Membership will respond to your request in th=
+e next six business hours. The NBAA office hours are 9:00 a.m. to 5:00 p.=
+m. Eastern Time, Monday through Friday. For immediate assistance, please =
+contact the Membership phone at (202) 783-9280. </p><p>After your inquiry=
+ is resolved you will receive an opportunity to tell us about the custome=
+r service you received. Please take a minute to respond to the survey and=
+ tell us how we did.</p><p>If you are having trouble accessing the Member=
+s-only areas of the NBAA website, you may need to reset your password. Pl=
+ease visit <a href=3D"http://www.nbaa.org/password/reset">www.nbaa.org/pa=
+ssword/reset</a> to get started. </p><p>You can find more information abo=
+ut NBAA Membership online at <a href=3D"http://www.nbaa.org/membership">w=
+ww.nbaa.org/membership</a>.</p><p>Regards,</p><p>NBAA Member Services</p>=
+
+		</td>
+                <td width=3D"7"><br />
+                  </td>
+              </tr>
+              <tr>
+                <td colspan=3D"3" align=3D"center"><br /><a target=3D"_bl=
+ank" href=3D"http://www.nbaa.org"><img height=3D"32" border=3D"0" width=3D=
+"600" =
+
+		src=3D"http://www.nbaa.org/_images/zendesk/footer.jpg" alt=3D"www.nbaa.=
+org"/></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<span style=3D'color:#FFFFFF'>[30EY87-7Y6M]</span></body>
+</html>=
+
+----==_mimepart_596f26514eede_f53f3fb4d7ccb9941769ab--

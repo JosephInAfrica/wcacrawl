@@ -1,0 +1,716 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi95.chinaemail.cn (unknown [115.182.8.95])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 945344A22F9
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:21:36 +0800 (CST)
+X-SBRS: 3.4
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A0DqCgDt8F1ZhrIifmJ5AQUBCwGCbz2BDQOBEKJbAZVYhR9LAiQUgmxDFAECAQEBAQEBARMBAQEICwsIKC+FQgoFAQsoCyEjEwQKAg0EEFGJTmEFC5MCjVWQDoImiCmBU4F7gR6CCYREaQGGEoFMDwICAYMuFhqCNolPhFODLlWMPicBHocpgQuLJg2CDFaEdIpIlTY2gSALhhYBAQgBAQEBQhyBdDM2AYkCAQEB
+X-IronPort-AV: E=Sophos;i="5.40,316,1496073600"; 
+   d="scan'208,217";a="203966750"
+Received: from mx100.chinaemail.cn ([98.126.34.178])
+  by mxi95.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 06 Jul 2017 16:21:39 +0800
+Received: by mx100.chinaemail.cn (Postfix)
+	id 7D12A2AF857; Thu,  6 Jul 2017 16:28:36 +0800 (CST)
+Date: Thu,  6 Jul 2017 16:28:36 +0800 (CST)
+From: MAILER-DAEMON@mx100.chinaemail.cn (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: overseas10@sino-progress.com
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="444132AF84B.1499329716/mx100.chinaemail.cn"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20170706082836.7D12A2AF857@mx100.chinaemail.cn>
+X-MID: 2093652882.787248743.2.1499329296.608808.2766
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+This is a MIME-encapsulated message.
+
+--444132AF84B.1499329716/mx100.chinaemail.cn
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host mx100.chinaemail.cn.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<rb.london@syriaair.com>: host mail.anaxanet.com[8.8.246.37] said: 550
+    <rb.london@syriaair.com> No such user here (in reply to RCPT TO command)
+
+--444132AF84B.1499329716/mx100.chinaemail.cn
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mx100.chinaemail.cn
+X-Postfix-Queue-ID: 444132AF84B
+X-Postfix-Sender: rfc822; overseas10@sino-progress.com
+Arrival-Date: Thu,  6 Jul 2017 16:28:28 +0800 (CST)
+
+Final-Recipient: rfc822; rb.london@syriaair.com
+Original-Recipient: rfc822;rb.london@syriaair.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mail.anaxanet.com
+Diagnostic-Code: smtp; 550 <rb.london@syriaair.com> No such user here
+
+--444132AF84B.1499329716/mx100.chinaemail.cn
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Received: from smptc1.chinaemail.cn (mx100.chinaemail.cn [67.222.145.67])
+	by mx100.chinaemail.cn (Postfix) with ESMTP id 444132AF84B
+	for <rb.london@syriaair.com>; Thu,  6 Jul 2017 16:28:28 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [124.202.155.146])
+	by smptc1.chinaemail.cn (Postfix) with ESMTP id C3BCC347807E
+	for <rb.london@syriaair.com>; Thu,  6 Jul 2017 16:17:30 +0800 (CST)
+Received: from [192.168.1.203] (unknown [113.110.149.149])
+	(Authenticated sender: overseas10@sino-progress.com)
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 2847C4A231C
+	for <rb.london@syriaair.com>; Thu,  6 Jul 2017 16:20:58 +0800 (CST)
+Content-Type: multipart/mixed; boundary="===============5558696724565063192=="
+MIME-Version: 1.0
+Subject: Looking for a Partner in UK--ChinaProgress
+From: =?utf-8?q?Joseph=5FChina-Progress?= <overseas10@sino-progress.com>
+To: rb.london@syriaair.com
+Date: Thu, 06 Jul 2017 16:21:03 +0800
+Message-ID: <149932926284.4788.10374622883191159998@DESKTOP-UIM96J7>
+X-MID: 2093652882.3308065068.1.1499329258.241938.2766
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sino-progress.com;
+	s=s123456; t=1499329258;
+	bh=Mrtv4IEelf3qVwMG/G9NNF5W6IbEdKMZM4B7cJf1RFI=;
+	h=Subject:From:Date:Message-ID;
+	b=MMvyE4w6z6SsN/MT1rC1zfNL8fPm/5CaBchMkazcCfjFP8b+adz2GWsWjRtrFtdCN
+	 Tb4FUMefSphVghHe2FYb8e2VIoB2nSrWEalD7TrJILkGYh1Drpy05RYMNjyQxbhPHj
+	 bRm4LubcAG64DvXhN7qeRNHC9crVk3jiDMd0rIzY=
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,rb.london@syriaair.com,
+
+--===============5558696724565063192==
+Content-Type: multipart/alternative;
+ boundary="===============7500515692583687657=="
+MIME-Version: 1.0
+
+--===============7500515692583687657==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+--===============7500515692583687657==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+	<head>
+		<!-- NAME: SIMPLE TEXT -->
+		<!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+		<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Greetings From China Progress International Freight Forwarding Company</title>
+        
+    <style type="text/css">
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=tel],a[href^=sms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		#bodyCell{
+			padding:10px;
+		}
+		.templateContainer{
+			max-width:600px !important;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+	*/
+		body,#bodyTable{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+	*/
+		#bodyCell{
+			/*@editable*/border-top:0;
+		}
+	/*
+	@tab Page
+	@section Email Border
+	@tip Set the border for your email.
+	*/
+		.templateContainer{
+			/*@editable*/border:0;
+		}
+	/*
+	@tab Page
+	@section Heading 1
+	@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+	@style heading 1
+	*/
+		h1{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:26px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 2
+	@tip Set the styling for all second-level headings in your emails.
+	@style heading 2
+	*/
+		h2{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:22px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 3
+	@tip Set the styling for all third-level headings in your emails.
+	@style heading 3
+	*/
+		h3{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:20px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 4
+	@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+	@style heading 4
+	*/
+		h4{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:18px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Style
+	@tip Set the borders for your email's header area.
+	*/
+		#templateHeader{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Header
+	@section Header Text
+	@tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+	*/
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Link
+	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+	*/
+		#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Body
+	@section Body Style
+	@tip Set the borders for your email's body area.
+	*/
+		#templateBody{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Body
+	@section Body Text
+	@tip Set the styling for your email's body text. Choose a size and color that is easy to read.
+	*/
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Body
+	@section Body Link
+	@tip Set the styling for your email's body links. Choose a color that helps them stand out from your text.
+	*/
+		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Footer
+	@section Footer Style
+	@tip Set the borders for your email's footer area.
+	*/
+		#templateFooter{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Footer
+	@section Footer Text
+	@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+	*/
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Footer
+	@section Footer Link
+	@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+	*/
+		#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
+			/*@editable*/color:#202020;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	@media only screen and (min-width:768px){
+		.templateContainer{
+			width:600px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#bodyCell{
+			padding-top:10px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImage{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer{
+			max-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer{
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupContent{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardTopImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardBottomImageContent{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockInner{
+			padding-top:0 !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockOuter{
+			padding-top:9px !important;
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnTextContent,.mcnBoxedTextContentColumn{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+			padding-right:18px !important;
+			padding-bottom:0 !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcpreview-image-uploader{
+			display:none !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 1
+	@tip Make the first-level headings larger in size for better readability on small screens.
+	*/
+		h1{
+			/*@editable*/font-size:22px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 2
+	@tip Make the second-level headings larger in size for better readability on small screens.
+	*/
+		h2{
+			/*@editable*/font-size:20px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 3
+	@tip Make the third-level headings larger in size for better readability on small screens.
+	*/
+		h3{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 4
+	@tip Make the fourth-level headings larger in size for better readability on small screens.
+	*/
+		h4{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Boxed Text
+	@tip Make the boxed text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		table.mcnBoxedTextContentContainer td.mcnTextContent,td.mcnBoxedTextContentContainer td.mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Header Text
+	@tip Make the header text larger in size for better readability on small screens.
+	*/
+		td#templateHeader td.mcnTextContent,td#templateHeader td.mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Body Text
+	@tip Make the body text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		td#templateBody td.mcnTextContent,td#templateBody td.mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Footer Text
+	@tip Make the footer content text larger in size for better readability on small screens.
+	*/
+		td#templateFooter td.mcnTextContent,td#templateFooter td.mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}</style></head>
+    <body>
+		<!--*|IF:MC_PREVIEW_TEXT|*-->
+		<!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT|*</span><!--<![endif]-->
+		<!--*|END:IF|*-->
+        <center>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+                <tr>
+                    <td align="left" valign="top" id="bodyCell">
+                        <!-- BEGIN TEMPLATE // -->
+						<!--[if gte mso 9]>
+						<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+						<tr>
+						<td align="center" valign="top" width="600" style="width:600px;">
+						<![endif]-->
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+                            <tr>
+                                <td valign="top" id="templateHeader"></td>
+                            </tr>
+                            <tr>
+                                <td valign="top" id="templateBody"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+    <tbody class="mcnTextBlockOuter">
+        <tr>
+            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+              	<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+			    
+				<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                    <tbody><tr>
+                        
+                        <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+                        
+                            <span style="font-family:arial,helvetica neue,helvetica,sans-serif">Dear manager of Syrianair ,<br>
+<br>
+Greetings from <strong>China-Progress Int'l Freight Forwarding</strong>, China!<br>
+<br>
+This is Joseph,&nbsp;it is so nice to know your good company from<strong>&nbsp;AZFreight Members Directory.</strong><br>
+<br>
+We are looking for a reliable cooperator in <strong>UK,</strong> who can be our representative to provide local service and free-handling.&nbsp;<br>
+<br>
+<strong>And also we wish to be your trusted partner in China.</strong><br>
+<br>
+<strong>China Progress is&nbsp;</strong></span>
+
+<ul>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>14 years experienced</strong> Freight Forwarder&nbsp;</span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif">member of <strong>WCA, FIATA, CIFA</strong></span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif">NVOCC Class-A freight forwarder</span></li>
+</ul>
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif"> <strong>We have</strong></span>
+
+<ul>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>4 office</strong> in China (located in <strong>Shenzhen, Guangzhou , Shanghai, Qingdao</strong> respectively)</span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>3 overseas office</strong> (located in <strong>US, Canada and Vietnam</strong> respectively.)</span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>200+ stuff</strong></span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>55 container trucks</strong></span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>1000 sq ft warehouse</strong></span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>Our own broker office in Shenzhen</strong></span></li>
+</ul>
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif"> <strong>Our service </strong>covers</span>
+
+<ul>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Sea Freight</span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Air Freight</span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Logistics</span></li>
+	<li><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Transport and Distribution</span></li>
+</ul>
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif"> <strong>Please don't hesitate to contact me for any assistance you need from China.</strong></span>
+
+<div><br>
+<span style="font-family:arial,helvetica neue,helvetica,sans-serif">I am looking forward to your reply! Wish we could start cooperation very soon .</span><br>
+&nbsp;
+<div>
+<div><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Thanks &amp; Regards,</span></div>
+
+<div>&nbsp;</div>
+
+<div><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><strong>Joseph Li&nbsp;</strong></span></div>
+
+<div><span style="font-family:arial,helvetica neue,helvetica,sans-serif">Overseas Dept.<br>
+Email: overseas10@sino-progress.com<br>
+<strong><em>Service Drives Value……</em></strong><br>
+<strong>CHINA&nbsp;PROGRESS INT'L FORWARDING CO.,LTD&nbsp;</strong><br>
+NVOCC:MOC-NV 03517<br>
+Cell: +86-13714780856<br>
+<a href="http://www.sino-progress.com/">WWW.SINO-PROGRESS.COM</a><br>
+&nbsp;CHINA&nbsp; -&nbsp;&nbsp; VIETNAM &nbsp;-&nbsp; U.S.A.&nbsp; &nbsp;-&nbsp; &nbsp;CANADA</span></div>
+</div>
+
+<div>
+<div align="left"><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><img data-file-id="2715261" src="https://gallery.mailchimp.com/3cad518a16e6e9e8280a70c63/images/114709a2-d4d1-4ae6-a900-90d975738051.jpg" style="border: 0px  ; margin: 0px;"></span></div>
+</div>
+</div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+                
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign="top" id="templateFooter"></td>
+                            </tr>
+                        </table>
+						<!--[if gte mso 9]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+--===============7500515692583687657==--
+
+--===============5558696724565063192==--
+
+--444132AF84B.1499329716/mx100.chinaemail.cn--

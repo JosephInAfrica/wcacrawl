@@ -1,0 +1,807 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi110.chinaemail.cn (unknown [115.182.8.110])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 151A24A22FD
+	for <overseas10@sino-progress.com>; Wed, 19 Jul 2017 17:27:27 +0800 (CST)
+X-SBRS: 3.5
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1CwAACKE29Zh8DQwtF1AQEBAQIBAQEBCAEBAQGCcD4CgQ+BFIUliVmQTCKYNgEMhEpPAh4CFINnFAECAQEBAQEBARMBAQEKCwkIKIVHAQMDAQIgChMBASQBCgkPCRMDAQIPGQMCAkYJCAYTiA6CIQMCC5EenHlrgiaDBgEBBYUjglcBAQEBAQUBAQEBAQEaCIEeggqFLQEBKguFXYFMEgEGNgaCbRaMJogNVIxaKIdLjlpXhHiJEIFElVw2gSALKAtIgkeDHwUcGYFtVwGGIoIwAQEB
+X-IPAS-Result: A1CwAACKE29Zh8DQwtF1AQEBAQIBAQEBCAEBAQGCcD4CgQ+BFIUliVmQTCKYNgEMhEpPAh4CFINnFAECAQEBAQEBARMBAQEKCwkIKIVHAQMDAQIgChMBASQBCgkPCRMDAQIPGQMCAkYJCAYTiA6CIQMCC5EenHlrgiaDBgEBBYUjglcBAQEBAQUBAQEBAQEaCIEeggqFLQEBKguFXYFMEgEGNgaCbRaMJogNVIxaKIdLjlpXhHiJEIFElVw2gSALKAtIgkeDHwUcGYFtVwGGIoIwAQEB
+X-IronPort-AV: E=Sophos;i="5.40,380,1496073600"; 
+   d="scan'208,217";a="459851932"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi110.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 19 Jul 2017 17:28:13 +0800
+X-Greylist: delayed 62 seconds by postgrey-1.32 at mx100.chinaemail.cn; Wed, 19 Jul 2017 17:27:44 CST
+Received: from mail03.elpasotexas.gov (mail03.elpasotexas.gov [209.194.208.192])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id E34E0C0ABC
+	for <overseas10@sino-progress.com>; Wed, 19 Jul 2017 17:27:44 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=elpasotexas.gov; i=@elpasotexas.gov; q=dns/txt;
+  s=selector; t=1500456491; x=1531992491;
+  h=mime-version:from:to:date:message-id:in-reply-to:
+   references:subject;
+  bh=VIKAfTm50Vn6f3q93OEeG3ttuskBM+3a+JBis3YEM5k=;
+  b=Cwfju3KPEwr0TTOrBvOn3AaQV90gEY6U8KAz56Hy72XIFYKzhSHqmGjK
+   7ghdpTcApPBTWUM0CWfjLYWW54Ui0V4atwVigipQ4svWcstpoIULs7dwz
+   TThcLCM0AolrKyD/rInH5dFS36xpJfaNi47Z1gMlqU2pN5M7VTNw5GH6p
+   M=;
+IronPort-PHdr: =?us-ascii?q?9a23=3ApGmMIBEnf84s+SV056pvpZ1GYnF86YWxBRYc798d?=
+ =?us-ascii?q?s5kLTJ7zpM+wAkXT6L1XgUPTWs2DsrQf2rWQ6/iocFdDyK7JiGoFfp1IWk1Nou?=
+ =?us-ascii?q?QttCtkPvS4D1bmJuXhdS0wEZcKflZk+3amLRodQ56mNBXdrXKo8DEdBAj0OxZr?=
+ =?us-ascii?q?KeTpAI7SiNm82/yv95HJbQhFgDiwbaluIBmqsA7cqtQYjYx+J6gr1xDHuGFIe+?=
+ =?us-ascii?q?NYxWNpIVKcgRPx7dqu8ZBg7ipdpesv+9ZPXqvmcas4S6dYDCk9PGAu+MLrrxjD?=
+ =?us-ascii?q?QhCR6XYaT24bjwBHAwnB7BH9Q5fxri73vfdz1SWGIcH7S60/Vyyl76d3SR/ohi?=
+ =?us-ascii?q?YHOCIj/2HLi8xwi6Rbqw+lqxBi34LYfJ2ZOOZ7cq7bYNgUR3dOXtxJWiNOAo2y?=
+ =?us-ascii?q?cYUBAPYCM+laoYnzukADrQOiCQS2Hu7j1iNEimHw0KYn0+ohCwbG3Ak4Et8JqH?=
+ =?us-ascii?q?TUq871NLsXUe+v16nI0SvMb+lN1Djj7IjIagouoeqLXbJsb8XQxlMgFxjfglWf?=
+ =?us-ascii?q?rozlISqY2+IQuGaV6OpgUPigi28hqwxpuTivx8Esio7QioIN0FDE8ip5wJwrKt?=
+ =?us-ascii?q?2jU053e8KrEJxVty2CKYR2RtsiTHtzuCY91r0Jp5G6czIRyJg9yB7fbOKHf5CU?=
+ =?us-ascii?q?7RLjVeaRJy13i2xgeL2lhhay9VKsxfH6VsSyzV1ErTJFn8HRun0PyRDf8NWLR/?=
+ =?us-ascii?q?hn8kqgxDqDzR3f5v9CLEspj6TUMYQhzaQ1lpcLtETDGTL5l1vuga+Nc0Uk5vCo?=
+ =?us-ascii?q?6+P6YrX6vpOcN5F7igX5Mqk2lcKwAPo1PAoQU2SH5Oix2qTv81fgTrtEkvE6jL?=
+ =?us-ascii?q?PVv4rHKsgBuKG5BxdV3Zw46xa4EzepztsZkmMcLF5fdxKHiJbpN0nPIPD+E/i/?=
+ =?us-ascii?q?n0yhnCppyvzYJLHtH5bAImLCnbv8Z7px9lBQxBIpzd9D/5JUFq0BIPXrV0/2qt?=
+ =?us-ascii?q?zXEAU5MxeqzOn9E9Vxy58SVHmUAq+YNqPStkaE5vo1I+mLa48VoijyK+M+5/L0?=
+ =?us-ascii?q?kXA5nlodLuGV2s5Db261BO9rKl7AOVL3g9EGVH8QuQUkQffxzlaFVGgASWy1Wv?=
+ =?us-ascii?q?do/jYgFIevFpvOXKighKSIxyCnE41ffSZJDU7aQiSgTJmNR/pZM3HaGcRmiDFR?=
+ =?us-ascii?q?DOD5E9cs?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: =?us-ascii?q?A2FFAQAYJW9Z/ww9Eqx0AQEBAQIBAQEBC?=
+ =?us-ascii?q?AEBAQEVAQEBAQIBAQEBCAEBAQGCRT4CgQ+BFIUlmiQil1IbRBKESk8CHgIUg2k?=
+ =?us-ascii?q?UAQEBAQEBAQEBAQECgRCCLxABAQEDAgICAQIBAgEBDgRGIQUDAwEBAQEBAQEBA?=
+ =?us-ascii?q?SIBAQEBAQEBASICCAURESEBGQEGIwo5AQoYCRMDAQIPGQMCAkYJCAYTiA6CMZB?=
+ =?us-ascii?q?1nWSCJogwglcBAQEBAQEEAQEBAQEBAQEBAR6BHoIKhS0BASoLhV2BTBIBBjYGg?=
+ =?us-ascii?q?jA9FoJQiVaIDVSMWiiHS45aV4R4iRCBRJVcNoEhCygLSIJHgx8FHBmBbVcBhiK?=
+ =?us-ascii?q?CMAEBAQ?=
+X-IPAS-Result: =?us-ascii?q?A2FFAQAYJW9Z/ww9Eqx0AQEBAQIBAQEBCAEBAQEVAQEBAQI?=
+ =?us-ascii?q?BAQEBCAEBAQGCRT4CgQ+BFIUlmiQil1IbRBKESk8CHgIUg2kUAQEBAQEBAQEBA?=
+ =?us-ascii?q?QECgRCCLxABAQEDAgICAQIBAgEBDgRGIQUDAwEBAQEBAQEBASIBAQEBAQEBASI?=
+ =?us-ascii?q?CCAURESEBGQEGIwo5AQoYCRMDAQIPGQMCAkYJCAYTiA6CMZB1nWSCJogwglcBA?=
+ =?us-ascii?q?QEBAQEEAQEBAQEBAQEBAR6BHoIKhS0BASoLhV2BTBIBBjYGgjA9FoJQiVaIDVS?=
+ =?us-ascii?q?MWiiHS45aV4R4iRCBRJVcNoEhCygLSIJHgx8FHBmBbVcBhiKCMAEBAQ?=
+X-IronPort-AV: E=Sophos;i="5.40,380,1496124000"; 
+   d="scan'208,217";a="824457"
+Received: from exch2013-pod02.ad.elpasotexas.gov ([172.18.61.12])
+  by mail03.elpasotexas.gov with ESMTP; 19 Jul 2017 03:27:02 -0600
+MIME-Version: 1.0
+From: <postmaster@elpasotexas.gov>
+To: <overseas10@sino-progress.com>
+Date: Wed, 19 Jul 2017 03:27:02 -0600
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="7d604d42-c9ac-4eba-827c-e1d990486a29"
+X-MS-Exchange-Message-Is-Ndr:
+Content-Language: en-US
+Message-ID: <6ae4931c-330e-4200-8b50-1269c7ad3f8b@EXCH2013-POD02.ad.elpasotexas.gov>
+In-Reply-To: <150045640820.6736.18397916959830801639@DESKTOP-UIM96J7>
+References: <150045640820.6736.18397916959830801639@DESKTOP-UIM96J7>
+Subject: Undeliverable: [SENDER UNVERIFIED][SPAM SUSPECT]Ocean Freight Rate
+ from China by China-Progress
+X-MID: 2093652882.1054338317.1.1500456447.91100.22650
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--7d604d42-c9ac-4eba-827c-e1d990486a29
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="c8bc8fc2-2a73-4b5b-a3b9-3101e6cc8747"
+
+--c8bc8fc2-2a73-4b5b-a3b9-3101e6cc8747
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+bellegardeep@elpasotexas.gov<mailto:bellegardeep@elpasotexas.gov>
+The email address you entered couldn't be found. Please check the recipient=
+'s email address and try to resend the message. If the problem continues, p=
+lease contact your helpdesk.
+
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: EXCH2013-POD02.ad.elpasotexas.gov
+
+bellegardeep@elpasotexas.gov
+Remote Server returned '550 5.1.1 RESOLVER.ADR.RecipNotFound; not found'
+
+Original message headers:
+
+Received: from exch2013-pod03.ad.elpasotexas.gov (172.18.61.13) by
+ EXCH2013-POD02.ad.elpasotexas.gov (172.18.61.12) with Microsoft SMTP Serve=
+r
+ (TLS) id 15.0.1293.2; Wed, 19 Jul 2017 03:27:02 -0600
+Received: from mail01.elpasotexas.gov (172.20.50.191) by
+ exch2013-pod03.ad.elpasotexas.gov (172.18.61.13) with Microsoft SMTP Serve=
+r
+ id 15.0.1293.2 via Frontend Transport; Wed, 19 Jul 2017 03:27:02 -0600
+Authentication-Results: mail01.elpasotexas.gov; dkim=3Dpermerror (no key fo=
+r signature) header.i=3D@sino-progress.com
+IronPort-PHdr: =3D?us-ascii?q?9a23=3D3AVLX60R2viq2aB2LHsmDT+DRfVm0co7zxezQt=
+wd8Z?=3D
+ =3D?us-ascii?q?seISK/ad9pjvdHbS+e9qxAeQG96KtLQc06L/iOPJYSQ4+5GPsXQPItRndiQ=
+uro?=3D
+ =3D?us-ascii?q?EopTEmG9OPEkbhLfTnPGQQFcVGU0J5rTngaRAGUMnxaEfPrXKs8DUcBgvwN=
+RZv?=3D
+ =3D?us-ascii?q?JuTyB4Xek9m72/q89pDXYQhEniaxba9vJxiqsAvdsdUbj5F/Iagr0BvJpXV=
+Ie+?=3D
+ =3D?us-ascii?q?VSxWx2IF+Yggjx6MSt8pN96ipco/0u+dJOXqX8ZKQ4UKdXDC86PGAv5c3kr=
+gfM?=3D
+ =3D?us-ascii?q?QA2S7XYBSGoWkx5IAw/Y7BHmW5r6ryX3uvZh1CScIMb7S60/Vza/4KdxUBL=
+nlC?=3D
+ =3D?us-ascii?q?gIOSM5/m/JhMJ+j7lWoBe9qxFl2YPYfJ2ZOfh4c6jAfd0aX21BXsNJWiJFB=
+YO8?=3D
+ =3D?us-ascii?q?dJUAD/IBPelAsof9pl0OrRykCwm2A+PvxSVIiWHt3a0hzu8sFgbG3BI+ENI=
+Uq3?=3D
+ =3D?us-ascii?q?Tbss/6NLwPXeyp16TI1jTDb/VR2Tvk8IjIaBchof6WXb1uasrR0lMjGB/Cj=
+lWV?=3D
+ =3D?us-ascii?q?sIHoOS6e2OoKs2ie9eVgVOSvhnY8qwFwpDivwd4gipHThoISxVDE7zt2wJ0=
+uJd?=3D
+ =3D?us-ascii?q?GiVEF7ZtukHZ1NvC+ZL4t7WswvTmNytCs5zrAKo4O3cSsLxZg92RLSZPiKf=
+5CV?=3D
+ =3D?us-ascii?q?7h/sTuqdPyt0iGhrdb6jnRq+70atx+n6W8KpylhFtDBFncPJtn0V1xzc9My=
+HSv?=3D
+ =3D?us-ascii?q?xl80ek1jeDyhzf5v1eLU8olarbKpghzaQumZoWq0vDHyv2lF/qg6+Qbkkk+=
++6o?=3D
+ =3D?us-ascii?q?5Pr7Yrj+qZKRNZV4hwL6P6g0h8CyAuU1PhIQU2WU/emwzLjj8lf4QLVOgP0=
+2iK?=3D
+ =3D?us-ascii?q?7ZsJXCKMQcuK62HRVV0p095BmlFDeqzcgUkGIcLFJEfhKHiJHlO0nUIPD/A=
+ve/?=3D
+ =3D?us-ascii?q?mUqjkCxwx/zcIrLhBZDNImDZkLj9ZbZ991JcyA0rwN9E+Z1UDrUBL+z8WkD=
+rrt?=3D
+ =3D?us-ascii?q?zXEwE2PBKsw+v8Ftp90pseVniUAq+eLKPdr1CJ6fg0I+WWa48Vvyj9eLAZ4=
+Kvk?=3D
+ =3D?us-ascii?q?gHs9lFAUZ6Wk0IM/ZXSgF+9hP0iJaGGqjdAfQkkQuQ9rbuvxhUWCZgVSYXG=
+KRa?=3D
+ =3D?us-ascii?q?Uz/DwgE8ryCpnOXJugiafYhA+gH5tRI3hcDV+WHGzzMY6DXqFfO2qpPsZ9n=
+2lc?=3D
+ =3D?us-ascii?q?BvCaQIg72ET2uQ=3D3D=3D3D?=3D
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: =3D?us-ascii?q?A0EFfgAsJW9Zhvm6WS9bHAEBFgEBBQE=
+BB?=3D
+ =3D?us-ascii?q?gQBARYBAQUBAQaCbwKBDwOBEYpxhA2PPwaBBpYngU1DHBKESkoDAiIUg2wR=
+AQE?=3D
+ =3D?us-ascii?q?BAQEBAQEBAQECEAEBAQgLCwgoL4IzIgwERiEILgEBAQEBAQEBIgIIBUNECh=
+MBA?=3D
+ =3D?us-ascii?q?SQBCgkYRAJyiF1xVAwBAwILkHeceWuCJoMGAQEFh3oqCIEeggqDBoInAQE1=
+hyk?=3D
+ =3D?us-ascii?q?SASiDBxaCS4EyAQGQM40vHggBAYFahXGOWoVPg1OHAZVcOQeBFwt1gQQFBk=
+SEL?=3D
+ =3D?us-ascii?q?oIAaQGGIoIwAQEB?=3D
+X-IPAS-Result: =3D?us-ascii?q?A0EFfgAsJW9Zhvm6WS9bHAEBFgEBBQEBBgQBARYBAQUBA=
+Qa?=3D
+ =3D?us-ascii?q?CbwKBDwOBEYpxhA2PPwaBBpYngU1DHBKESkoDAiIUg2wRAQEBAQEBAQEBAQ=
+ECE?=3D
+ =3D?us-ascii?q?AEBAQgLCwgoL4IzIgwERiEILgEBAQEBAQEBIgIIBUNEChMBASQBCgkYRAJy=
+iF1?=3D
+ =3D?us-ascii?q?xVAwBAwILkHeceWuCJoMGAQEFh3oqCIEeggqDBoInAQE1hykSASiDBxaCS4=
+EyA?=3D
+ =3D?us-ascii?q?QGQM40vHggBAYFahXGOWoVPg1OHAZVcOQeBFwt1gQQFBkSELoIAaQGGIoIw=
+AQE?=3D
+ =3D?us-ascii?q?B?=3D
+X-IronPort-AV: E=3DSophos;i=3D"5.40,380,1496124000";
+   d=3D"scan'208,217";a=3D"2845680"
+Subject: [SENDER UNVERIFIED][SPAM SUSPECT]Ocean Freight Rate from China by
+ China-Progress
+Received: from smtpc2.chinaemail.cn (HELO mx100.chinaemail.cn) ([47.89.186.=
+249])
+  by mail01.elpasotexas.gov with ESMTP; 19 Jul 2017 03:27:00 -0600
+Received: from smtpc1.chinaemail.cn (smtpc1.chinaemail.cn [184.173.76.226])
+        by mx100.chinaemail.cn (Postfix) with ESMTP id 9B00DCEFC2
+        for <bellegardeep@elpasotexas.gov>; Wed, 19 Jul 2017 17:26:56 +0800=
+ (CST)
+Received: from s151v.chinaemail.cn (unknown [219.238.233.132])
+        by smtpc1.chinaemail.cn (Postfix) with ESMTP id B25A6106
+        for <bellegardeep@elpasotexas.gov>; Wed, 19 Jul 2017 17:08:17 +0800=
+ (CST)
+Received: from [192.168.1.203] (unknown [14.20.30.239])
+        (Authenticated sender: overseas10@sino-progress.com)
+        by s151v.chinaemail.cn (Bossmail) with ESMTP id 02A5B4A22F7
+        for <bellegardeep@elpasotexas.gov>; Wed, 19 Jul 2017 17:25:49 +0800=
+ (CST)
+Content-Type: multipart/mixed;
+        boundary=3D"=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D7577130813=
+650807296=3D=3D"
+MIME-Version: 1.0
+From: =3D?utf-8?q?Joseph=3D5FSinoProgress?=3D <overseas10@sino-progress.com=
+>
+To: <bellegardeep@elpasotexas.gov>
+Date: Wed, 19 Jul 2017 17:26:48 +0800
+Message-ID: <150045640820.6736.18397916959830801639@DESKTOP-UIM96J7>
+X-MID: 2093652882.3721487882.5.1500456350.84531.23938
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/simple; d=3Dsino-progres=
+s.com;
+        s=3Ds123456; t=3D1500456350;
+        bh=3DGs6Pv6SzyVyYFZeu8U6OWKme51sCrAmTyYazxLwcv+I=3D;
+        h=3DSubject:From:Date:Message-ID;
+        b=3DOnAEjPp1ccxvH5KOLeq3xTed2cLnL/yYmz8OIX8+UAE7H9oKSD/SLa1ankuUZg1=
+GP
+         UwzjjoHKclL5g1iq/oh13nRrgU0R52CJuJM5BXrzvhCVzzIw4fzZYPQlKvOB5d9gLn
+         FiTrlk12+jDSeCTsqYmopaK253ow0Dl37WKesbNE=3D
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,bellegardeep@elpasotexas.gov,
+Return-Path: overseas10@sino-progress.com
+
+
+--c8bc8fc2-2a73-4b5b-a3b9-3101e6cc8747
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:bel=
+legardeep@elpasotexas.gov">bellegardeep@elpasotexas.gov</a><br>
+</font>
+<font color=3D"#000000" size=3D"3" face=3D"Arial">The email address you ent=
+ered couldn't be found. Please check the recipient's email address and try =
+to resend the message. If the problem continues, please contact your helpde=
+sk.<br>
+</font>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: EXCH2013-POD02.ad.elpasotexas.gov<br>
+</p>
+<p>bellegardeep@elpasotexas.gov<br>
+Remote Server  returned '550 5.1.1 RESOLVER.ADR.RecipNotFound; not found'<b=
+r>
+</p>
+<p>Original message headers:</p>
+<pre>Received: from exch2013-pod03.ad.elpasotexas.gov (172.18.61.13) by
+ EXCH2013-POD02.ad.elpasotexas.gov (172.18.61.12) with Microsoft SMTP Serve=
+r
+ (TLS) id 15.0.1293.2; Wed, 19 Jul 2017 03:27:02 -0600
+Received: from mail01.elpasotexas.gov (172.20.50.191) by
+ exch2013-pod03.ad.elpasotexas.gov (172.18.61.13) with Microsoft SMTP Serve=
+r
+ id 15.0.1293.2 via Frontend Transport; Wed, 19 Jul 2017 03:27:02 -0600
+Authentication-Results: mail01.elpasotexas.gov; dkim=3Dpermerror (no key fo=
+r signature) header.i=3D@sino-progress.com
+IronPort-PHdr: =3D?us-ascii?q?9a23=3D3AVLX60R2viq2aB2LHsmDT+DRfVm0co7zxezQt=
+wd8Z?=3D
+ =3D?us-ascii?q?seISK/ad9pjvdHbS+e9qxAeQG96KtLQc06L/iOPJYSQ4+5GPsXQPItRndiQ=
+uro?=3D
+ =3D?us-ascii?q?EopTEmG9OPEkbhLfTnPGQQFcVGU0J5rTngaRAGUMnxaEfPrXKs8DUcBgvwN=
+RZv?=3D
+ =3D?us-ascii?q?JuTyB4Xek9m72/q89pDXYQhEniaxba9vJxiqsAvdsdUbj5F/Iagr0BvJpXV=
+Ie+?=3D
+ =3D?us-ascii?q?VSxWx2IF+Yggjx6MSt8pN96ipco/0u+dJOXqX8ZKQ4UKdXDC86PGAv5c3kr=
+gfM?=3D
+ =3D?us-ascii?q?QA2S7XYBSGoWkx5IAw/Y7BHmW5r6ryX3uvZh1CScIMb7S60/Vza/4KdxUBL=
+nlC?=3D
+ =3D?us-ascii?q?gIOSM5/m/JhMJ+j7lWoBe9qxFl2YPYfJ2ZOfh4c6jAfd0aX21BXsNJWiJFB=
+YO8?=3D
+ =3D?us-ascii?q?dJUAD/IBPelAsof9pl0OrRykCwm2A+PvxSVIiWHt3a0hzu8sFgbG3BI+ENI=
+Uq3?=3D
+ =3D?us-ascii?q?Tbss/6NLwPXeyp16TI1jTDb/VR2Tvk8IjIaBchof6WXb1uasrR0lMjGB/Cj=
+lWV?=3D
+ =3D?us-ascii?q?sIHoOS6e2OoKs2ie9eVgVOSvhnY8qwFwpDivwd4gipHThoISxVDE7zt2wJ0=
+uJd?=3D
+ =3D?us-ascii?q?GiVEF7ZtukHZ1NvC+ZL4t7WswvTmNytCs5zrAKo4O3cSsLxZg92RLSZPiKf=
+5CV?=3D
+ =3D?us-ascii?q?7h/sTuqdPyt0iGhrdb6jnRq+70atx+n6W8KpylhFtDBFncPJtn0V1xzc9My=
+HSv?=3D
+ =3D?us-ascii?q?xl80ek1jeDyhzf5v1eLU8olarbKpghzaQumZoWq0vDHyv2lF/qg6+Qbkkk+=
++6o?=3D
+ =3D?us-ascii?q?5Pr7Yrj+qZKRNZV4hwL6P6g0h8CyAuU1PhIQU2WU/emwzLjj8lf4QLVOgP0=
+2iK?=3D
+ =3D?us-ascii?q?7ZsJXCKMQcuK62HRVV0p095BmlFDeqzcgUkGIcLFJEfhKHiJHlO0nUIPD/A=
+ve/?=3D
+ =3D?us-ascii?q?mUqjkCxwx/zcIrLhBZDNImDZkLj9ZbZ991JcyA0rwN9E+Z1UDrUBL+z8WkD=
+rrt?=3D
+ =3D?us-ascii?q?zXEwE2PBKsw+v8Ftp90pseVniUAq+eLKPdr1CJ6fg0I+WWa48Vvyj9eLAZ4=
+Kvk?=3D
+ =3D?us-ascii?q?gHs9lFAUZ6Wk0IM/ZXSgF+9hP0iJaGGqjdAfQkkQuQ9rbuvxhUWCZgVSYXG=
+KRa?=3D
+ =3D?us-ascii?q?Uz/DwgE8ryCpnOXJugiafYhA+gH5tRI3hcDV+WHGzzMY6DXqFfO2qpPsZ9n=
+2lc?=3D
+ =3D?us-ascii?q?BvCaQIg72ET2uQ=3D3D=3D3D?=3D
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: =3D?us-ascii?q?A0EFfgAsJW9Zhvm6WS9bHAEBFgEBBQE=
+BB?=3D
+ =3D?us-ascii?q?gQBARYBAQUBAQaCbwKBDwOBEYpxhA2PPwaBBpYngU1DHBKESkoDAiIUg2wR=
+AQE?=3D
+ =3D?us-ascii?q?BAQEBAQEBAQECEAEBAQgLCwgoL4IzIgwERiEILgEBAQEBAQEBIgIIBUNECh=
+MBA?=3D
+ =3D?us-ascii?q?SQBCgkYRAJyiF1xVAwBAwILkHeceWuCJoMGAQEFh3oqCIEeggqDBoInAQE1=
+hyk?=3D
+ =3D?us-ascii?q?SASiDBxaCS4EyAQGQM40vHggBAYFahXGOWoVPg1OHAZVcOQeBFwt1gQQFBk=
+SEL?=3D
+ =3D?us-ascii?q?oIAaQGGIoIwAQEB?=3D
+X-IPAS-Result: =3D?us-ascii?q?A0EFfgAsJW9Zhvm6WS9bHAEBFgEBBQEBBgQBARYBAQUBA=
+Qa?=3D
+ =3D?us-ascii?q?CbwKBDwOBEYpxhA2PPwaBBpYngU1DHBKESkoDAiIUg2wRAQEBAQEBAQEBAQ=
+ECE?=3D
+ =3D?us-ascii?q?AEBAQgLCwgoL4IzIgwERiEILgEBAQEBAQEBIgIIBUNEChMBASQBCgkYRAJy=
+iF1?=3D
+ =3D?us-ascii?q?xVAwBAwILkHeceWuCJoMGAQEFh3oqCIEeggqDBoInAQE1hykSASiDBxaCS4=
+EyA?=3D
+ =3D?us-ascii?q?QGQM40vHggBAYFahXGOWoVPg1OHAZVcOQeBFwt1gQQFBkSELoIAaQGGIoIw=
+AQE?=3D
+ =3D?us-ascii?q?B?=3D
+X-IronPort-AV: E=3DSophos;i=3D&quot;5.40,380,1496124000&quot;;=20
+   d=3D&quot;scan'208,217&quot;;a=3D&quot;2845680&quot;
+Subject: [SENDER UNVERIFIED][SPAM SUSPECT]Ocean Freight Rate from China by
+ China-Progress
+Received: from smtpc2.chinaemail.cn (HELO mx100.chinaemail.cn) ([47.89.186.=
+249])
+  by mail01.elpasotexas.gov with ESMTP; 19 Jul 2017 03:27:00 -0600
+Received: from smtpc1.chinaemail.cn (smtpc1.chinaemail.cn [184.173.76.226])
+	by mx100.chinaemail.cn (Postfix) with ESMTP id 9B00DCEFC2
+	for &lt;bellegardeep@elpasotexas.gov&gt;; Wed, 19 Jul 2017 17:26:56 +0800 =
+(CST)
+Received: from s151v.chinaemail.cn (unknown [219.238.233.132])
+	by smtpc1.chinaemail.cn (Postfix) with ESMTP id B25A6106
+	for &lt;bellegardeep@elpasotexas.gov&gt;; Wed, 19 Jul 2017 17:08:17 +0800 =
+(CST)
+Received: from [192.168.1.203] (unknown [14.20.30.239])
+	(Authenticated sender: overseas10@sino-progress.com)
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 02A5B4A22F7
+	for &lt;bellegardeep@elpasotexas.gov&gt;; Wed, 19 Jul 2017 17:25:49 +0800 =
+(CST)
+Content-Type: multipart/mixed;
+	boundary=3D&quot;=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D757713081365=
+0807296=3D=3D&quot;
+MIME-Version: 1.0
+From: =3D?utf-8?q?Joseph=3D5FSinoProgress?=3D &lt;overseas10@sino-progress.=
+com&gt;
+To: &lt;bellegardeep@elpasotexas.gov&gt;
+Date: Wed, 19 Jul 2017 17:26:48 +0800
+Message-ID: &lt;150045640820.6736.18397916959830801639@DESKTOP-UIM96J7&gt;
+X-MID: 2093652882.3721487882.5.1500456350.84531.23938
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/simple; d=3Dsino-progres=
+s.com;
+	s=3Ds123456; t=3D1500456350;
+	bh=3DGs6Pv6SzyVyYFZeu8U6OWKme51sCrAmTyYazxLwcv+I=3D;
+	h=3DSubject:From:Date:Message-ID;
+	b=3DOnAEjPp1ccxvH5KOLeq3xTed2cLnL/yYmz8OIX8+UAE7H9oKSD/SLa1ankuUZg1GP
+	 UwzjjoHKclL5g1iq/oh13nRrgU0R52CJuJM5BXrzvhCVzzIw4fzZYPQlKvOB5d9gLn
+	 FiTrlk12+jDSeCTsqYmopaK253ow0Dl37WKesbNE=3D
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,bellegardeep@elpasotexas.gov,
+Return-Path: overseas10@sino-progress.com
+</pre>
+</font>
+</body>
+</html>=
+
+--c8bc8fc2-2a73-4b5b-a3b9-3101e6cc8747--
+
+--7d604d42-c9ac-4eba-827c-e1d990486a29
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;EXCH2013-POD02.ad.elpasotexas.gov
+Received-From-MTA: dns;mail01.elpasotexas.gov
+Arrival-Date: Wed, 19 Jul 2017 09:27:02 +0000
+
+Final-Recipient: rfc822;bellegardeep@elpasotexas.gov
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+
+
+--7d604d42-c9ac-4eba-827c-e1d990486a29
+Content-Type: message/rfc822
+
+Received: from exch2013-pod03.ad.elpasotexas.gov (172.18.61.13) by
+ EXCH2013-POD02.ad.elpasotexas.gov (172.18.61.12) with Microsoft SMTP Server
+ (TLS) id 15.0.1293.2; Wed, 19 Jul 2017 03:27:02 -0600
+Received: from mail01.elpasotexas.gov (172.20.50.191) by
+ exch2013-pod03.ad.elpasotexas.gov (172.18.61.13) with Microsoft SMTP Server
+ id 15.0.1293.2 via Frontend Transport; Wed, 19 Jul 2017 03:27:02 -0600
+Authentication-Results: mail01.elpasotexas.gov; dkim=permerror (no key for signature) header.i=@sino-progress.com
+IronPort-PHdr: =?us-ascii?q?9a23=3AVLX60R2viq2aB2LHsmDT+DRfVm0co7zxezQtwd8Z?=
+ =?us-ascii?q?seISK/ad9pjvdHbS+e9qxAeQG96KtLQc06L/iOPJYSQ4+5GPsXQPItRndiQuro?=
+ =?us-ascii?q?EopTEmG9OPEkbhLfTnPGQQFcVGU0J5rTngaRAGUMnxaEfPrXKs8DUcBgvwNRZv?=
+ =?us-ascii?q?JuTyB4Xek9m72/q89pDXYQhEniaxba9vJxiqsAvdsdUbj5F/Iagr0BvJpXVIe+?=
+ =?us-ascii?q?VSxWx2IF+Yggjx6MSt8pN96ipco/0u+dJOXqX8ZKQ4UKdXDC86PGAv5c3krgfM?=
+ =?us-ascii?q?QA2S7XYBSGoWkx5IAw/Y7BHmW5r6ryX3uvZh1CScIMb7S60/Vza/4KdxUBLnlC?=
+ =?us-ascii?q?gIOSM5/m/JhMJ+j7lWoBe9qxFl2YPYfJ2ZOfh4c6jAfd0aX21BXsNJWiJFBYO8?=
+ =?us-ascii?q?dJUAD/IBPelAsof9pl0OrRykCwm2A+PvxSVIiWHt3a0hzu8sFgbG3BI+ENIUq3?=
+ =?us-ascii?q?Tbss/6NLwPXeyp16TI1jTDb/VR2Tvk8IjIaBchof6WXb1uasrR0lMjGB/CjlWV?=
+ =?us-ascii?q?sIHoOS6e2OoKs2ie9eVgVOSvhnY8qwFwpDivwd4gipHThoISxVDE7zt2wJ0uJd?=
+ =?us-ascii?q?GiVEF7ZtukHZ1NvC+ZL4t7WswvTmNytCs5zrAKo4O3cSsLxZg92RLSZPiKf5CV?=
+ =?us-ascii?q?7h/sTuqdPyt0iGhrdb6jnRq+70atx+n6W8KpylhFtDBFncPJtn0V1xzc9MyHSv?=
+ =?us-ascii?q?xl80ek1jeDyhzf5v1eLU8olarbKpghzaQumZoWq0vDHyv2lF/qg6+Qbkkk++6o?=
+ =?us-ascii?q?5Pr7Yrj+qZKRNZV4hwL6P6g0h8CyAuU1PhIQU2WU/emwzLjj8lf4QLVOgP02iK?=
+ =?us-ascii?q?7ZsJXCKMQcuK62HRVV0p095BmlFDeqzcgUkGIcLFJEfhKHiJHlO0nUIPD/Ave/?=
+ =?us-ascii?q?mUqjkCxwx/zcIrLhBZDNImDZkLj9ZbZ991JcyA0rwN9E+Z1UDrUBL+z8WkDrrt?=
+ =?us-ascii?q?zXEwE2PBKsw+v8Ftp90pseVniUAq+eLKPdr1CJ6fg0I+WWa48Vvyj9eLAZ4Kvk?=
+ =?us-ascii?q?gHs9lFAUZ6Wk0IM/ZXSgF+9hP0iJaGGqjdAfQkkQuQ9rbuvxhUWCZgVSYXGKRa?=
+ =?us-ascii?q?Uz/DwgE8ryCpnOXJugiafYhA+gH5tRI3hcDV+WHGzzMY6DXqFfO2qpPsZ9n2lc?=
+ =?us-ascii?q?BvCaQIg72ET2uQ=3D=3D?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: =?us-ascii?q?A0EFfgAsJW9Zhvm6WS9bHAEBFgEBBQEBB?=
+ =?us-ascii?q?gQBARYBAQUBAQaCbwKBDwOBEYpxhA2PPwaBBpYngU1DHBKESkoDAiIUg2wRAQE?=
+ =?us-ascii?q?BAQEBAQEBAQECEAEBAQgLCwgoL4IzIgwERiEILgEBAQEBAQEBIgIIBUNEChMBA?=
+ =?us-ascii?q?SQBCgkYRAJyiF1xVAwBAwILkHeceWuCJoMGAQEFh3oqCIEeggqDBoInAQE1hyk?=
+ =?us-ascii?q?SASiDBxaCS4EyAQGQM40vHggBAYFahXGOWoVPg1OHAZVcOQeBFwt1gQQFBkSEL?=
+ =?us-ascii?q?oIAaQGGIoIwAQEB?=
+X-IPAS-Result: =?us-ascii?q?A0EFfgAsJW9Zhvm6WS9bHAEBFgEBBQEBBgQBARYBAQUBAQa?=
+ =?us-ascii?q?CbwKBDwOBEYpxhA2PPwaBBpYngU1DHBKESkoDAiIUg2wRAQEBAQEBAQEBAQECE?=
+ =?us-ascii?q?AEBAQgLCwgoL4IzIgwERiEILgEBAQEBAQEBIgIIBUNEChMBASQBCgkYRAJyiF1?=
+ =?us-ascii?q?xVAwBAwILkHeceWuCJoMGAQEFh3oqCIEeggqDBoInAQE1hykSASiDBxaCS4EyA?=
+ =?us-ascii?q?QGQM40vHggBAYFahXGOWoVPg1OHAZVcOQeBFwt1gQQFBkSELoIAaQGGIoIwAQE?=
+ =?us-ascii?q?B?=
+X-IronPort-AV: E=Sophos;i="5.40,380,1496124000"; 
+   d="scan'208,217";a="2845680"
+Subject: [SENDER UNVERIFIED][SPAM SUSPECT]Ocean Freight Rate from China by
+ China-Progress
+Received: from smtpc2.chinaemail.cn (HELO mx100.chinaemail.cn) ([47.89.186.249])
+  by mail01.elpasotexas.gov with ESMTP; 19 Jul 2017 03:27:00 -0600
+Received: from smtpc1.chinaemail.cn (smtpc1.chinaemail.cn [184.173.76.226])
+	by mx100.chinaemail.cn (Postfix) with ESMTP id 9B00DCEFC2
+	for <bellegardeep@elpasotexas.gov>; Wed, 19 Jul 2017 17:26:56 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [219.238.233.132])
+	by smtpc1.chinaemail.cn (Postfix) with ESMTP id B25A6106
+	for <bellegardeep@elpasotexas.gov>; Wed, 19 Jul 2017 17:08:17 +0800 (CST)
+Received: from [192.168.1.203] (unknown [14.20.30.239])
+	(Authenticated sender: overseas10@sino-progress.com)
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 02A5B4A22F7
+	for <bellegardeep@elpasotexas.gov>; Wed, 19 Jul 2017 17:25:49 +0800 (CST)
+Content-Type: multipart/mixed;
+	boundary="===============7577130813650807296=="
+MIME-Version: 1.0
+From: =?utf-8?q?Joseph=5FSinoProgress?= <overseas10@sino-progress.com>
+To: <bellegardeep@elpasotexas.gov>
+Date: Wed, 19 Jul 2017 17:26:48 +0800
+Message-ID: <150045640820.6736.18397916959830801639@DESKTOP-UIM96J7>
+X-MID: 2093652882.3721487882.5.1500456350.84531.23938
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sino-progress.com;
+	s=s123456; t=1500456350;
+	bh=Gs6Pv6SzyVyYFZeu8U6OWKme51sCrAmTyYazxLwcv+I=;
+	h=Subject:From:Date:Message-ID;
+	b=OnAEjPp1ccxvH5KOLeq3xTed2cLnL/yYmz8OIX8+UAE7H9oKSD/SLa1ankuUZg1GP
+	 UwzjjoHKclL5g1iq/oh13nRrgU0R52CJuJM5BXrzvhCVzzIw4fzZYPQlKvOB5d9gLn
+	 FiTrlk12+jDSeCTsqYmopaK253ow0Dl37WKesbNE=
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,bellegardeep@elpasotexas.gov,
+Return-Path: overseas10@sino-progress.com
+
+--===============7577130813650807296==
+Content-Type: multipart/alternative;
+	boundary="===============5937491787614908894=="
+MIME-Version: 1.0
+
+--===============5937491787614908894==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+--===============5937491787614908894==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+	<head>
+		<!-- NAME: SIMPLE TEXT -->
+		<!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+		<meta charset=3D"UTF-8">
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+		<title>Greetings From China Progress International Freight Forwarding Com=
+pany</title>
+	    <style type=3D"text/css">
+<!--
+.STYLE1 {
+	color: #333333;
+	font-weight: bold;
+}
+.STYLE2 {color: #333333}
+.STYLE5 {
+	font-style: italic;
+	color: #000000;
+}
+.STYLE8 {
+	font-style: italic;
+	color: #666666;
+}
+.STYLE13 {color: #000000}
+-->
+        </style>
+</head>
+    <body>
+	=09
+        <center>
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable">
+                <tr>
+                    <td align=3D"left" valign=3D"top" id=3D"bodyCell">
+                        <!-- BEGIN TEMPLATE // -->
+						<!--[if gte mso 9]>
+						<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" width=3D"600" style=3D"width:600px;">
+						<tr>
+						<td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:600p=
+x;">
+						<![endif]-->
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" class=3D"templateContainer">
+                            <tr>
+                                <td valign=3D"top" id=3D"templateHeader"></=
+td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateBody"><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D=
+"mcnTextBlock" style=3D"min-width:100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"padding=
+-top:9px;">
+              	<!--[if mso]>
+				<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" style=3D"width:100%;">
+				<tr>
+				<![endif]-->
+			   =20
+				<!--[if mso]>
+				<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+				<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"max-width:100%; min-width:100%;" width=3D"100%" class=
+=3D"mcnTextContentContainer">
+                    <tbody><tr>
+                       =20
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18p=
+x;">
+                       =20
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif">Dear manager of El Paso International Airport ,<br>
+                                <br>
+                              Greetings from  <strong>China-Progress Int'l =
+Freight Forwarding</strong>, China.<br>
+  <br>
+                              This is Joseph,&nbsp;it is so nice to know yo=
+ur good company from<strong>&nbsp;AZFreight members Directory .</strong></p=
+>
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif">                              We are 14 years experienc=
+ed freight forwarder in Shenzhen.    Wondering if we have chance<strong> to=
+ be your cooperating handler </strong>in China.  <br>
+                            </p>
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif">Here is updated Freight Rate from China to US, hope it =
+is helpful.</p>
+                            <table width=3D"492" height=3D"143" border=3D"1=
+" cellpadding=3D"0" cellspacing=3D"0">
+                              <col width=3D"113">
+                              <col width=3D"72" span=3D"5">
+                              <tr height=3D"18">
+                                <td width=3D"473" height=3D"36" colspan=3D"=
+6" rowspan=3D"2" bordercolor=3D"#999999"><div align=3D"center" class=3D"STY=
+LE1">Freight Rate CN-US Jul19</div></td>
+                              </tr>
+                              <tr height=3D"18"> </tr>
+                              <tr height=3D"40">
+                                <td width=3D"113" height=3D"40" bordercolor=
+=3D"#999999" bgcolor=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE=
+2">POL</span></div></td>
+                                <td width=3D"72" bordercolor=3D"#999999" bg=
+color=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE2">POD</span></=
+div></td>
+                                <td width=3D"72" bordercolor=3D"#999999" bg=
+color=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE2">Carrier</spa=
+n></div></td>
+                                <td width=3D"72" bordercolor=3D"#999999" bg=
+color=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE2">Freight    2=
+0'GP($)</span></div></td>
+                                <td width=3D"72" bordercolor=3D"#999999" bg=
+color=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE2">Freight    4=
+0GP($)</span></div></td>
+                                <td width=3D"72" bordercolor=3D"#999999" bg=
+color=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE2">Freight    4=
+0HQ($)</span></div></td>
+                              </tr>
+                              <tr height=3D"20">
+                                <td height=3D"20" bordercolor=3D"#999999"><=
+div align=3D"center"><span class=3D"STYLE2">SZX,TNJ,TAO,SHA</span></div></t=
+d>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">LA</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">HPL</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">890</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">1100</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">1100</span></div></td>
+                              </tr>
+                              <tr height=3D"20">
+                                <td height=3D"20" bordercolor=3D"#999999"><=
+div align=3D"center"><span class=3D"STYLE2">SZX,TNJ,TAO,SHA</span></div></t=
+d>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">HU</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">OOCL</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">1630</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">1630</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">2025</span></div></td>
+                              </tr>
+                              <tr height=3D"20">
+                                <td height=3D"20" bordercolor=3D"#999999"><=
+div align=3D"center"><span class=3D"STYLE2">SZX,TNJ,TAO,SHA</span></div></t=
+d>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">NY</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">UASC</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">1675</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">1675</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">2050</span></div></td>
+                              </tr>
+                              <tr height=3D"20">
+                                <td height=3D"20" bordercolor=3D"#999999"><=
+div align=3D"center"><span class=3D"STYLE2">SZX,TNJ,TAO,SHA</span></div></t=
+d>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">CHI</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">HPL</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">2420</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">2420</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">3000</span></div></td>
+                              </tr>
+                            </table>
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif">Please kindly let me know if anything we can help you w=
+ith or if I should not disturb you with this.</p>
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif"><br>
+                              <strong>We wish to be your trusted partner in=
+ China.</strong><br>
+                              <span class=3D"STYLE13"><br>
+                              <em><strong>China Progress is&nbsp; </strong>=
+</em></span></p>
+                            <ul class=3D"STYLE5">
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>14 years experienced</strong> Freight Forwarder&nbsp;</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+member of <strong>WCA, FIATA, CIFA</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+NVOCC Class-A freight forwarder</span></li>
+</ul>
+                            <span class=3D"STYLE13" style=3D"font-family:ar=
+ial,helvetica neue,helvetica,sans-serif"><em> <strong>We have</strong></em>=
+</span>
+
+<ul class=3D"STYLE5">
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>4 office</strong> in China (located in <strong>Shenzhen, Guangzhou =
+, Shanghai, Qingdao</strong> respectively)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>3 overseas office</strong> (located in <strong>US, Canada and Vietn=
+am</strong> respectively.)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>200+ stuff</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>110+ container trucks</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>1000 sq ft warehouse</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Our own broker office in Shenzhen</strong></span></li>
+</ul>
+<span class=3D"STYLE13" style=3D"font-family:arial,helvetica neue,helvetica=
+,sans-serif"><em> <strong>Our service </strong>covers</em></span>
+
+<ul class=3D"STYLE8">
+	<li class=3D"STYLE13"><span style=3D"font-family:arial,helvetica neue,helv=
+etica,sans-serif">Sea Freight</span></li>
+	<li class=3D"STYLE13"><span style=3D"font-family:arial,helvetica neue,helv=
+etica,sans-serif">Air Freight</span></li>
+	<li class=3D"STYLE13"><span style=3D"font-family:arial,helvetica neue,helv=
+etica,sans-serif">Logistics</span></li>
+	<li class=3D"STYLE13"><span style=3D"font-family:arial,helvetica neue,helv=
+etica,sans-serif">Transport and Distribution</span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>Please don't hesitate to contact me for any assistance you need from Ch=
+ina.</strong></span>
+
+<div><br>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">I am =
+looking forward to your reply! Wish we could start cooperation very soon .<=
+/span><br>
+&nbsp;
+<div>
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Thanks &amp; Regards,</span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Joseph Li&nbsp;</strong></span></div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Overseas Dept.<br>
+Email: overseas10@sino-progress.com<br>
+<strong><em>Service Drives Value=E2=80=A6=E2=80=A6</em></strong><br>
+<strong>CHINA&nbsp;PROGRESS INT'L FORWARDING CO.,LTD&nbsp;</strong><br>
+NVOCC:MOC-NV 03517<br>
+Cell: +86-13714780856<br>
+<a href=3D"http://www.sino-progress.com/">WWW.SINO-PROGRESS.COM</a><br>
+&nbsp;CHINA&nbsp; -&nbsp;&nbsp; VIETNAM &nbsp;-&nbsp; U.S.A.&nbsp; &nbsp;-&=
+nbsp; &nbsp;CANADA</span></div>
+</div>
+
+<div>
+<div align=3D"left"><span style=3D"font-family:arial,helvetica neue,helveti=
+ca,sans-serif"><img data-file-id=3D"2715261" src=3D"https://gallery.mailchi=
+mp.com/3cad518a16e6e9e8280a70c63/images/114709a2-d4d1-4ae6-a900-90d97573805=
+1.jpg" style=3D"border: 0px  ; margin: 0px;"></span></div>
+</div>
+</div>                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+               =20
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateFooter"></=
+td>
+                            </tr>
+                        </table>
+						<!--[if gte mso 9]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>=
+
+--===============5937491787614908894==--
+
+--===============7577130813650807296==--
+
+--7d604d42-c9ac-4eba-827c-e1d990486a29--

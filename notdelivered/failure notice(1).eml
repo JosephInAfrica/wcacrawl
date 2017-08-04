@@ -1,0 +1,388 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi110.chinaemail.cn (unknown [115.182.8.110])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 99ED34A22F5
+	for <overseas10@sino-progress.com>; Tue, 11 Jul 2017 15:22:14 +0800 (CST)
+X-SBRS: 3.5
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1AwDwBvd2RZh1nVskSDfIFPgRSOC3GTY5MagjyFRQMCAoN2DQECAQEBAQEBARMBAQEIDQkIKIVHAS0kASU0AwECCjQQMAIWCYovAwILrWk6hAsBhBg8gw2DKIUtAYYkgTsRAgFBgx2CNo4pgieOPREBHocqhwtOhF6CGRk+hHSDDmSGXJN7gUdNHWwLgQAphHlEHIFndgEBiCwBAQE
+X-IPAS-Result: A1AwDwBvd2RZh1nVskSDfIFPgRSOC3GTY5MagjyFRQMCAoN2DQECAQEBAQEBARMBAQEIDQkIKIVHAS0kASU0AwECCjQQMAIWCYovAwILrWk6hAsBhBg8gw2DKIUtAYYkgTsRAgFBgx2CNo4pgieOPREBHocqhwtOhF6CGRk+hHSDDmSGXJN7gUdNHWwLgQAphHlEHIFndgEBiCwBAQE
+X-IronPort-AV: E=Sophos;i="5.40,345,1496073600"; 
+   d="scan'208,217";a="458117918"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi110.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 11 Jul 2017 15:22:12 +0800
+Received: from p3plbsmtp01.prod.phx3.secureserver.net (ip-68-178-213-89.ip.secureserver.net [68.178.213.89])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id 1EECBC0A6C
+	for <overseas10@sino-progress.com>; Tue, 11 Jul 2017 15:21:45 +0800 (CST)
+Received: from p3plsmtp14-01-26.prod.phx3.secureserver.net ([173.201.192.181])
+	by :BOUNCE: with SMTP
+	id UpUndwwPw39l8UpUnd3DOa; Tue, 11 Jul 2017 00:22:09 -0700
+Received: (qmail 3016 invoked from network); 11 Jul 2017 07:22:09 -0000
+Date: 11 Jul 2017 07:22:09 -0000
+From: MAILER-DAEMON@p3plsmtp14-01-26.prod.phx3.secureserver.net
+To: srs0=awxh=6o=sino-progress.com=overseas10@bounce.secureserver.net
+Subject: failure notice
+X-CMAE-Envelope: MS4wfDrBQWEUi8giheXrFAAN9+CwtpC/AbkHmo69joPPBbSiJIan7oipyQM59RwyaAgNKreXSN/wui2K5rDB0M6ZSpXoyMWnTtf0oGtqVyBlVdmXElmT00dk
+ 3s8IcEkUfdBrmXtUHu7kVK5unpP+Qw+Abd8tUvJNR7eILLjT4+tniQU7LWYkYcxccdc5WxROe4eE7IsdkLPM01VEiCGs+8Y3iVA=
+Message-Id: <20170711072145.1EECBC0A6C@mx100c1.chinaemail.cn>
+X-MID: 2093652882.1054338317.3.1499757734.632239.28203
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+Your mail message to the following address(es) could not be delivered.
+This is a permanent error. Please verify the address(es) and try again.
+
+<iflnmail@ifln.net>:
+child status 100...The e-mail message could not be delivered because the user's mailfolder is full.
+
+--- Below this line is a copy of the message.
+
+Return-Path: <srs0=awxh=6o=sino-progress.com=overseas10@bounce.secureserver.net>
+Received: (qmail 3013 invoked by uid 30297); 11 Jul 2017 07:22:09 -0000
+Received: from unknown (HELO p3plibsmtp02-14.prod.phx3.secureserver.net) ([68.178.213.14])
+          (envelope-sender <srs0=awxh=6o=sino-progress.com=overseas10@bounce.secureserver.net>)
+          by p3plsmtp14-01-26.prod.phx3.secureserver.net (qmail-1.03) with SMTP
+          for <iflnmail@ifln.net>; 11 Jul 2017 07:22:09 -0000
+Received: from p3plsmtp14-04-25.prod.phx3.secureserver.net ([173.201.192.187])
+	by p3plibsmtp02-14.prod.phx3.secureserver.net with bizsmtp
+	id jKN91v01d433ClZ01KN92H; Tue, 11 Jul 2017 00:22:09 -0700
+Received: (qmail 2443 invoked from network); 11 Jul 2017 07:22:09 -0000
+Delivered-To: info@ifln.net
+Received: (qmail 2440 invoked by uid 30297); 11 Jul 2017 07:22:09 -0000
+Received: from unknown (HELO p3plibsmtp03-03.prod.phx3.secureserver.net) ([68.178.213.62])
+          (envelope-sender <overseas10@sino-progress.com>)
+          by p3plsmtp14-04-25.prod.phx3.secureserver.net (qmail-1.03) with SMTP
+          for <info@ifln.net>; 11 Jul 2017 07:22:09 -0000
+Received: from mx100.chinaemail.cn ([98.126.34.181])
+	by p3plibsmtp03-03.prod.phx3.secureserver.net with bizsmtp
+	id jKN81v02e3uV94a01KN9ge; Tue, 11 Jul 2017 00:22:09 -0700
+Received: from smtpc1.chinaemail.cn (smtpc1.chinaemail.cn [184.173.76.226])
+	by mx100.chinaemail.cn (Postfix) with ESMTP id C8C2F2AF8F7
+	for <info@ifln.net>; Tue, 11 Jul 2017 15:29:19 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [219.238.233.132])
+	by smtpc1.chinaemail.cn (Postfix) with ESMTP id 05F27108
+	for <info@ifln.net>; Tue, 11 Jul 2017 15:03:46 +0800 (CST)
+Received: from [192.168.1.203] (unknown [119.123.181.96])
+	(Authenticated sender: overseas10@sino-progress.com)
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 8383A4A22FB
+	for <info@ifln.net>; Tue, 11 Jul 2017 15:21:52 +0800 (CST)
+Content-Type: multipart/mixed; boundary="===============6515556621016014641=="
+MIME-Version: 1.0
+Subject: Looking for a Partner in USA--ChinaProgress
+From: =?utf-8?q?Joseph=5FChina-Progress?= <overseas10@sino-progress.com>
+To: info@ifln.net
+Date: Tue, 11 Jul 2017 15:21:55 +0800
+Message-ID: <149975771548.3584.54445041725475777@DESKTOP-UIM96J7>
+X-MID: 2093652882.3359653495.1.1499757712.627814.13710
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sino-progress.com;
+	s=s123456; t=1499757712;
+	bh=68eL3jN+rCMcWY3ci/Yuk2f1r4xi8A/lfpHO5f4wJpA=;
+	h=Subject:From:Date:Message-ID;
+	b=m9PAaOBkbQB2BIiwl1lE0rgJGb/W5jL9NgXJZibbqk612nzUApK9e9dc84VPmlfVE
+	 0j/tiGjIa7nSpo/FDDesd1z4hjMqgmQYnk/xjrf3y3c9hIkTxbsvKwsHsauo37dSD0
+	 U3vymHpRRAZjtsobij8s8Ow4Uou6wHtONCboIXvE=
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,info@ifln.net,
+
+--===============6515556621016014641==
+Content-Type: multipart/alternative;
+ boundary="===============4768584522763220907=="
+MIME-Version: 1.0
+
+--===============4768584522763220907==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+--===============4768584522763220907==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+	<head>
+		<!-- NAME: SIMPLE TEXT -->
+		<!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+		<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Greetings From China Progress International Freight Forwarding Company</title>
+        
+    <style type="text/css">
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=tel],a[href^=sms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		#bodyCell{
+			padding:10px;
+		}
+		.templateContainer{
+			max-width:600px !important;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+	*/
+		body,#bodyTable{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+	*/
+		#bodyCell{
+			/*@editable*/border-top:0;
+		}
+	/*
+	@tab Page
+	@section Email Border
+	@tip Set the border for your email.
+	*/
+		.templateContainer{
+			/*@editable*/border:0;
+		}
+	/*
+	@tab Page
+	@section Heading 1
+	@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+	@style heading 1
+	*/
+		h1{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:26px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 2
+	@tip Set the styling for all second-level headings in your emails.
+	@style heading 2
+	*/
+		h2{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:22px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 3
+	@tip Set the styling for all third-level headings in your emails.
+	@style heading 3
+	*/
+		h3{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:20px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 4
+	@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+	@style heading 4
+	*/
+		h4{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:18px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Style
+	@tip Set the borders for your email's header area.
+	*/
+		#templateHeader{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Header
+	@section Header Text
+	@tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+	*/
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Link
+	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+	*/
+		#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Body
+	@section Body Style
+	@tip Set the borders for your email's body area.
+	*/
+		#templateBody{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Body
+	@section Body Text
+	@tip Set the styling for your email's body text. Choose a size and color that is easy to read.
+	*/
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Body
+	@section Body Link
+	@tip Set the styling for your email's body links. Choose a color that helps them stand out from your text.
+	*/
+		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Footer
+	@section Footer Style
+	@tip Set the borders for your email's footer area.
+	*/
+		#templateFooter{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Footer
+	@section Footer Text
+	@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+	*/
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Footer
+	@section Footer Lin
+
+--- End of message stripped.

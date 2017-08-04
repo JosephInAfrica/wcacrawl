@@ -1,0 +1,1904 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi95.chinaemail.cn (unknown [115.182.8.95])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id D9CFD4A22FB
+	for <overseas10@sino-progress.com>; Tue, 11 Jul 2017 15:31:03 +0800 (CST)
+X-SBRS: 2.3
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1AQAQAsfmRZe9LIZxd3AQEBAQIBAQEBCAEBAQGCbz4qZ14EMoUjiVmQVyKLZ3uKUwNZJAEOgiMBglNPAh4CFIM7FAECAQEBAQEBARMBAQsLCgcohUcBAwMBAhcJChMBASQLCQ0CCRMDAQIhCgICFjkIBhOIOwEDgVgDFQMCC440kW8Cik84a4FMWieCXgEBBYQpAxVkgwkBAQEHAQEBAQEBGggFgRmCCoRFaAEBKguFRFCBFQoGAQIBBTYGgm0WjCWEVIQEjEooh0iOUFeEdIpOlAaBPA8nNGwLdV6FBA8cgWd2AQEBhW4NF4IZAQEB
+X-IronPort-AV: E=Sophos;i="5.40,345,1496073600"; 
+   d="scan'208,217";a="204245693"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi95.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 11 Jul 2017 15:30:59 +0800
+Received: from gcc01-CY1-obe.outbound.protection.outlook.com (mail-cy1gcc01hn0210.outbound.protection.outlook.com [23.103.200.210])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id EF30CC0AD3
+	for <overseas10@sino-progress.com>; Tue, 11 Jul 2017 15:30:32 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=gatewayairport.onmicrosoft.com; s=selector1-gatewayairport-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=yybkO8LYuS6rvnB6AE/s3Q8Pk6GUZKNcNBOekCRYsfo=;
+ b=BmMXgLbzEZ13uLd/A2+C66eGGUwOHNFioi8aeJ1EQURgO/rL4yzP5m/FxvneHmiYovdGYCxXX5n1GYHtQV5nvyvkeUjhyCMeLzJw5m67bRk+um+Tth2xtlLMfEDRlmSwd4xKaMoFr3pixvkRh9oLGNuJWEvA1bFj5fUBsw7hbfw=
+MIME-Version: 1.0
+From: <postmaster@gatewayairport.com>
+To: <overseas10@sino-progress.com>
+Date: Tue, 11 Jul 2017 07:30:51 +0000
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="51c3480c-6371-4cb4-8f71-b231bfcc54c4"
+X-MS-Exchange-Message-Is-Ndr:
+Content-Language: en-US
+Message-ID: <d9267abb-cbcb-4c14-9841-9c6843db3cc8@BY2PR09MB080.namprd09.prod.outlook.com>
+In-Reply-To: <149975824214.3584.16780475952222883865@DESKTOP-UIM96J7>
+References: <149975824214.3584.16780475952222883865@DESKTOP-UIM96J7>
+Subject: Undeliverable: Looking for a Partner in USA--ChinaProgress
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: BY2PR09MB080:
+X-MS-Office365-Filtering-Correlation-Id: aaae3b63-d5a6-4832-21d1-08d4c82ec220
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;BY2PR09MB080;25:f4rdEm/p9bUdal4D0iU9YdavzBw822FZu1y2+hwjzP?=
+ =?us-ascii?Q?lPx0uE38CR1u3YYxCKqhQS4vFDZwmrab+EIye7tTWJkcG222P9/P+1DMLMdt?=
+ =?us-ascii?Q?boBJvmzYEDUU/iddCHPShXnVGp2QKymMjKvfGQFG9iKoRefH1YE7yKytg7oT?=
+ =?us-ascii?Q?BmpFlcumkHWCtWR4EAPp8if14sKnSMV9fJQ+qXk2aT3xmsjLH/+VWIxwJbYt?=
+ =?us-ascii?Q?HonZlhmgVsMx3jJeQJy8YcfbBY6vNIF2ImeAPy0M3DgJdIC/CjTW0f3UKfJr?=
+ =?us-ascii?Q?vvvDbBvjwdjnzoIOrCxOoH2am4iyyyIdST9rvyAFw+Mj8k9l+CaUT8I6Ys/4?=
+ =?us-ascii?Q?JttsGUPJ2f4psXQ11nxoi9RFQ36eaGYjb9ylajZjANbgneqBfoqY+3a3Q5i9?=
+ =?us-ascii?Q?yZe6Ihu3VvlfQmuzy97EJH7Q9zNtoLVVAh1IOdnHqWNI7xJBOwQKYhejx5wD?=
+ =?us-ascii?Q?XPs+SaxJypHP5VXABOC18Omjaf4nWuAQTtXeHj0jhbeFwB4PoqsV83u3znOZ?=
+ =?us-ascii?Q?7KkEFc/ZaC2VWmoNr8mJZL4nllnnJ3PZfhVh0TOC80DwZCSBNFcS9aanG1T6?=
+ =?us-ascii?Q?HdowscpNbvHoxUSguESLzf6FEAOqdlwSw7OmMvxdfcnmdEg41oqo3aCSCRsj?=
+ =?us-ascii?Q?M3AgbzufLgxDzqJDf/DEInwGJHKviANAGHDqGQUJ7c7m7UqTfcJCD/aPL8iT?=
+ =?us-ascii?Q?S4e2iK+ZsEI/1zcX7sMmuoKLj9yUNj8Ut6BJI/Qykdc7VWBmYGfe3GyAHLyt?=
+ =?us-ascii?Q?AhLxxjmS8VhBaR4wkZYAF4ksN2StFtrKGvuwVmmolMoevUSI3AsWxT4RtVIs?=
+ =?us-ascii?Q?qlzyoUIBi/PVaRi6GjOR/knfj0+EpZVPFl/bQlzw1Qf0GzNNNs7dswCKgxzh?=
+ =?us-ascii?Q?fjAu2ugc2qDspycpSZbSEFFrX+YVtdrVUCRukD0O0pRs8OWa0Hu9Oo136JKJ?=
+ =?us-ascii?Q?dx5gL0QJl2VlNJqQfGChWresh51g1/pyKysV0f8w=3D=3D?=
+X-Microsoft-Exchange-Diagnostics:
+	1;BY2PR09MB080;31:nUpC7VydR1ETcxUmEVYmOX2zOiEE+tRyKw0yuSlvzZ3TMQgNlihu0e4i5yFLLly2VafYUKQ+0deTx+ifGqow2h/FCBaeVvyRAjCh2wyROBurYJ4pxrQsxJ7iUvu3rQw4zS2HmG7c3KGCq9fbPLOyzT/gyLsrsj6PcPtJPM8FMsqsk5cHalP8YkptS4O7IHTOWr019ksqbkRoogN43KRoOU5EStOCnrXONjAJCcRJ58AtP8g74ON8NH8jqioyJnYeWZgbXFeZIBqVFf7y1sEhRB2q2Ul0G6/K+3m0JaHvAXc0hedHI6/ecgiJP/QnQ+r4Ank5cT0Cfs/SDjRZwA6GM/7NgxdnPhQJ24OmuhjCNMJzHaZj/mAZkr6BcxsF/HzeObL0l/y2Y37GSSXPXEJkZHHiYkyz8UdCre2GTtxxLP+JIHxyhqHJdiPRcCUuis41XRkSpSRKXec4CZKD4JbnbVvUKsT/q5siNFzkb19aIB7PwqUA6zLkKHnK/FZe/TLfOJ8HB+ZPCiIqDWzTv8dz1qTZXXCmVLXn8R7fyaPk8b59uMRJFe+xXNM6UbL0mwFgYwC9ID3tLUNRXrtwQt6pCXiL2GrbIEqpwnOwKivTPLyU+SFT6FkpZbXY4+Dscqru09RxiwFosvr/HAwGO0zk+x075L06PhF9IV/vc1L/5Dj6UMrclDMTPwFnOSC6v+zAc5iPlz+CFICX6hg9u+fJEC5qC0gv7dLjh/PT5cO4eDeEl28jviBGhXmn/mwcvKcF
+X-Microsoft-Antispam-PRVS:
+	<BY2PR09MB0801268AFE5296B58A332A4B8AE0@BY2PR09MB080.namprd09.prod.outlook.com>
+X-Exchange-Antispam-Report-Test:
+	UriScan:(151999592597050)(158342451672863)(156600954879566)(160011542660777)(243645016330912)(26388249023172)(236129657087228)(189930954265078)(13052087078022)(90097320859284);
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(102415395)(53401082)(6040450)(601004)(2401047)(5005006)(8121501046)(3002001)(10201501046)(100000703101)(100105400095)(93006095)(6041248)(20161123564025)(201703131423075)(201702281528075)(201703061421075)(201703061750153)(20161123560025)(20161123555025)(20161123562025)(20161123558100)(53402082)(6072148)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:BY2PR09MB080;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:BY2PR09MB080;
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;BY2PR09MB080;4:WCPvK6KrORrprL9+IKtfSABeaJrXGJmNuBa7NF01tqs?=
+ =?us-ascii?Q?566RV8pWCadhLsswXZNb34vTa0SmRJqshZuClfHn9dO56DPxYxCkyt0XxKhj?=
+ =?us-ascii?Q?+rUJxZH9NN8nmqNI7nmy9zKzILxBHK23wTAYtGe9OFnpZb0SxnllgxjWQppw?=
+ =?us-ascii?Q?C37yYf3BOsG5fqM6Ecx53VwglCuBrPFwIlrp/oyyBxhy+AavESS5a02Ar1ir?=
+ =?us-ascii?Q?b5zrTBxR4z0HaHXvAH9wfbTRie1MIddnfPXb5ShAOYJBIWqY+puKYnDA638s?=
+ =?us-ascii?Q?SM6lteYABUELAkN5OvQ40OIaahoL85xQz4y7+XAcJpGyv83lB7XpZHv3MwvM?=
+ =?us-ascii?Q?yoCuboeRwsAqvUYtrr0X/BUhvq2I0ppqjcQAvgQGlHf2n6m1efGcWRgTloYv?=
+ =?us-ascii?Q?D3N74Enl252JHUkJVeycDWKw0NIQ3fUveTeIJ9LcvO+/1BbQBN8ecB7/aUxW?=
+ =?us-ascii?Q?ednQQ3A3Ud2eIGrATrZa0FgXGqt8CWg7IWNdVocEf2LrFKyrjWsKPhO50UR6?=
+ =?us-ascii?Q?9YJyDija6oxJXbMBykhHyIEz5jvrtNPLIeXP9aIbROvA73rzGWiR9bhECvGw?=
+ =?us-ascii?Q?bWZowDOEbJ8yXz1ti7E8nZWt1uS+egJ765TjkF03YYqgWciyaIqaSyH72dUK?=
+ =?us-ascii?Q?/r7ZrWiPPKbyt9Zpf3n9UfrsZYhB5xj74WYrVE/1ThfBjeeX+s2wo97R6nUg?=
+ =?us-ascii?Q?9Ya8tGSO6jlu8putBDrElpNIeoMAdw8jUhXsGnrmm9p/khyhH56nJCJxbOQV?=
+ =?us-ascii?Q?6FID7gaix+FUUw84UV7mOKaXkt1MGnBJbFg3gZNYRUwYFiDuX8xskO2W5mak?=
+ =?us-ascii?Q?aYqoH1JnB0pwXEoivPQtrbLruNSX31zHeLCLkhJNK2hQvU+e2ZBLB9ui5jSi?=
+ =?us-ascii?Q?FDMO6rcGaL94JQTrFVNdsoUS/qBVJ92TxFdReR/aMholiCPT+tmBdU7F7615?=
+ =?us-ascii?Q?6ShRoDXqg5YravQv1AEu/PkiZdsXewiSVhyquBEG/DRl/DxUff2OUnfC3Bsr?=
+ =?us-ascii?Q?2KZFY6S9Et6iyS1jY5jhP0FxX0kzoVQ0SoNa5LvLrlP6I8tRWPlUCqW18oNZ?=
+ =?us-ascii?Q?3erSSVVWasLXoXGH5o37dBgqMZqD3F+KTc+1pdNLUxiad4Jx5hBH3xpdhRDp?=
+ =?us-ascii?Q?kzjBVPO0MvCqX8uAV1SM521rlAoZPz+pDYvF3g8lFZdbQS67HbzuJI97z6aE?=
+ =?us-ascii?Q?pjDykqnTPcWa9bpi6XQ+VMoaeVb2CWZIScUpOH0uvsXOIzJc0xkMFo9LFrPm?=
+ =?us-ascii?Q?KVvRzZkdMs/N34YrGjQCZV25uECyEXE9Xdveb+X2lzMyp8/kVTiHEBhOWjZB?=
+ =?us-ascii?Q?1sn+PU1uhSIWVeOx9N9EeqwrHZCBMghKddD8aCWhDUCB2a8JcRpMrMTZhwuR?=
+ =?us-ascii?Q?uN77o9bEwezD6qWxSnKD4Ry2HMgSC0tvbGOTmriROwf/pv0JJsezA7792VAG?=
+ =?us-ascii?Q?42tPBOK0aIsuDLV3Llj0qwA0P//AXJc/5++3IJdF5O7vZz5k6K5uuT6z9k4J?=
+ =?us-ascii?Q?gqNzxDUDVB68jFHz1BPLBfN67CZ5lgRTDBslQ8JSnddmfnDmZ9eQiYf4aX5g?=
+ =?us-ascii?Q?CVoXoo2jhT4f5jA=3D=3D?=
+X-Forefront-PRVS: 0365C0E14B
+X-Forefront-Antispam-Report:
+	SFV:NSPM;SFS:(10009020)(50650200002)(4640300001)(4630300001)(39830400002)(39400400002)(39450400003)(39410400002)(377454003)(3905003)(1930700014)(319900001)(2906002)(189998001)(5320300001)(5008980100002)(512954002)(606006)(5660300001)(78352004)(260700001)(74316002)(1476001)(11286001)(81166006)(7350300001)(84326002)(110136004)(38730400002)(102106001)(236005)(45080400002)(2351001)(575784001)(2876002)(8676002)(31696002)(10126004)(733005)(9686003)(33646002)(83832001)(498600001)(6306002)(50986999)(53936002)(86152003)(53946003)(89962001)(2950100002)(54356999)(42882006)(76176999)(1496007)(6916009)(82146005)(3720700003)(559001)(579004);DIR:OUT;SFP:1501;SCL:1;SRVR:BY2PR09MB080;H:;FPR:;SPF:None;MLV:ovrnspm;PTR:InfoNoRecords;LANG:en;
+Received-SPF: None (protection.outlook.com:  does not designate permitted
+ sender hosts)
+Authentication-Results: spf=none (sender IP is ) smtp.mailfrom=<>; 
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;BY2PR09MB080;23:iqE+0LfIXBMbSdcBAoF3kffixu+PgISEFjhwiB091b?=
+ =?us-ascii?Q?fPm7y48kndPsWWYZoST2hZJG6jWgvCtCOEg5jXKnqRH4rI7wcMEb8mq3E5Dp?=
+ =?us-ascii?Q?GWxayd/VY07udHTwBBefwEUcHtvXP9h+BABg7AHq9oSUzEkwiB1/41pDirqm?=
+ =?us-ascii?Q?bgCg+0MOOkYnlytqYZQdZL97cpNYkmc88JhJAVxXGJnyznrjvj4uwxnfFXCS?=
+ =?us-ascii?Q?cBoUs7L34zuwYUd9FdUwOubXy+zE5D+cnPa1ZlZxs1DYotuEFQYHc0Uc0Cl3?=
+ =?us-ascii?Q?IlwCKYxnMB4JwcubfeaWg0QG79DU2uFxVI2RWDT9B+y6xNlRkk2qqOmzcBJ1?=
+ =?us-ascii?Q?hB4sil0hOyMfrKWM1MDLnoAuHyynLlD6hvOEGEnDIuM3Gf37QHwdcveVGCra?=
+ =?us-ascii?Q?2991UJ+l+uPZ6Yqa85x0EJ1Xg2s7XaBzn8CosZUduSf767bSPk+UeSVVQxQB?=
+ =?us-ascii?Q?tB3A8iH7PAPY5GlSbJ4kppSVO6pDJm6KIPPWMpytAQqDtVRBmuX+0tHGfIac?=
+ =?us-ascii?Q?KzpUczAoFgod2O2sRtVd6BfJ96wucQ04bXJEp2Mv1jlsyTwf9AI981B8A67T?=
+ =?us-ascii?Q?kroIW+ZQKSSuZPzqfyhN3XSiKU8BSAQB6yTFz9f9Q67Pw12ATQ6XGaF5p/dn?=
+ =?us-ascii?Q?Mq6N4LaXLR55b9wWP+xYS8/esFkRSwVZZl/PqawpxIIZv32939jvWUGZD/u5?=
+ =?us-ascii?Q?Z+ZrNCeV+VLwvlXiabvrd+bJNcj4S247LItqLM9Jpw8y/f1EMKDakadzmrVA?=
+ =?us-ascii?Q?0ItBm+2jChSJn9NlSyToPVhXHfRQQ/DlEcBICCNHFl4vo/cCHbypCm2SkLrZ?=
+ =?us-ascii?Q?/wclATpOXfSTffbLKi59hkmXjpnhYnj/99q2kwRCjHdH6xw3OJYWWcPwrJid?=
+ =?us-ascii?Q?zqDe2XDLLGb9Epu/y3SdDNvxYvMLlmjtRx+9g2bBG10MVdh1Pi1Rvu29Hgyo?=
+ =?us-ascii?Q?t1JMZT3yHo8V8dl0YpF6Q5sXZ6vSo8RHrL980wCQ1aPX6l7C8V0Ypuc5+ab2?=
+ =?us-ascii?Q?U4iK75u9YGuPbj7V1rdgrvSs2PKuWDwB5HImOO0xj0JzjbdEk/eIwVrtn1LS?=
+ =?us-ascii?Q?0LLTd4jeUNQRjtkod/x4PnTiGJ38qB4NpwUcPuM11buzwrdM6UW1NtJM+CKJ?=
+ =?us-ascii?Q?Nvv2/VBatPXsl9SDrxYfwaDIOTwmaImWfTdXhFsVzujcPaANG1CGPgpjHrCt?=
+ =?us-ascii?Q?aXlcXIldd8gMcc1adcMf73fOS2hFTXJlFjpaHlhwcpaqN+TrJSnAhLtY6FVj?=
+ =?us-ascii?Q?PLts8WtOau+Ozl8EIlx5qgZX1JS8rLD0AjfBbPyIulN1Enk+kNw5eKNHq7Eq?=
+ =?us-ascii?Q?/CUo7S43oa7FmAI30Zn9SSfHpg7uFvPBlykTrjLBHvtl1DOKlgAmhzWld4Ws?=
+ =?us-ascii?Q?DN5PJTxylFSTWHuT1J6w2wNXNV5b9GdM1xMGaAZozEvgMxvXLWfYCC8z7+8s?=
+ =?us-ascii?Q?khkXorDA=3D=3D?=
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;BY2PR09MB080;6:6lBoDSLYnxSCbsTbDHBeOL2HiJBBSQjBy9Wy2MsUMzy?=
+ =?us-ascii?Q?O39ta5EoyKE4QDbA31Bw4/xDfSNAlA0DW8YxZqdFalRvQTlORZdydDQ1B28O?=
+ =?us-ascii?Q?K+qvwKAW94QKlu+gQvTncCzyOrVRY+LOgeX+REaSoU08nBhuhml9z7iBlp0p?=
+ =?us-ascii?Q?XTNKnSR7GTdBUAyuWeqskouL3n5MQpcWII+OvrZL4HrFPDTSIePLNVFNVPzw?=
+ =?us-ascii?Q?jzU0XVaE7eFC76Rk7tOn1U/8dP0js1osGvUhNKm3lcPAH5U6pqV6anqsfP4S?=
+ =?us-ascii?Q?Ox37sW8A8k8pg/oWZECvXSunPpMtqz2Z+bYawwF44NyQPkPdf6GHXJ3w7mjL?=
+ =?us-ascii?Q?L4AaA55RFD9oSedimFDvQGwGePxsOdbeSTSxAlbPuQqecTYS2WIF7wD9C27U?=
+ =?us-ascii?Q?JmnMVDM37R/H5xRBZhuB7jP4nS7ohrxs7ty3WbW9LCCUhj8n2U6EOdAX0Ckt?=
+ =?us-ascii?Q?4Ub1ESBnJ7pF2/XnqPYg3x4WzcS58WksNU5gUQdIt+je5d52WKJdPRFLyZhh?=
+ =?us-ascii?Q?RfNrzDIuo46Ow10uzQXppNqDy7MslyUmkZiPd5jxgELCUTdKn/aDSY0pj4Yx?=
+ =?us-ascii?Q?mtEq02qhMVycjyQpgieavPWtDOnR9maePnn+K4CPFAFdubulCHQ8GVjg07Fy?=
+ =?us-ascii?Q?283OjkPidDFn0Yj/Sx3X5ab+lIR4kLcNGchk+2EfQoUuQvuHAFeFJtn6MZaQ?=
+ =?us-ascii?Q?sKnBMDb+k/aZgM45kR5xLF7H8Ji8xkN+EC2WIdhPTMbKwuAsXzLn3sj1Qa+r?=
+ =?us-ascii?Q?kKj0nfK8PlcOz2FCXiH2wbqSOH8irNZROheFUWltzE8TlfSH0yKe1g8vDvpb?=
+ =?us-ascii?Q?TUFAQtBoAK0hpgQAEMKNu7YQErM5o0iNL077YEpBrCibocYGzB15QTZSaFBV?=
+ =?us-ascii?Q?pwVBrEUSJan9Ly06a7frTz3tCK0S/lqtDyeyjZRlMXKDEv1rFrwSBRrCRjUT?=
+ =?us-ascii?Q?uojk7sK6vK4e5Oq74+vez28U5G4eQPf2Tplgdaih61IEGppCu3ZGkUKj67e4?=
+ =?us-ascii?Q?=3D?=
+X-Microsoft-Exchange-Diagnostics:
+	1;BY2PR09MB080;5:cnKIGmGxHB1iEm5o+3C2vGAUqeHIeAAJt1Hrww0A9ggpQfQp8LlwGaRdOHrY8rn7GvVWC66AWoqFsEw/UZs6BeDyql8GB0nV6ClVaxYU0LE9Fp2uKt+ohDfefdASdo1JgsGAkeFWUbhz4uGid9irfJTo2q4gvjoc2d8bnaTxURcOPHl9uaveyGcuEUNbM+fwqxss+ZqJ7HgrCASd7ng/H5udDyED+1G1jm+s/LdDIZt//Q8aUDRG7Gz+i06+lF2D9kkMkWbnlttvhfavXjfEINDzdZJPpZbCDwQgC5ZQ0AVNIfMOmBSelzkANZnyKcrc9ap+i5coZeoLaQCZVs0leDe/Xks6xDyyKRdiQtP73a+SrC02N50Gn0oVFG3MN5spTU1dPpzseXUNDrQAXvOEeVTQB5nhENAOX+K1wOVF1ws21GnffRI1qpzBMnRF7kJ+VckLsN5GSra1G9NtfyXm/xlXsPW+kQ9UKfhoEtKbF1Id3uCPiUgC6xbhwcPoIXeJ;24:AJAGj9ZIfdLg4bKwmjVAA4vo5ebVvZlzg53TLxhpFs64RCT4MFSb9P28aKjIFk079C/4WDs2GdQOxXYBxtJ4/ftlhrCKIpoBXr3dgqv59JE=
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-Microsoft-Exchange-Diagnostics:
+	1;BY2PR09MB080;7:7SNCJGhSo2dbIIKuujmDS3PmmsJKgxI63/r2UhCMh4PORxH1WcP+0E2LXMOo9END8m6zvCNMobP6VksPqmEXY89YboFyCA+ij1CqQbQN3swT+xXj0HqrjnkJ82BsuFSSvEdcAxk63qxMme8MknGjPYqdav8BD3aHSL5oACabo3cxjFtBivb9Z5IM3wKbW5j9yVEhZv6H3dSatnVtoLKmdwd4KXBsUwrvfkJZgplnxYLJeKhEUx4icQVHFQIjpCx37PZWjCe9x9m0Ngyxa+KHMwjeRicfFXgo5CMRm0QoRKvFzik79cAibebVRcC7JVGAtQTlY9EtHodXIsMb3XhC+Yjgb3th2RmagcmzMgAQfuW7qyOopWCTPW/7r/zjZUF2Lh3MO5M9ZBm6WiqmBNStCzEd0pEnmqV1h+/2MKjRGzAfoLawBBooFGdIj7M0Yh7Y6L26eZuh9ZoROBz1nJtC9+J82uqng3MDGZyXtuKefL0H326n1MNLXgr3Uv0RoESfXpyhEuufcFLMZp45r2pl93nEBNgqwP+QIpdbYQikydiAM12LjVQrRH/d5c6D3Z92AsOQ74L/fhMDprLm54oEC81o/DsFQE48KUqlEFTnvP/JW8D1SO6APBOFqLKbel9sVH3EHkjHE702SgNolI9VyJMTbXMqX+E3GAzpFCILJBE10k5BGDOEqUvL9/LHNcDnZDSg57kKFCN/xvaIR0J6PYLlYhuscmvX6XrhzO1yzwqOxeS/Iy0YXSNZImu39+n+kBUvMa7pfyrs+aWXEedpyIa5pNaj4Tve5Z93ZQ8ynO0=
+X-OriginatorOrg: gatewayairport.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 11 Jul 2017 07:30:51.7019
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR09MB080
+X-MID: 2093652882.787248743.1.1499758263.894984.27933
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--51c3480c-6371-4cb4-8f71-b231bfcc54c4
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="b516b771-d155-4f33-b6f1-4f7bab5ea6f9"
+
+--b516b771-d155-4f33-b6f1-4f7bab5ea6f9
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+[http://products.office.com/en-us/CMSImages/Office365Logo_Orange.png?versio=
+n=3Db8d100a9-0a8b-8e6a-88e1-ef488fee0470]
+Your message to dvalenzuela@phxmesagateway.org couldn't be delivered.
+
+dvalenzuela wasn't found at phxmesagateway.org.
+
+overseas10      Office 365      dvalenzuela
+Action Required                 Recipient
+
+
+Unknown To address
+
+
+How to Fix It
+The address may be misspelled or may not exist. Try one or more of the foll=
+owing:
+
+  *   Send the message again following these steps: In Outlook, open this n=
+on-delivery report (NDR) and choose Send Again from the Report ribbon. In O=
+utlook on the web, select this NDR, then select the link "To send this mess=
+age again, click here." Then delete and retype the entire recipient address=
+. If prompted with an Auto-Complete List suggestion don't select it. After =
+typing the complete address, click Send.
+  *   Contact the recipient (by phone, for example) to check that the addre=
+ss exists and is correct.
+  *   The recipient may have set up email forwarding to an incorrect addres=
+s. Ask them to check that any forwarding they've set up is working correctl=
+y.
+  *   Clear the recipient Auto-Complete List in Outlook or Outlook on the w=
+eb by following the steps in this article: Fix email delivery issues for er=
+ror code 5.1.10 in Office 365<http://go.microsoft.com/fwlink/?LinkId=3D5329=
+72>, and then send the message again. Retype the entire recipient address b=
+efore selecting Send.
+
+
+If the problem continues, forward this message to your email admin. If you'=
+re an email admin, refer to the More Info for Email Admins section below.
+
+
+Was this helpful? Send feedback to Microsoft<http://go.microsoft.com/fwlink=
+/?LinkId=3D525921>.
+________________________________
+
+
+More Info for Email Admins
+Status code: 550 5.1.10
+
+This error occurs because the sender sent a message to an email address hos=
+ted by Office 365 but the address is incorrect or doesn't exist at the dest=
+ination domain. The error is reported by the recipient domain's email serve=
+r, but most often it must be fixed by the person who sent the message. If t=
+he steps in the How to Fix It section above don't fix the problem, and you'=
+re the email admin for the recipient, try one or more of the following:
+
+The email address exists and is correct - Confirm that the recipient addres=
+s exists, is correct, and is accepting messages.
+
+Synchronize your directories - If you have a hybrid environment and are usi=
+ng directory synchronization make sure the recipient's email address is syn=
+ced correctly in both Office 365 and in your on-premises directory.
+
+Errant forwarding rule - Check for forwarding rules that aren't behaving as=
+ expected. Forwarding can be set up by an admin via mail flow rules or mail=
+box forwarding address settings, or by the recipient via the Inbox Rules fe=
+ature.
+
+Recipient has a valid license - Make sure the recipient has an Office 365 l=
+icense assigned to them. The recipient's email admin can use the Office 365=
+ admin center to assign a license (Users > Active Users > select the recipi=
+ent > Assigned License > Edit).
+
+Mail flow settings and MX records are not correct - Misconfigured mail flow=
+ or MX record settings can cause this error. Check your Office 365 mail flo=
+w settings to make sure your domain and any mail flow connectors are set up=
+ correctly. Also, work with your domain registrar to make sure the MX recor=
+ds for your domain are configured correctly.
+
+For more information and additional tips to fix this issue, see Fix email d=
+elivery issues for error code 5.1.10 in Office 365<http://go.microsoft.com/=
+fwlink/?LinkId=3D532972>.
+
+
+Original Message Details
+Created Date:   7/11/2017 7:30:42 AM
+Sender Address: overseas10@sino-progress.com
+Recipient Address:      dvalenzuela@phxmesagateway.org
+Subject:        Looking for a Partner in USA--ChinaProgress
+
+
+Error Details
+Reported error: 550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not fo=
+und by SMTP address lookup
+DSN generated by:       BY2PR09MB080.namprd09.prod.outlook.com
+
+
+Message Hops
+HOP     TIME (UTC)      FROM    TO      WITH    RELAY TIME
+1       7/11/2017
+7:30:39 AM      [192.168.1.203] s151v.chinaemail.cn     ESMTP   *
+2       7/11/2017
+7:12:24 AM      s151v.chinaemail.cn     smtpc1.chinaemail.cn    ESMTP   *
+3       7/11/2017
+7:30:47 AM      smtpc1.chinaemail.cn    mx100.chinaemail.cn     ESMTP   18 =
+min, 23 sec
+4       7/11/2017
+7:30:48 AM      mx100.chinaemail.cn     DM2GCC01FT001.mail.protection.outlo=
+ok.com       Microsoft SMTP Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RS=
+A_WITH_AES_256_CBC_SHA384_P384)       1 sec
+5       7/11/2017
+7:30:50 AM      DM2GCC01FT001.eop-gcc01.prod.protection.outlook.com     DM5=
+PR09CA0019.outlook.office365.com     Microsoft SMTP Server (version=3DTLS1_=
+2, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256)       2 sec
+6       7/11/2017
+7:30:50 AM      DM5PR09CA0019.namprd09.prod.outlook.com BY2PR09MB080.namprd=
+09.prod.outlook.com  Microsoft SMTP Server (version=3DTLS1_2, cipher=3DTLS_=
+ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256)       *
+
+Original Message Headers
+
+Received: from DM5PR09CA0019.namprd09.prod.outlook.com (10.172.32.29) by
+ BY2PR09MB080.namprd09.prod.outlook.com (10.242.34.28) with Microsoft SMTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P=
+256) id
+ 15.1.1240.13; Tue, 11 Jul 2017 07:30:50 +0000
+Received: from DM2GCC01FT001.eop-gcc01.prod.protection.outlook.com
+ (2a01:111:f400:7d01::202) by DM5PR09CA0019.outlook.office365.com
+ (2603:10b6:4::29) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1240.13 via
+ Frontend Transport; Tue, 11 Jul 2017 07:30:50 +0000
+Authentication-Results: spf=3Dpass (sender IP is 47.89.186.249)
+ smtp.mailfrom=3Dsino-progress.com; phxmesagateway.org; dkim=3Dtimeout (key=
+ query
+ timeout) header.d=3Dsino-progress.com;phxmesagateway.org; dmarc=3Dtemperro=
+r
+ action=3Dnone header.from=3Dsino-progress.com;
+Received-SPF: Pass (protection.outlook.com: domain of sino-progress.com
+ designates 47.89.186.249 as permitted sender)
+ receiver=3Dprotection.outlook.com; client-ip=3D47.89.186.249;
+ helo=3Dmx100.chinaemail.cn;
+Received: from mx100.chinaemail.cn (47.89.186.249) by
+ DM2GCC01FT001.mail.protection.outlook.com (10.97.3.168) with Microsoft SMT=
+P
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P=
+384) id
+ 15.1.1199.9 via Frontend Transport; Tue, 11 Jul 2017 07:30:48 +0000
+Received: from smtpc1.chinaemail.cn (smtpc1.chinaemail.cn [184.173.76.226])
+        by mx100.chinaemail.cn (Postfix) with ESMTP id F246CCECF0
+        for <dvalenzuela@phxmesagateway.org>; Tue, 11 Jul 2017 15:30:47 +08=
+00 (CST)
+Received: from s151v.chinaemail.cn (unknown [219.238.233.132])
+        by smtpc1.chinaemail.cn (Postfix) with ESMTP id DC5CA111
+        for <dvalenzuela@phxmesagateway.org>; Tue, 11 Jul 2017 15:12:24 +08=
+00 (CST)
+Received: from [192.168.1.203] (unknown [119.123.181.96])
+        (Authenticated sender: overseas10@sino-progress.com)
+        by s151v.chinaemail.cn (Bossmail) with ESMTP id 229BF4A22E7
+        for <dvalenzuela@phxmesagateway.org>; Tue, 11 Jul 2017 15:30:39 +08=
+00 (CST)
+Content-Type: multipart/mixed;
+        boundary=3D"=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D8045854433=
+098381658=3D=3D"
+MIME-Version: 1.0
+Subject: Looking for a Partner in USA--ChinaProgress
+From: =3D?utf-8?q?Joseph=3D5FChina-Progress?=3D <overseas10@sino-progress.c=
+om>
+To: <dvalenzuela@phxmesagateway.org>
+Date: Tue, 11 Jul 2017 15:30:42 +0800
+Message-ID: <149975824214.3584.16780475952222883865@DESKTOP-UIM96J7>
+X-MID: 2093652882.1063582053.0.1499758239.218834.19135
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/simple; d=3Dsino-progres=
+s.com;
+        s=3Ds123456; t=3D1499758239;
+        bh=3Dw519+gXeLhjpKq+wG2AW7q5KObcrTYf1DHFVv7U4S60=3D;
+        h=3DSubject:From:Date:Message-ID;
+        b=3DOL1rk736ZBE53aXcf58YAypaoB1qR/LKRS5Fc47bU+0t+cHC8E/RWbSLd+i9Nox=
+sO
+         ZoHnGh4Em+WaLbkBG1qqaNG2tuhAkpHcy/fk0aPuIijpRBsmKf29osc9Xmn+shU7jF
+         eUJAZ93gaJndCOkK/8dk+RrV2uJJQlYURAJiEyqU=3D
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,dvalenzuela@phxmesagateway.org,
+Return-Path: overseas10@sino-progress.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 0b03f773-667e-4961-8153-2c05cdb187ce:0
+X-Forefront-Antispam-Report: CIP:47.89.186.249;IPV:NLI;CTRY:CA;EFV:NLI;
+X-Microsoft-Exchange-Diagnostics: 1;DM2GCC01FT001;1:eJgFsafTQps/KyzFNBrL1n5=
+s6XFWi7HBZGtdx0dToOwMIBl5Ojvaw4bNg/sX4fG6gitx9EJaO8ujl7bxoiTul6MO+HFUfscDV5=
+7spmIwmwC/8DR+RxEgkqJnDK3Mi6vNjwZ4cfbDEZ5Ko1T4DHSJMpmGTevxckQ9Y6iftIYpSlq00=
+ShV09WQAJnbJrB6VST8+aPtlFYKaWm/1fYwwcrqES6BCYLxH37RiQr+MjTBMBsQeg92tBpnQr2Y=
+C4aF864zlgDGwl7NKIrmPISLlI436oRyxjr9LvpjvqReNtvi0D52mMrCoTH/uQy4DXSi2HN6fhr=
+MiG7+pS76D6b6hERo0356RxB16NhxobpMqN6zu04lGCZz0eQzwjnQWE6p5TCHB8emerhRpioTI3=
+m2dmA0yXP9BV06lBPsuVX5a/KYm5ard+tJKN0+dvuuEUbLHtH/UnKof5SXKo2V/Ci/Btsp3uga5=
+lD3tHvW/xeb5HkwFQcXSjrQO9zkO+4Vw3tBr/O/Cr703xDvJtk4bDtI5/yxx6AxdAwuSbgUglTU=
+D53YMpPWnAEf8ZJxM7MTviqB7FQQEy4I9dmaxQAgMXFRfqe34eqycQuDoXITEciPuOYBgHExdDm=
+sA2aXJpHXFysWdOidxHCiYJ+bjm+Ehm1pVkhfbWTG8ZwSuCxl0f6RkYhA1IWaAx276oGe0jz4pV=
+WywtSVyeKK9Bxs/03ZoyJTvI2pBYDzF1TL40VSjPD/dESbWrtk8yLsMFYgLyoelH/VPoz9XGzAf=
+YPi7SDD6R2A/2Q6qGPJMmRuU0aWLFGYmyIow6uRBsCwcQbfYXMISieIgZQyijx+ZdR624NMzV2e=
+UZjI/6qJnqd4ENsq4dA187/f5VRfoffEzu8Fjat64FzHIfBM7uDrSsvnO+acS2ua1MrraQ1uJaF=
+jcAK9pZa2AmcsZbw=3D
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 634338a7-5554-4e75-786a-08d4c82ec0=
+60
+X-Microsoft-Antispam:
+        UriScan:;BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(3000005010=
+95)(300135300095)(22001)(300000502095)(300135100095)(23075)(300000503095)(3=
+00135400095)(71702078)(300000504095)(300135200095)(300000505095)(3001356000=
+95)(300000506095)(300135500095);SRVR:BY2PR09MB080;
+X-Microsoft-Exchange-Diagnostics:
+        1;BY2PR09MB080;3:jUYu1INfDrPZL8CJdzfx1LfxiodBqzcLHkjWv+xhnvoynSSeub=
+CV00+astH1LZgllRBCUawaCmrjYlVd6CBHYmX6M0ubdms0Pt9w7VBVkbIOxjNUOL5IvIvjybp/Z=
+QTe/JdCbOEyyw2rYPwBYVSyqQz77y7T7zGzbXV0kSIcXGWH2mSbrShZS4CFMmKYdGPvrXVeL33T=
+jlUEqeBUFqsSVaOkQ8VECIj+M7MG79Gc6FSRccoRX8r+Yz9xyA0Q/7TekrEGS0+ffNfRP29gxOR=
+4e8/j2LaG1oXxKEZLDOo8juQpAnDxHNVp9WaHfT6xKHhtuuSr59ZwOLrSoKs88fsuqTXEpjJQ5W=
+5WdXFGfPhxiEt2i/0AdlcNo2A4CPRGRLCdtW4+/h8dpStMoMRVZFYxDoRQVkhBdfsiajFiMo2EV=
+iMHNfBz6MU78SvlvVGHq7MSunzbMoLnsXeTjgkx3zgu82E33a01rzB+6htmhpHG1POCl4P0w0Db=
+YRw5boGNli22rxJU3t+w5B4iJxRZ7JDG3vef04nPIXXautyIbDwvMGC/gKGznch8cMUhywxybfE=
+vFrO2ddzmMNuAVdhrQFGj6fid52h7iMpN13QCPXixIiIA6RS2vQrbptvk2LJ3FdWqUCzEmo2CZV=
+gpQhWbWfsMBHgI2EkaIC4LBRU6TEeYJaOg4NqVJ3eBEyQpwe9aeksEuwixmhdRevSreEAEosi/b=
+/f7DXKgbS0wlQWeV0Pv3MKk7tv75s0YugXra6SUwq1lKOrEfYS4GBup1lWVp2XcEfigCeXsRaR3=
+DLc0aXU4u9E=3D
+X-MS-TrafficTypeDiagnostic: BY2PR09MB080:
+X-Microsoft-Exchange-Diagnostics:
+        1;BY2PR09MB080;25:gp1sjlIQUaIRukO+fV6zl65dP2GoWPyMaVbmZXHJRm+OmWqKP=
+KjFa/4Ga3cy0xrvTfJPUXT1/sgRbfmRTeTbTiaoI4p7RVJ01UIVOXJ5VQK2SIJ60kQh3UaWJYAW=
+L6bugZTE9WF8HYqiOube0WVWLGY41qCjEf1qvEoketQzJfYk2qUFIFFZ4o231Q3FBbKEVdXsA4T=
+UWnNySVJNkWHdqaYheq4pn8P14R6P1MIXgusXlg5y61gcQ5w/lIMGE0NVOkwFMXS9uUz3b4LrNT=
+zxVBqSWKFevmp1eUJ3HHC8uI2lGQppHAC5JiuVWl/E3yszKjCnNUCbuzh6YPJADH/dLVFcO5iv+=
+fgdEswjBnkSidHCcsFjQ4ov5S/SF5lSuMSPWcwGY6Njd0dVJWemvhg3ukKgfIYWIXNsqz/ZmQRI=
+x4qWCrwu2RJ1j5A/zdWPcjfczKetwmEvDjqZHLQIXy/P+aSyu4aHX+CSbjQa0M48CJhfJV7abA1=
+30JxIrIn+w7VyT0r30qzatX3K5Otte8w9jZuzWa6RWdR//jn/vHYo0WhIFt4Lg7n8rYTOOarPZN=
+Sp1BUwUWSMFpmAKbxygzvD5Jik1Epq9+VlRo+E0Ae/aBFalil/y+vhQkTN1imd8mK21vLrEWsLX=
+yGEl6bucUZojrLKafAFPtYmDhPv/xtnArQuypVnwcmpsxdKTTogDztNrL5x2AIIpvhe0s3XIVpU=
+X/NJV3sHggh11DZvuOscFM858U2/r8OEwL3to1d4IN+rZdtDWTNyqLoUIk3gJDpTXEoq4CQmhd7=
+mC+MkN9R7zFKyhUok6auau94v2u//bzG4FerC1BnK2GRkxIy4LsYLXZXoyhhIO8FYbaKGU/G1Yi=
+O7y28zTGjYt2m7jNrH/OFUYWsTL8vMzCbnZiVnVI/62sEzMKTN4WJGQ9p7nBQnBoc=3D
+
+
+--b516b771-d155-4f33-b6f1-4f7bab5ea6f9
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1" />
+  <head>
+    <title>
+          DSN
+        </title>
+  </head>
+  <body style=3D"        background-color: white;      ">
+    <table style=3D"        background-color: white;         max-width: 548=
+px;         color: black;         border-spacing: 0px 0px;         padding-=
+top: 0px;         padding-bottom: 0px;        border-collapse: collapse;   =
+   " width=3D"548" cellspacing=3D"0" cellpadding=3D"0">
+      <tbody>
+        <tr>
+          <td style=3D"        text-align: left;        padding-bottom: 20p=
+x;      ">
+            <img height=3D"28" width=3D"126" style=3D"        max-width: 10=
+0%;      " src=3D"http://products.office.com/en-us/CMSImages/Office365Logo_=
+Orange.png?version=3Db8d100a9-0a8b-8e6a-88e1-ef488fee0470" />
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        font-size: 16px;         padding-bottom: 10px;         -ms=
+-text-size-adjust: 100%;        text-align: left;      ">Your message to <s=
+pan style=3D"        color: #0072c6;      ">dvalenzuela@phxmesagateway.org<=
+/span> couldn't be delivered.<br /></td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;         font-size: 24px;         padding-top: 0px;         paddin=
+g-bottom: 20px;         text-align: center;         -ms-text-size-adjust: 1=
+00%;      ">
+            <span style=3D"        color: #0072c6;      ">dvalenzuela</span=
+> wasn't found at <span style=3D"        color: #0072c6;      ">phxmesagate=
+way.org</span>.<br /></td>
+        </tr>
+        <tr>
+          <td style=3D"        padding-bottom: 15px;         padding-left: =
+0px;         padding-right: 0px;         border-spacing: 0px 0px;      ">
+            <table style=3D"        max-width: 548px;         font-weight: =
+600;        border-spacing: 0px 0px;         padding-top: 0px;         padd=
+ing-bottom: 0px;        border-collapse: collapse;      ">
+              <tbody>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        font-size: 15px;        font-weight: 600;        t=
+ext-align: left;        width: 181px;        -ms-text-size-adjust: 100%;   =
+     vertical-align: bottom;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"color:#000000">overseas10</span>
+                    </font>
+                  </td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        font-size: 15px;        font-weight: 600;        t=
+ext-align: center;        width: 186px;        -ms-text-size-adjust: 100%; =
+       vertical-align: bottom;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"color:#000000">Office 365</span>
+                    </font>
+                  </td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;         -ms-text-size-adjust: 100%;         font-size: 15=
+px;         font-weight: 600;        text-align: right;         width: 181p=
+x;         vertical-align: bottom;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"color:#000000">dvalenzuela</span>
+                    </font>
+                  </td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;        text-align: left;        padding-top: 0px=
+;        padding-bottom: 0px;        vertical-align: middle;        width: =
+181px;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"        color: #c00000;      ">
+                        <b>Action Required</b>
+                      </span>
+                    </font>
+                  </td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;        text-align: center;        padding-top: 0=
+px;        padding-bottom: 0px;        vertical-align: middle;        width=
+: 186px;      " />
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;        text-align: right;        padding-top: 0p=
+x;        padding-bottom: 0px;        vertical-align: middle;        width:=
+ 181px;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"color:#000000">Recipient</span>
+                    </font>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan=3D"3" style=3D"        padding-top:0;        =
+padding-bottom:0;        padding-left:0;        padding-right:0      ">
+                    <table cellspacing=3D"0" cellpadding=3D"0" style=3D"   =
+     border-spacing: 0px 0px;        padding-top: 0px;        padding-botto=
+m: 0px;        padding-left: 0px;        padding-right: 0px;        border-=
+collapse: collapse;      ">
+                      <tbody>
+                        <tr height=3D"10">
+                          <td width=3D"180" height=3D"10" bgcolor=3D"#c0000=
+0" style=3D"        width: 180px;        line-height: 10px;        height: =
+10px;        font-size: 6px;        padding-top: 0;        padding-bottom: =
+0;        padding-left: 0;        padding-right: 0;      "><!--[if gte mso =
+15]>&nbsp;<![endif]--></td>
+                          <td width=3D"4" height=3D"10" bgcolor=3D"#ffffff"=
+ style=3D"        width: 4px;        line-height: 10px;        height: 10px=
+;        font-size: 6px;        padding-top: 0;        padding-bottom: 0;  =
+      padding-left: 0;        padding-right: 0;      "><!--[if gte mso 15]>=
+&nbsp;<![endif]--></td>
+                          <td width=3D"180" height=3D"10" bgcolor=3D"#ccccc=
+c" style=3D"        width: 180px;        line-height: 10px;        height: =
+10px;        font-size: 6px;        padding-top: 0;        padding-bottom: =
+0;        padding-left: 0;        padding-right: 0;      "><!--[if gte mso =
+15]>&nbsp;<![endif]--></td>
+                          <td width=3D"4" height=3D"10" bgcolor=3D"#ffffff"=
+ style=3D"        width: 4px;        line-height: 10px;        height: 10px=
+;        font-size: 6px;        padding-top: 0;        padding-bottom: 0;  =
+      padding-left: 0;        padding-right: 0;      "><!--[if gte mso 15]>=
+&nbsp;<![endif]--></td>
+                          <td width=3D"180" height=3D"10" bgcolor=3D"#ccccc=
+c" style=3D"        width: 180px;        line-height: 10px;        height: =
+10px;        font-size: 6px;        padding-top: 0;        padding-bottom: =
+0;        padding-left: 0;        padding-right: 0;      "><!--[if gte mso =
+15]>&nbsp;<![endif]--></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        text-align: left;        width: 181px;        line-height: 20px;  =
+      font-weight: 400;        padding-top: 0px;        padding-left: 0px; =
+       padding-right: 0px;        padding-bottom: 0px;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"        color: #c00000;      ">Unknown=
+ To address</span>
+                    </font>
+                  </td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        text-align: center;        width: 186px;        line-height: 20px;=
+        font-weight: 400;        padding-top: 0px;        padding-left: 0px=
+;        padding-right: 0px;        padding-bottom: 0px;      " />
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        text-align: right;        width: 181px;        line-height: 20px; =
+       font-weight: 400;        padding-top: 0px;        padding-left: 0px;=
+        padding-right: 0px;        padding-bottom: 0px;      " />
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        width: 100%;        padding-top: 0px;       =
+ padding-right: 10px;        padding-left: 10px;      ">
+            <br />
+            <table style=3D"        width: 100%;        padding-right: 0px;=
+        padding-left: 0px;        padding-top: 0px;        padding-bottom: =
+0px;        background-color: #f2f5fa;        margin-left: 0px;      ">
+              <tbody>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 21px=
+;        font-weight: 500;        background-color: #f2f5fa;        padding=
+-top: 0px;        padding-bottom: 0px;        padding-left: 10px;        pa=
+dding-right: 10px;      ">How to Fix It</td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 16px=
+;        font-weight: 400;        padding-top: 0px;        padding-bottom: =
+6px;        padding-left: 10px;        padding-right: 10px;        backgrou=
+nd-color: #f2f5fa;      ">The address may be misspelled or may not exist. T=
+ry one or more of the following:</td>
+                </tr>
+                <tr>
+                  <td style=3D"         padding-top: 0px;         padding-b=
+ottom: 0px;         padding-left: 0px;         padding-right: 0px;        b=
+order-spacing: 0px 0px;      ">
+                    <ul style=3D"        font-family: 'Segoe UI', Frutiger,=
+ Arial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 16=
+px;        font-weight: 400;        margin-left: 40px;        margin-bottom=
+: 5px;        background-color: #f2f5fa;        padding-top: 0px;        pa=
+dding-bottom: 0px;        padding-left: 6px;        padding-right: 6px;    =
+  ">
+                      <li>Send the message again following these steps: In =
+Outlook, open this non-delivery report (NDR) and choose <b>Send Again</b> f=
+rom the Report ribbon. In Outlook on the web, select this NDR, then select =
+the link "<b>To send this message again, click here.</b>" Then delete and r=
+etype the entire recipient address. If prompted with an Auto-Complete List =
+suggestion don't select it. After typing the complete address, click <b>Sen=
+d</b>.</li>
+                      <li>Contact the recipient (by phone, for example) to =
+check that the address exists and is correct.</li>
+                      <li>The recipient may have set up email forwarding to=
+ an incorrect address. Ask them to check that any forwarding they've set up=
+ is working correctly.</li>
+                      <li>Clear the recipient Auto-Complete List in Outlook=
+ or Outlook on the web by following the steps in this article: <a href=3D"h=
+ttp://go.microsoft.com/fwlink/?LinkId=3D532972">Fix email delivery issues f=
+or error code 5.1.10 in Office 365</a>, and then send the message again. Re=
+type the entire recipient address before selecting <b>Send</b>.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 16px=
+;        font-weight: 400;        padding-top: 0px;        padding-bottom: =
+6px;        padding-left: 10px;        padding-right: 10px;        backgrou=
+nd-color: #f2f5fa;      ">If the problem continues, forward this message to=
+ your email admin. If you're an email admin, refer to the <b>More Info for =
+Email Admins</b> section below.</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        -ms-text-size-adjust: 100%;        font-size: 14px;       =
+ font-weight: 400;        padding-top: 10px;        padding-bottom: 0px;   =
+     padding-bottom: 4px;      ">
+            <br />
+            <em>Was this helpful? <a href=3D"http://go.microsoft.com/fwlink=
+/?LinkId=3D525921">Send feedback to Microsoft</a>.</em>
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        -ms-text-size-adjust: 100%;        font-size=
+: 0px;        line-height: 0px;        padding-top: 0px;        padding-bot=
+tom: 0px;      ">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        -ms-text-size-adjust: 100%;        font-size: 21px;       =
+ font-weight: 500;      ">
+            <br />More Info for Email Admins</td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        -ms-text-size-adjust: 100%;        font-size: 14px;      "=
+>
+            <em>Status code: 550 5.1.10</em>
+            <br />
+            <br />This error occurs because the sender sent a message to an=
+ email address hosted by Office 365 but the address is incorrect or doesn't=
+ exist at the destination domain. The error is reported by the recipient do=
+main's email server, but most often it must be fixed by the person who sent=
+ the message. If the steps in the <b>How to Fix It</b> section above don't =
+fix the problem, and you're the email admin for the recipient, try one or m=
+ore of the following:<br /><br /><b>The email address exists and is correct=
+</b> - Confirm that the recipient address exists, is correct, and is accept=
+ing messages.<br /><br /><b>Synchronize your directories</b> - If you have =
+a hybrid environment and are using directory synchronization make sure the =
+recipient's email address is synced correctly in both Office 365 and in you=
+r on-premises directory.<br /><br /><b>Errant forwarding rule</b> - Check f=
+or forwarding rules that aren't behaving as expected. Forwarding can be set=
+ up by an admin via mail flow rules or mailbox forwarding address settings,=
+ or by the recipient via the Inbox Rules feature.<br /><br /><b>Recipient h=
+as a valid license</b> - Make sure the recipient has an Office 365 license =
+assigned to them. The recipient's email admin can use the Office 365 admin =
+center to assign a license (Users &gt; Active Users &gt; select the recipie=
+nt &gt; Assigned License &gt; Edit).<br /><br /><b>Mail flow settings and M=
+X records are not correct</b> - Misconfigured mail flow or MX record settin=
+gs can cause this error. Check your Office 365 mail flow settings to make s=
+ure your domain and any mail flow connectors are set up correctly. Also, wo=
+rk with your domain registrar to make sure the MX records for your domain a=
+re configured correctly.<br /><br />For more information and additional tip=
+s to fix this issue, see <a href=3D"http://go.microsoft.com/fwlink/?LinkId=
+=3D532972">Fix email delivery issues for error code 5.1.10 in Office 365</a=
+>.<br /><br /></td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        -ms-text-size-adjust: 100%;        font-size: 17px;       =
+ font-weight: 500;      ">Original Message Details</td>
+        </tr>
+        <tr>
+          <td style=3D"        font-size: 14px;        line-height: 20px;  =
+      font-family: 'Segoe UI', Frutiger, Arial, sans-serif;        -ms-text=
+-size-adjust: 100%;        font-weight: 500;      ">
+            <table style=3D"        width: 100%;        border-collapse: co=
+llapse;        margin-left: 10px;      ">
+              <tbody>
+                <tr>
+                  <td valign=3D"top" style=3D"        font-family: 'Segoe U=
+I', Frutiger, Arial, sans-serif;        font-size: 14px;        -ms-text-si=
+ze-adjust: 100%;        white-space: nowrap;        font-weight: 500;      =
+  width: 140px;      ">Created Date:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">7/11/2017 7:30:42 AM</td>
+                </tr>
+                <tr>
+                  <td valign=3D"top" style=3D"        font-family: 'Segoe U=
+I', Frutiger, Arial, sans-serif;        font-size: 14px;        -ms-text-si=
+ze-adjust: 100%;        white-space: nowrap;        font-weight: 500;      =
+  width: 140px;      ">Sender Address:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">overseas10@sino-progress.com</td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        font-size: 14px;        -ms-text-size-adjust: 100%=
+;        white-space: nowrap;        font-weight: 500;        width: 140px;=
+      ">Recipient Address:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">dvalenzuela@phxmesagateway.org</td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        font-size: 14px;        -ms-text-size-adjust: 100%=
+;        white-space: nowrap;        font-weight: 500;        width: 140px;=
+      ">Subject:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">Looking for a Partner in USA--ChinaProgre=
+ss</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        -ms-text-size-adjust: 100%;        font-size: 17px;       =
+ font-weight: 500;      ">
+            <br />Error Details</td>
+        </tr>
+        <tr>
+          <td style=3D"        font-size: 14px;        line-height: 20px;  =
+      font-family: 'Segoe UI', Frutiger, Arial, sans-serif;        -ms-text=
+-size-adjust: 100%;        font-weight: 500;      ">
+            <table style=3D"        width: 100%;        border-collapse: co=
+llapse;        margin-left: 10px;      ">
+              <tbody>
+                <tr>
+                  <td valign=3D"top" style=3D"        font-family: 'Segoe U=
+I', Frutiger, Arial, sans-serif;        font-size: 14px;        -ms-text-si=
+ze-adjust: 100%;        white-space: nowrap;        font-weight: 500;      =
+  width: 140px;      ">Reported error:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">
+                    <em>550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipien=
+t not found by SMTP address lookup</em>
+                  </td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        font-size: 14px;        -ms-text-size-adjust: 100%=
+;        white-space: nowrap;        font-weight: 500;        width: 140px;=
+      ">DSN generated by:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">BY2PR09MB080.namprd09.prod.outlook.com</t=
+d>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <table style=3D"width: 880px;" cellspacing=3D"0">
+      <tr>
+        <td colspan=3D"6" style=3D"        padding-top: 4px;        border-=
+bottom: 1px solid #999999;        padding-bottom: 4px;        line-height: =
+120%;        font-size: 17px;        font-family: 'Segoe UI', Frutiger, Ari=
+al, sans-serif;        -ms-text-size-adjust: 100%;        font-weight: 500;=
+      ">Message Hops</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;      ">HO=
+P</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;        wi=
+dth: 80px;      ">TIME (UTC)</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;      ">FR=
+OM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;      ">TO=
+</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;      ">WI=
+TH</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;      ">RE=
+LAY TIME</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">1</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">7/11/2017<br />7:30=
+:39 AM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">[192.168.1.203]</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">s151v.chinaemail.cn</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">ESMTP</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">*</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">2</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">7/11/2017<br />7:12=
+:24 AM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">s151v.chinaemail.cn</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">smtpc1.chinaemail.cn</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">ESMTP</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">*</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">3</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">7/11/2017<br />7:30=
+:47 AM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">smtpc1.chinaemail.cn</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">mx100.chinaemail.cn</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">ESMTP</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">18&nbsp;min, 23&nbsp;sec</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">4</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">7/11/2017<br />7:30=
+:48 AM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">mx100.chinaemail.cn</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">DM2GCC01FT001.mail.protection.outlook.c=
+om</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">Microsoft SMTP Server (version=3DTLS1_2=
+, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384)</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">1&nbsp;sec</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">5</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">7/11/2017<br />7:30=
+:50 AM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">DM2GCC01FT001.eop-gcc01.prod.protection=
+.outlook.com</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">DM5PR09CA0019.outlook.office365.com</td=
+>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">Microsoft SMTP Server (version=3DTLS1_2=
+, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256)</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">2&nbsp;sec</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">6</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">7/11/2017<br />7:30=
+:50 AM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">DM5PR09CA0019.namprd09.prod.outlook.com=
+</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">BY2PR09MB080.namprd09.prod.outlook.com<=
+/td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">Microsoft SMTP Server (version=3DTLS1_2=
+, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256)</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">*</td>
+      </tr>
+    </table>
+    <p style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sans-seri=
+f;        -ms-text-size-adjust: 100%;        font-size: 17px;        font-w=
+eight: 500;        padding-top: 4px;        padding-bottom: 0;        margi=
+n-top: 19px;        margin-bottom: 5px;      ">Original Message Headers</p>
+    <pre style=3D"        color: gray;        white-space: pre;        padd=
+ing-top: 0;        margin-top: 5px;      ">Received: from DM5PR09CA0019.nam=
+prd09.prod.outlook.com (10.172.32.29) by
+ BY2PR09MB080.namprd09.prod.outlook.com (10.242.34.28) with Microsoft SMTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P=
+256) id
+ 15.1.1240.13; Tue, 11 Jul 2017 07:30:50 +0000
+Received: from DM2GCC01FT001.eop-gcc01.prod.protection.outlook.com
+ (2a01:111:f400:7d01::202) by DM5PR09CA0019.outlook.office365.com
+ (2603:10b6:4::29) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1240.13 via
+ Frontend Transport; Tue, 11 Jul 2017 07:30:50 +0000
+Authentication-Results: spf=3Dpass (sender IP is 47.89.186.249)
+ smtp.mailfrom=3Dsino-progress.com; phxmesagateway.org; dkim=3Dtimeout (key=
+ query
+ timeout) header.d=3Dsino-progress.com;phxmesagateway.org; dmarc=3Dtemperro=
+r
+ action=3Dnone header.from=3Dsino-progress.com;
+Received-SPF: Pass (protection.outlook.com: domain of sino-progress.com
+ designates 47.89.186.249 as permitted sender)
+ receiver=3Dprotection.outlook.com; client-ip=3D47.89.186.249;
+ helo=3Dmx100.chinaemail.cn;
+Received: from mx100.chinaemail.cn (47.89.186.249) by
+ DM2GCC01FT001.mail.protection.outlook.com (10.97.3.168) with Microsoft SMT=
+P
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P=
+384) id
+ 15.1.1199.9 via Frontend Transport; Tue, 11 Jul 2017 07:30:48 +0000
+Received: from smtpc1.chinaemail.cn (smtpc1.chinaemail.cn [184.173.76.226])
+	by mx100.chinaemail.cn (Postfix) with ESMTP id F246CCECF0
+	for &lt;dvalenzuela@phxmesagateway.org&gt;; Tue, 11 Jul 2017 15:30:47 +080=
+0 (CST)
+Received: from s151v.chinaemail.cn (unknown [219.238.233.132])
+	by smtpc1.chinaemail.cn (Postfix) with ESMTP id DC5CA111
+	for &lt;dvalenzuela@phxmesagateway.org&gt;; Tue, 11 Jul 2017 15:12:24 +080=
+0 (CST)
+Received: from [192.168.1.203] (unknown [119.123.181.96])
+	(Authenticated sender: overseas10@sino-progress.com)
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 229BF4A22E7
+	for &lt;dvalenzuela@phxmesagateway.org&gt;; Tue, 11 Jul 2017 15:30:39 +080=
+0 (CST)
+Content-Type: multipart/mixed;
+	boundary=3D"=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D80458544330983816=
+58=3D=3D"
+MIME-Version: 1.0
+Subject: Looking for a Partner in USA--ChinaProgress
+From: =3D?utf-8?q?Joseph=3D5FChina-Progress?=3D &lt;overseas10@sino-progres=
+s.com&gt;
+To: &lt;dvalenzuela@phxmesagateway.org&gt;
+Date: Tue, 11 Jul 2017 15:30:42 +0800
+Message-ID: &lt;149975824214.3584.16780475952222883865@DESKTOP-UIM96J7&gt;
+X-MID: 2093652882.1063582053.0.1499758239.218834.19135
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/simple; d=3Dsino-progres=
+s.com;
+	s=3Ds123456; t=3D1499758239;
+	bh=3Dw519+gXeLhjpKq+wG2AW7q5KObcrTYf1DHFVv7U4S60=3D;
+	h=3DSubject:From:Date:Message-ID;
+	b=3DOL1rk736ZBE53aXcf58YAypaoB1qR/LKRS5Fc47bU+0t+cHC8E/RWbSLd+i9NoxsO
+	 ZoHnGh4Em+WaLbkBG1qqaNG2tuhAkpHcy/fk0aPuIijpRBsmKf29osc9Xmn+shU7jF
+	 eUJAZ93gaJndCOkK/8dk+RrV2uJJQlYURAJiEyqU=3D
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,dvalenzuela@phxmesagateway.org,
+Return-Path: overseas10@sino-progress.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 0b03f773-667e-4961-8153-2c05cdb187ce:0
+X-Forefront-Antispam-Report: CIP:47.89.186.249;IPV:NLI;CTRY:CA;EFV:NLI;
+X-Microsoft-Exchange-Diagnostics: 1;DM2GCC01FT001;1:eJgFsafTQps/KyzFNBrL1n5=
+s6XFWi7HBZGtdx0dToOwMIBl5Ojvaw4bNg/sX4fG6gitx9EJaO8ujl7bxoiTul6MO+HFUfscDV5=
+7spmIwmwC/8DR+RxEgkqJnDK3Mi6vNjwZ4cfbDEZ5Ko1T4DHSJMpmGTevxckQ9Y6iftIYpSlq00=
+ShV09WQAJnbJrB6VST8+aPtlFYKaWm/1fYwwcrqES6BCYLxH37RiQr+MjTBMBsQeg92tBpnQr2Y=
+C4aF864zlgDGwl7NKIrmPISLlI436oRyxjr9LvpjvqReNtvi0D52mMrCoTH/uQy4DXSi2HN6fhr=
+MiG7+pS76D6b6hERo0356RxB16NhxobpMqN6zu04lGCZz0eQzwjnQWE6p5TCHB8emerhRpioTI3=
+m2dmA0yXP9BV06lBPsuVX5a/KYm5ard+tJKN0+dvuuEUbLHtH/UnKof5SXKo2V/Ci/Btsp3uga5=
+lD3tHvW/xeb5HkwFQcXSjrQO9zkO+4Vw3tBr/O/Cr703xDvJtk4bDtI5/yxx6AxdAwuSbgUglTU=
+D53YMpPWnAEf8ZJxM7MTviqB7FQQEy4I9dmaxQAgMXFRfqe34eqycQuDoXITEciPuOYBgHExdDm=
+sA2aXJpHXFysWdOidxHCiYJ+bjm+Ehm1pVkhfbWTG8ZwSuCxl0f6RkYhA1IWaAx276oGe0jz4pV=
+WywtSVyeKK9Bxs/03ZoyJTvI2pBYDzF1TL40VSjPD/dESbWrtk8yLsMFYgLyoelH/VPoz9XGzAf=
+YPi7SDD6R2A/2Q6qGPJMmRuU0aWLFGYmyIow6uRBsCwcQbfYXMISieIgZQyijx+ZdR624NMzV2e=
+UZjI/6qJnqd4ENsq4dA187/f5VRfoffEzu8Fjat64FzHIfBM7uDrSsvnO+acS2ua1MrraQ1uJaF=
+jcAK9pZa2AmcsZbw=3D
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 634338a7-5554-4e75-786a-08d4c82ec0=
+60
+X-Microsoft-Antispam:
+	UriScan:;BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300=
+135300095)(22001)(300000502095)(300135100095)(23075)(300000503095)(30013540=
+0095)(71702078)(300000504095)(300135200095)(300000505095)(300135600095)(300=
+000506095)(300135500095);SRVR:BY2PR09MB080;
+X-Microsoft-Exchange-Diagnostics:
+	1;BY2PR09MB080;3:jUYu1INfDrPZL8CJdzfx1LfxiodBqzcLHkjWv+xhnvoynSSeubCV00+as=
+tH1LZgllRBCUawaCmrjYlVd6CBHYmX6M0ubdms0Pt9w7VBVkbIOxjNUOL5IvIvjybp/ZQTe/JdC=
+bOEyyw2rYPwBYVSyqQz77y7T7zGzbXV0kSIcXGWH2mSbrShZS4CFMmKYdGPvrXVeL33TjlUEqeB=
+UFqsSVaOkQ8VECIj+M7MG79Gc6FSRccoRX8r+Yz9xyA0Q/7TekrEGS0+ffNfRP29gxOR4e8/j2L=
+aG1oXxKEZLDOo8juQpAnDxHNVp9WaHfT6xKHhtuuSr59ZwOLrSoKs88fsuqTXEpjJQ5W5WdXFGf=
+PhxiEt2i/0AdlcNo2A4CPRGRLCdtW4+/h8dpStMoMRVZFYxDoRQVkhBdfsiajFiMo2EViMHNfBz=
+6MU78SvlvVGHq7MSunzbMoLnsXeTjgkx3zgu82E33a01rzB+6htmhpHG1POCl4P0w0DbYRw5boG=
+Nli22rxJU3t+w5B4iJxRZ7JDG3vef04nPIXXautyIbDwvMGC/gKGznch8cMUhywxybfEvFrO2dd=
+zmMNuAVdhrQFGj6fid52h7iMpN13QCPXixIiIA6RS2vQrbptvk2LJ3FdWqUCzEmo2CZVgpQhWbW=
+fsMBHgI2EkaIC4LBRU6TEeYJaOg4NqVJ3eBEyQpwe9aeksEuwixmhdRevSreEAEosi/b/f7DXKg=
+bS0wlQWeV0Pv3MKk7tv75s0YugXra6SUwq1lKOrEfYS4GBup1lWVp2XcEfigCeXsRaR3DLc0aXU=
+4u9E=3D
+X-MS-TrafficTypeDiagnostic: BY2PR09MB080:
+X-Microsoft-Exchange-Diagnostics:
+	1;BY2PR09MB080;25:gp1sjlIQUaIRukO+fV6zl65dP2GoWPyMaVbmZXHJRm+OmWqKPKjFa/4G=
+a3cy0xrvTfJPUXT1/sgRbfmRTeTbTiaoI4p7RVJ01UIVOXJ5VQK2SIJ60kQh3UaWJYAWL6bugZT=
+E9WF8HYqiOube0WVWLGY41qCjEf1qvEoketQzJfYk2qUFIFFZ4o231Q3FBbKEVdXsA4TUWnNySV=
+JNkWHdqaYheq4pn8P14R6P1MIXgusXlg5y61gcQ5w/lIMGE0NVOkwFMXS9uUz3b4LrNTzxVBqSW=
+KFevmp1eUJ3HHC8uI2lGQppHAC5JiuVWl/E3yszKjCnNUCbuzh6YPJADH/dLVFcO5iv+fgdEswj=
+BnkSidHCcsFjQ4ov5S/SF5lSuMSPWcwGY6Njd0dVJWemvhg3ukKgfIYWIXNsqz/ZmQRIx4qWCrw=
+u2RJ1j5A/zdWPcjfczKetwmEvDjqZHLQIXy/P+aSyu4aHX+CSbjQa0M48CJhfJV7abA130JxIrI=
+n+w7VyT0r30qzatX3K5Otte8w9jZuzWa6RWdR//jn/vHYo0WhIFt4Lg7n8rYTOOarPZNSp1BUwU=
+WSMFpmAKbxygzvD5Jik1Epq9+VlRo+E0Ae/aBFalil/y+vhQkTN1imd8mK21vLrEWsLXyGEl6bu=
+cUZojrLKafAFPtYmDhPv/xtnArQuypVnwcmpsxdKTTogDztNrL5x2AIIpvhe0s3XIVpUX/NJV3s=
+Hggh11DZvuOscFM858U2/r8OEwL3to1d4IN+rZdtDWTNyqLoUIk3gJDpTXEoq4CQmhd7mC+MkN9=
+R7zFKyhUok6auau94v2u//bzG4FerC1BnK2GRkxIy4LsYLXZXoyhhIO8FYbaKGU/G1YiO7y28zT=
+GjYt2m7jNrH/OFUYWsTL8vMzCbnZiVnVI/62sEzMKTN4WJGQ9p7nBQnBoc=3D
+</pre>
+  </body>
+</html>=
+
+--b516b771-d155-4f33-b6f1-4f7bab5ea6f9--
+
+--51c3480c-6371-4cb4-8f71-b231bfcc54c4
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;BY2PR09MB080.namprd09.prod.outlook.com
+Received-From-MTA: dns;mx100.chinaemail.cn
+Arrival-Date: Tue, 11 Jul 2017 07:30:50 +0000
+
+Original-Recipient: rfc822;dvalenzuela@phxmesagateway.org
+Final-Recipient: rfc822;dvalenzuela@phxmesagateway.org
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
+
+
+--51c3480c-6371-4cb4-8f71-b231bfcc54c4
+Content-Type: message/rfc822
+
+Received: from DM5PR09CA0019.namprd09.prod.outlook.com (10.172.32.29) by
+ BY2PR09MB080.namprd09.prod.outlook.com (10.242.34.28) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1240.13; Tue, 11 Jul 2017 07:30:50 +0000
+Received: from DM2GCC01FT001.eop-gcc01.prod.protection.outlook.com
+ (2a01:111:f400:7d01::202) by DM5PR09CA0019.outlook.office365.com
+ (2603:10b6:4::29) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1240.13 via
+ Frontend Transport; Tue, 11 Jul 2017 07:30:50 +0000
+Authentication-Results: spf=pass (sender IP is 47.89.186.249)
+ smtp.mailfrom=sino-progress.com; phxmesagateway.org; dkim=timeout (key query
+ timeout) header.d=sino-progress.com;phxmesagateway.org; dmarc=temperror
+ action=none header.from=sino-progress.com;
+Received-SPF: Pass (protection.outlook.com: domain of sino-progress.com
+ designates 47.89.186.249 as permitted sender)
+ receiver=protection.outlook.com; client-ip=47.89.186.249;
+ helo=mx100.chinaemail.cn;
+Received: from mx100.chinaemail.cn (47.89.186.249) by
+ DM2GCC01FT001.mail.protection.outlook.com (10.97.3.168) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.1199.9 via Frontend Transport; Tue, 11 Jul 2017 07:30:48 +0000
+Received: from smtpc1.chinaemail.cn (smtpc1.chinaemail.cn [184.173.76.226])
+	by mx100.chinaemail.cn (Postfix) with ESMTP id F246CCECF0
+	for <dvalenzuela@phxmesagateway.org>; Tue, 11 Jul 2017 15:30:47 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [219.238.233.132])
+	by smtpc1.chinaemail.cn (Postfix) with ESMTP id DC5CA111
+	for <dvalenzuela@phxmesagateway.org>; Tue, 11 Jul 2017 15:12:24 +0800 (CST)
+Received: from [192.168.1.203] (unknown [119.123.181.96])
+	(Authenticated sender: overseas10@sino-progress.com)
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 229BF4A22E7
+	for <dvalenzuela@phxmesagateway.org>; Tue, 11 Jul 2017 15:30:39 +0800 (CST)
+Content-Type: multipart/mixed;
+	boundary="===============8045854433098381658=="
+MIME-Version: 1.0
+Subject: Looking for a Partner in USA--ChinaProgress
+From: =?utf-8?q?Joseph=5FChina-Progress?= <overseas10@sino-progress.com>
+To: <dvalenzuela@phxmesagateway.org>
+Date: Tue, 11 Jul 2017 15:30:42 +0800
+Message-ID: <149975824214.3584.16780475952222883865@DESKTOP-UIM96J7>
+X-MID: 2093652882.1063582053.0.1499758239.218834.19135
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sino-progress.com;
+	s=s123456; t=1499758239;
+	bh=w519+gXeLhjpKq+wG2AW7q5KObcrTYf1DHFVv7U4S60=;
+	h=Subject:From:Date:Message-ID;
+	b=OL1rk736ZBE53aXcf58YAypaoB1qR/LKRS5Fc47bU+0t+cHC8E/RWbSLd+i9NoxsO
+	 ZoHnGh4Em+WaLbkBG1qqaNG2tuhAkpHcy/fk0aPuIijpRBsmKf29osc9Xmn+shU7jF
+	 eUJAZ93gaJndCOkK/8dk+RrV2uJJQlYURAJiEyqU=
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,dvalenzuela@phxmesagateway.org,
+Return-Path: overseas10@sino-progress.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 0b03f773-667e-4961-8153-2c05cdb187ce:0
+X-Forefront-Antispam-Report: CIP:47.89.186.249;IPV:NLI;CTRY:CA;EFV:NLI;
+X-Microsoft-Exchange-Diagnostics: 1;DM2GCC01FT001;1:eJgFsafTQps/KyzFNBrL1n5s6XFWi7HBZGtdx0dToOwMIBl5Ojvaw4bNg/sX4fG6gitx9EJaO8ujl7bxoiTul6MO+HFUfscDV57spmIwmwC/8DR+RxEgkqJnDK3Mi6vNjwZ4cfbDEZ5Ko1T4DHSJMpmGTevxckQ9Y6iftIYpSlq00ShV09WQAJnbJrB6VST8+aPtlFYKaWm/1fYwwcrqES6BCYLxH37RiQr+MjTBMBsQeg92tBpnQr2YC4aF864zlgDGwl7NKIrmPISLlI436oRyxjr9LvpjvqReNtvi0D52mMrCoTH/uQy4DXSi2HN6fhrMiG7+pS76D6b6hERo0356RxB16NhxobpMqN6zu04lGCZz0eQzwjnQWE6p5TCHB8emerhRpioTI3m2dmA0yXP9BV06lBPsuVX5a/KYm5ard+tJKN0+dvuuEUbLHtH/UnKof5SXKo2V/Ci/Btsp3uga5lD3tHvW/xeb5HkwFQcXSjrQO9zkO+4Vw3tBr/O/Cr703xDvJtk4bDtI5/yxx6AxdAwuSbgUglTUD53YMpPWnAEf8ZJxM7MTviqB7FQQEy4I9dmaxQAgMXFRfqe34eqycQuDoXITEciPuOYBgHExdDmsA2aXJpHXFysWdOidxHCiYJ+bjm+Ehm1pVkhfbWTG8ZwSuCxl0f6RkYhA1IWaAx276oGe0jz4pVWywtSVyeKK9Bxs/03ZoyJTvI2pBYDzF1TL40VSjPD/dESbWrtk8yLsMFYgLyoelH/VPoz9XGzAfYPi7SDD6R2A/2Q6qGPJMmRuU0aWLFGYmyIow6uRBsCwcQbfYXMISieIgZQyijx+ZdR624NMzV2eUZjI/6qJnqd4ENsq4dA187/f5VRfoffEzu8Fjat64FzHIfBM7uDrSsvnO+acS2ua1MrraQ1uJaFjcAK9pZa2AmcsZb
+ w=
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 634338a7-5554-4e75-786a-08d4c82ec060
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(22001)(300000502095)(300135100095)(23075)(300000503095)(300135400095)(71702078)(300000504095)(300135200095)(300000505095)(300135600095)(300000506095)(300135500095);SRVR:BY2PR09MB080;
+X-Microsoft-Exchange-Diagnostics: 1;BY2PR09MB080;3:jUYu1INfDrPZL8CJdzfx1LfxiodBqzcLHkjWv+xhnvoynSSeubCV00+astH1LZgllRBCUawaCmrjYlVd6CBHYmX6M0ubdms0Pt9w7VBVkbIOxjNUOL5IvIvjybp/ZQTe/JdCbOEyyw2rYPwBYVSyqQz77y7T7zGzbXV0kSIcXGWH2mSbrShZS4CFMmKYdGPvrXVeL33TjlUEqeBUFqsSVaOkQ8VECIj+M7MG79Gc6FSRccoRX8r+Yz9xyA0Q/7TekrEGS0+ffNfRP29gxOR4e8/j2LaG1oXxKEZLDOo8juQpAnDxHNVp9WaHfT6xKHhtuuSr59ZwOLrSoKs88fsuqTXEpjJQ5W5WdXFGfPhxiEt2i/0AdlcNo2A4CPRGRLCdtW4+/h8dpStMoMRVZFYxDoRQVkhBdfsiajFiMo2EViMHNfBz6MU78SvlvVGHq7MSunzbMoLnsXeTjgkx3zgu82E33a01rzB+6htmhpHG1POCl4P0w0DbYRw5boGNli22rxJU3t+w5B4iJxRZ7JDG3vef04nPIXXautyIbDwvMGC/gKGznch8cMUhywxybfEvFrO2ddzmMNuAVdhrQFGj6fid52h7iMpN13QCPXixIiIA6RS2vQrbptvk2LJ3FdWqUCzEmo2CZVgpQhWbWfsMBHgI2EkaIC4LBRU6TEeYJaOg4NqVJ3eBEyQpwe9aeksEuwixmhdRevSreEAEosi/b/f7DXKgbS0wlQWeV0Pv3MKk7tv75s0YugXra6SUwq1lKOrEfYS4GBup1lWVp2XcEfigCeXsRaR3DLc0aXU4u9E=
+X-MS-TrafficTypeDiagnostic: BY2PR09MB080:
+X-Microsoft-Exchange-Diagnostics: 1;BY2PR09MB080;25:gp1sjlIQUaIRukO+fV6zl65dP2GoWPyMaVbmZXHJRm+OmWqKPKjFa/4Ga3cy0xrvTfJPUXT1/sgRbfmRTeTbTiaoI4p7RVJ01UIVOXJ5VQK2SIJ60kQh3UaWJYAWL6bugZTE9WF8HYqiOube0WVWLGY41qCjEf1qvEoketQzJfYk2qUFIFFZ4o231Q3FBbKEVdXsA4TUWnNySVJNkWHdqaYheq4pn8P14R6P1MIXgusXlg5y61gcQ5w/lIMGE0NVOkwFMXS9uUz3b4LrNTzxVBqSWKFevmp1eUJ3HHC8uI2lGQppHAC5JiuVWl/E3yszKjCnNUCbuzh6YPJADH/dLVFcO5iv+fgdEswjBnkSidHCcsFjQ4ov5S/SF5lSuMSPWcwGY6Njd0dVJWemvhg3ukKgfIYWIXNsqz/ZmQRIx4qWCrwu2RJ1j5A/zdWPcjfczKetwmEvDjqZHLQIXy/P+aSyu4aHX+CSbjQa0M48CJhfJV7abA130JxIrIn+w7VyT0r30qzatX3K5Otte8w9jZuzWa6RWdR//jn/vHYo0WhIFt4Lg7n8rYTOOarPZNSp1BUwUWSMFpmAKbxygzvD5Jik1Epq9+VlRo+E0Ae/aBFalil/y+vhQkTN1imd8mK21vLrEWsLXyGEl6bucUZojrLKafAFPtYmDhPv/xtnArQuypVnwcmpsxdKTTogDztNrL5x2AIIpvhe0s3XIVpUX/NJV3sHggh11DZvuOscFM858U2/r8OEwL3to1d4IN+rZdtDWTNyqLoUIk3gJDpTXEoq4CQmhd7mC+MkN9R7zFKyhUok6auau94v2u//bzG4FerC1BnK2GRkxIy4LsYLXZXoyhhIO8FYbaKGU/G1YiO7y28zTGjYt2m7jNrH/OFUYWsTL8vMzCbnZiVnVI/62sEzMKTN4WJGQ9p7nBQnBo
+ c=
+
+--===============8045854433098381658==
+Content-Type: multipart/alternative;
+ boundary="===============2998089809980522180=="
+MIME-Version: 1.0
+
+--===============2998089809980522180==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+--===============2998089809980522180==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+	<head>
+		<!-- NAME: SIMPLE TEXT -->
+		<!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+		<meta charset=3D"UTF-8">
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+		<title>Greetings From China Progress International Freight Forwarding Com=
+pany</title>
+       =20
+    <style type=3D"text/css">
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=3Dtel],a[href^=3Dsms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.Ext=
+ernalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		#bodyCell{
+			padding:10px;
+		}
+		.templateContainer{
+			max-width:600px !important;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want =
+to choose colors that match your company's branding.
+	*/
+		body,#bodyTable{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want =
+to choose colors that match your company's branding.
+	*/
+		#bodyCell{
+			/*@editable*/border-top:0;
+		}
+	/*
+	@tab Page
+	@section Email Border
+	@tip Set the border for your email.
+	*/
+		.templateContainer{
+			/*@editable*/border:0;
+		}
+	/*
+	@tab Page
+	@section Heading 1
+	@tip Set the styling for all first-level headings in your emails. These sh=
+ould be the largest of your headings.
+	@style heading 1
+	*/
+		h1{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:26px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 2
+	@tip Set the styling for all second-level headings in your emails.
+	@style heading 2
+	*/
+		h2{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:22px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 3
+	@tip Set the styling for all third-level headings in your emails.
+	@style heading 3
+	*/
+		h3{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:20px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 4
+	@tip Set the styling for all fourth-level headings in your emails. These s=
+hould be the smallest of your headings.
+	@style heading 4
+	*/
+		h4{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:18px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Style
+	@tip Set the borders for your email's header area.
+	*/
+		#templateHeader{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Header
+	@section Header Text
+	@tip Set the styling for your email's header text. Choose a size and color=
+ that is easy to read.
+	*/
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Link
+	@tip Set the styling for your email's header links. Choose a color that he=
+lps them stand out from your text.
+	*/
+		#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Body
+	@section Body Style
+	@tip Set the borders for your email's body area.
+	*/
+		#templateBody{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Body
+	@section Body Text
+	@tip Set the styling for your email's body text. Choose a size and color t=
+hat is easy to read.
+	*/
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Body
+	@section Body Link
+	@tip Set the styling for your email's body links. Choose a color that help=
+s them stand out from your text.
+	*/
+		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Footer
+	@section Footer Style
+	@tip Set the borders for your email's footer area.
+	*/
+		#templateFooter{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Footer
+	@section Footer Text
+	@tip Set the styling for your email's footer text. Choose a size and color=
+ that is easy to read.
+	*/
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Footer
+	@section Footer Link
+	@tip Set the styling for your email's footer links. Choose a color that he=
+lps them stand out from your text.
+	*/
+		#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
+			/*@editable*/color:#202020;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	@media only screen and (min-width:768px){
+		.templateContainer{
+			width:600px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#bodyCell{
+			padding-top:10px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImage{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCapti=
+onBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcn=
+ImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionR=
+ightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRi=
+ghtImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCar=
+dRightTextContentContainer{
+			max-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer{
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupContent{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter =
+.mcnTextContent{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardTopImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:=
+last-child .mcnTextContent{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardBottomImageContent{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockInner{
+			padding-top:0 !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockOuter{
+			padding-top:9px !important;
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnTextContent,.mcnBoxedTextContentColumn{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+			padding-right:18px !important;
+			padding-bottom:0 !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcpreview-image-uploader{
+			display:none !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 1
+	@tip Make the first-level headings larger in size for better readability o=
+n small screens.
+	*/
+		h1{
+			/*@editable*/font-size:22px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 2
+	@tip Make the second-level headings larger in size for better readability =
+on small screens.
+	*/
+		h2{
+			/*@editable*/font-size:20px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 3
+	@tip Make the third-level headings larger in size for better readability o=
+n small screens.
+	*/
+		h3{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 4
+	@tip Make the fourth-level headings larger in size for better readability =
+on small screens.
+	*/
+		h4{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Boxed Text
+	@tip Make the boxed text larger in size for better readability on small sc=
+reens. We recommend a font size of at least 16px.
+	*/
+		table.mcnBoxedTextContentContainer td.mcnTextContent,td.mcnBoxedTextConte=
+ntContainer td.mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Header Text
+	@tip Make the header text larger in size for better readability on small s=
+creens.
+	*/
+		td#templateHeader td.mcnTextContent,td#templateHeader td.mcnTextContent p=
+{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Body Text
+	@tip Make the body text larger in size for better readability on small scr=
+eens. We recommend a font size of at least 16px.
+	*/
+		td#templateBody td.mcnTextContent,td#templateBody td.mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Footer Text
+	@tip Make the footer content text larger in size for better readability on=
+ small screens.
+	*/
+		td#templateFooter td.mcnTextContent,td#templateFooter td.mcnTextContent p=
+{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}</style></head>
+    <body>
+		<!--*|IF:MC_PREVIEW_TEXT|*-->
+		<!--[if !gte mso 9]><!----><span class=3D"mcnPreviewText" style=3D"displa=
+y:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opac=
+ity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT=
+|*</span><!--<![endif]-->
+		<!--*|END:IF|*-->
+        <center>
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable">
+                <tr>
+                    <td align=3D"left" valign=3D"top" id=3D"bodyCell">
+                        <!-- BEGIN TEMPLATE // -->
+						<!--[if gte mso 9]>
+						<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" width=3D"600" style=3D"width:600px;">
+						<tr>
+						<td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:600p=
+x;">
+						<![endif]-->
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" class=3D"templateContainer">
+                            <tr>
+                                <td valign=3D"top" id=3D"templateHeader"></=
+td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateBody"><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D=
+"mcnTextBlock" style=3D"min-width:100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"padding=
+-top:9px;">
+              	<!--[if mso]>
+				<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" style=3D"width:100%;">
+				<tr>
+				<![endif]-->
+			   =20
+				<!--[if mso]>
+				<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+				<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"max-width:100%; min-width:100%;" width=3D"100%" class=
+=3D"mcnTextContentContainer">
+                    <tbody><tr>
+                       =20
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18p=
+x;">
+                       =20
+                            <span style=3D"font-family:arial,helvetica neue=
+,helvetica,sans-serif">Dear manager of Phoenix-Mesa Gateway Airport ,<br>
+<br>
+Greetings from <strong>China-Progress Int'l Freight Forwarding</strong>, Ch=
+ina!<br>
+<br>
+This is Joseph,&nbsp;it is so nice to know your good company from<strong>&n=
+bsp;AZFreight Members Directory.</strong><br>
+<br>
+We are looking for a reliable cooperator in <strong>USA,</strong> who can b=
+e our representative to provide local service and free-handling.&nbsp;<br>
+<br>
+<strong>And also we wish to be your trusted partner in China.</strong><br>
+<br>
+<strong>China Progress is&nbsp;</strong></span>
+
+<ul>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>14 years experienced</strong> Freight Forwarder&nbsp;</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+member of <strong>WCA, FIATA, CIFA</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+NVOCC Class-A freight forwarder</span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>We have</strong></span>
+
+<ul>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>4 office</strong> in China (located in <strong>Shenzhen, Guangzhou =
+, Shanghai, Qingdao</strong> respectively)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>3 overseas office</strong> (located in <strong>US, Canada and Vietn=
+am</strong> respectively.)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>200+ stuff</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>55 container trucks</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>1000 sq ft warehouse</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Our own broker office in Shenzhen</strong></span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>Our service </strong>covers</span>
+
+<ul>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Sea Freight</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Air Freight</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Logistics</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Transport and Distribution</span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>Please don't hesitate to contact me for any assistance you need from Ch=
+ina.</strong></span>
+
+<div><br>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">I am =
+looking forward to your reply! Wish we could start cooperation very soon .<=
+/span><br>
+&nbsp;
+<div>
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Thanks &amp; Regards,</span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Joseph Li&nbsp;</strong></span></div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Overseas Dept.<br>
+Email: overseas10@sino-progress.com<br>
+<strong><em>Service Drives Value=E2=80=A6=E2=80=A6</em></strong><br>
+<strong>CHINA&nbsp;PROGRESS INT'L FORWARDING CO.,LTD&nbsp;</strong><br>
+NVOCC:MOC-NV 03517<br>
+Cell: +86-13714780856<br>
+<a href=3D"http://www.sino-progress.com/">WWW.SINO-PROGRESS.COM</a><br>
+&nbsp;CHINA&nbsp; -&nbsp;&nbsp; VIETNAM &nbsp;-&nbsp; U.S.A.&nbsp; &nbsp;-&=
+nbsp; &nbsp;CANADA</span></div>
+</div>
+
+<div>
+<div align=3D"left"><span style=3D"font-family:arial,helvetica neue,helveti=
+ca,sans-serif"><img data-file-id=3D"2715261" src=3D"https://gallery.mailchi=
+mp.com/3cad518a16e6e9e8280a70c63/images/114709a2-d4d1-4ae6-a900-90d97573805=
+1.jpg" style=3D"border: 0px  ; margin: 0px;"></span></div>
+</div>
+</div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+               =20
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateFooter"></=
+td>
+                            </tr>
+                        </table>
+						<!--[if gte mso 9]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>=
+
+--===============2998089809980522180==--
+
+--===============8045854433098381658==--
+
+--51c3480c-6371-4cb4-8f71-b231bfcc54c4--

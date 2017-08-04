@@ -1,0 +1,142 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi95.chinaemail.cn (unknown [115.182.8.95])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 6D7D94A22EF
+	for <overseas10@sino-progress.com>; Tue, 11 Jul 2017 14:51:23 +0800 (CST)
+X-SBRS: 2.3
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1CbAAANcGRZe+IpL2haAx0BBQELAYJvaGdeBDKOCXOme4EyA4EIhUuDbRgBAgEBAQEBAQETAQEJDQoHKIVIBkABAS8JDwIBDCkZVwIEG4lDTAMVAwILn34CiweDEYMFAQEFhCoYg20BAQgCAR0IE4MVg0uEUoFwAYJ+EgEtLgiFLZ8jgWYJA4ESkH2Ddo41lAMBgTwfgTcLUiMVhU2CEnYBhX2CMAEBAQ
+X-IronPort-AV: E=Sophos;i="5.40,345,1496073600"; 
+   d="scan'208,217";a="204241704"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi95.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 11 Jul 2017 14:48:38 +0800
+Received: from NAM03-DM3-obe.outbound.protection.outlook.com (mail-dm3nam03hn0226.outbound.protection.outlook.com [104.47.41.226])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id B28C3C0AA7
+	for <overseas10@sino-progress.com>; Tue, 11 Jul 2017 14:48:10 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=FLYBHM.onmicrosoft.com; s=selector1-flybirmingham-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=oOL5CloWifOTWvpnMvFIT/a1cPFo2yZKpLJ8ptWUEC4=;
+ b=TbXTyQc3yz5WqS115r7JltSJiFu14bkYKHLA/uet91rYd0BQPhI3Z7e1pPos/3/FJ4HJ619Per03bJKpUbULNg1qecmssKcKzLoFOXCUA/t1P9YPBCsyeZxs2Ydrd0Lon7ZTOFWIV7hEr0ls6HCd+yvhbQQmjObLv04IktAdOTI=
+Received: from MWHPR04MB0400.namprd04.prod.outlook.com (10.173.48.17) by
+ MWHPR04MB0401.namprd04.prod.outlook.com (10.173.48.18) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1240.13; Tue, 11 Jul 2017 06:48:31 +0000
+Received: from MWHPR04MB0400.namprd04.prod.outlook.com ([127.0.0.1]) by
+ MWHPR04MB0400.namprd04.prod.outlook.com ([10.173.48.17]) with Microsoft SMTP
+ Server id 15.01.1240.018; Tue, 11 Jul 2017 06:48:31 +0000
+From: Info <info@flybirmingham.com>
+To: Joseph_China-Progress <overseas10@sino-progress.com>
+Subject: Automatic reply: Looking for a Partner in USA--ChinaProgress
+Thread-Topic: Looking for a Partner in USA--ChinaProgress
+Thread-Index: AQHS+hG1KqzuCFHRf0W6/3PdUFq4pKJOL0gf
+Date: Tue, 11 Jul 2017 06:48:31 +0000
+Message-ID: <3daed9440a5c42f3bf1710a4a0597b15@MWHPR04MB0400.namprd04.prod.outlook.com>
+References: <149975569628.3584.16067162633134483769@DESKTOP-UIM96J7>
+In-Reply-To: <149975569628.3584.16067162633134483769@DESKTOP-UIM96J7>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: info@flybirmingham.com
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is ) smtp.mailfrom=<>; 
+x-ms-exchange-parent-message-id: <149975569628.3584.16067162633134483769@DESKTOP-UIM96J7>
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: a6482297-01d5-4b55-c839-08d4c828d84b
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(22001)(300000502095)(300135100095)(2017030254075)(300000503095)(300135400095)(2017052603031)(201703131423075)(201703031133081)(300000504095)(300135200095)(300000505095)(300135600095)(300000506095)(300135500095);SRVR:MWHPR04MB0401;
+x-microsoft-exchange-diagnostics: 1;MWHPR04MB0401;7:E1AmaqO8DDOjMvKrFDbfHe08RrydbU0//UfQdSDPaRNZ9uGawtPFVmhDJt+nVqCEBnudupBxEQm50jZ2LKK/5shIalUpQvp1iycAQPqrz/nP8V3wF5kv+nRkQvXCUQV66A63hmiPjFhSERLQjhyGLUUr6uztYtXOXhyCQZxUvKE1OxdLB0bl6AKjzwGrRc/CyktXOlMCfCLha1YuYjJqYaHpztYnaCkg9C2jKM3ARbdTfSmBuf2puRBGja7YsmzhpfG3Cy1TZZHkY3cwLaU8bZj/4mHqPqtcV9oObIZ/G04T0gwgZ2ITum2OP/x7OMqqjQZB0QmVSa8XXWQa6v/QpGd05rv6qA7Cs3e1luQLWdzyoXYqpH8/8AdmgY521q1Ok68nd+GmOGtVuvY+YvOC8y027bZimbsJTWmC64+HCg8K9qICtAkZIrF7mqsScq4ZVrEP/jVScmDEAmRr7oXxfqnCrC0CNSUW1SLPHQCRWHAzPfeeagC0A5nYWWeSgN7U1zMhc0g4vAYk8wFL4UZcNQureSzeHPltCv9tlDX8NyJHiINQRo7gsyyIpfBTnSEWTKc5EuVR8vFT+TnCFTzGLlE5HFAJrfIKQjFs2wnOzb4hxyIg2LB2INCH793wYOCvu+KCPOKW363SVD8DTSH+uXWSMdl/7HimErRAQEe330FCWcylvRKEx04qQrn1fRzEi9mf6cSyYZOws6GXgORAC1YHUT6YsXsSIjRhaeomf9EFCWROHbH5WMByHZgCT6p9B75OG8NJRkuoui6U7Ms12YmuKXF/61j6L0VZcJXFP3o=
+x-ms-traffictypediagnostic: MWHPR04MB0401:
+x-microsoft-antispam-prvs: <MWHPR04MB04019B2A14849F55DDD49965B8AE0@MWHPR04MB0401.namprd04.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(236129657087228)(48057245064654)(148574349560750)(92977632026198)(209349559609743);
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(6040450)(601004)(2401047)(5005006)(8121501046)(2017060910075)(93006095)(10201501046)(100000703101)(100105400095)(3002001)(6041248)(20161123555025)(20161123562025)(20161123560025)(20161123564025)(201703131423075)(201702281528075)(201703061421075)(201703061750153)(20161123558100)(6072148)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:MWHPR04MB0401;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:MWHPR04MB0401;
+x-forefront-prvs: 0365C0E14B
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(50650200002)(979002)(39450400003)(39410400002)(39400400002)(39830400002)(24736003)(78352004)(81166006)(102836003)(8676002)(8936002)(345774005)(54356999)(76176999)(33646002)(50986999)(77096006)(3110400002)(966005)(108616004)(25786009)(498600001)(413944005)(189998001)(6306002)(236005)(606006)(2906002)(99286003)(53936002)(5660300001)(9686003)(6916009)(7696004)(6436002)(7126002)(55016002)(3280700002)(53096004)(74316002)(2950100002)(6506006)(3660700001)(42882006)(38730400002)(110136004)(54896002)(87552003)(80100003)(3720700003)(969003)(989001)(999001)(1009001)(1019001);DIR:OUT;SFP:1501;SCL:1;SRVR:MWHPR04MB0401;H:MWHPR04MB0400.namprd04.prod.outlook.com;FPR:;SPF:None;MLV:ovrnspm;PTR:InfoNoRecords;LANG:en;
+received-spf: None (protection.outlook.com:
+ MWHPR04MB0400.namprd04.prod.outlook.com does not designate permitted sender
+ hosts)
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_3daed9440a5c42f3bf1710a4a0597b15MWHPR04MB0400namprd04pr_"
+MIME-Version: 1.0
+X-OriginatorOrg: flybirmingham.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 11 Jul 2017 06:48:31.8223
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 746a9f97-a4eb-482a-99df-e5ed768d649c
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MWHPR04MB0401
+X-MID: 2093652882.787248743.0.1499755883.469176.32203
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--_000_3daed9440a5c42f3bf1710a4a0597b15MWHPR04MB0400namprd04pr_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Dear BHM Patron,
+
+Thank you for your email to the Birmingham Airport Authority. We have recei=
+ved your comments/questions and we will reply within the next business day.=
+ This email account is monitored by the Birmingham Airport Authority during=
+ its normal business hours on Monday =96 Friday from 8:00am to 4:30pm.
+
+You may also visit our website for helpful information:
+
+Airlines and flight information: http://www.flybirmingham.com/schedules-air=
+lines.html
+General passenger information: http://www.flybirmingham.com/passenger-termi=
+nal.html
+Parking and Ground Transportation: http://www.flybirmingham.com/passenger-p=
+arking.html
+Information assistance / lost and found: 205-599-0500
+
+We appreciate the opportunity to serve your travel needs.
+
+Kindest regards,
+Birmingham Airport Authority
+
+--_000_3daed9440a5c42f3bf1710a4a0597b15MWHPR04MB0400namprd04pr_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body>
+<div name=3D"divtagdefaultwrapper" style=3D"margin:0px; font-family:Calibri=
+,Arial,Helvetica,sans-serif">
+<span style=3D"font-size:10pt"><font size=3D"3"></font><font size=3D"3" fac=
+e=3D"Times New Roman"></font>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0pt"><span><font size=3D"3">=
+Dear BHM Patron,<br>
+<br>
+Thank you for your email to the Birmingham Airport Authority. </font></span=
+><span><font size=3D"3">We have received your comments/questions and we wil=
+l reply within the next business day. This email account is monitored by th=
+e Birmingham Airport Authority during
+ its normal business hours on Monday =96 Friday from 8:00am to 4:30pm.<br>
+<br>
+You may also visit our website for helpful information:<br>
+<br>
+Airlines and flight information: </font><a href=3D"http://www.flybirmingham=
+.com/schedules-airlines.html"><font color=3D"#0000ff" size=3D"3">http://www=
+.flybirmingham.com/schedules-airlines.html</font></a><br>
+<font size=3D"3">General passenger information: </font><a href=3D"http://ww=
+w.flybirmingham.com/passenger-terminal.html"><font color=3D"#0000ff" size=
+=3D"3">http://www.flybirmingham.com/passenger-terminal.html</font></a><br>
+<font size=3D"3">Parking and Ground Transportation: </font><a href=3D"http:=
+//www.flybirmingham.com/passenger-parking.html"><font color=3D"#0000ff" siz=
+e=3D"3">http://www.flybirmingham.com/passenger-parking.html</font></a><br>
+<font size=3D"3">Information assistance / lost and found: 205-599-0500<br>
+<br>
+We appreciate the opportunity to serve your travel needs.<br>
+<br>
+Kindest regards,<br>
+Birmingham Airport Authority</font></span></p>
+</span></div>
+</body>
+</html>
+
+--_000_3daed9440a5c42f3bf1710a4a0597b15MWHPR04MB0400namprd04pr_--

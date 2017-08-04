@@ -1,0 +1,53 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi145.chinaemail.cn (unknown [124.202.155.145])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 82FFF4A22F1
+	for <overseas10@sino-progress.com>; Thu, 20 Jul 2017 12:08:46 +0800 (CST)
+X-SBRS: 5.1
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1DBAgBoJXBZl0kOK0pSJQEFAQsBhD+BFI5+qTGFHwKEJxMBAgEBAQEBAQETAQEBAQEIFgZDhj0hfiGKLwMCsmmIMYMigyiNFQoBAWeFLZFihWKHdYdLg0QMg0OFO4IMGYU2ilMClVw3gSp1gk2CVAELglRphnCCMAEBAQ
+X-IPAS-Result: A1DBAgBoJXBZl0kOK0pSJQEFAQsBhD+BFI5+qTGFHwKEJxMBAgEBAQEBAQETAQEBAQEIFgZDhj0hfiGKLwMCsmmIMYMigyiNFQoBAWeFLZFihWKHdYdLg0QMg0OFO4IMGYU2ilMClVw3gSp1gk2CVAELglRphnCCMAEBAQ
+X-IronPort-AV: E=Sophos;i="5.40,382,1496073600"; 
+   d="scan'208";a="99295347"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi145.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 20 Jul 2017 12:09:03 +0800
+Received: from mail.csichb.com (mail.csichb.com [74.43.14.73])
+	by mx100c1.chinaemail.cn (Postfix) with SMTP id DDADEC0A7D
+	for <overseas10@sino-progress.com>; Thu, 20 Jul 2017 12:08:31 +0800 (CST)
+X-mailer-daemon: postmaster
+MIME-Version: 1.0
+Content-Type: text/plain
+To: overseas10@sino-progress.com
+From: postmaster@mail.csichb.com
+Subject: DELIVERY STATUS (POSSIBLE SPAM)
+Message-Id: <SRS0=+1m/tQIn=6X=sino-progress.com=overseas10@mail.csichb.com>
+Sender: "Python Milter"
+	<SRS0=+1m/tQIn=6X=sino-progress.com=overseas10@mail.csichb.com>
+Date: Thu, 20 Jul 2017 12:08:31 +0800 (CST)
+X-MID: 2093652882.1882174181.16.1500523726.541900.6120
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+
+This is an automatically generated Delivery Status Notification.
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO *NOT* NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipients has been delayed.
+
+       mhall@csichb.com
+
+Subject: Updated Freight Rate from China
+Received-SPF: Pass (mail.csichb.com: domain of sino-progress.com designates 46.165.192.8 as permitted sender) client-ip=46.165.192.8; envelope-from="overseas10@sino-progress.com"; helo=mx100.chinaemail.cn; receiver=mail.csichb.com; mechanism="include:spf.chinaemail.cn"; identity=mailfrom
+
+A statistical analysis of your message has classified it as junk mail,
+and it has been quarantined.  Eventually, the recipients will review
+their quarantined mail and may notice your message.  If your message is
+important, please contact them via other means.  You may also try sending
+them a simple plain text message.
+
+If you need further assistance, please do not hesitate to contact me.
+
+Kind regards,
+
+postmaster@mail.csichb.com

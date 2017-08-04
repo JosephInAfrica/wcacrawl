@@ -1,0 +1,688 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi110.chinaemail.cn (unknown [115.182.8.110])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id D12094A2300
+	for <overseas10@sino-progress.com>; Thu, 20 Jul 2017 12:04:51 +0800 (CST)
+X-SBRS: 3.5
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1BVAQBGH3BZh2TVNth2BgyCcj6BEYEUhSWJWY5aAYIZjT2LBoQ1FUYJAh4CFINyFAECAQEBAQEBARMBAQEKCwkIKIVHAQMDIwofGgEKGAkTAwECKAMCAkYJCAYTiioFAwILkk+dZIImhA2EJIJwAQEBAQYBAQEBAQEBIYEeggqBYoNLAQEqhTiBfBIBBjYGgm0WgkwEiVYHhnqBYIxaKIdLjlpXhHiJEYFElVw2gSALdYVsBRyCA1oBAYZugjABAQE
+X-IPAS-Result: A1BVAQBGH3BZh2TVNth2BgyCcj6BEYEUhSWJWY5aAYIZjT2LBoQ1FUYJAh4CFINyFAECAQEBAQEBARMBAQEKCwkIKIVHAQMDIwofGgEKGAkTAwECKAMCAkYJCAYTiioFAwILkk+dZIImhA2EJIJwAQEBAQYBAQEBAQEBIYEeggqBYoNLAQEqhTiBfBIBBjYGgm0WgkwEiVYHhnqBYIxaKIdLjlpXhHiJEYFElVw2gSALdYVsBRyCA1oBAYZugjABAQE
+X-IronPort-AV: E=Sophos;i="5.40,382,1496073600"; 
+   d="scan'208,217";a="460017697"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi110.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 20 Jul 2017 12:05:50 +0800
+Received: from smtp1.odfl.com (smtp1.odfl.com [216.54.213.100])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id 0F859C09B9
+	for <overseas10@sino-progress.com>; Thu, 20 Jul 2017 12:05:21 +0800 (CST)
+X-ASG-Debug-ID: 1500523533-0b2d6802a11cc810001-7paWBW
+Received: from DC1-P-M-EXCH02.corp.odfl.com ([172.29.224.23]) by smtp1.odfl.com with ESMTP id IZvPBKrpRSkCcBoX (version=TLSv1.2 cipher=ECDHE-RSA-AES256-SHA384 bits=256 verify=NO) for <overseas10@sino-progress.com>; Thu, 20 Jul 2017 00:05:33 -0400 (EDT)
+X-Barracuda-Envelope-From: 
+MIME-Version: 1.0
+From: <postmaster@odfl.com>
+To: <overseas10@sino-progress.com>
+Date: Thu, 20 Jul 2017 00:05:33 -0400
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="b9ccfd8c-82df-472d-a060-42d90acbc2cf"
+X-MS-Exchange-Message-Is-Ndr:
+Content-Language: en-US
+Message-ID: <9e172fa8-31ad-47d9-8abc-807d168641d0@DC1-P-M-EXCH02.corp.odfl.com>
+In-Reply-To: <150052352132.2372.10798166434010488771@DESKTOP-UIM96J7>
+References: <150052352132.2372.10798166434010488771@DESKTOP-UIM96J7>
+Subject: Undeliverable: Ocean Freight Rate from China by China-Progress
+X-ASG-Orig-Subj: Undeliverable: Ocean Freight Rate from China by China-Progress
+X-Barracuda-Connect: UNKNOWN[172.29.224.23]
+X-Barracuda-Start-Time: 1500523533
+X-Barracuda-Encrypted: ECDHE-RSA-AES256-SHA384
+X-Barracuda-URL: https://10.0.0.205:443/cgi-mod/mark.cgi
+X-Barracuda-Scan-Msg-Size: 8801
+X-Virus-Scanned: by bsmtpd at odfl.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.85
+X-Barracuda-Spam-Status: No, SCORE=0.85 using global scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=9.0 tests=ANY_BOUNCE_MESSAGE, BOUNCE_MESSAGE, BSF_RULE7568M, BSF_SC0_SA590, EMPTY_ENV_FROM, HTML_MESSAGE, IP_LINK_PLUS, MAILTO_TO_SPAM_ADDR, MIME_BOUND_MANY_HEX, MIME_HTML_MOSTLY, MPART_ALT_DIFF, NORMAL_HTTP_TO_IP, NO_REAL_NAME
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.41116
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 NORMAL_HTTP_TO_IP      URI: Uses a dotted-decimal IP address in URL
+	0.00 MIME_BOUND_MANY_HEX    Spam tool pattern in MIME boundary
+	0.00 EMPTY_ENV_FROM         Empty Envelope From Address
+	0.00 NO_REAL_NAME           From: does not include a real name
+	0.00 IP_LINK_PLUS           URI: Dotted-decimal IP address followed by CGI
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.14 MPART_ALT_DIFF         BODY: HTML and text parts are different
+	0.00 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+	0.00 MAILTO_TO_SPAM_ADDR    Includes a link to a likely spammer email
+	0.20 BSF_SC0_SA590          Custom Rule SA590
+	0.50 BSF_RULE7568M          Custom Rule 7568M
+	0.00 BOUNCE_MESSAGE         MTA bounce message
+	0.00 ANY_BOUNCE_MESSAGE     Message is some kind of bounce message
+X-MID: 2093652882.1054338317.2.1500523491.861083.30540
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--b9ccfd8c-82df-472d-a060-42d90acbc2cf
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="8c193c63-4171-45e8-9e5c-330325ae8c2c"
+
+--8c193c63-4171-45e8-9e5c-330325ae8c2c
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+marty.sis@odfl.com<mailto:marty.sis@odfl.com>
+The email address you entered couldn't be found. Please check the recipient=
+'s email address and try to resend the message. If the problem continues, p=
+lease contact your helpdesk.
+
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: DC1-P-M-EXCH02.corp.odfl.com
+
+marty.sis@odfl.com
+Remote Server returned '550 5.1.1 RESOLVER.ADR.RecipNotFound; not found'
+
+Original message headers:
+
+Received: from DC1-P-M-EXCH01.corp.odfl.com (10.0.0.60) by
+ DC1-P-M-EXCH02.corp.odfl.com (10.0.0.61) with Microsoft SMTP Server (TLS) =
+id
+ 15.0.1263.5; Thu, 20 Jul 2017 00:05:32 -0400
+Received: from DC1-BARR-01.odfl.com (172.31.250.205) by
+ DC1-P-M-EXCH01.corp.odfl.com (10.0.0.60) with Microsoft SMTP Server (TLS) =
+id
+ 15.0.1263.5 via Frontend Transport; Thu, 20 Jul 2017 00:05:28 -0400
+X-ASG-Debug-ID: 1500523531-0971e95ba2b4db00001-JpMEqp
+Received: from mx100.chinaemail.cn (mx100.chinaemail.cn [46.165.192.8]) by =
+DC1-BARR-01.odfl.com with ESMTP id sWJleJAVkiJv3jfg (version=3DTLSv1 cipher=
+=3DDHE-RSA-AES256-SHA bits=3D256 verify=3DNO) for <marty.sis@odfl.com>; Thu=
+, 20 Jul 2017 00:05:32 -0400 (EDT)
+X-Barracuda-Envelope-From: overseas10@sino-progress.com
+X-Barracuda-Effective-Source-IP: mx100.chinaemail.cn[46.165.192.8]
+X-Barracuda-Apparent-Source-IP: 46.165.192.8
+Received: from smtpc1.chinaemail.cn (smtpc1.chinaemail.cn [184.173.76.226])
+        by mx100.chinaemail.cn (Postfix) with ESMTP id C3E7B955AB8
+        for <marty.sis@odfl.com>; Thu, 20 Jul 2017 12:05:27 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [219.238.233.132])
+        by smtpc1.chinaemail.cn (Postfix) with ESMTP id 792CB107
+        for <marty.sis@odfl.com>; Thu, 20 Jul 2017 11:46:48 +0800 (CST)
+Received: from [192.168.1.203] (unknown [14.20.30.239])
+        (Authenticated sender: overseas10@sino-progress.com)
+        by s151v.chinaemail.cn (Bossmail) with ESMTP id 413AB4A22F6
+        for <marty.sis@odfl.com>; Thu, 20 Jul 2017 12:04:16 +0800 (CST)
+Content-Type: multipart/mixed;
+        boundary=3D"=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D7845972076=
+891535864=3D=3D"
+MIME-Version: 1.0
+Subject: Ocean Freight Rate from China by China-Progress
+From: =3D?utf-8?q?Joseph=3D5FSinoProgress?=3D <overseas10@sino-progress.com=
+>
+X-ASG-Orig-Subj: Ocean Freight Rate from China by China-Progress
+To: <marty.sis@odfl.com>
+Date: Thu, 20 Jul 2017 12:05:21 +0800
+Message-ID: <150052352132.2372.10798166434010488771@DESKTOP-UIM96J7>
+X-MID: 2093652882.3446145787.15.1500523456.343608.22948
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/simple; d=3Dsino-progres=
+s.com;
+        s=3Ds123456; t=3D1500523456;
+        bh=3Di+r4uH2fEukTYtMp525B/NnD0h/A2/ggELsEj0QbnsI=3D;
+        h=3DSubject:From:Date:Message-ID;
+        b=3DIdhxKH2lVmVFaTBtt4jbHGD68cQzi5WPgYa3pnUlMoiy1NqkE/oATAQfzlK5h7I=
+Np
+         awm0WukI8IwTkj1MWF+8WrJfMdjeQYyC6B7KWc3At361TeH9RMt1ASZScdQnY0QRtR
+         Tj+QBiEVFUDCxvrkDomVvO/jU3RJueaDD+f1XSlw=3D
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,marty.sis@odfl.com,
+X-Barracuda-Connect: mx100.chinaemail.cn[46.165.192.8]
+X-Barracuda-Start-Time: 1500523531
+X-Barracuda-Encrypted: DHE-RSA-AES256-SHA
+X-Barracuda-URL: https://172.31.250.205:443/cgi-mod/mark.cgi
+X-Barracuda-Scan-Msg-Size: 13537
+X-Virus-Scanned: by bsmtpd at odfl.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Bayes: INNOCENT GLOBAL 0.5000 1.0000 0.7500
+X-Barracuda-Spam-Score: 0.90
+X-Barracuda-Spam-Status: No, SCORE=3D0.90 using per-user scores of TAG_LEVE=
+L=3D3.1 QUARANTINE_LEVEL=3D1000.0 KILL_LEVEL=3D4.3 tests=3DHTML_MESSAGE, MA=
+ILTO_TO_SPAM_ADDR, MIME_HTML_MOSTLY, MPART_ALT_DIFF
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.41116
+        Rule breakdown below
+         pts rule name              description
+        ---- ---------------------- ---------------------------------------=
+-----------
+        0.00 HTML_MESSAGE           BODY: HTML included in message
+        0.14 MPART_ALT_DIFF         BODY: HTML and text parts are different
+        0.00 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/htm=
+l MIME
+        0.00 MAILTO_TO_SPAM_ADDR    Includes a link to a likely spammer ema=
+il
+Return-Path: overseas10@sino-progress.com
+
+
+--8c193c63-4171-45e8-9e5c-330325ae8c2c
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:mar=
+ty.sis@odfl.com">marty.sis@odfl.com</a><br>
+</font>
+<font color=3D"#000000" size=3D"3" face=3D"Arial">The email address you ent=
+ered couldn't be found. Please check the recipient's email address and try =
+to resend the message. If the problem continues, please contact your helpde=
+sk.<br>
+</font>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: DC1-P-M-EXCH02.corp.odfl.com<br>
+</p>
+<p>marty.sis@odfl.com<br>
+Remote Server  returned '550 5.1.1 RESOLVER.ADR.RecipNotFound; not found'<b=
+r>
+</p>
+<p>Original message headers:</p>
+<pre>Received: from DC1-P-M-EXCH01.corp.odfl.com (10.0.0.60) by
+ DC1-P-M-EXCH02.corp.odfl.com (10.0.0.61) with Microsoft SMTP Server (TLS) =
+id
+ 15.0.1263.5; Thu, 20 Jul 2017 00:05:32 -0400
+Received: from DC1-BARR-01.odfl.com (172.31.250.205) by
+ DC1-P-M-EXCH01.corp.odfl.com (10.0.0.60) with Microsoft SMTP Server (TLS) =
+id
+ 15.0.1263.5 via Frontend Transport; Thu, 20 Jul 2017 00:05:28 -0400
+X-ASG-Debug-ID: 1500523531-0971e95ba2b4db00001-JpMEqp
+Received: from mx100.chinaemail.cn (mx100.chinaemail.cn [46.165.192.8]) by =
+DC1-BARR-01.odfl.com with ESMTP id sWJleJAVkiJv3jfg (version=3DTLSv1 cipher=
+=3DDHE-RSA-AES256-SHA bits=3D256 verify=3DNO) for &lt;marty.sis@odfl.com&gt=
+;; Thu, 20 Jul 2017 00:05:32 -0400 (EDT)
+X-Barracuda-Envelope-From: overseas10@sino-progress.com
+X-Barracuda-Effective-Source-IP: mx100.chinaemail.cn[46.165.192.8]
+X-Barracuda-Apparent-Source-IP: 46.165.192.8
+Received: from smtpc1.chinaemail.cn (smtpc1.chinaemail.cn [184.173.76.226])
+	by mx100.chinaemail.cn (Postfix) with ESMTP id C3E7B955AB8
+	for &lt;marty.sis@odfl.com&gt;; Thu, 20 Jul 2017 12:05:27 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [219.238.233.132])
+	by smtpc1.chinaemail.cn (Postfix) with ESMTP id 792CB107
+	for &lt;marty.sis@odfl.com&gt;; Thu, 20 Jul 2017 11:46:48 +0800 (CST)
+Received: from [192.168.1.203] (unknown [14.20.30.239])
+	(Authenticated sender: overseas10@sino-progress.com)
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 413AB4A22F6
+	for &lt;marty.sis@odfl.com&gt;; Thu, 20 Jul 2017 12:04:16 +0800 (CST)
+Content-Type: multipart/mixed;
+	boundary=3D&quot;=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D784597207689=
+1535864=3D=3D&quot;
+MIME-Version: 1.0
+Subject: Ocean Freight Rate from China by China-Progress
+From: =3D?utf-8?q?Joseph=3D5FSinoProgress?=3D &lt;overseas10@sino-progress.=
+com&gt;
+X-ASG-Orig-Subj: Ocean Freight Rate from China by China-Progress
+To: &lt;marty.sis@odfl.com&gt;
+Date: Thu, 20 Jul 2017 12:05:21 +0800
+Message-ID: &lt;150052352132.2372.10798166434010488771@DESKTOP-UIM96J7&gt;
+X-MID: 2093652882.3446145787.15.1500523456.343608.22948
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/simple; d=3Dsino-progres=
+s.com;
+	s=3Ds123456; t=3D1500523456;
+	bh=3Di+r4uH2fEukTYtMp525B/NnD0h/A2/ggELsEj0QbnsI=3D;
+	h=3DSubject:From:Date:Message-ID;
+	b=3DIdhxKH2lVmVFaTBtt4jbHGD68cQzi5WPgYa3pnUlMoiy1NqkE/oATAQfzlK5h7INp
+	 awm0WukI8IwTkj1MWF+8WrJfMdjeQYyC6B7KWc3At361TeH9RMt1ASZScdQnY0QRtR
+	 Tj+QBiEVFUDCxvrkDomVvO/jU3RJueaDD+f1XSlw=3D
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,marty.sis@odfl.com,
+X-Barracuda-Connect: mx100.chinaemail.cn[46.165.192.8]
+X-Barracuda-Start-Time: 1500523531
+X-Barracuda-Encrypted: DHE-RSA-AES256-SHA
+X-Barracuda-URL: https://172.31.250.205:443/cgi-mod/mark.cgi
+X-Barracuda-Scan-Msg-Size: 13537
+X-Virus-Scanned: by bsmtpd at odfl.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Bayes: INNOCENT GLOBAL 0.5000 1.0000 0.7500
+X-Barracuda-Spam-Score: 0.90
+X-Barracuda-Spam-Status: No, SCORE=3D0.90 using per-user scores of TAG_LEVE=
+L=3D3.1 QUARANTINE_LEVEL=3D1000.0 KILL_LEVEL=3D4.3 tests=3DHTML_MESSAGE, MA=
+ILTO_TO_SPAM_ADDR, MIME_HTML_MOSTLY, MPART_ALT_DIFF
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.41116
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- ----------------------------------------------=
+----
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.14 MPART_ALT_DIFF         BODY: HTML and text parts are different
+	0.00 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+	0.00 MAILTO_TO_SPAM_ADDR    Includes a link to a likely spammer email
+Return-Path: overseas10@sino-progress.com
+</pre>
+</font>
+</body>
+</html>=
+
+--8c193c63-4171-45e8-9e5c-330325ae8c2c--
+
+--b9ccfd8c-82df-472d-a060-42d90acbc2cf
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;DC1-P-M-EXCH02.corp.odfl.com
+Received-From-MTA: dns;DC1-BARR-01.odfl.com
+Arrival-Date: Thu, 20 Jul 2017 04:05:32 +0000
+
+Original-Recipient: rfc822;marty.sis@odfl.com
+Final-Recipient: rfc822;marty.sis@odfl.com
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+
+
+--b9ccfd8c-82df-472d-a060-42d90acbc2cf
+Content-Type: message/rfc822
+
+Received: from DC1-P-M-EXCH01.corp.odfl.com (10.0.0.60) by
+ DC1-P-M-EXCH02.corp.odfl.com (10.0.0.61) with Microsoft SMTP Server (TLS) id
+ 15.0.1263.5; Thu, 20 Jul 2017 00:05:32 -0400
+Received: from DC1-BARR-01.odfl.com (172.31.250.205) by
+ DC1-P-M-EXCH01.corp.odfl.com (10.0.0.60) with Microsoft SMTP Server (TLS) id
+ 15.0.1263.5 via Frontend Transport; Thu, 20 Jul 2017 00:05:28 -0400
+X-ASG-Debug-ID: 1500523531-0971e95ba2b4db00001-JpMEqp
+Received: from mx100.chinaemail.cn (mx100.chinaemail.cn [46.165.192.8]) by DC1-BARR-01.odfl.com with ESMTP id sWJleJAVkiJv3jfg (version=TLSv1 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO) for <marty.sis@odfl.com>; Thu, 20 Jul 2017 00:05:32 -0400 (EDT)
+X-Barracuda-Envelope-From: overseas10@sino-progress.com
+X-Barracuda-Effective-Source-IP: mx100.chinaemail.cn[46.165.192.8]
+X-Barracuda-Apparent-Source-IP: 46.165.192.8
+Received: from smtpc1.chinaemail.cn (smtpc1.chinaemail.cn [184.173.76.226])
+	by mx100.chinaemail.cn (Postfix) with ESMTP id C3E7B955AB8
+	for <marty.sis@odfl.com>; Thu, 20 Jul 2017 12:05:27 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [219.238.233.132])
+	by smtpc1.chinaemail.cn (Postfix) with ESMTP id 792CB107
+	for <marty.sis@odfl.com>; Thu, 20 Jul 2017 11:46:48 +0800 (CST)
+Received: from [192.168.1.203] (unknown [14.20.30.239])
+	(Authenticated sender: overseas10@sino-progress.com)
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 413AB4A22F6
+	for <marty.sis@odfl.com>; Thu, 20 Jul 2017 12:04:16 +0800 (CST)
+Content-Type: multipart/mixed;
+	boundary="===============7845972076891535864=="
+MIME-Version: 1.0
+Subject: Ocean Freight Rate from China by China-Progress
+From: =?utf-8?q?Joseph=5FSinoProgress?= <overseas10@sino-progress.com>
+X-ASG-Orig-Subj: Ocean Freight Rate from China by China-Progress
+To: <marty.sis@odfl.com>
+Date: Thu, 20 Jul 2017 12:05:21 +0800
+Message-ID: <150052352132.2372.10798166434010488771@DESKTOP-UIM96J7>
+X-MID: 2093652882.3446145787.15.1500523456.343608.22948
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sino-progress.com;
+	s=s123456; t=1500523456;
+	bh=i+r4uH2fEukTYtMp525B/NnD0h/A2/ggELsEj0QbnsI=;
+	h=Subject:From:Date:Message-ID;
+	b=IdhxKH2lVmVFaTBtt4jbHGD68cQzi5WPgYa3pnUlMoiy1NqkE/oATAQfzlK5h7INp
+	 awm0WukI8IwTkj1MWF+8WrJfMdjeQYyC6B7KWc3At361TeH9RMt1ASZScdQnY0QRtR
+	 Tj+QBiEVFUDCxvrkDomVvO/jU3RJueaDD+f1XSlw=
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,marty.sis@odfl.com,
+X-Barracuda-Connect: mx100.chinaemail.cn[46.165.192.8]
+X-Barracuda-Start-Time: 1500523531
+X-Barracuda-Encrypted: DHE-RSA-AES256-SHA
+X-Barracuda-URL: https://172.31.250.205:443/cgi-mod/mark.cgi
+X-Barracuda-Scan-Msg-Size: 13537
+X-Virus-Scanned: by bsmtpd at odfl.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Bayes: INNOCENT GLOBAL 0.5000 1.0000 0.7500
+X-Barracuda-Spam-Score: 0.90
+X-Barracuda-Spam-Status: No, SCORE=0.90 using per-user scores of TAG_LEVEL=3.1 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=4.3 tests=HTML_MESSAGE, MAILTO_TO_SPAM_ADDR, MIME_HTML_MOSTLY, MPART_ALT_DIFF
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.41116
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.14 MPART_ALT_DIFF         BODY: HTML and text parts are different
+	0.00 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+	0.00 MAILTO_TO_SPAM_ADDR    Includes a link to a likely spammer email
+Return-Path: overseas10@sino-progress.com
+
+--===============7845972076891535864==
+Content-Type: multipart/alternative;
+	boundary="===============1284828545568416570=="
+MIME-Version: 1.0
+
+--===============1284828545568416570==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+--===============1284828545568416570==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+	<head>
+		<!-- NAME: SIMPLE TEXT -->
+		<!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+		<meta charset=3D"UTF-8">
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+		<title>Greetings From China Progress International Freight Forwarding Com=
+pany</title>
+	    <style type=3D"text/css">
+<!--
+.STYLE1 {
+	color: #333333;
+	font-weight: bold;
+}
+.STYLE2 {color: #333333}
+.STYLE5 {
+	font-style: italic;
+	color: #000000;
+}
+.STYLE8 {
+	font-style: italic;
+	color: #666666;
+}
+.STYLE13 {color: #000000}
+-->
+        </style>
+</head>
+    <body>
+	=09
+        <center>
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable">
+                <tr>
+                    <td align=3D"left" valign=3D"top" id=3D"bodyCell">
+                        <!-- BEGIN TEMPLATE // -->
+						<!--[if gte mso 9]>
+						<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" width=3D"600" style=3D"width:600px;">
+						<tr>
+						<td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:600p=
+x;">
+						<![endif]-->
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" class=3D"templateContainer">
+                            <tr>
+                                <td valign=3D"top" id=3D"templateHeader"></=
+td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateBody"><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D=
+"mcnTextBlock" style=3D"min-width:100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"padding=
+-top:9px;">
+              	<!--[if mso]>
+				<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" style=3D"width:100%;">
+				<tr>
+				<![endif]-->
+			   =20
+				<!--[if mso]>
+				<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+				<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"max-width:100%; min-width:100%;" width=3D"100%" class=
+=3D"mcnTextContentContainer">
+                    <tbody><tr>
+                       =20
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18p=
+x;">
+                       =20
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif">Dear Mr. Martin Sis ,<br>
+                                <br>
+                              Greetings from  <strong>China-Progress Int'l =
+Freight Forwarding</strong>, China.<br>
+  <br>
+                              This is Joseph,&nbsp;it is so nice to know yo=
+ur good company from<strong>&nbsp;WCA members Directory .</strong></p>
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif">                              We are 14 years experienc=
+ed freight forwarder in Shenzhen.    Wondering if we have chance<strong> to=
+ be your cooperating handler </strong>in China.  <br>
+                            </p>
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif">Here is updated Freight Rate from China to US, hope it =
+is helpful.</p>
+                            <table width=3D"492" height=3D"143" border=3D"1=
+" cellpadding=3D"0" cellspacing=3D"0">
+                              <col width=3D"113">
+                              <col width=3D"72" span=3D"5">
+                              <tr height=3D"18">
+                                <td width=3D"473" height=3D"36" colspan=3D"=
+6" rowspan=3D"2" bordercolor=3D"#999999"><div align=3D"center" class=3D"STY=
+LE1">Freight Rate CN-US Jul19</div></td>
+                              </tr>
+                              <tr height=3D"18"> </tr>
+                              <tr height=3D"40">
+                                <td width=3D"113" height=3D"40" bordercolor=
+=3D"#999999" bgcolor=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE=
+2">POL</span></div></td>
+                                <td width=3D"72" bordercolor=3D"#999999" bg=
+color=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE2">POD</span></=
+div></td>
+                                <td width=3D"72" bordercolor=3D"#999999" bg=
+color=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE2">Carrier</spa=
+n></div></td>
+                                <td width=3D"72" bordercolor=3D"#999999" bg=
+color=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE2">Freight    2=
+0'GP($)</span></div></td>
+                                <td width=3D"72" bordercolor=3D"#999999" bg=
+color=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE2">Freight    4=
+0GP($)</span></div></td>
+                                <td width=3D"72" bordercolor=3D"#999999" bg=
+color=3D"#FFCC33"><div align=3D"center"><span class=3D"STYLE2">Freight    4=
+0HQ($)</span></div></td>
+                              </tr>
+                              <tr height=3D"20">
+                                <td height=3D"20" bordercolor=3D"#999999"><=
+div align=3D"center"><span class=3D"STYLE2">SZX,TNJ,TAO,SHA</span></div></t=
+d>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">LA</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">HPL</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">890</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">1100</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">1100</span></div></td>
+                              </tr>
+                              <tr height=3D"20">
+                                <td height=3D"20" bordercolor=3D"#999999"><=
+div align=3D"center"><span class=3D"STYLE2">SZX,TNJ,TAO,SHA</span></div></t=
+d>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">HU</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">OOCL</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">1630</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">1630</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">2025</span></div></td>
+                              </tr>
+                              <tr height=3D"20">
+                                <td height=3D"20" bordercolor=3D"#999999"><=
+div align=3D"center"><span class=3D"STYLE2">SZX,TNJ,TAO,SHA</span></div></t=
+d>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">NY</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">UASC</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">1675</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">1675</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">2050</span></div></td>
+                              </tr>
+                              <tr height=3D"20">
+                                <td height=3D"20" bordercolor=3D"#999999"><=
+div align=3D"center"><span class=3D"STYLE2">SZX,TNJ,TAO,SHA</span></div></t=
+d>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">CHI</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">HPL</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">2420</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">2420</span></div></td>
+                                <td bordercolor=3D"#999999"><div align=3D"c=
+enter"><span class=3D"STYLE2">3000</span></div></td>
+                              </tr>
+                            </table>
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif">Please kindly let me know if anything we can help you w=
+ith or if I should not disturb you with this.</p>
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif"><br>
+                              <strong>We wish to be your trusted partner in=
+ China.</strong><br>
+                              <span class=3D"STYLE13"><br>
+                              <em><strong>China Progress is&nbsp; </strong>=
+</em></span></p>
+                            <ul class=3D"STYLE5">
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>14 years experienced</strong> Freight Forwarder&nbsp;</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+member of <strong>WCA, FIATA, CIFA</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+NVOCC Class-A freight forwarder</span></li>
+</ul>
+                            <span class=3D"STYLE13" style=3D"font-family:ar=
+ial,helvetica neue,helvetica,sans-serif"><em> <strong>We have</strong></em>=
+</span>
+
+<ul class=3D"STYLE5">
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>4 office</strong> in China (located in <strong>Shenzhen, Guangzhou =
+, Shanghai, Qingdao</strong> respectively)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>3 overseas office</strong> (located in <strong>US, Canada and Vietn=
+am</strong> respectively.)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>200+ stuff</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>110+ container trucks</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>1000 sq ft warehouse</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Our own broker office in Shenzhen</strong></span></li>
+</ul>
+<span class=3D"STYLE13" style=3D"font-family:arial,helvetica neue,helvetica=
+,sans-serif"><em> <strong>Our service </strong>covers</em></span>
+
+<ul class=3D"STYLE8">
+	<li class=3D"STYLE13"><span style=3D"font-family:arial,helvetica neue,helv=
+etica,sans-serif">Sea Freight</span></li>
+	<li class=3D"STYLE13"><span style=3D"font-family:arial,helvetica neue,helv=
+etica,sans-serif">Air Freight</span></li>
+	<li class=3D"STYLE13"><span style=3D"font-family:arial,helvetica neue,helv=
+etica,sans-serif">Logistics</span></li>
+	<li class=3D"STYLE13"><span style=3D"font-family:arial,helvetica neue,helv=
+etica,sans-serif">Transport and Distribution</span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>Please don't hesitate to contact me for any assistance you need from Ch=
+ina.</strong></span>
+
+<div><br>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">I am =
+looking forward to your reply! Wish we could start cooperation very soon .<=
+/span><br>
+&nbsp;
+<div>
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Thanks &amp; Regards,</span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Joseph Li&nbsp;</strong></span></div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Overseas Dept.<br>
+Email: overseas10@sino-progress.com<br>
+<strong><em>Service Drives Value=E2=80=A6=E2=80=A6</em></strong><br>
+<strong>CHINA&nbsp;PROGRESS INT'L FORWARDING CO.,LTD&nbsp;</strong><br>
+NVOCC:MOC-NV 03517<br>
+Cell: +86-13714780856<br>
+<a href=3D"http://www.sino-progress.com/">WWW.SINO-PROGRESS.COM</a><br>
+&nbsp;CHINA&nbsp; -&nbsp;&nbsp; VIETNAM &nbsp;-&nbsp; U.S.A.&nbsp; &nbsp;-&=
+nbsp; &nbsp;CANADA</span></div>
+</div>
+
+<div>
+<div align=3D"left"><span style=3D"font-family:arial,helvetica neue,helveti=
+ca,sans-serif"><img data-file-id=3D"2715261" src=3D"https://gallery.mailchi=
+mp.com/3cad518a16e6e9e8280a70c63/images/114709a2-d4d1-4ae6-a900-90d97573805=
+1.jpg" style=3D"border: 0px  ; margin: 0px;"></span></div>
+</div>
+</div>                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+               =20
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateFooter"></=
+td>
+                            </tr>
+                        </table>
+						<!--[if gte mso 9]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>=
+
+--===============1284828545568416570==--
+
+--===============7845972076891535864==--
+
+--b9ccfd8c-82df-472d-a060-42d90acbc2cf--

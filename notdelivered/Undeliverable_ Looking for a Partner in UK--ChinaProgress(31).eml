@@ -1,0 +1,1050 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi145.chinaemail.cn (unknown [124.202.155.145])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 593CC4A2304
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:23:04 +0800 (CST)
+X-SBRS: 3.5
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1AbAQDG011Zh3V30dV2AQEBAQIBAQEBCAEBAQGCbz2BEIEQhSOJWY5dAYIYjT2LBYUKFU8CHgIUgy4UAQIBAQEBAQEBEwEBAQoLCQgohUcBAwMjCjkLGAkTAwECIQcDAgJGCQgGE4oyAQELkiKdY4ImiDiDDgEBAQcBAQEBAQEigR6CCYFigmJoAQEqhTiBfBIBBjYGgm0WgkwEiU8HhEyCJoFdjD4oh0eOSlaEdIkGgUJHlG82gSALdYVsBRyBaXQBhlKCMAEBAQ
+X-IPAS-Result: A1AbAQDG011Zh3V30dV2AQEBAQIBAQEBCAEBAQGCbz2BEIEQhSOJWY5dAYIYjT2LBYUKFU8CHgIUgy4UAQIBAQEBAQEBEwEBAQoLCQgohUcBAwMjCjkLGAkTAwECIQcDAgJGCQgGE4oyAQELkiKdY4ImiDiDDgEBAQcBAQEBAQEigR6CCYFigmJoAQEqhTiBfBIBBjYGgm0WgkwEiU8HhEyCJoFdjD4oh0eOSlaEdIkGgUJHlG82gSALdYVsBRyBaXQBhlKCMAEBAQ
+X-IronPort-AV: E=Sophos;i="5.40,316,1496073600"; 
+   d="scan'208,217";a="98274804"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi145.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 06 Jul 2017 16:22:59 +0800
+Received: from mailsrv22.hartrodt.com (mailsrv22.hartrodt.com [213.209.119.117])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id 97C2AC0A5C
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:22:16 +0800 (CST)
+X-ASG-Debug-ID: 1499329356-08ae3506e050aa80001-7paWBW
+Received: from email.hamburg.ah.lan ([10.2.10.58]) by mailsrv22.hartrodt.com with ESMTP id iXqYMqsF7f9B35Cn (version=TLSv1.2 cipher=AES128-SHA256 bits=128 verify=NO) for <overseas10@sino-progress.com>; Thu, 06 Jul 2017 10:22:36 +0200 (CEST)
+X-Barracuda-Envelope-From: 
+MIME-Version: 1.0
+From: <postmaster@hartrodt.com>
+To: <overseas10@sino-progress.com>
+Date: Thu, 6 Jul 2017 10:22:35 +0200
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="06aa04c9-7c37-4d9d-a59e-2a728c3e5f61"
+X-MS-Exchange-Message-Is-Ndr:
+Content-Language: en-US
+Message-ID: <3f8d6640-ca3e-4f47-8d70-bc17e7ce4ba4@DC01EXC10.ah.lan>
+In-Reply-To: <149932917148.4788.15472392786007124976@DESKTOP-UIM96J7>
+References: <149932917148.4788.15472392786007124976@DESKTOP-UIM96J7>
+Subject: Undeliverable: Looking for a Partner in UK--ChinaProgress
+X-ASG-Orig-Subj: Undeliverable: Looking for a Partner in UK--ChinaProgress
+X-Barracuda-Connect: UNKNOWN[10.2.10.58]
+X-Barracuda-Start-Time: 1499329356
+X-Barracuda-Encrypted: AES128-SHA256
+X-Barracuda-URL: https://mailsrv11.hartrodt.com:443/cgi-mod/mark.cgi
+X-Barracuda-Scan-Msg-Size: 8733
+X-Virus-Scanned: by bsmtpd at hartrodt.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.85
+X-Barracuda-Spam-Status: No, SCORE=0.85 using global scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=9.0 tests=ANY_BOUNCE_MESSAGE, BOUNCE_MESSAGE, BSF_RULE7568M, BSF_SC0_SA590, EMPTY_ENV_FROM, HTML_MESSAGE, MAILTO_TO_SPAM_ADDR, MIME_BOUND_MANY_HEX, MIME_HTML_MOSTLY, MPART_ALT_DIFF, NO_REAL_NAME
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.40628
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 NO_REAL_NAME           From: does not include a real name
+	0.00 MIME_BOUND_MANY_HEX    Spam tool pattern in MIME boundary
+	0.00 EMPTY_ENV_FROM         Empty Envelope From Address
+	0.00 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+	0.14 MPART_ALT_DIFF         BODY: HTML and text parts are different
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.20 BSF_SC0_SA590          Custom Rule SA590
+	0.00 MAILTO_TO_SPAM_ADDR    Includes a link to a likely spammer email
+	0.50 BSF_RULE7568M          Custom Rule 7568M
+	0.00 BOUNCE_MESSAGE         MTA bounce message
+	0.00 ANY_BOUNCE_MESSAGE     Message is some kind of bounce message
+X-MID: 2093652882.1882174181.4.1499329384.367169.27500
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--06aa04c9-7c37-4d9d-a59e-2a728c3e5f61
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="5e069b70-052d-4209-92bc-4733ab599535"
+
+--5e069b70-052d-4209-92bc-4733ab599535
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+info.lon@hartrodt.co.uk<mailto:info.lon@hartrodt.co.uk>
+The email address you entered couldn't be found. Please check the recipient=
+'s email address and try to resend the message. If the problem continues, p=
+lease contact your helpdesk.
+
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: DC01EXC10.ah.lan
+
+info.lon@hartrodt.co.uk
+Remote Server returned '550 5.1.1 RESOLVER.ADR.RecipNotFound; not found'
+
+Original message headers:
+
+Received: from DC01EXC05.ah.lan (10.2.10.56) by DC01EXC10.ah.lan (10.2.10.5=
+8)
+ with Microsoft SMTP Server (TLS) id 15.0.1210.3; Thu, 6 Jul 2017 10:22:35
+ +0200
+Received: from mailsrv11.hartrodt.com (10.6.10.17) by DC01EXC05.ah.lan
+ (10.2.10.56) with Microsoft SMTP Server id 15.0.1210.3 via Frontend
+ Transport; Thu, 6 Jul 2017 10:22:35 +0200
+X-ASG-Debug-ID: 1499329191-0974c93a9502810001-detUxb
+Received: from smtpc2.chinaemail.cn (smtpc2.chinaemail.cn [98.126.12.226]) =
+by mailsrv11.hartrodt.com with ESMTP id XlwdXmxgDw4a0YHg (version=3DTLSv1.2=
+ cipher=3DECDHE-RSA-AES256-GCM-SHA384 bits=3D256 verify=3DNO) for <info.lon=
+@hartrodt.co.uk>; Thu, 06 Jul 2017 10:19:54 +0200 (CEST)
+X-Barracuda-Envelope-From: overseas10@sino-progress.com
+X-Barracuda-Effective-Source-IP: smtpc2.chinaemail.cn[98.126.12.226]
+X-Barracuda-Apparent-Source-IP: 98.126.12.226
+Received: from smptc1.chinaemail.cn (mx100.chinaemail.cn [67.222.145.67])
+        by smtpc2.chinaemail.cn (Postfix) with ESMTP id 58FD0211BA3
+        for <info.lon@hartrodt.co.uk>; Thu,  6 Jul 2017 16:19:21 +0800 (CST=
+)
+Received: from s151v.chinaemail.cn (unknown [124.202.155.146])
+        by smptc1.chinaemail.cn (Postfix) with ESMTP id 3931B3478033
+        for <info.lon@hartrodt.co.uk>; Thu,  6 Jul 2017 16:15:44 +0800 (CST=
+)
+Received: from [192.168.1.203] (unknown [113.110.149.149])
+        (Authenticated sender: overseas10@sino-progress.com)
+        by s151v.chinaemail.cn (Bossmail) with ESMTP id CA32E4A2306
+        for <info.lon@hartrodt.co.uk>; Thu,  6 Jul 2017 16:19:26 +0800 (CST=
+)
+Content-Type: multipart/mixed;
+        boundary=3D"=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D4613581034=
+633460543=3D=3D"
+MIME-Version: 1.0
+Subject: Looking for a Partner in UK--ChinaProgress
+From: =3D?utf-8?q?Joseph=3D5FChina-Progress?=3D <overseas10@sino-progress.c=
+om>
+X-ASG-Orig-Subj: Looking for a Partner in UK--ChinaProgress
+To: <info.lon@hartrodt.co.uk>
+Date: Thu, 6 Jul 2017 16:19:31 +0800
+Message-ID: <149932917148.4788.15472392786007124976@DESKTOP-UIM96J7>
+X-MID: 2093652882.4109280.1.1499329166.908787.13482
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/simple; d=3Dsino-progres=
+s.com;
+        s=3Ds123456; t=3D1499329166;
+        bh=3DeI1yGf5p439qTK+XthljHx/uMgtDTv2alD62nILyIPk=3D;
+        h=3DSubject:From:Date:Message-ID;
+        b=3Dy+BdzbO6lTvU2HEMU0tk+mYhJJBsqpeY6Ah+2vHtC2LjzJ8dJdA2EVS45AcTHLD=
+HF
+         JWokGHRAMvTaV+qf1XeC41OmhI8mAiyJosSf0c49lE/GyxjgsjaTV5y6/5/l4duJRd
+         SPjHPbl90n14IbvdGuyX01EXcuvqwepfHntlAGWw=3D
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,info.lon@hartrodt.co.uk,
+X-Barracuda-Connect: smtpc2.chinaemail.cn[98.126.12.226]
+X-Barracuda-Start-Time: 1499329193
+X-Barracuda-Encrypted: ECDHE-RSA-AES256-GCM-SHA384
+X-Barracuda-URL: https://mailsrv11.hartrodt.com:443/cgi-mod/mark.cgi
+X-Barracuda-Scan-Msg-Size: 19958
+X-Barracuda-BRTS-Status: 1
+X-Virus-Scanned: by bsmtpd at hartrodt.com
+X-Barracuda-Spam-Score: 0.15
+X-Barracuda-Spam-Status: No, SCORE=3D0.15 using global scores of TAG_LEVEL=
+=3D3.5 QUARANTINE_LEVEL=3D1000.0 KILL_LEVEL=3D7.0 tests=3DHTML_MESSAGE, MAI=
+LTO_TO_SPAM_ADDR, MIME_HTML_MOSTLY, MPART_ALT_DIFF
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.40628
+        Rule breakdown below
+         pts rule name              description
+        ---- ---------------------- ---------------------------------------=
+-----------
+        0.00 HTML_MESSAGE           BODY: HTML included in message
+        0.14 MPART_ALT_DIFF         BODY: HTML and text parts are different
+        0.00 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/htm=
+l MIME
+        0.00 MAILTO_TO_SPAM_ADDR    Includes a link to a likely spammer ema=
+il
+Return-Path: overseas10@sino-progress.com
+
+
+--5e069b70-052d-4209-92bc-4733ab599535
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:inf=
+o.lon@hartrodt.co.uk">info.lon@hartrodt.co.uk</a><br>
+</font>
+<font color=3D"#000000" size=3D"3" face=3D"Arial">The email address you ent=
+ered couldn't be found. Please check the recipient's email address and try =
+to resend the message. If the problem continues, please contact your helpde=
+sk.<br>
+</font>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: DC01EXC10.ah.lan<br>
+</p>
+<p>info.lon@hartrodt.co.uk<br>
+Remote Server  returned '550 5.1.1 RESOLVER.ADR.RecipNotFound; not found'<b=
+r>
+</p>
+<p>Original message headers:</p>
+<pre>Received: from DC01EXC05.ah.lan (10.2.10.56) by DC01EXC10.ah.lan (10.2=
+.10.58)
+ with Microsoft SMTP Server (TLS) id 15.0.1210.3; Thu, 6 Jul 2017 10:22:35
+ +0200
+Received: from mailsrv11.hartrodt.com (10.6.10.17) by DC01EXC05.ah.lan
+ (10.2.10.56) with Microsoft SMTP Server id 15.0.1210.3 via Frontend
+ Transport; Thu, 6 Jul 2017 10:22:35 +0200
+X-ASG-Debug-ID: 1499329191-0974c93a9502810001-detUxb
+Received: from smtpc2.chinaemail.cn (smtpc2.chinaemail.cn [98.126.12.226]) =
+by mailsrv11.hartrodt.com with ESMTP id XlwdXmxgDw4a0YHg (version=3DTLSv1.2=
+ cipher=3DECDHE-RSA-AES256-GCM-SHA384 bits=3D256 verify=3DNO) for &lt;info.=
+lon@hartrodt.co.uk&gt;; Thu, 06 Jul 2017 10:19:54 +0200 (CEST)
+X-Barracuda-Envelope-From: overseas10@sino-progress.com
+X-Barracuda-Effective-Source-IP: smtpc2.chinaemail.cn[98.126.12.226]
+X-Barracuda-Apparent-Source-IP: 98.126.12.226
+Received: from smptc1.chinaemail.cn (mx100.chinaemail.cn [67.222.145.67])
+	by smtpc2.chinaemail.cn (Postfix) with ESMTP id 58FD0211BA3
+	for &lt;info.lon@hartrodt.co.uk&gt;; Thu,  6 Jul 2017 16:19:21 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [124.202.155.146])
+	by smptc1.chinaemail.cn (Postfix) with ESMTP id 3931B3478033
+	for &lt;info.lon@hartrodt.co.uk&gt;; Thu,  6 Jul 2017 16:15:44 +0800 (CST)
+Received: from [192.168.1.203] (unknown [113.110.149.149])
+	(Authenticated sender: overseas10@sino-progress.com)
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id CA32E4A2306
+	for &lt;info.lon@hartrodt.co.uk&gt;; Thu,  6 Jul 2017 16:19:26 +0800 (CST)
+Content-Type: multipart/mixed;
+	boundary=3D&quot;=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D461358103463=
+3460543=3D=3D&quot;
+MIME-Version: 1.0
+Subject: Looking for a Partner in UK--ChinaProgress
+From: =3D?utf-8?q?Joseph=3D5FChina-Progress?=3D &lt;overseas10@sino-progres=
+s.com&gt;
+X-ASG-Orig-Subj: Looking for a Partner in UK--ChinaProgress
+To: &lt;info.lon@hartrodt.co.uk&gt;
+Date: Thu, 6 Jul 2017 16:19:31 +0800
+Message-ID: &lt;149932917148.4788.15472392786007124976@DESKTOP-UIM96J7&gt;
+X-MID: 2093652882.4109280.1.1499329166.908787.13482
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/simple; d=3Dsino-progres=
+s.com;
+	s=3Ds123456; t=3D1499329166;
+	bh=3DeI1yGf5p439qTK+XthljHx/uMgtDTv2alD62nILyIPk=3D;
+	h=3DSubject:From:Date:Message-ID;
+	b=3Dy+BdzbO6lTvU2HEMU0tk+mYhJJBsqpeY6Ah+2vHtC2LjzJ8dJdA2EVS45AcTHLDHF
+	 JWokGHRAMvTaV+qf1XeC41OmhI8mAiyJosSf0c49lE/GyxjgsjaTV5y6/5/l4duJRd
+	 SPjHPbl90n14IbvdGuyX01EXcuvqwepfHntlAGWw=3D
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,info.lon@hartrodt.co.uk,
+X-Barracuda-Connect: smtpc2.chinaemail.cn[98.126.12.226]
+X-Barracuda-Start-Time: 1499329193
+X-Barracuda-Encrypted: ECDHE-RSA-AES256-GCM-SHA384
+X-Barracuda-URL: https://mailsrv11.hartrodt.com:443/cgi-mod/mark.cgi
+X-Barracuda-Scan-Msg-Size: 19958
+X-Barracuda-BRTS-Status: 1
+X-Virus-Scanned: by bsmtpd at hartrodt.com
+X-Barracuda-Spam-Score: 0.15
+X-Barracuda-Spam-Status: No, SCORE=3D0.15 using global scores of TAG_LEVEL=
+=3D3.5 QUARANTINE_LEVEL=3D1000.0 KILL_LEVEL=3D7.0 tests=3DHTML_MESSAGE, MAI=
+LTO_TO_SPAM_ADDR, MIME_HTML_MOSTLY, MPART_ALT_DIFF
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.40628
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- ----------------------------------------------=
+----
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.14 MPART_ALT_DIFF         BODY: HTML and text parts are different
+	0.00 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+	0.00 MAILTO_TO_SPAM_ADDR    Includes a link to a likely spammer email
+Return-Path: overseas10@sino-progress.com
+</pre>
+</font>
+</body>
+</html>=
+
+--5e069b70-052d-4209-92bc-4733ab599535--
+
+--06aa04c9-7c37-4d9d-a59e-2a728c3e5f61
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;DC01EXC10.ah.lan
+Received-From-MTA: dns;mailsrv11.hartrodt.com
+Arrival-Date: Thu, 6 Jul 2017 08:22:35 +0000
+
+Original-Recipient: rfc822;info.lon@hartrodt.co.uk
+Final-Recipient: rfc822;info.lon@hartrodt.co.uk
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+
+
+--06aa04c9-7c37-4d9d-a59e-2a728c3e5f61
+Content-Type: message/rfc822
+
+Received: from DC01EXC05.ah.lan (10.2.10.56) by DC01EXC10.ah.lan (10.2.10.58)
+ with Microsoft SMTP Server (TLS) id 15.0.1210.3; Thu, 6 Jul 2017 10:22:35
+ +0200
+Received: from mailsrv11.hartrodt.com (10.6.10.17) by DC01EXC05.ah.lan
+ (10.2.10.56) with Microsoft SMTP Server id 15.0.1210.3 via Frontend
+ Transport; Thu, 6 Jul 2017 10:22:35 +0200
+X-ASG-Debug-ID: 1499329191-0974c93a9502810001-detUxb
+Received: from smtpc2.chinaemail.cn (smtpc2.chinaemail.cn [98.126.12.226]) by mailsrv11.hartrodt.com with ESMTP id XlwdXmxgDw4a0YHg (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <info.lon@hartrodt.co.uk>; Thu, 06 Jul 2017 10:19:54 +0200 (CEST)
+X-Barracuda-Envelope-From: overseas10@sino-progress.com
+X-Barracuda-Effective-Source-IP: smtpc2.chinaemail.cn[98.126.12.226]
+X-Barracuda-Apparent-Source-IP: 98.126.12.226
+Received: from smptc1.chinaemail.cn (mx100.chinaemail.cn [67.222.145.67])
+	by smtpc2.chinaemail.cn (Postfix) with ESMTP id 58FD0211BA3
+	for <info.lon@hartrodt.co.uk>; Thu,  6 Jul 2017 16:19:21 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [124.202.155.146])
+	by smptc1.chinaemail.cn (Postfix) with ESMTP id 3931B3478033
+	for <info.lon@hartrodt.co.uk>; Thu,  6 Jul 2017 16:15:44 +0800 (CST)
+Received: from [192.168.1.203] (unknown [113.110.149.149])
+	(Authenticated sender: overseas10@sino-progress.com)
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id CA32E4A2306
+	for <info.lon@hartrodt.co.uk>; Thu,  6 Jul 2017 16:19:26 +0800 (CST)
+Content-Type: multipart/mixed;
+	boundary="===============4613581034633460543=="
+MIME-Version: 1.0
+Subject: Looking for a Partner in UK--ChinaProgress
+From: =?utf-8?q?Joseph=5FChina-Progress?= <overseas10@sino-progress.com>
+X-ASG-Orig-Subj: Looking for a Partner in UK--ChinaProgress
+To: <info.lon@hartrodt.co.uk>
+Date: Thu, 6 Jul 2017 16:19:31 +0800
+Message-ID: <149932917148.4788.15472392786007124976@DESKTOP-UIM96J7>
+X-MID: 2093652882.4109280.1.1499329166.908787.13482
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sino-progress.com;
+	s=s123456; t=1499329166;
+	bh=eI1yGf5p439qTK+XthljHx/uMgtDTv2alD62nILyIPk=;
+	h=Subject:From:Date:Message-ID;
+	b=y+BdzbO6lTvU2HEMU0tk+mYhJJBsqpeY6Ah+2vHtC2LjzJ8dJdA2EVS45AcTHLDHF
+	 JWokGHRAMvTaV+qf1XeC41OmhI8mAiyJosSf0c49lE/GyxjgsjaTV5y6/5/l4duJRd
+	 SPjHPbl90n14IbvdGuyX01EXcuvqwepfHntlAGWw=
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,info.lon@hartrodt.co.uk,
+X-Barracuda-Connect: smtpc2.chinaemail.cn[98.126.12.226]
+X-Barracuda-Start-Time: 1499329193
+X-Barracuda-Encrypted: ECDHE-RSA-AES256-GCM-SHA384
+X-Barracuda-URL: https://mailsrv11.hartrodt.com:443/cgi-mod/mark.cgi
+X-Barracuda-Scan-Msg-Size: 19958
+X-Barracuda-BRTS-Status: 1
+X-Virus-Scanned: by bsmtpd at hartrodt.com
+X-Barracuda-Spam-Score: 0.15
+X-Barracuda-Spam-Status: No, SCORE=0.15 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=7.0 tests=HTML_MESSAGE, MAILTO_TO_SPAM_ADDR, MIME_HTML_MOSTLY, MPART_ALT_DIFF
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.40628
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.14 MPART_ALT_DIFF         BODY: HTML and text parts are different
+	0.00 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+	0.00 MAILTO_TO_SPAM_ADDR    Includes a link to a likely spammer email
+Return-Path: overseas10@sino-progress.com
+
+--===============4613581034633460543==
+Content-Type: multipart/alternative;
+	boundary="===============2501231627738535628=="
+MIME-Version: 1.0
+
+--===============2501231627738535628==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+--===============2501231627738535628==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+	<head>
+		<!-- NAME: SIMPLE TEXT -->
+		<!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+		<meta charset=3D"UTF-8">
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+		<title>Greetings From China Progress International Freight Forwarding Com=
+pany</title>
+       =20
+    <style type=3D"text/css">
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=3Dtel],a[href^=3Dsms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.Ext=
+ernalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		#bodyCell{
+			padding:10px;
+		}
+		.templateContainer{
+			max-width:600px !important;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want =
+to choose colors that match your company's branding.
+	*/
+		body,#bodyTable{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want =
+to choose colors that match your company's branding.
+	*/
+		#bodyCell{
+			/*@editable*/border-top:0;
+		}
+	/*
+	@tab Page
+	@section Email Border
+	@tip Set the border for your email.
+	*/
+		.templateContainer{
+			/*@editable*/border:0;
+		}
+	/*
+	@tab Page
+	@section Heading 1
+	@tip Set the styling for all first-level headings in your emails. These sh=
+ould be the largest of your headings.
+	@style heading 1
+	*/
+		h1{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:26px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 2
+	@tip Set the styling for all second-level headings in your emails.
+	@style heading 2
+	*/
+		h2{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:22px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 3
+	@tip Set the styling for all third-level headings in your emails.
+	@style heading 3
+	*/
+		h3{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:20px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 4
+	@tip Set the styling for all fourth-level headings in your emails. These s=
+hould be the smallest of your headings.
+	@style heading 4
+	*/
+		h4{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:18px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Style
+	@tip Set the borders for your email's header area.
+	*/
+		#templateHeader{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Header
+	@section Header Text
+	@tip Set the styling for your email's header text. Choose a size and color=
+ that is easy to read.
+	*/
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Link
+	@tip Set the styling for your email's header links. Choose a color that he=
+lps them stand out from your text.
+	*/
+		#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Body
+	@section Body Style
+	@tip Set the borders for your email's body area.
+	*/
+		#templateBody{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Body
+	@section Body Text
+	@tip Set the styling for your email's body text. Choose a size and color t=
+hat is easy to read.
+	*/
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Body
+	@section Body Link
+	@tip Set the styling for your email's body links. Choose a color that help=
+s them stand out from your text.
+	*/
+		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Footer
+	@section Footer Style
+	@tip Set the borders for your email's footer area.
+	*/
+		#templateFooter{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Footer
+	@section Footer Text
+	@tip Set the styling for your email's footer text. Choose a size and color=
+ that is easy to read.
+	*/
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Footer
+	@section Footer Link
+	@tip Set the styling for your email's footer links. Choose a color that he=
+lps them stand out from your text.
+	*/
+		#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
+			/*@editable*/color:#202020;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	@media only screen and (min-width:768px){
+		.templateContainer{
+			width:600px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#bodyCell{
+			padding-top:10px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImage{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCapti=
+onBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcn=
+ImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionR=
+ightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRi=
+ghtImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCar=
+dRightTextContentContainer{
+			max-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer{
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupContent{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter =
+.mcnTextContent{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardTopImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:=
+last-child .mcnTextContent{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardBottomImageContent{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockInner{
+			padding-top:0 !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockOuter{
+			padding-top:9px !important;
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnTextContent,.mcnBoxedTextContentColumn{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+			padding-right:18px !important;
+			padding-bottom:0 !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcpreview-image-uploader{
+			display:none !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 1
+	@tip Make the first-level headings larger in size for better readability o=
+n small screens.
+	*/
+		h1{
+			/*@editable*/font-size:22px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 2
+	@tip Make the second-level headings larger in size for better readability =
+on small screens.
+	*/
+		h2{
+			/*@editable*/font-size:20px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 3
+	@tip Make the third-level headings larger in size for better readability o=
+n small screens.
+	*/
+		h3{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 4
+	@tip Make the fourth-level headings larger in size for better readability =
+on small screens.
+	*/
+		h4{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Boxed Text
+	@tip Make the boxed text larger in size for better readability on small sc=
+reens. We recommend a font size of at least 16px.
+	*/
+		table.mcnBoxedTextContentContainer td.mcnTextContent,td.mcnBoxedTextConte=
+ntContainer td.mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Header Text
+	@tip Make the header text larger in size for better readability on small s=
+creens.
+	*/
+		td#templateHeader td.mcnTextContent,td#templateHeader td.mcnTextContent p=
+{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Body Text
+	@tip Make the body text larger in size for better readability on small scr=
+eens. We recommend a font size of at least 16px.
+	*/
+		td#templateBody td.mcnTextContent,td#templateBody td.mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Footer Text
+	@tip Make the footer content text larger in size for better readability on=
+ small screens.
+	*/
+		td#templateFooter td.mcnTextContent,td#templateFooter td.mcnTextContent p=
+{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}</style></head>
+    <body>
+		<!--*|IF:MC_PREVIEW_TEXT|*-->
+		<!--[if !gte mso 9]><!----><span class=3D"mcnPreviewText" style=3D"displa=
+y:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opac=
+ity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT=
+|*</span><!--<![endif]-->
+		<!--*|END:IF|*-->
+        <center>
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable">
+                <tr>
+                    <td align=3D"left" valign=3D"top" id=3D"bodyCell">
+                        <!-- BEGIN TEMPLATE // -->
+						<!--[if gte mso 9]>
+						<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" width=3D"600" style=3D"width:600px;">
+						<tr>
+						<td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:600p=
+x;">
+						<![endif]-->
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" class=3D"templateContainer">
+                            <tr>
+                                <td valign=3D"top" id=3D"templateHeader"></=
+td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateBody"><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D=
+"mcnTextBlock" style=3D"min-width:100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"padding=
+-top:9px;">
+              	<!--[if mso]>
+				<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" style=3D"width:100%;">
+				<tr>
+				<![endif]-->
+			   =20
+				<!--[if mso]>
+				<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+				<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"max-width:100%; min-width:100%;" width=3D"100%" class=
+=3D"mcnTextContentContainer">
+                    <tbody><tr>
+                       =20
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18p=
+x;">
+                       =20
+                            <span style=3D"font-family:arial,helvetica neue=
+,helvetica,sans-serif">Dear manager of A Hartrodt (UK) Ltd ,<br>
+<br>
+Greetings from <strong>China-Progress Int'l Freight Forwarding</strong>, Ch=
+ina!<br>
+<br>
+This is Joseph,&nbsp;it is so nice to know your good company from<strong>&n=
+bsp;AZFreight Members Directory.</strong><br>
+<br>
+We are looking for a reliable cooperator in <strong>UK,</strong> who can be=
+ our representative to provide local service and free-handling.&nbsp;<br>
+<br>
+<strong>And also we wish to be your trusted partner in China.</strong><br>
+<br>
+<strong>China Progress is&nbsp;</strong></span>
+
+<ul>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>14 years experienced</strong> Freight Forwarder&nbsp;</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+member of <strong>WCA, FIATA, CIFA</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+NVOCC Class-A freight forwarder</span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>We have</strong></span>
+
+<ul>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>4 office</strong> in China (located in <strong>Shenzhen, Guangzhou =
+, Shanghai, Qingdao</strong> respectively)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>3 overseas office</strong> (located in <strong>US, Canada and Vietn=
+am</strong> respectively.)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>200+ stuff</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>55 container trucks</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>1000 sq ft warehouse</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Our own broker office in Shenzhen</strong></span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>Our service </strong>covers</span>
+
+<ul>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Sea Freight</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Air Freight</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Logistics</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Transport and Distribution</span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>Please don't hesitate to contact me for any assistance you need from Ch=
+ina.</strong></span>
+
+<div><br>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">I am =
+looking forward to your reply! Wish we could start cooperation very soon .<=
+/span><br>
+&nbsp;
+<div>
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Thanks &amp; Regards,</span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Joseph Li&nbsp;</strong></span></div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Overseas Dept.<br>
+Email: overseas10@sino-progress.com<br>
+<strong><em>Service Drives Value=E2=80=A6=E2=80=A6</em></strong><br>
+<strong>CHINA&nbsp;PROGRESS INT'L FORWARDING CO.,LTD&nbsp;</strong><br>
+NVOCC:MOC-NV 03517<br>
+Cell: +86-13714780856<br>
+<a href=3D"http://www.sino-progress.com/">WWW.SINO-PROGRESS.COM</a><br>
+&nbsp;CHINA&nbsp; -&nbsp;&nbsp; VIETNAM &nbsp;-&nbsp; U.S.A.&nbsp; &nbsp;-&=
+nbsp; &nbsp;CANADA</span></div>
+</div>
+
+<div>
+<div align=3D"left"><span style=3D"font-family:arial,helvetica neue,helveti=
+ca,sans-serif"><img data-file-id=3D"2715261" src=3D"https://gallery.mailchi=
+mp.com/3cad518a16e6e9e8280a70c63/images/114709a2-d4d1-4ae6-a900-90d97573805=
+1.jpg" style=3D"border: 0px  ; margin: 0px;"></span></div>
+</div>
+</div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+               =20
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateFooter"></=
+td>
+                            </tr>
+                        </table>
+						<!--[if gte mso 9]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>=
+
+--===============2501231627738535628==--
+
+--===============4613581034633460543==--
+
+--06aa04c9-7c37-4d9d-a59e-2a728c3e5f61--

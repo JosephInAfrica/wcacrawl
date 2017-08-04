@@ -1,18 +1,21 @@
+import requests
+from bs4 import BeautifulSoup
+import re
+import os
+import time
+import shutil
 
-class Contact(object):
+basedir = os.path.abspath(os.path.dirname(__file__))
+tempdir_base = basedir+'\\temp\\'
+# tempdir = {'us': tempdir_base+'\\usa\\',
+#            'uk': tempdir_base+'\\uk\\',
+#            'canada': tempdir_base+'\\canada\\',
+#            'malaysia': tempdir_base+'\\malaysia\\'}
 
-    def __init__(self):
-        self.name, self.email, self.phone, self.title = '', '', '', ''
-contact = Contact()
-contact.direct_line = '123'
-contact.Phone_no = '345'
-contact.mobile_phone = '567'
 
-dic = contact.__dict__
+class tempdir(object):
 
-print([dic[attr] for attr in dic])
+    def __getattr__(self, attr):
+        return basedir+'\\%s\\' % attr
 
-contact.phones = ','.join([dic[attr] for attr in dic if (
-    'line' in attr.lower() or 'phone' in attr.lower() and dic[attr] != '')])
-
-print(contact.phones)
+print(tempdir.us)

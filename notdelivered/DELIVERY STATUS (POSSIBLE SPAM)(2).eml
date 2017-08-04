@@ -1,0 +1,52 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi95.chinaemail.cn (unknown [115.182.8.95])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id E31C94A22E8
+	for <overseas10@sino-progress.com>; Tue, 11 Jul 2017 15:09:40 +0800 (CST)
+X-SBRS: 2.7
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1BtBwANcGRZf0kOK0pUJQYMhECBFI58qTSFTwKDcBMBAgEBAQEBAQETAQELFkmGJBkhfiGKLwMCriOIMoM7gyiNFAoBAWeFLZFXhV6HaYdIgz8Mgz6FOYIMGYUyikkClUA3gSp1gk2CVAyCVGmFfoIwAQEB
+X-IronPort-AV: E=Sophos;i="5.40,345,1496073600"; 
+   d="scan'208";a="204243551"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi95.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 11 Jul 2017 15:09:36 +0800
+Received: from mail.csichb.com (mail.csichb.com [74.43.14.73])
+	by mx100c1.chinaemail.cn (Postfix) with SMTP id 8D51DC0A6D
+	for <overseas10@sino-progress.com>; Tue, 11 Jul 2017 15:09:08 +0800 (CST)
+X-mailer-daemon: postmaster
+MIME-Version: 1.0
+Content-Type: text/plain
+To: overseas10@sino-progress.com
+From: postmaster@mail.csichb.com
+Subject: DELIVERY STATUS (POSSIBLE SPAM)
+Message-Id: <SRS0=uTIgk5Ms=6O=sino-progress.com=overseas10@mail.csichb.com>
+Sender: "Python Milter"
+	<SRS0=uTIgk5Ms=6O=sino-progress.com=overseas10@mail.csichb.com>
+Date: Tue, 11 Jul 2017 15:09:08 +0800 (CST)
+X-MID: 2093652882.787248743.1.1499756980.932152.30524
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+
+This is an automatically generated Delivery Status Notification.
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO *NOT* NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipients has been delayed.
+
+       mhall@csichb.com
+
+Subject: Looking for a Partner in USA--ChinaProgress
+Received-SPF: Pass (mail.csichb.com: domain of sino-progress.com designates 46.165.192.8 as permitted sender) client-ip=46.165.192.8; envelope-from="overseas10@sino-progress.com"; helo=mx100.chinaemail.cn; receiver=mail.csichb.com; mechanism="include:spf.chinaemail.cn"; identity=mailfrom
+
+A statistical analysis of your message has classified it as junk mail,
+and it has been quarantined.  Eventually, the recipients will review
+their quarantined mail and may notice your message.  If your message is
+important, please contact them via other means.  You may also try sending
+them a simple plain text message.
+
+If you need further assistance, please do not hesitate to contact me.
+
+Kind regards,
+
+postmaster@mail.csichb.com

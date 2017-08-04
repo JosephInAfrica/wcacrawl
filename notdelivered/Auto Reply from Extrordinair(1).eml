@@ -1,0 +1,231 @@
+Return-Path: <operations@extrordinair.co.uk>
+Received: from mxi145.chinaemail.cn (unknown [124.202.155.145])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 0741C4A22F9
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:19:39 +0800 (CST)
+X-SBRS: 3.4
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1CqAgDG011ZhmQCL2hZAx4GDIJvIRwqgXaOfKgrA1yJfxUBAgEBAQEBAQETAQEBCAsLCChxDoRtDxMBATgNBAFkQwQbiUNMAxUBAgKkHAKLB4MRgwcBAQWELhiEHAgFDoMUg0uJQRIBY4Utjx2IFIdfgwOQeYIVgWCDaopIk3kBgTw1gSELgQaFEAELNR+Bc3aGKSqCMAEBAQ
+X-IPAS-Result: A1CqAgDG011ZhmQCL2hZAx4GDIJvIRwqgXaOfKgrA1yJfxUBAgEBAQEBAQETAQEBCAsLCChxDoRtDxMBATgNBAFkQwQbiUNMAxUBAgKkHAKLB4MRgwcBAQWELhiEHAgFDoMUg0uJQRIBY4Utjx2IFIdfgwOQeYIVgWCDaopIk3kBgTw1gSELgQaFEAELNR+Bc3aGKSqCMAEBAQ
+X-IronPort-AV: E=Sophos;i="5.40,315,1496073600"; 
+   d="scan'208,217";a="98274412"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi145.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 06 Jul 2017 16:19:35 +0800
+Received: from EUR01-DB5-obe.outbound.protection.outlook.com (mail-db5eur01on0100.outbound.protection.outlook.com [104.47.2.100])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id AF48AC0A81
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:18:59 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=Extrordinair.onmicrosoft.com; s=selector1-extrordinair-co-uk;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=pJLa/lD/sFimKZLvd+Zl5KJNdFQ5FrpODUFGp6irQBo=;
+ b=kCPA6aqQd03scNHe6Iiz/ROXYt8HqG7V/wSx+0NSvDybpKv2NNuvnOx41AOyiP+qYYf4TeG4LyMjQz464oBr3wj0n7uZ0OhAukATathpvJifGjZO137vmS45BCgsoWfhmhFAC5UWd7r85JdQMqy2R1O7wpd+SFX48FL19dt6o8E=
+Received: from HE1PR0401MB2428.eurprd04.prod.outlook.com (10.168.33.25) by
+ HE1PR0401MB2428.eurprd04.prod.outlook.com (10.168.33.25) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1240.13; Thu, 6 Jul 2017 08:19:21 +0000
+Received: from HE1PR0401MB2428.eurprd04.prod.outlook.com ([::1]) by
+ HE1PR0401MB2428.eurprd04.prod.outlook.com ([fe80::9106:4586:42c4:a689%17])
+ with Microsoft SMTP Server id 15.01.1240.013; Thu, 6 Jul 2017 08:19:21 +0000
+From: Operations <operations@extrordinair.co.uk>
+To: Joseph_China-Progress <overseas10@sino-progress.com>
+Subject: Auto Reply from Extrordinair
+Thread-Topic: Auto Reply from Extrordinair
+Thread-Index: AQHS9jCRAs4h5GATx0WgSPY0/5PByg==
+Date: Thu, 6 Jul 2017 08:19:21 +0000
+Message-ID: <ff95b0428feb479d90ce570d8950bd1c@HE1PR0401MB2428.eurprd04.prod.outlook.com>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: operations@extrordinair.co.uk
+X-MS-TNEF-Correlator:
+authentication-results: sino-progress.com; dkim=none (message not signed)
+ header.d=none;sino-progress.com; dmarc=none action=none
+ header.from=extrordinair.co.uk;
+x-ms-exchange-parent-message-id: <149932913893.4788.14418255806765220451@DESKTOP-UIM96J7>
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 359eecba-11be-4460-f407-08d4c447b43c
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(22001)(300000502095)(300135100095)(2017030254075)(300000503095)(300135400095)(2017052603031)(201703131423075)(201703031133081)(300000504095)(300135200095)(300000505095)(300135600095)(300000506095)(300135500095);SRVR:HE1PR0401MB2428;
+x-microsoft-exchange-diagnostics: 1;HE1PR0401MB2428;7:rSKYyfMG/Ta9JQl0IMMIVlvhcIzDaR1sdlkJJYV/qY9tWOIJ4ahvtwUC3BseWrvWCSarE0JRGHK6mD8BRjRWsAJ3EfNq1ab6IXpGq+aqhY+2KXkTxjlJIKqINp6/bknRBVNsXWemSyCha+7JW7xJFFj1B4vywE7umTkuPVABbL1fnPYH7+goKFQbQQ3N34e95ocAaRlOMUlDvrwlZz5Go/kOfaVlym3TBqKH9U877us9m3t26OD+SY+0myviqc7pt5GtNux44sQ5TUIrBeWVZALWyz6dvyu/Hop99dl3Rl9q2t22/POqL/dMaAhcBM/yHIOwwTLgZGaVUkQfLDEn+YRIlSvTUHM8mu1xf7N5wDFNlqbslbGZwb9i37rAQBqQc9P/BS4JimFNXmC7LKHrICajS1LMfo2jYSxTYKVkFSVpJ/z2dTBhGBxmBZh6BUT5hJOSwItmH8rBjQs+ZOTbltJpNQwbcI32jDwpzc4WVrXhNIHw2cz2dbxtCcwjqD/Rnzs3sdhVOnStyQNeOnYIoz668tY740ezc6whzEDQDWCCP0y9FQ/wgkb/kGrvOYsiQogXqzn0q8AFZvBK4ZLLzamu3/nahCbIPn1n0ydFBwZerl+Bb7z0YfOMkTp4dpRKQKzKemtU8hRhLfRfw8sTv1vhA5WglC73FeGxDIHHpV4qDXAGMRZrXNWzf9fz3vr/jNumfYW9uN5aVexKa3gDBtFglQBsmjCOBXqwT/0Ye0vcJtkqVWrOJNgqSEDThGuMA96M5rA9zpenmTEmNZZnzHbOckByFAxtBp0+f/Ckv+0=
+x-ms-traffictypediagnostic: HE1PR0401MB2428:
+x-microsoft-antispam-prvs: <HE1PR0401MB2428EB5EEBA4C3C687CA4A86F1D50@HE1PR0401MB2428.eurprd04.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(151999592597050)(26388249023172)(236129657087228)(48057245064654)(21748063052155)(50300203121483)(247924648384137)(256282310955234);
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(6040450)(601004)(2401047)(5005006)(8121501046)(3002001)(100000703101)(100105400095)(93006095)(93001095)(10201501046)(6041248)(201703131423075)(201703061421075)(20161123562025)(20161123560025)(20161123558100)(20161123564025)(20161123555025)(6072148)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:HE1PR0401MB2428;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:HE1PR0401MB2428;
+x-forefront-prvs: 03607C04F0
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(6009001)(39400400002)(39450400003)(38314003)(66654002)(25786009)(33646002)(189998001)(50986999)(3480700004)(74482002)(6506006)(508600001)(54356999)(7696004)(110136004)(38730400002)(6436002)(6306002)(54896002)(24736003)(53936002)(9686003)(42882006)(55016002)(6916009)(99286003)(74316002)(790700001)(102836003)(3280700002)(5660300001)(3110400002)(2906002)(8676002)(53096004)(108616004)(3660700001)(86362001)(8936002)(5890100001)(81166006);DIR:OUT;SFP:1102;SCL:1;SRVR:HE1PR0401MB2428;H:HE1PR0401MB2428.eurprd04.prod.outlook.com;FPR:;SPF:None;MLV:sfv;LANG:en;
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_ff95b0428feb479d90ce570d8950bd1cHE1PR0401MB2428eurprd04_"
+MIME-Version: 1.0
+X-OriginatorOrg: extrordinair.co.uk
+X-MS-Exchange-CrossTenant-originalarrivaltime: 06 Jul 2017 08:19:21.0847
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: a4fd6994-bf1e-45b0-9670-a42c8c9c7db9
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HE1PR0401MB2428
+X-MID: 2093652882.4102294348.4.1499329179.31427.17029
+X-Rate: Yes
+X-Real-From: operations@extrordinair.co.uk
+X-Rcpt: ,overseas10@sino-progress.com,
+
+--_000_ff95b0428feb479d90ce570d8950bd1cHE1PR0401MB2428eurprd04_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Many thanks for your enquiry.
+
+One of our team members will look into this and will reply to you by the en=
+d of our working day. If your enquiry is urgent please call our office on +=
+44 (0) 131 317 7277.
+
+Please note our office hours are Monday to Friday 09:00 =96 18:00 and out w=
+ith these hours by prior arrangement.
+
+Kind Regards,
+
+EXTRORDINAIR LTD
+Room 1/10 Spitfire House,
+Edinburgh Airport Cargo Village,
+Turnhouse Road, Edinburgh EH12 0AL
+
+Registration No. 109389 - Place of Registration Edinburgh
+********************************************************************
+This confidential email and any attachment is for the addressee only. If we=
+ have sent this to you in error, please do not keep/copy or disclose it wit=
+hout our permission and please send it back to us. We virus scan and monito=
+r our emails but do not accept any responsibility for any damage that is ca=
+used by a virus or alteration by a third party after it has been sent.
+This email may contain personal views and opinions which are not the views =
+of Extrordinair unless specifically stated.
+Please consider the environment before printing this e-mail.
+
+
+--_000_ff95b0428feb479d90ce570d8950bd1cHE1PR0401MB2428eurprd04_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-GB" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><span=
+ style=3D"font-family:&quot;Arial&quot;,sans-serif">Many thanks for your en=
+quiry.</span><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><span=
+ style=3D"font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span><o:p></o:p=
+></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><span=
+ style=3D"font-family:&quot;Arial&quot;,sans-serif">One of our team members=
+ will look into this and will reply to you by the end of our working day. I=
+f your enquiry is urgent please call our office
+ on &#43;44 (0) 131 317 7277.</span><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><span=
+ style=3D"font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span><o:p></o:p=
+></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><i=
+><span style=3D"font-size:12.0pt;line-height:115%;font-family:&quot;Arial&q=
+uot;,sans-serif;color:blue">Please note our office hours are Monday to Frid=
+ay 09:00 =96 18:00 and out with these hours by prior
+ arrangement.</span></i></b><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><span=
+ style=3D"font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span><o:p></o:p=
+></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><span=
+ style=3D"font-family:&quot;Arial&quot;,sans-serif">Kind Regards,</span><o:=
+p></o:p></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><span=
+ style=3D"font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span><o:p></o:p=
+></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><span=
+ style=3D"font-size:12.0pt;line-height:115%;font-family:&quot;Arial&quot;,s=
+ans-serif;color:blue">EXTRORDINAIR LTD</span><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><span=
+ style=3D"font-size:12.0pt;line-height:115%;font-family:&quot;Arial&quot;,s=
+ans-serif;color:blue">Room 1/10 Spitfire House,</span><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><span=
+ style=3D"font-size:12.0pt;line-height:115%;font-family:&quot;Arial&quot;,s=
+ans-serif;color:blue">Edinburgh Airport Cargo Village,
+</span><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><span=
+ style=3D"font-size:12.0pt;line-height:115%;font-family:&quot;Arial&quot;,s=
+ans-serif;color:blue">Turnhouse Road, Edinburgh EH12 0AL</span><o:p></o:p><=
+/p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:blue">&nbsp;</span=
+><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><i><span style=3D"font=
+-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Registrat=
+ion No. 109389 - Place of Registration Edinburgh<br>
+********************************************************************</span>=
+</i><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"margin-top:5.0pt;line-height:115%;text-auto=
+space:none">
+<span style=3D"font-size:9.0pt;line-height:115%;font-family:&quot;Arial&quo=
+t;,sans-serif;color:black">This confidential email and any attachment is fo=
+r the addressee only. If we have sent this to you in error, please do not k=
+eep/copy or disclose it without our permission
+ and please send it back to us. We virus scan and monitor our emails but do=
+ not accept any responsibility for any damage that is caused by a virus or =
+alteration by a third party after it has been sent.</span><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"margin-top:5.0pt;line-height:115%;text-auto=
+space:none">
+<span style=3D"font-size:9.0pt;line-height:115%;font-family:&quot;Arial&quo=
+t;,sans-serif;color:black">This email may contain personal views and opinio=
+ns which are not the views of Extrordinair unless specifically stated.</spa=
+n><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"margin-top:5.0pt;line-height:115%;text-auto=
+space:none">
+<span style=3D"font-size:9.0pt;line-height:115%;font-family:&quot;Arial&quo=
+t;,sans-serif;color:green">Please consider the environment before printing =
+this e-mail.</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_ff95b0428feb479d90ce570d8950bd1cHE1PR0401MB2428eurprd04_--

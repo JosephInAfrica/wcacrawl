@@ -1,0 +1,1111 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi145.chinaemail.cn (unknown [124.202.155.145])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id BCA924A22F2
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:21:26 +0800 (CST)
+X-SBRS: 3.5
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1AKAwDG011ZhwmqbNl4AQEEAQEKAQGCbz2BABCBEIMti0+pKwEGhXQCGhqDLhQBAgEBAQEBAQETAQEBCA0JCChxEIROAgkXHQEBJAsJGAYBEiQHAgRNDgoJijIBAZItnHhrgiaDBwEBBYUqgw4MAR0IgR6CCYExgwMQaQGHXgERAUiCZxYVBYIyiVOEU4MuVYw+KIdHgTGCDgyIc4IMVoR0ikYClTY2gSALeYVeRIFbaYMigyMOF4IZAQEB
+X-IPAS-Result: A1AKAwDG011ZhwmqbNl4AQEEAQEKAQGCbz2BABCBEIMti0+pKwEGhXQCGhqDLhQBAgEBAQEBAQETAQEBCA0JCChxEIROAgkXHQEBJAsJGAYBEiQHAgRNDgoJijIBAZItnHhrgiaDBwEBBYUqgw4MAR0IgR6CCYExgwMQaQGHXgERAUiCZxYVBYIyiVOEU4MuVYw+KIdHgTGCDgyIc4IMVoR0ikYClTY2gSALeYVeRIFbaYMigyMOF4IZAQEB
+X-IronPort-AV: E=Sophos;i="5.40,316,1496073600"; 
+   d="scan'208,217";a="98274606"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi145.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 06 Jul 2017 16:21:05 +0800
+Received: from mailhub-safran70.safrangroup.com (snecma9.snecma.fr [217.108.170.9])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id A6598C0A4F
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:20:31 +0800 (CST)
+Content-Type: multipart/mixed; boundary="===============6867546162289917125=="
+MIME-Version: 1.0
+X-CrossPremisesHeadersFilteredBySendConnector: Y0032NO.rd1.rf1
+IronPort-PHdr: =?us-ascii?q?9a23=3AqTLJvhS+bYhJC05ALKMttrrqxtpsv+yvbD5Q0YIu?=
+ =?us-ascii?q?jvd0So/mwa6yYRSN2/xhgRfzUJnB7Loc0qyN4vCmADNLuM3d+Fk5M7V0Hycfjs?=
+ =?us-ascii?q?sXmwFySOWkMmbcaMDQUiohAc5ZX0Vk9XzoeWJcGcL5ekGA6ibqtW1aFRrwLxd6?=
+ =?us-ascii?q?KfroEYDOkcu3y/qy+5rOaAlUmTaxe71/IRG1oAnLq8Ubg4RuJrs/xxbGv3BFZ/?=
+ =?us-ascii?q?lYyWR0KFyJgh3y/N2w/Jlt8yRRv/Iu6ctNWrjkcqo7ULJVEi0oP3g668P3uxbD?=
+ =?us-ascii?q?SxCP5mYHXWUNjhVIGQnF4wrkUZr3ryD3q/By2CiePc3xULA0RTGv5LplRRP0lC?=
+ =?us-ascii?q?sKMSMy/WfKgcJyka1bugqsqABwzIDJYI+bKvRwcKDGcNMfWWZMRNxcWzBdDo6+?=
+ =?us-ascii?q?aYYEEuoPPfxfr4n4v1YAqRy+BRKyC+P3yj9HnmH73a070+QnCw7KxRYuH8gJsH?=
+ =?us-ascii?q?TbttX6KrwSUfuox6TPyjXDce1Z2S3m6IfWaB8huuyAUa5rfMrKyEkvEQTFgkyI?=
+ =?us-ascii?q?qYz/ODOV2f4NvHaA7+p7T+6gl2knqwRorzWp28wihI7JhocPxVDF8yV02J01Jd?=
+ =?us-ascii?q?y+SE58eNKkCIFQtyaVN4tsXMwiWHpotDwmxb0BvJ62ejUBxpc/xxPHdvCKcYaF?=
+ =?us-ascii?q?7gj+WOuVPzt0nnxodbClixu8/kWs0vDwWtS63VpQsyZJj8XAumoQ2xHc7sWLUO?=
+ =?us-ascii?q?Zx80il1DuJygvd8PtLIVoumqreM5MhwqA/lp4UsUnbGy/3l1j6gLOKekk+5ueo?=
+ =?us-ascii?q?6+XnYrP8qZCCMo97kAD+MqA0lsOjB+Q0KgkOX26F9uSgzLDv4E/0TbtQgvErlq?=
+ =?us-ascii?q?TVrorWKMoZq6KjDQJY3Z4v6xOlADen1NQYk2MHLFVAeB+fiIjpJU/BIOrjDfih?=
+ =?us-ascii?q?mVusiypny+zdM736A5XNKH/DnK75fbZn7E5cxxAzws5E55JPEL0OPPXzWkrpuN?=
+ =?us-ascii?q?zCEhA5KxC0w/rgCNhlzIMeXnmADbGDMKPOq1OI6fgvLPeSa48Tozv9Lv8l5+T2?=
+ =?us-ascii?q?jX85nl8RZ7Wm3ZwSaCPwIvMzOUKTbGDwxNgbHGoMlg85VvTqjxuJVjsASWy1Wv?=
+ =?us-ascii?q?ce4So2EIKRJofCQInouKaG0z22BYYeMmdYB0qXHH7zLt2sQPYKb2eKOMhuiDEf?=
+ =?us-ascii?q?Tv6qTIp3hkLmjxPz17cydrmcwSYfr5+2jNU=3D?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: =?us-ascii?q?A0BkYQBs8V1ZhiIlwK1cHQEXAQYBBgUBF?=
+ =?us-ascii?q?wEGAQaCMT2BEAOBDYpvhA2QVJg2HBKFH0oDAiIUgm1EEwEBAQEBAQEBAQEBEgE?=
+ =?us-ascii?q?BAQgLCwgoL4IzIoJtChMBASQLCRg6CgJyiU5gAQULkwOceGuCJoMHAQEFhVeCY?=
+ =?us-ascii?q?CoIgR6CCYREaQE1hykSASiDBxaCS4ExAQGMdYMujRYeCAEBgVcOhWKOS4VKg06?=
+ =?us-ascii?q?GekeUcTeBHwtSI4EEBQZEhC6CAGkBhkGCMAEBAQ?=
+X-IPAS-Result: =?us-ascii?q?A0BkYQBs8V1ZhiIlwK1cHQEXAQYBBgUBFwEGAQaCMT2BEAO?=
+ =?us-ascii?q?BDYpvhA2QVJg2HBKFH0oDAiIUgm1EEwEBAQEBAQEBAQEBEgEBAQgLCwgoL4IzI?=
+ =?us-ascii?q?oJtChMBASQLCRg6CgJyiU5gAQULkwOceGuCJoMHAQEFhVeCYCoIgR6CCYREaQE?=
+ =?us-ascii?q?1hykSASiDBxaCS4ExAQGMdYMujRYeCAEBgVcOhWKOS4VKg06GekeUcTeBHwtSI?=
+ =?us-ascii?q?4EEBQZEhC6CAGkBhkGCMAEBAQ?=
+MIME-Version: 1.0
+Subject: DELIVERY FAILURE: Error transferring to smtp.global.safran; Maximum hop
+ count exceeded.  Message probably in a routing loop. 
+From: Postmaster@domino.safran.fr
+To: Joseph_China-Progress <overseas10@sino-progress.com>
+Date: Thu, 06 Jul 2017 16:20:21 +0800
+X-MID: 2093652882.3504169842.5.1499329217.12534.17427
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sino-progress.com;
+	s=s123456; t=1499329217;
+	bh=A4SkVSAc0MgOFRUi+IapAKbev5ijT8GMb0iFIARQpow=;
+	h=Subject:From:Date:Message-ID;
+	b=mwCPUv++dYwVPD1cYOj00iznTMkaWq4qgN2gVr3BF8HDJL9iDbL7D2IAq5jgFp9xJ
+	 VwyQPBXwKgxRgEIMzAkn2EuolJD3gpRMAaA3ujyrb9Mb/JZj2PFdRkMq3UK8NGzJZi
+	 st+12VpOUW3kTna3Ui/7Vxn3JVUhmsMNJRp/IcLM=
+X-Rate: Yes
+X-TM-AS-Product-Ver: SMEX-12.0.0.1464-8.100.1062-23178.005
+X-TM-AS-Result: No--7.022800-8.000000-31
+X-TM-AS-MatchedID: 144052-150622-140026-140002-147015-139704-708196-111604-1
+	88038-700802-708712-111606-701120-701275-111607-705718-701827-701323-700074
+	-701669-703529-702497-700109-700562-700732-702609-700264-702737-706065-7003
+	45-700657-700529-700624-702638-702020-700618-709083-188198-707496-700077-39
+	0361-863174-706605-709339-700758-700839-701306-700545-705882-707800-111605-
+	111602-188156-700079-188050-121528-700450-701153-708339-702187-706271-70075
+	2-186214-707997-105630-706963-710837-700553-701588-847657-106230-711058-301
+	404-187067-301493-702828-700107-700490-188057-188062-843064-712248-700492-1
+	11610-103201-188091-190978-148004-148040-148133-23109-29997-29998-42003
+X-TM-AS-User-Approved-Sender: No
+X-TM-AS-User-Blocked-Sender: No
+X-MIMETrack: Itemize by SMTP Server on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:43,
+	Serialize by Router on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:44,
+	Serialize complete at 06/07/2017 10:20:44,
+	Itemize by SMTP Server on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:45,
+	Serialize by Router on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:45,
+	Itemize by SMTP Server on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:45,
+	Serialize by Router on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:45,
+	Serialize complete at 06/07/2017 10:20:45,
+	Itemize by SMTP Server on MAIAO2/SAFRAN(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:46,
+	Serialize by Router on MAIAO2/SAFRAN(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:47,
+	Serialize complete at 06/07/2017 10:20:47,
+	Itemize by SMTP Server on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:47,
+	Serialize by Router on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:47,
+	Itemize by SMTP Server on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:48,
+	Serialize by Router on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:49,
+	Serialize complete at 06/07/2017 10:20:49,
+	Itemize by SMTP Server on ABER/SAGEM(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:49,
+	Serialize by Router on ABER/SAGEM(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:50,
+	Serialize complete at 06/07/2017 10:20:50,
+	Itemize by SMTP Server on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:50,
+	Serialize by Router on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:50,
+	Itemize by SMTP Server on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:50,
+	Serialize by Router on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:50,
+	Itemize by SMTP Server on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:51,
+	Serialize by Router on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:53,
+	Serialize complete at 06/07/2017 10:20:53
+X-OrganizationHeadersPreserved: Y0032KD.rd1.rf1
+Message-ID: <OF336FB451.7A3CD675-ONC1258155.002DDADA-C1258155.002DDB71@domino.safran.fr>
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--===============6867546162289917125==
+Content-Type: multipart/report; report-type=delivery-status; boundary="==IFJRGLKFGIR278915766UHRUHIHD"
+
+--==IFJRGLKFGIR278915766UHRUHIHD
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+WW91ciBtZXNzYWdlDQoNCiAgU3ViamVjdDogTG9va2luZyBmb3IgYSBQYXJ0bmVyIGluIFVLLS1D
+aGluYVByb2dyZXNzDQoNCndhcyBub3QgZGVsaXZlcmVkIHRvOg0KDQogIHJvYmVydC5ncmVlbkBt
+b3JwaG8uY29tDQoNCmJlY2F1c2U6DQoNCiAgRXJyb3IgdHJhbnNmZXJyaW5nIHRvIHNtdHAuZ2xv
+YmFsLnNhZnJhbjsgTWF4aW11bSBob3AgY291bnQgZXhjZWVkZWQuICBNZXNzYWdlIHByb2JhYmx5
+IGluIGEgcm91dGluZyBsb29wLiANCg0K
+
+--==IFJRGLKFGIR278915766UHRUHIHD
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;maiao1.lotus.info.safran
+
+Final-Recipient: rfc822;robert.green@morpho.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: smtp;smtp.global.safran
+Diagnostic-Code: X-Notes; Error transferring to smtp.global.safran; Ma
+ ximum hop count exceeded.  Message probably in a routing loop. 
+
+--==IFJRGLKFGIR278915766UHRUHIHD
+Content-Type: message/rfc822
+
+Received: from angara.lotus.info.sagem ([10.20.7.131])
+          by maiao1.lotus.info.safran (Lotus Domino Release 8.0.2FP6)
+          with ESMTP id 2017070610205145-590738 ;
+          Thu, 6 Jul 2017 10:20:51 +0200 
+Received: from Y0032OS.rd1.rf1 ([10.65.239.151])
+          by angara.lotus.info.sagem (Lotus Domino Release 8.0.2FP6)
+          with ESMTP id 2017070610205052-152240 ;
+          Thu, 6 Jul 2017 10:20:50 +0200 
+Received: from Y003OLE.rd1.rf1 (10.65.239.164) by Y0032KD.rd1.rf1
+ (10.65.239.147) with Microsoft SMTP Server (TLS) id 15.0.1263.5; Thu, 6 Jul
+ 2017 10:20:51 +0200
+Received: from maiao1.lotus.info.safran (10.20.6.30) by smtp.safrangroup.com
+ (10.65.239.164) with Microsoft SMTP Server id 15.0.1263.5 via Frontend
+ Transport; Thu, 6 Jul 2017 10:20:51 +0200
+Received: from aber.lotus.info.sagem ([10.20.6.131])
+          by maiao1.lotus.info.safran (Lotus Domino Release 8.0.2FP6)
+          with ESMTP id 2017070610205065-590727 ;
+          Thu, 6 Jul 2017 10:20:50 +0200 
+Received: from Y0032HA.rd1.rf1 ([10.65.239.144])
+          by aber.lotus.info.sagem (Lotus Domino Release 8.0.2FP6)
+          with ESMTP id 2017070610204946-117075 ;
+          Thu, 6 Jul 2017 10:20:49 +0200 
+Received: from Y003OKO.rd1.rf1 (10.65.239.163) by Y0032NO.rd1.rf1
+ (10.65.239.150) with Microsoft SMTP Server (TLS) id 15.0.1263.5; Thu, 6 Jul
+ 2017 10:20:49 +0200
+Received: from maiao1.lotus.info.safran (10.20.6.30) by smtp.safrangroup.com
+ (10.65.239.163) with Microsoft SMTP Server id 15.0.1263.5 via Frontend
+ Transport; Thu, 6 Jul 2017 10:20:49 +0200
+Received: from angara.lotus.info.sagem ([10.20.7.131])
+          by maiao1.lotus.info.safran (Lotus Domino Release 8.0.2FP6)
+          with ESMTP id 2017070610204844-590706 ;
+          Thu, 6 Jul 2017 10:20:48 +0200 
+Received: from Y0032YI.rd1.rf1 ([10.64.239.149])
+          by angara.lotus.info.sagem (Lotus Domino Release 8.0.2FP6)
+          with ESMTP id 2017070610204728-152236 ;
+          Thu, 6 Jul 2017 10:20:47 +0200 
+Received: from Y003OMI.rd1.rf1 (10.64.239.155) by Y0032YI.rd1.rf1
+ (10.64.239.149) with Microsoft SMTP Server (TLS) id 15.0.1263.5; Thu, 6 Jul
+ 2017 10:20:47 +0200
+Received: from maiao2.lotus.info.safran (10.20.7.30) by smtp.safrangroup.com
+ (10.64.239.155) with Microsoft SMTP Server id 15.0.1263.5 via Frontend
+ Transport; Thu, 6 Jul 2017 10:20:47 +0200
+Received: from angara.lotus.info.sagem ([10.20.7.131])
+          by maiao2.lotus.info.safran (Lotus Domino Release 8.0.2FP6)
+          with ESMTP id 2017070610204606-521930 ;
+          Thu, 6 Jul 2017 10:20:46 +0200 
+Received: from Y0032FU.rd1.rf1 ([10.65.239.142])
+          by angara.lotus.info.sagem (Lotus Domino Release 8.0.2FP6)
+          with ESMTP id 2017070610204549-152235 ;
+          Thu, 6 Jul 2017 10:20:45 +0200 
+Received: from Y003OKO.rd1.rf1 (10.65.239.163) by Y0032EG.rd1.rf1
+ (10.65.239.141) with Microsoft SMTP Server (TLS) id 15.0.1263.5; Thu, 6 Jul
+ 2017 10:20:46 +0200
+Received: from maiao1.lotus.info.safran (10.20.6.30) by smtp.safrangroup.com
+ (10.65.239.163) with Microsoft SMTP Server id 15.0.1263.5 via Frontend
+ Transport; Thu, 6 Jul 2017 10:20:46 +0200
+Received: from angara.lotus.info.sagem ([10.20.7.131])
+          by maiao1.lotus.info.safran (Lotus Domino Release 8.0.2FP6)
+          with ESMTP id 2017070610204542-590663 ;
+          Thu, 6 Jul 2017 10:20:45 +0200 
+Received: from Y0032FU.rd1.rf1 ([10.65.239.142])
+          by angara.lotus.info.sagem (Lotus Domino Release 8.0.2FP6)
+          with ESMTP id 2017070610204381-152230 ;
+          Thu, 6 Jul 2017 10:20:43 +0200 
+Received: from Y003OKO.rd1.rf1 (10.65.239.163) by Y0032NO.rd1.rf1
+ (10.65.239.150) with Microsoft SMTP Server (TLS) id 15.0.1263.5; Thu, 6 Jul
+ 2017 10:20:44 +0200
+Received: from SAF-FRWRG1-NA32-out.snecma.fr (10.59.2.68) by
+ smtp.safrangroup.com (10.65.239.163) with Microsoft SMTP Server id
+ 15.0.1263.5 via Frontend Transport; Thu, 6 Jul 2017 10:20:44 +0200
+Received: from mx100.chinaemail.cn ([173.192.37.34])
+  by snecma9.snecma.fr with ESMTP; 06 Jul 2017 10:20:43 +0200
+Received: from smptc1.chinaemail.cn (mx100.chinaemail.cn [67.222.145.67])
+	by mx100.chinaemail.cn (Postfix) with ESMTP id 4B21528D80E7
+	for <robert.green@morpho.com>; Thu,  6 Jul 2017 16:20:29 +0800 (CST)
+Received: from s151v.chinaemail.cn (unknown [124.202.155.146])
+	by smptc1.chinaemail.cn (Postfix) with ESMTP id 40E633478001
+	for <robert.green@morpho.com>; Thu,  6 Jul 2017 16:16:43 +0800 (CST)
+Received: from [192.168.1.203] (unknown [113.110.149.149])
+	(Authenticated sender: overseas10@sino-progress.com)
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id E50834A2318
+	for <robert.green@morpho.com>; Thu,  6 Jul 2017 16:20:16 +0800 (CST)
+X-CrossPremisesHeadersFilteredBySendConnector: Y0032NO.rd1.rf1
+IronPort-PHdr: =?us-ascii?q?9a23=3AqTLJvhS+bYhJC05ALKMttrrqxtpsv+yvbD5Q0YIu?=
+ =?us-ascii?q?jvd0So/mwa6yYRSN2/xhgRfzUJnB7Loc0qyN4vCmADNLuM3d+Fk5M7V0Hycfjs?=
+ =?us-ascii?q?sXmwFySOWkMmbcaMDQUiohAc5ZX0Vk9XzoeWJcGcL5ekGA6ibqtW1aFRrwLxd6?=
+ =?us-ascii?q?KfroEYDOkcu3y/qy+5rOaAlUmTaxe71/IRG1oAnLq8Ubg4RuJrs/xxbGv3BFZ/?=
+ =?us-ascii?q?lYyWR0KFyJgh3y/N2w/Jlt8yRRv/Iu6ctNWrjkcqo7ULJVEi0oP3g668P3uxbD?=
+ =?us-ascii?q?SxCP5mYHXWUNjhVIGQnF4wrkUZr3ryD3q/By2CiePc3xULA0RTGv5LplRRP0lC?=
+ =?us-ascii?q?sKMSMy/WfKgcJyka1bugqsqABwzIDJYI+bKvRwcKDGcNMfWWZMRNxcWzBdDo6+?=
+ =?us-ascii?q?aYYEEuoPPfxfr4n4v1YAqRy+BRKyC+P3yj9HnmH73a070+QnCw7KxRYuH8gJsH?=
+ =?us-ascii?q?TbttX6KrwSUfuox6TPyjXDce1Z2S3m6IfWaB8huuyAUa5rfMrKyEkvEQTFgkyI?=
+ =?us-ascii?q?qYz/ODOV2f4NvHaA7+p7T+6gl2knqwRorzWp28wihI7JhocPxVDF8yV02J01Jd?=
+ =?us-ascii?q?y+SE58eNKkCIFQtyaVN4tsXMwiWHpotDwmxb0BvJ62ejUBxpc/xxPHdvCKcYaF?=
+ =?us-ascii?q?7gj+WOuVPzt0nnxodbClixu8/kWs0vDwWtS63VpQsyZJj8XAumoQ2xHc7sWLUO?=
+ =?us-ascii?q?Zx80il1DuJygvd8PtLIVoumqreM5MhwqA/lp4UsUnbGy/3l1j6gLOKekk+5ueo?=
+ =?us-ascii?q?6+XnYrP8qZCCMo97kAD+MqA0lsOjB+Q0KgkOX26F9uSgzLDv4E/0TbtQgvErlq?=
+ =?us-ascii?q?TVrorWKMoZq6KjDQJY3Z4v6xOlADen1NQYk2MHLFVAeB+fiIjpJU/BIOrjDfih?=
+ =?us-ascii?q?mVusiypny+zdM736A5XNKH/DnK75fbZn7E5cxxAzws5E55JPEL0OPPXzWkrpuN?=
+ =?us-ascii?q?zCEhA5KxC0w/rgCNhlzIMeXnmADbGDMKPOq1OI6fgvLPeSa48Tozv9Lv8l5+T2?=
+ =?us-ascii?q?jX85nl8RZ7Wm3ZwSaCPwIvMzOUKTbGDwxNgbHGoMlg85VvTqjxuJVjsASWy1Wv?=
+ =?us-ascii?q?ce4So2EIKRJofCQInouKaG0z22BYYeMmdYB0qXHH7zLt2sQPYKb2eKOMhuiDEf?=
+ =?us-ascii?q?Tv6qTIp3hkLmjxPz17cydrmcwSYfr5+2jNU=3D?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: =?us-ascii?q?A0BkYQBs8V1ZhiIlwK1cHQEXAQYBBgUBF?=
+ =?us-ascii?q?wEGAQaCMT2BEAOBDYpvhA2QVJg2HBKFH0oDAiIUgm1EEwEBAQEBAQEBAQEBEgE?=
+ =?us-ascii?q?BAQgLCwgoL4IzIoJtChMBASQLCRg6CgJyiU5gAQULkwOceGuCJoMHAQEFhVeCY?=
+ =?us-ascii?q?CoIgR6CCYREaQE1hykSASiDBxaCS4ExAQGMdYMujRYeCAEBgVcOhWKOS4VKg06?=
+ =?us-ascii?q?GekeUcTeBHwtSI4EEBQZEhC6CAGkBhkGCMAEBAQ?=
+X-IPAS-Result: =?us-ascii?q?A0BkYQBs8V1ZhiIlwK1cHQEXAQYBBgUBFwEGAQaCMT2BEAO?=
+ =?us-ascii?q?BDYpvhA2QVJg2HBKFH0oDAiIUgm1EEwEBAQEBAQEBAQEBEgEBAQgLCwgoL4IzI?=
+ =?us-ascii?q?oJtChMBASQLCRg6CgJyiU5gAQULkwOceGuCJoMHAQEFhVeCYCoIgR6CCYREaQE?=
+ =?us-ascii?q?1hykSASiDBxaCS4ExAQGMdYMujRYeCAEBgVcOhWKOS4VKg06GekeUcTeBHwtSI?=
+ =?us-ascii?q?4EEBQZEhC6CAGkBhkGCMAEBAQ?=
+X-IronPort-AV: E=Sophos;i="5.40,316,1496095200"; 
+   d="scan'208,217";a="348782454"
+MIME-Version: 1.0
+Subject: Looking for a Partner in UK--ChinaProgress
+From: =?utf-8?q?Joseph=5FChina-Progress?= <overseas10@sino-progress.com>
+To: <robert.green@morpho.com>
+Date: Thu, 06 Jul 2017 16:20:21 +0800
+X-MID: 2093652882.3504169842.5.1499329217.12534.17427
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=sino-progress.com;
+	s=s123456; t=1499329217;
+	bh=A4SkVSAc0MgOFRUi+IapAKbev5ijT8GMb0iFIARQpow=;
+	h=Subject:From:Date:Message-ID;
+	b=mwCPUv++dYwVPD1cYOj00iznTMkaWq4qgN2gVr3BF8HDJL9iDbL7D2IAq5jgFp9xJ
+	 VwyQPBXwKgxRgEIMzAkn2EuolJD3gpRMAaA3ujyrb9Mb/JZj2PFdRkMq3UK8NGzJZi
+	 st+12VpOUW3kTna3Ui/7Vxn3JVUhmsMNJRp/IcLM=
+X-Rate: Yes
+X-Real-From: overseas10@sino-progress.com
+X-Rcpt: ,robert.green@morpho.com,
+Return-Path: overseas10@sino-progress.com
+X-TM-AS-Product-Ver: SMEX-12.0.0.1464-8.100.1062-23178.005
+X-TM-AS-Result: No--7.022800-8.000000-31
+X-TM-AS-MatchedID: 144052-150622-140026-140002-147015-139704-708196-111604-1
+	88038-700802-708712-111606-701120-701275-111607-705718-701827-701323-700074
+	-701669-703529-702497-700109-700562-700732-702609-700264-702737-706065-7003
+	45-700657-700529-700624-702638-702020-700618-709083-188198-707496-700077-39
+	0361-863174-706605-709339-700758-700839-701306-700545-705882-707800-111605-
+	111602-188156-700079-188050-121528-700450-701153-708339-702187-706271-70075
+	2-186214-707997-105630-706963-710837-700553-701588-847657-106230-711058-301
+	404-187067-301493-702828-700107-700490-188057-188062-843064-712248-700492-1
+	11610-103201-188091-190978-148004-148040-148133-23109-29997-29998-42003
+X-TM-AS-User-Approved-Sender: No
+X-TM-AS-User-Blocked-Sender: No
+X-MIMETrack: Itemize by SMTP Server on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:43,
+	Serialize by Router on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:44,
+	Serialize complete at 06/07/2017 10:20:44,
+	Itemize by SMTP Server on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:45,
+	Serialize by Router on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:45,
+	Itemize by SMTP Server on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:45,
+	Serialize by Router on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:45,
+	Serialize complete at 06/07/2017 10:20:45,
+	Itemize by SMTP Server on MAIAO2/SAFRAN(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:46,
+	Serialize by Router on MAIAO2/SAFRAN(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:47,
+	Serialize complete at 06/07/2017 10:20:47,
+	Itemize by SMTP Server on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:47,
+	Serialize by Router on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:47,
+	Itemize by SMTP Server on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:48,
+	Serialize by Router on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:49,
+	Serialize complete at 06/07/2017 10:20:49,
+	Itemize by SMTP Server on ABER/SAGEM(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:49,
+	Serialize by Router on ABER/SAGEM(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:50,
+	Serialize complete at 06/07/2017 10:20:50,
+	Itemize by SMTP Server on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:50,
+	Serialize by Router on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:50,
+	Itemize by SMTP Server on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:50,
+	Serialize by Router on ANGARA/SAGEM(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:50,
+	Itemize by SMTP Server on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at
+ 06/07/2017 10:20:51,
+	Serialize by Router on MAIAO1/SAFRAN(Release 8.0.2FP6|July 15, 2010) at 06/07/2017
+ 10:20:53,
+	Serialize complete at 06/07/2017 10:20:53
+X-OrganizationHeadersPreserved: Y0032KD.rd1.rf1
+Message-ID: <OF336FB451.7A3CD675-ONC1258155.002DDADA-C1258155.002DDB71@domino.safran.fr>
+Content-Type: multipart/mixed;
+	boundary="===============3374685462497891989=="
+
+--===============3374685462497891989==
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="===============1180088049388079116=="
+
+--===============1180088049388079116==
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+
+--===============1180088049388079116==
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+	<head>
+		<!-- NAME: SIMPLE TEXT -->
+		<!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+		<meta charset=3D"UTF-8">
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+		<title>Greetings From China Progress International Freight Forwarding Com=
+pany</title>
+       =20
+    <style type=3D"text/css">
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.mcnPreviewText{
+			display:none !important;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=3Dtel],a[href^=3Dsms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.Ext=
+ernalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		#bodyCell{
+			padding:10px;
+		}
+		.templateContainer{
+			max-width:600px !important;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want =
+to choose colors that match your company's branding.
+	*/
+		body,#bodyTable{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/background-image:none;
+			/*@editable*/background-repeat:no-repeat;
+			/*@editable*/background-position:center;
+			/*@editable*/background-size:cover;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want =
+to choose colors that match your company's branding.
+	*/
+		#bodyCell{
+			/*@editable*/border-top:0;
+		}
+	/*
+	@tab Page
+	@section Email Border
+	@tip Set the border for your email.
+	*/
+		.templateContainer{
+			/*@editable*/border:0;
+		}
+	/*
+	@tab Page
+	@section Heading 1
+	@tip Set the styling for all first-level headings in your emails. These sh=
+ould be the largest of your headings.
+	@style heading 1
+	*/
+		h1{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:26px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 2
+	@tip Set the styling for all second-level headings in your emails.
+	@style heading 2
+	*/
+		h2{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:22px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 3
+	@tip Set the styling for all third-level headings in your emails.
+	@style heading 3
+	*/
+		h3{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:20px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 4
+	@tip Set the styling for all fourth-level headings in your emails. These s=
+hould be the smallest of your headings.
+	@style heading 4
+	*/
+		h4{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:18px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Style
+	@tip Set the borders for your email's header area.
+	*/
+		#templateHeader{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Header
+	@section Header Text
+	@tip Set the styling for your email's header text. Choose a size and color=
+ that is easy to read.
+	*/
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Link
+	@tip Set the styling for your email's header links. Choose a color that he=
+lps them stand out from your text.
+	*/
+		#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Body
+	@section Body Style
+	@tip Set the borders for your email's body area.
+	*/
+		#templateBody{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Body
+	@section Body Text
+	@tip Set the styling for your email's body text. Choose a size and color t=
+hat is easy to read.
+	*/
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Body
+	@section Body Link
+	@tip Set the styling for your email's body links. Choose a color that help=
+s them stand out from your text.
+	*/
+		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Footer
+	@section Footer Style
+	@tip Set the borders for your email's footer area.
+	*/
+		#templateFooter{
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Footer
+	@section Footer Text
+	@tip Set the styling for your email's footer text. Choose a size and color=
+ that is easy to read.
+	*/
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Footer
+	@section Footer Link
+	@tip Set the styling for your email's footer links. Choose a color that he=
+lps them stand out from your text.
+	*/
+		#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
+			/*@editable*/color:#202020;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	@media only screen and (min-width:768px){
+		.templateContainer{
+			width:600px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#bodyCell{
+			padding-top:10px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImage{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCapti=
+onBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcn=
+ImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionR=
+ightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRi=
+ghtImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCar=
+dRightTextContentContainer{
+			max-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer{
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupContent{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter =
+.mcnTextContent{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardTopImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:=
+last-child .mcnTextContent{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardBottomImageContent{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockInner{
+			padding-top:0 !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockOuter{
+			padding-top:9px !important;
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnTextContent,.mcnBoxedTextContentColumn{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+			padding-right:18px !important;
+			padding-bottom:0 !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcpreview-image-uploader{
+			display:none !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 1
+	@tip Make the first-level headings larger in size for better readability o=
+n small screens.
+	*/
+		h1{
+			/*@editable*/font-size:22px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 2
+	@tip Make the second-level headings larger in size for better readability =
+on small screens.
+	*/
+		h2{
+			/*@editable*/font-size:20px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 3
+	@tip Make the third-level headings larger in size for better readability o=
+n small screens.
+	*/
+		h3{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 4
+	@tip Make the fourth-level headings larger in size for better readability =
+on small screens.
+	*/
+		h4{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Boxed Text
+	@tip Make the boxed text larger in size for better readability on small sc=
+reens. We recommend a font size of at least 16px.
+	*/
+		table.mcnBoxedTextContentContainer td.mcnTextContent,td.mcnBoxedTextConte=
+ntContainer td.mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Header Text
+	@tip Make the header text larger in size for better readability on small s=
+creens.
+	*/
+		td#templateHeader td.mcnTextContent,td#templateHeader td.mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Body Text
+	@tip Make the body text larger in size for better readability on small scr=
+eens. We recommend a font size of at least 16px.
+	*/
+		td#templateBody td.mcnTextContent,td#templateBody td.mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Footer Text
+	@tip Make the footer content text larger in size for better readability on=
+ small screens.
+	*/
+		td#templateFooter td.mcnTextContent,td#templateFooter td.mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}</style></head>
+    <body>
+		<!--*|IF:MC=5FPREVIEW=5FTEXT|*-->
+		<!--[if !gte mso 9]><!----><span class=3D"mcnPreviewText" style=3D"displa=
+y:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opac=
+ity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC=5FPREVIEW=5F=
+TEXT|*</span><!--<![endif]-->
+		<!--*|END:IF|*-->
+        <center>
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable">
+                <tr>
+                    <td align=3D"left" valign=3D"top" id=3D"bodyCell">
+                        <!-- BEGIN TEMPLATE // -->
+						<!--[if gte mso 9]>
+						<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" width=3D"600" style=3D"width:600px;">
+						<tr>
+						<td align=3D"center" valign=3D"top" width=3D"600" style=3D"width:600p=
+x;">
+						<![endif]-->
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" class=3D"templateContainer">
+                            <tr>
+                                <td valign=3D"top" id=3D"templateHeader"></=
+td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateBody"><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D=
+"mcnTextBlock" style=3D"min-width:100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"padding=
+-top:9px;">
+              	<!--[if mso]>
+				<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" style=3D"width:100%;">
+				<tr>
+				<![endif]-->
+			   =20
+				<!--[if mso]>
+				<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+				<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"max-width:100%; min-width:100%;" width=3D"100%" class=
+=3D"mcnTextContentContainer">
+                    <tbody><tr>
+                       =20
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18p=
+x;">
+                       =20
+                            <span style=3D"font-family:arial,helvetica neue=
+,helvetica,sans-serif">Dear manager of Morpho Detection ,<br>
+<br>
+Greetings from <strong>China-Progress Int'l Freight Forwarding</strong>, Ch=
+ina!<br>
+<br>
+This is Joseph,&nbsp;it is so nice to know your good company from<strong>&n=
+bsp;AZFreight Members Directory.</strong><br>
+<br>
+We are looking for a reliable cooperator in <strong>UK,</strong> who can be=
+ our representative to provide local service and free-handling.&nbsp;<br>
+<br>
+<strong>And also we wish to be your trusted partner in China.</strong><br>
+<br>
+<strong>China Progress is&nbsp;</strong></span>
+
+<ul>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>14 years experienced</strong> Freight Forwarder&nbsp;</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+member of <strong>WCA, FIATA, CIFA</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+NVOCC Class-A freight forwarder</span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>We have</strong></span>
+
+<ul>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>4 office</strong> in China (located in <strong>Shenzhen, Guangzhou =
+, Shanghai, Qingdao</strong> respectively)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>3 overseas office</strong> (located in <strong>US, Canada and Vietn=
+am</strong> respectively.)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>200+ stuff</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>55 container trucks</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>1000 sq ft warehouse</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Our own broker office in Shenzhen</strong></span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>Our service </strong>covers</span>
+
+<ul>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Sea Freight</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Air Freight</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Logistics</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Transport and Distribution</span></li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>Please don't hesitate to contact me for any assistance you need from Ch=
+ina.</strong></span>
+
+<div><br>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">I am =
+looking forward to your reply! Wish we could start cooperation very soon .<=
+/span><br>
+&nbsp;
+<div>
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Thanks &amp; Regards,</span></div>
+
+<div>&nbsp;</div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Joseph Li&nbsp;</strong></span></div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Overseas Dept.<br>
+Email: overseas10@sino-progress.com<br>
+<strong><em>Service Drives Value=E2=80=A6=E2=80=A6</em></strong><br>
+<strong>CHINA&nbsp;PROGRESS INT'L FORWARDING CO.,LTD&nbsp;</strong><br>
+NVOCC:MOC-NV 03517<br>
+Cell: +86-13714780856<br>
+<a href=3D"http://www.sino-progress.com/">WWW.SINO-PROGRESS.COM</a><br>
+&nbsp;CHINA&nbsp; -&nbsp;&nbsp; VIETNAM &nbsp;-&nbsp; U.S.A.&nbsp; &nbsp;-&=
+nbsp; &nbsp;CANADA</span></div>
+</div>
+
+<div>
+<div align=3D"left"><span style=3D"font-family:arial,helvetica neue,helveti=
+ca,sans-serif"><img data-file-id=3D"2715261" src=3D"https://gallery.mailchi=
+mp.com/3cad518a16e6e9e8280a70c63/images/114709a2-d4d1-4ae6-a900-90d97573805=
+1.jpg" style=3D"border: 0px  ; margin: 0px;"></span></div>
+</div>
+</div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+				<!--[if mso]>
+				</td>
+				<![endif]-->
+               =20
+				<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateFooter"></=
+td>
+                            </tr>
+                        </table>
+						<!--[if gte mso 9]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>=
+
+--===============1180088049388079116==--
+
+--===============3374685462497891989==--
+
+--==IFJRGLKFGIR278915766UHRUHIHD--
+
+--===============6867546162289917125==
+Content-Type: multipart/alternative; boundary="===============8749924801985354504=="
+MIME-Version: 1.0
+Content-Disposition: inline
+
+--===============8749924801985354504==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+#
+" Ce courriel et les documents qui lui sont joints peuvent contenir des inf=
+ormations confidentielles, =C3=AAtre soumis aux r=C3=A8glementations relati=
+ves au contr=C3=B4le des exportations ou ayant un caract=C3=A8re priv=C3=A9=
+. S'ils ne vous sont pas destin=C3=A9s, nous vous signalons qu'il est stric=
+tement interdit de les divulguer, de les reproduire ou d'en utiliser de que=
+lque mani=C3=A8re que ce soit le contenu. Toute exportation ou r=C3=A9expor=
+tation non autoris=C3=A9e est interdite Si ce message vous a =C3=A9t=C3=A9 =
+transmis par erreur, merci d'en informer l'exp=C3=A9diteur et de supprimer =
+imm=C3=A9diatement de votre syst=C3=A8me informatique ce courriel ainsi que=
+ tous les documents qui y sont attach=C3=A9s."
+******
+" This e-mail and any attached documents may contain confidential or propri=
+etary information and may be subject to export control laws and regulations=
+. If you are not the intended recipient, you are notified that any dissemin=
+ation, copying of this e-mail and any attachments thereto or use of their c=
+ontents by any means whatsoever is strictly prohibited. Unauthorized export=
+ or re-export is prohibited. If you have received this e-mail in error, ple=
+ase advise the sender immediately and delete this e-mail and all attached d=
+ocuments from your computer system."
+#
+--===============8749924801985354504==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<p>#<br>
+" Ce courriel et les documents qui lui sont joints peuvent contenir des inf=
+ormations confidentielles, =C3=AAtre soumis aux r=C3=A8glementations relati=
+ves au contr=C3=B4le des exportations ou ayant un caract=C3=A8re priv=C3=A9=
+. S'ils ne vous sont pas destin=C3=A9s, nous vous signalons qu'il est stric=
+tement interdit de les divulguer, de les reproduire ou d'en utiliser de que=
+lque mani=C3=A8re que ce soit le contenu. Toute exportation ou r=C3=A9expor=
+tation non autoris=C3=A9e est interdite.Si ce message vous a =C3=A9t=C3=A9 =
+transmis par erreur, merci d'en informer l'exp=C3=A9diteur et de supprimer =
+imm=C3=A9diatement de votre syst=C3=A8me informatique ce courriel ainsi que=
+ tous les documents qui y sont attach=C3=A9s."<br>
+******<br>
+" This e-mail and any attached documents may contain confidential or propri=
+etary information and may be subject to export control laws and regulations=
+. If you are not the intended recipient, you are notified that any dissemin=
+ation, copying of this e-mail and any attachments thereto or use of their c=
+ontents by any means whatsoever is strictly prohibited. Unauthorized export=
+ or re-export is prohibited. If you have received this e-mail in error, ple=
+ase advise the sender immediately and delete this e-mail and all attached d=
+ocuments from your computer system."<br>
+#</p>
+--===============8749924801985354504==--
+--===============6867546162289917125==--

@@ -1,0 +1,517 @@
+Return-Path: <gary@getezer.com>
+Received: from mxi95.chinaemail.cn (unknown [115.182.8.95])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 796B24A22E2
+	for <overseas10@sino-progress.com>; Wed, 19 Jul 2017 21:19:18 +0800 (CST)
+X-SBRS: 3.4
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1C9AgCDWG9ZhjXXVdFYAx4GDIJvPoERgRQHhSGJVpBtlzYDXDCESE8Cg1hKFAECAQEBAQEBARMBAQEICwsIKIVIAQICASMdAQEkAQoJBAkCCQILLQoCAhYMEgEFARwGE4onCAMCC497kRs/imc4a4FMWoMGAQEFh3kBAQEBAQEBAwEBAQEBAQEBAQEBFQgFDYEMggqFLQEBgyODJoEVEgEoFQwagkwWgkuIAolmjS4ohlF6jE5vgR1XhHiKVZQUFB+BFTaBIAsxIQgbFWMGhGQfghNWAYZiDReCGQEBAQ
+X-IronPort-AV: E=Sophos;i="5.40,381,1496073600"; 
+   d="scan'208,217";a="204811537"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi95.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 19 Jul 2017 21:20:13 +0800
+Received: from mail-lf0-f53.google.com (mail-lf0-f53.google.com [209.85.215.53])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id 93605C08E5
+	for <overseas10@sino-progress.com>; Wed, 19 Jul 2017 21:19:43 +0800 (CST)
+Received: by mail-lf0-f53.google.com with SMTP id f18so155843lfa.4
+        for <overseas10@sino-progress.com>; Wed, 19 Jul 2017 06:20:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=getezer-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=rOtfneZy7RL+To8KS1xM0p0mdMaM3enwTYprW+iTd3A=;
+        b=VJswhVONiQ41oyLtdZWaAKD0z78cpXeYhUphGobIV5f9VdnziuNuTbmL9Me8EcfpR7
+         07aTtVoFqUD9RsSTfb2idqrmYo+2goXPDeG12zmvzLDabrRd6jJLg1MUKKHdoHEouYPd
+         50l7watJ4O89qtjhlFL2bTfJ/CcmGMA3e7DAfPT/3o063hQm3ljCQOuflAUZqrr/zGda
+         rHYM3Ktmzqd+yQzsLtAiyzjNv0fc1eUZvC6G3L7xVSEea5qdakKFSUMZEbo3/lkKWdIJ
+         DSMooYfz0ca1bTO5H8I0akVi6o5AClrhhdEy9LLNdYx7hrAfkbflGLKirsN78QfdDJIm
+         KwAg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=rOtfneZy7RL+To8KS1xM0p0mdMaM3enwTYprW+iTd3A=;
+        b=RqQulH2kmpQyt9gBhmhSZDbDbcPmhuq7ODU9C+0TN0P1pmjuFE22hMPHS5sWnHrlqO
+         DMVjfdB/NFnPmhKK6OAdW2w2XsuZAmFOAt0o7xjxJt0+dVjtKxrUOdgEZ1zaWYi7Kd8h
+         0yNNHq1BIoy9YabpGZF48BqjVjXdC8Y6dXXnQ4YEC1nPPNIo2DYzfEOwIiVEXaf/myGX
+         3A8fzd26sw7dEZKxwJcFVXwgiwFq9gtCNcPsiSXAFjV59q7vV/Xe59DLJ2HtVBbAPff8
+         ld+SZb1pez4Hi3l/yPP8XYdoHxF0/FX1MmhU1BcfGD91IG+0QCiRaC4ALhly6tSYlv+1
+         LNBA==
+X-Gm-Message-State: AIVw113BlDmX44O56wTUOH6XzQSR1fvFCyvWpXP0HHWnAX+eiVFYV2qi
+	GFQUdKBHjKDdeW38wvwttClvbbLuXwIrDIo=
+X-Received: by 10.46.87.73 with SMTP id r9mr23246ljd.164.1500470405236; Wed,
+ 19 Jul 2017 06:20:05 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.25.167.19 with HTTP; Wed, 19 Jul 2017 06:20:04 -0700 (PDT)
+In-Reply-To: <150045641792.6736.7420526859833752673@DESKTOP-UIM96J7>
+References: <150045641792.6736.7420526859833752673@DESKTOP-UIM96J7>
+From: Gary Wlassak <gary@getezer.com>
+Date: Wed, 19 Jul 2017 06:20:04 -0700
+Message-ID: <CAK+mL9AAPqG9FwLTHWckxp9mjjZ1-92v1fmHgFKn8d34WPXDUA@mail.gmail.com>
+Subject: Re: Ocean Freight Rate from China by China-Progress
+To: Joseph_SinoProgress <overseas10@sino-progress.com>
+Content-Type: multipart/alternative; boundary="f403045f83f080291c0554ab7dd1"
+X-MID: 2093652882.2429492349.2.1500470358.498784.2914
+X-Rate: Yes
+X-Real-From: gary@getezer.com
+X-Rcpt: ,overseas10@sino-progress.com,
+
+--f403045f83f080291c0554ab7dd1
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+We do not ship overseas or long distances.  We are a *local, same-day
+delivery service* based in southern California.
+
+If you know anyone in the Los Angeles area that needs a same-day delivery
+service, please tell them to contact us.
+
+This service is also available to* expand into other regions around the
+world*, let them know about us if you know of any region that would like
+same day, local delivery.
+
+Thank you,
+
+
+Gary Wlassak
+EZER, Inc.
+Office: (909) 620-2610
+Cell: (909) 272-3679
+
+[image: EZER] <https://www.GetEZER.com>
+*GetEZER.com <http://GetEZER.com>   *
+
+*Please follow and share:*
+[image: Facebook - GetEZER - Follow Us and Share !]
+<https://www.facebook.com/getezer> [image: Twitter - @GETEZER - Follow Us]
+<https://twitter.com/GetEZER>  <https://www.instagram.com/getezer> [image:
+EZER LinkedIn - Contact us today]
+<https://www.linkedin.com/company-beta/7792901/>
+
+Click here for a quick view of EZER. <https://youtu.be/b-WzEGCDqF4>
+
+
+On Wed, Jul 19, 2017 at 2:26 AM, Joseph_SinoProgress <
+overseas10@sino-progress.com> wrote:
+
+> Dear manager of EZER Inc. ,
+>
+> Greetings from *China-Progress Int'l Freight Forwarding*, China.
+>
+> This is Joseph, it is so nice to know your good company from* AZFreight
+> members Directory .*
+>
+> We are 14 years experienced freight forwarder in Shenzhen. Wondering if w=
+e
+> have chance* to be your cooperating handler *in China.
+>
+> Here is updated Freight Rate from China to US, hope it is helpful.
+> Freight Rate CN-US Jul19
+> POL
+> POD
+> Carrier
+> Freight 20'GP($)
+> Freight 40GP($)
+> Freight 40HQ($)
+> SZX,TNJ,TAO,SHA
+> LA
+> HPL
+> 890
+> 1100
+> 1100
+> SZX,TNJ,TAO,SHA
+> HU
+> OOCL
+> 1630
+> 1630
+> 2025
+> SZX,TNJ,TAO,SHA
+> NY
+> UASC
+> 1675
+> 1675
+> 2050
+> SZX,TNJ,TAO,SHA
+> CHI
+> HPL
+> 2420
+> 2420
+> 3000
+>
+> Please kindly let me know if anything we can help you with or if I should
+> not disturb you with this.
+>
+>
+> *We wish to be your trusted partner in China.*
+>
+> *China Progress is  *
+>
+>    - *14 years experienced* Freight Forwarder
+>    - member of *WCA, FIATA, CIFA*
+>    - NVOCC Class-A freight forwarder
+>
+> * We have*
+>
+>    - *4 office* in China (located in *Shenzhen, Guangzhou , Shanghai,
+>    Qingdao* respectively)
+>    - *3 overseas office* (located in *US, Canada and Vietnam*
+>    respectively.)
+>    - *200+ stuff*
+>    - *110+ container trucks*
+>    - *1000 sq ft warehouse*
+>    - *Our own broker office in Shenzhen*
+>
+> * Our service covers*
+>
+>    - Sea Freight
+>    - Air Freight
+>    - Logistics
+>    - Transport and Distribution
+>
+> *Please don't hesitate to contact me for any assistance you need from
+> China.*
+>
+> I am looking forward to your reply! Wish we could start cooperation very
+> soon .
+>
+> Thanks & Regards,
+>
+> *Joseph Li *
+> Overseas Dept.
+> Email: overseas10@sino-progress.com
+> *Service Drives Value=E2=80=A6=E2=80=A6*
+> *CHINA PROGRESS INT'L FORWARDING CO.,LTD *
+> NVOCC:MOC-NV 03517
+> Cell: +86-13714780856 <+86%20137%201478%200856>
+> WWW.SINO-PROGRESS.COM <http://www.sino-progress.com/>
+>  CHINA  -   VIETNAM  -  U.S.A.   -   CANADA
+>
+
+--f403045f83f080291c0554ab7dd1
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr" style=3D"font-size:16px"><span style=3D"f=
+ont-size:17.12px;font-family:sans-serif">We do not ship=C2=A0<span class=3D=
+"gmail-il">overseas</span>=C2=A0or long distances.=C2=A0 We are a=C2=A0<u>l=
+ocal, same-day delivery service</u>=C2=A0based in southern California.</spa=
+n><div dir=3D"auto" style=3D"font-size:17.12px;font-family:sans-serif"><div=
+ dir=3D"auto"><br></div><div dir=3D"auto">If you know anyone in the Los Ang=
+eles area that needs a same-day delivery service, please tell them to conta=
+ct us.</div><div dir=3D"auto"><br></div><div>This service is also available=
+ to<b>=C2=A0expand into other regions around the world</b>, let them know a=
+bout us if you know of any region that would like same day, local delivery.=
+<br></div><div dir=3D"auto"><br></div><div dir=3D"auto">Thank you,</div><di=
+v><br></div></div></div></div><div class=3D"gmail_extra"><br clear=3D"all">=
+<div><div class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div=
+ dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"l=
+tr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><div dir=
+=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr=
+"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div =
+dir=3D"ltr"><div dir=3D"ltr"><font size=3D"2">Gary Wlassak<br></font></div>=
+<div dir=3D"ltr"><div><font face=3D"arial, helvetica, sans-serif" size=3D"2=
+">EZER, Inc.</font></div><div><font face=3D"arial, helvetica, sans-serif" s=
+ize=3D"2">Office: (909) 620-2610</font></div><div><font face=3D"arial, helv=
+etica, sans-serif" size=3D"2">Cell: (909) 272-3679</font></div><div><br></d=
+iv><div><font face=3D"arial, helvetica, sans-serif" size=3D"1"><a href=3D"h=
+ttps://www.GetEZER.com" target=3D"_blank"><img src=3D"https://docs.google.c=
+om/uc?export=3Ddownload&amp;id=3D0Bwzydc1G8UIXRmt0cjFvWUtST2M&amp;revid=3D0=
+Bwzydc1G8UIXZkhRS01CbDhhNkxFanZVR2lYNElhOFhES2RBPQ" width=3D"80" height=3D"=
+96" alt=3D" EZER"></a><br></font></div><div><b><font size=3D"2"><a href=3D"=
+http://GetEZER.com" style=3D"font-family:arial,helvetica,sans-serif" target=
+=3D"_blank">GetEZER.com</a>=C2=A0 </font>=C2=A0</b><br></div><div><br></div=
+><div><i><b>Please follow and share:</b></i></div><div><a href=3D"https://w=
+ww.facebook.com/getezer" target=3D"_blank"><img src=3D"https://docs.google.=
+com/uc?export=3Ddownload&amp;id=3D0Bwzydc1G8UIXVllJZDg1cF82R1k&amp;revid=3D=
+0Bwzydc1G8UIXdFpTVlE5aS9NS3F4VGJJc2ZqeG1Ia3JTREowPQ" alt=3D" Facebook - Get=
+EZER - Follow Us and Share !"></a>=C2=A0<a href=3D"https://twitter.com/GetE=
+ZER" target=3D"_blank"><img src=3D"https://docs.google.com/uc?export=3Ddown=
+load&amp;id=3D0Bwzydc1G8UIXSHRiQkhhZFVYM0U&amp;revid=3D0Bwzydc1G8UIXWUhJVHJ=
+GWmwvNW9qMjVKOGxORHl1L1NuTlhBPQ" alt=3D" Twitter - @GETEZER - Follow Us"></=
+a>=C2=A0<a href=3D"https://www.instagram.com/getezer" target=3D"_blank"><im=
+g src=3D"https://docs.google.com/uc?export=3Ddownload&amp;id=3D0Bwzydc1G8UI=
+XV2hScUJHY0JpbUE&amp;revid=3D0Bwzydc1G8UIXVUR6cHJpN2pEMml5MEV3azY0cmxjT2h6R=
+mpjPQ"></a>=C2=A0<a href=3D"https://www.linkedin.com/company-beta/7792901/"=
+ target=3D"_blank"><img src=3D"https://docs.google.com/uc?export=3Ddownload=
+&amp;id=3D0Bwzydc1G8UIXX2xWSXFucXY1elE&amp;revid=3D0Bwzydc1G8UIXVXRoT0M2b1R=
+SZ1pQc0YrZ1oxYjdWRHh1R2hnPQ" alt=3D" EZER LinkedIn - Contact us today"></a>=
+<br></div><div><br></div><div><span style=3D"color:rgb(0,0,238);font-weight=
+:bold"><a href=3D"https://youtu.be/b-WzEGCDqF4" target=3D"_blank"><font siz=
+e=3D"2">Click here for a quick view of EZER.</font></a></span><br></div><di=
+v>=C2=A0</div></div></div></div></div></div></div></div></div></div></div><=
+/div></div></div></div></div></div></div></div></div></div></div></div></di=
+v></div></div>
+<br><div class=3D"gmail_quote">On Wed, Jul 19, 2017 at 2:26 AM, Joseph_Sino=
+Progress <span dir=3D"ltr">&lt;<a href=3D"mailto:overseas10@sino-progress.c=
+om" target=3D"_blank">overseas10@sino-progress.com</a>&gt;</span> wrote:<br=
+><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1=
+px #ccc solid;padding-left:1ex"><u></u>
+
+=09
+	=09
+	=09
+	=09
+       =20
+       =20
+	=09
+	   =20
+
+    <div>
+	=09
+        <center>
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" height=3D"100%" width=3D"100%" id=3D"m_-7819137441395973347bodyTa=
+ble">
+                <tbody><tr>
+                    <td align=3D"left" valign=3D"top" id=3D"m_-781913744139=
+5973347bodyCell">
+                       =20
+					=09
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" class=3D"m_-7819137441395973347templateContainer">
+                            <tbody><tr>
+                                <td valign=3D"top" id=3D"m_-781913744139597=
+3347templateHeader"></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"m_-781913744139597=
+3347templateBody"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" class=3D"m_-7819137441395973347mcnTextBlock" style=3D"min-wid=
+th:100%">
+    <tbody class=3D"m_-7819137441395973347mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"m_-7819137441395973347mcnTextBlockI=
+nner" style=3D"padding-top:9px">
+              =09
+			   =20
+			=09
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"max-width:100%;min-width:100%" width=3D"100%" class=3D=
+"m_-7819137441395973347mcnTextContentContainer">
+                    <tbody><tr>
+                       =20
+                        <td valign=3D"top" class=3D"m_-7819137441395973347m=
+cnTextContent" style=3D"padding-top:0;padding-right:18px;padding-bottom:9px=
+;padding-left:18px">
+                       =20
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif">Dear manager of EZER Inc. ,<br>
+                                <br>
+                              Greetings from  <strong>China-Progress Int&#3=
+9;l Freight Forwarding</strong>, China.<br>
+  <br>
+                              This is Joseph,=C2=A0it is so nice to know yo=
+ur good company from<strong>=C2=A0AZFreight members Directory .</strong></p=
+>
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif">                              We are 14 years experienc=
+ed freight forwarder in Shenzhen.    Wondering if we have chance<strong> to=
+ be your cooperating handler </strong>in China.  <br>
+                            </p>
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif">Here is updated Freight Rate from China to US, hope it =
+is helpful.</p>
+                            <table width=3D"492" height=3D"143" border=3D"1=
+" cellpadding=3D"0" cellspacing=3D"0">
+                              <colgroup><col width=3D"113">
+                              <col width=3D"72" span=3D"5">
+                              </colgroup><tbody><tr height=3D"18">
+                                <td width=3D"473" height=3D"36" colspan=3D"=
+6" rowspan=3D"2"><div align=3D"center" class=3D"m_-7819137441395973347STYLE=
+1">Freight Rate CN-US Jul19</div></td>
+                              </tr>
+                              <tr height=3D"18"> </tr>
+                              <tr height=3D"40">
+                                <td width=3D"113" height=3D"40" bgcolor=3D"=
+#FFCC33"><div align=3D"center"><span class=3D"m_-7819137441395973347STYLE2"=
+>POL</span></div></td>
+                                <td width=3D"72" bgcolor=3D"#FFCC33"><div a=
+lign=3D"center"><span class=3D"m_-7819137441395973347STYLE2">POD</span></di=
+v></td>
+                                <td width=3D"72" bgcolor=3D"#FFCC33"><div a=
+lign=3D"center"><span class=3D"m_-7819137441395973347STYLE2">Carrier</span>=
+</div></td>
+                                <td width=3D"72" bgcolor=3D"#FFCC33"><div a=
+lign=3D"center"><span class=3D"m_-7819137441395973347STYLE2">Freight    20&=
+#39;GP($)</span></div></td>
+                                <td width=3D"72" bgcolor=3D"#FFCC33"><div a=
+lign=3D"center"><span class=3D"m_-7819137441395973347STYLE2">Freight    40G=
+P($)</span></div></td>
+                                <td width=3D"72" bgcolor=3D"#FFCC33"><div a=
+lign=3D"center"><span class=3D"m_-7819137441395973347STYLE2">Freight    40H=
+Q($)</span></div></td>
+                              </tr>
+                              <tr height=3D"20">
+                                <td height=3D"20"><div align=3D"center"><sp=
+an class=3D"m_-7819137441395973347STYLE2">SZX,TNJ,TAO,SHA</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">LA</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">HPL</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">890</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">1100</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">1100</span></div></td>
+                              </tr>
+                              <tr height=3D"20">
+                                <td height=3D"20"><div align=3D"center"><sp=
+an class=3D"m_-7819137441395973347STYLE2">SZX,TNJ,TAO,SHA</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">HU</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">OOCL</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">1630</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">1630</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">2025</span></div></td>
+                              </tr>
+                              <tr height=3D"20">
+                                <td height=3D"20"><div align=3D"center"><sp=
+an class=3D"m_-7819137441395973347STYLE2">SZX,TNJ,TAO,SHA</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">NY</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">UASC</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">1675</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">1675</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">2050</span></div></td>
+                              </tr>
+                              <tr height=3D"20">
+                                <td height=3D"20"><div align=3D"center"><sp=
+an class=3D"m_-7819137441395973347STYLE2">SZX,TNJ,TAO,SHA</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">CHI</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">HPL</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">2420</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">2420</span></div></td>
+                                <td><div align=3D"center"><span class=3D"m_=
+-7819137441395973347STYLE2">3000</span></div></td>
+                              </tr>
+                            </tbody></table>
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif">Please kindly let me know if anything we can help you w=
+ith or if I should not disturb you with this.</p>
+                            <p style=3D"font-family:arial,helvetica neue,he=
+lvetica,sans-serif"><br>
+                              <strong>We wish to be your trusted partner in=
+ China.</strong><br>
+                              <span class=3D"m_-7819137441395973347STYLE13"=
+><br>
+                              <em><strong>China Progress is=C2=A0 </strong>=
+</em></span></p>
+                            <ul class=3D"m_-7819137441395973347STYLE5">
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>14 years experienced</strong> Freight Forwarder=C2=A0</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+member of <strong>WCA, FIATA, CIFA</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+NVOCC Class-A freight forwarder</span></li>
+</ul>
+                            <span class=3D"m_-7819137441395973347STYLE13" s=
+tyle=3D"font-family:arial,helvetica neue,helvetica,sans-serif"><em> <strong=
+>We have</strong></em></span>
+
+<ul class=3D"m_-7819137441395973347STYLE5">
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>4 office</strong> in China (located in <strong>Shenzhen, Guangzhou =
+, Shanghai, Qingdao</strong> respectively)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>3 overseas office</strong> (located in <strong>US, Canada and Vietn=
+am</strong> respectively.)</span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>200+ stuff</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>110+ container trucks</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>1000 sq ft warehouse</strong></span></li>
+	<li><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Our own broker office in Shenzhen</strong></span></li>
+</ul>
+<span class=3D"m_-7819137441395973347STYLE13" style=3D"font-family:arial,he=
+lvetica neue,helvetica,sans-serif"><em> <strong>Our service </strong>covers=
+</em></span>
+
+<ul class=3D"m_-7819137441395973347STYLE8">
+	<li class=3D"m_-7819137441395973347STYLE13"><span style=3D"font-family:ari=
+al,helvetica neue,helvetica,sans-serif">Sea Freight</span></li>
+	<li class=3D"m_-7819137441395973347STYLE13"><span style=3D"font-family:ari=
+al,helvetica neue,helvetica,sans-serif">Air Freight</span></li>
+	<li class=3D"m_-7819137441395973347STYLE13"><span style=3D"font-family:ari=
+al,helvetica neue,helvetica,sans-serif">Logistics</span></li>
+	<li class=3D"m_-7819137441395973347STYLE13"><span style=3D"font-family:ari=
+al,helvetica neue,helvetica,sans-serif">Transport and Distribution</span></=
+li>
+</ul>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif"> <str=
+ong>Please don&#39;t hesitate to contact me for any assistance you need fro=
+m China.</strong></span>
+
+<div><br>
+<span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">I am =
+looking forward to your reply! Wish we could start cooperation very soon .<=
+/span><br>
+=C2=A0
+<div>
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Thanks &amp; Regards,</span></div>
+
+<div>=C2=A0</div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+<strong>Joseph Li=C2=A0</strong></span></div>
+
+<div><span style=3D"font-family:arial,helvetica neue,helvetica,sans-serif">=
+Overseas Dept.<br>
+Email: <a href=3D"mailto:overseas10@sino-progress.com" target=3D"_blank">ov=
+erseas10@sino-progress.com</a><br>
+<strong><em>Service Drives Value=E2=80=A6=E2=80=A6</em></strong><br>
+<strong>CHINA=C2=A0PROGRESS INT&#39;L FORWARDING CO.,LTD=C2=A0</strong><br>
+NVOCC:MOC-NV 03517<br>
+Cell: <a href=3D"tel:+86%20137%201478%200856" value=3D"+8613714780856" targ=
+et=3D"_blank">+86-13714780856</a><br>
+<a href=3D"http://www.sino-progress.com/" target=3D"_blank">WWW.SINO-PROGRE=
+SS.COM</a><br>
+=C2=A0CHINA=C2=A0 -=C2=A0=C2=A0 VIETNAM =C2=A0-=C2=A0 U.S.A.=C2=A0 =C2=A0-=
+=C2=A0 =C2=A0CANADA</span></div>
+</div>
+
+<div>
+<div align=3D"left"><span style=3D"font-family:arial,helvetica neue,helveti=
+ca,sans-serif"><img src=3D"https://gallery.mailchimp.com/3cad518a16e6e9e828=
+0a70c63/images/114709a2-d4d1-4ae6-a900-90d975738051.jpg" style=3D"border:0p=
+x;margin:0px"></span></div>
+</div>
+</div>                        </td>
+                    </tr>
+                </tbody></table>
+			=09
+               =20
+			=09
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"m_-781913744139597=
+3347templateFooter"></td>
+                            </tr>
+                        </tbody></table>
+					=09
+                       =20
+                    </td>
+                </tr>
+            </tbody></table>
+        </center>
+    </div>
+</blockquote></div><br></div>
+
+--f403045f83f080291c0554ab7dd1--

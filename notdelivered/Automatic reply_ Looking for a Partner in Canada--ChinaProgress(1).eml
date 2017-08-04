@@ -1,0 +1,231 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi145.chinaemail.cn (unknown [124.202.155.145])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 26C8F4A22F2
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:14:19 +0800 (CST)
+X-SBRS: 2.2
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1CyAwDG011ZeuIiL2hcHAEBBAEBCgEBgm9nVhCBEI58pnmBMgOBAIlaFgECAQEBAQEBARMBAQkLDAcohUgGQAEBBwoTCQIJDwIBNRlXAgQKCQiJQ0wDFQMCpBwCiweDEYMHAQEFhC4Yg3IMHggTgxSDTIFhhGABgwljhTWfEIFlkheCFYVKikiTeQGBPCYCgTkxISOFYoIRAXYBhkOCPwEBAQ
+X-IPAS-Result: A1CyAwDG011ZeuIiL2hcHAEBBAEBCgEBgm9nVhCBEI58pnmBMgOBAIlaFgECAQEBAQEBARMBAQkLDAcohUgGQAEBBwoTCQIJDwIBNRlXAgQKCQiJQ0wDFQMCpBwCiweDEYMHAQEFhC4Yg3IMHggTgxSDTIFhhGABgwljhTWfEIFlkheCFYVKikiTeQGBPCYCgTkxISOFYoIRAXYBhkOCPwEBAQ
+X-IronPort-AV: E=Sophos;i="5.40,315,1496073600"; 
+   d="scan'208,217";a="98273751"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi145.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 06 Jul 2017 16:14:12 +0800
+Received: from NAM01-BY2-obe.outbound.protection.outlook.com (mail-by2nam01hn0226.outbound.protection.outlook.com [104.47.34.226])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id 4940BC0A37
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:13:41 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=KWEAM.onmicrosoft.com;
+ s=selector1-am-kwe-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=FS5tRdb3686t6HDoIjsOQs682YlDp1VtBzvzhCl/FBw=;
+ b=wRPXCx7j+pskiXQQq8i4F6pfTqC3naODW57ethAYi3GL5UBURqVwxCwSuLYTUAsfcVwWyWTh7vADxjLZq7fNKuob9TqLzrECmc59XUG1iVEzVhBDeyvz6tjrhLQiC2AK0yr0ys5Of1ml+KXuA3bhtOuDev+5rSCrXCs/v86dNTw=
+Received: from DM5PR08MB2412.namprd08.prod.outlook.com (10.168.235.146) by
+ DM5PR08MB2410.namprd08.prod.outlook.com (10.168.235.144) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1220.11; Thu, 6 Jul 2017 08:14:02 +0000
+Received: from DM5PR08MB2412.namprd08.prod.outlook.com ([127.0.0.1]) by
+ DM5PR08MB2412.namprd08.prod.outlook.com ([10.168.235.146]) with Microsoft
+ SMTP Server id 15.01.1220.018; Thu, 6 Jul 2017 08:14:03 +0000
+From: John Fazio <John.Fazio@am.kwe.com>
+To: Joseph_China-Progress <overseas10@sino-progress.com>
+Subject: Automatic reply: Looking for a Partner in Canada--ChinaProgress
+Thread-Topic: Looking for a Partner in Canada--ChinaProgress
+Thread-Index: AQHS9i/TVEoJbrvJsk+lpc/eqAgDKaJGc0im
+Date: Thu, 6 Jul 2017 08:14:03 +0000
+Message-ID: <72883a4a8bbd420ba9eeb9e07e78a41a@DM5PR08MB2412.namprd08.prod.outlook.com>
+References: <149932876801.8932.17321497566967181396@DESKTOP-UIM96J7>
+In-Reply-To: <149932876801.8932.17321497566967181396@DESKTOP-UIM96J7>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: John.Fazio@am.kwe.com
+X-MS-TNEF-Correlator:
+authentication-results: sino-progress.com; dkim=none (message not signed)
+ header.d=none;sino-progress.com; dmarc=none action=none
+ header.from=am.kwe.com;
+x-ms-exchange-parent-message-id: <149932876801.8932.17321497566967181396@DESKTOP-UIM96J7>
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 6c234aec-c7d9-4ab5-41fb-08d4c446f69e
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(22001)(300000502095)(300135100095)(2017030254075)(300000503095)(300135400095)(2017052603031)(201703131423075)(201703031133081)(300000504095)(300135200095)(300000505095)(300135600095)(300000506095)(300135500095);SRVR:DM5PR08MB2410;
+x-microsoft-exchange-diagnostics: 1;DM5PR08MB2410;7:jmrFrGgmELURNg++kL//3Ezlf1WQMXAxS+RTHSRGw5eJ2Yusmo5Vba1E6mG3/Wm6UpE8Wa/vdkI3dX7PzRHZQoU4UimlS3KOP3vCh3/Qx89TOIvTOV8Vtu2TW27x+B8B23IcLwKDB8A8x9guxu7J4zqDoA8ofXBPoRhZPi9u6ODe6mGQvoOQdBTJt4aOGqTSAuPTRiIgGfdWwMefKyu4E38dymNwESzygYA/42QWagEsQM8qIIQTHyJYnOou201bz08bt+1+lEjos/7cPWRI/rtghcOGpG1oEWPpIq4kUh10IX0SRYAwM6xzhI31gwhxlDO4Rcs2s32Fg5xLS0a84bq61VcJUyYjv4Qr58tJApCfkTOfuxcHw5NS8hnIiZE8VAXH40EdrN6pvIBvSLWu1cLtpY4eePmkSkkc5i8GT+0EcQBuj/E0Q+aLyv8D9p65lGBGhLE9zMxxxFpl+MXcNuOMHhInU0Y5zNZl87D1n1aZjo5JahMSG9792vU5UZyuKXmEzQW6uQDM8sx8n71kM6LvjXDy1LAjFJOSpbv3jAAm4cl38miMK0QJ355GRwXteDrV1epG+NZgU6iU2mHUGLuxPZRItMWLHPbbZtNAv2goAfqDZB0ywxzHXX34oVwm4qfhyB/e2ONimrqAWhx1PxkkGOA9I72HTqLm3r1zqkda9nQv2xZW3EO5c3U7g199dW4zjS8uAtMqdY7CGXqNZjwFW6PIUAmDllWbxUSWDiTSUSm7EwQgg4ilJ+IKsPObiuWJhNokffk9BNUQE+RvI6h2ujuTzgqSEOA8nqNd8JI=
+x-ms-traffictypediagnostic: DM5PR08MB2410:
+x-microsoft-antispam-prvs: <DM5PR08MB241007F503D8E9C472819194B8D50@DM5PR08MB2410.namprd08.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(151999592597050)(119302935801486)(26388249023172)(236129657087228)(102898082972882)(48057245064654)(148574349560750)(21748063052155)(266576461109395)(209349559609743);
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(6040450)(601004)(2401047)(5005006)(8121501046)(3002001)(10201501046)(93006095)(100000703101)(100105400095)(6041248)(20161123562025)(20161123560025)(20161123555025)(20161123558100)(201703131423075)(201702281528075)(201703061421075)(201703061750153)(20161123564025)(6072148)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:DM5PR08MB2410;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:DM5PR08MB2410;
+x-forefront-prvs: 03607C04F0
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(50650200002)(39410400002)(39400400002)(39450400003)(39840400002)(61684002)(53936002)(77096006)(54356999)(76176999)(108616004)(102836003)(25786009)(3110400002)(55016002)(54896002)(7696004)(189998001)(6306002)(42882006)(8676002)(6916009)(74316002)(236005)(2950100002)(3660700001)(345774005)(9686003)(24736003)(3280700002)(33646002)(7126002)(110136004)(6436002)(5660300001)(6506006)(81166006)(50986999)(38730400002)(498600001)(78352004)(2906002)(99286003)(8936002)(53096004)(46342002)(3720700003);DIR:OUT;SFP:1501;SCL:1;SRVR:DM5PR08MB2410;H:DM5PR08MB2412.namprd08.prod.outlook.com;FPR:;SPF:None;MLV:ovrnspm;PTR:InfoNoRecords;LANG:en;
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_72883a4a8bbd420ba9eeb9e07e78a41aDM5PR08MB2412namprd08pr_"
+MIME-Version: 1.0
+X-OriginatorOrg: am.kwe.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 06 Jul 2017 08:14:02.9653
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 2ceb534b-7d82-4ba8-a678-8a265b1d0f3d
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM5PR08MB2410
+X-MID: 2093652882.1882174181.0.1499328859.209996.26883
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--_000_72883a4a8bbd420ba9eeb9e07e78a41aDM5PR08MB2412namprd08pr_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+** Out of Office Reply **
+
+
+Thank you for your message. I am currently on vacation and I will have  lim=
+ited access to emails. I will be returning on Juy 11th,  if you require imm=
+ediate service please refer to the following contacts:
+
+
+Customer Service: yyz.cs@am.kwe.com
+Air Import: yyz.airimp@am.kwe.com
+Air Export: yyz.airexp@am.kwe.com
+Ocean Import: tor.oceanimp@am.kwe.com
+Ocean Export: tor.oceanexp@am.kwe.com
+Customs Brokerage: kweyyz.customs@am.kwe.com
+Surface Logistics: surface.logistics@am.kwe.com
+Assistant Terminal Manager: chris.hamilton@am.kwe.com
+
+SENS Account Transfers: Philip Cocetta
+Global RFQ's: Greg Watson
+
+Best Regards,
+
+John Fazio
+KWE Canada National Marketing & Product Development Manager www.kwe.ca
+
+--_000_72883a4a8bbd420ba9eeb9e07e78a41aDM5PR08MB2412namprd08pr_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">** Out=
+ of Office Reply **
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><o:p>&=
+nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><o:p>&=
+nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Thank =
+you for your message. I am currently on vacation and I will have&nbsp; limi=
+ted access to emails. I will be returning on Juy 11th,&nbsp; if you
+ require immediate service please refer to the following contacts: <o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><o:p>&=
+nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><o:p>&=
+nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Custom=
+er Service: yyz.cs@am.kwe.com<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Air Im=
+port: yyz.airimp@am.kwe.com
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Air Ex=
+port: yyz.airexp@am.kwe.com
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Ocean =
+Import: tor.oceanimp@am.kwe.com<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Ocean =
+Export: tor.oceanexp@am.kwe.com
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Custom=
+s Brokerage: kweyyz.customs@am.kwe.com
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Surfac=
+e Logistics: surface.logistics@am.kwe.com
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Assist=
+ant Terminal Manager: chris.hamilton@am.kwe.com<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><o:p>&=
+nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">SENS A=
+ccount Transfers: Philip Cocetta
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Global=
+ RFQ's: Greg Watson
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><o:p>&=
+nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Best R=
+egards,<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><o:p>&=
+nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">John F=
+azio
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">KWE Ca=
+nada National Marketing &amp; Product Development Manager
+<a href=3D"www.kwe.ca"><span style=3D"color:windowtext;text-decoration:none=
+">www.kwe.ca</span></a>
+<o:p></o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_72883a4a8bbd420ba9eeb9e07e78a41aDM5PR08MB2412namprd08pr_--

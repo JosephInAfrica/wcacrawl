@@ -1,0 +1,150 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi145.chinaemail.cn (unknown [124.202.155.145])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 712484A2305
+	for <overseas10@sino-progress.com>; Wed, 19 Jul 2017 17:28:19 +0800 (CST)
+X-SBRS: 3.5
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1B+AQAcGm9Zh/N9L2hbHQEFAQsBgm8iRmeBFI5+qCMDikEUAQIBAQEBAQEBEwEBAQgNCQgohUgGQAEBOA8CAQxCVwIEEwiJQ0wDFQECAqMIAosHgxGDBgEBBYQnGIESgikqCBODFYNNhkEBiSGfLBKBaJIoghWFT4pUlB8BgTkDNoErgQqFTYISdohTAQEB
+X-IPAS-Result: A1B+AQAcGm9Zh/N9L2hbHQEFAQsBgm8iRmeBFI5+qCMDikEUAQIBAQEBAQEBEwEBAQgNCQgohUgGQAEBOA8CAQxCVwIEEwiJQ0wDFQECAqMIAosHgxGDBgEBBYQnGIESgikqCBODFYNNhkEBiSGfLBKBaJIoghWFT4pUlB8BgTkDNoErgQqFTYISdohTAQEB
+X-IronPort-AV: E=Sophos;i="5.40,380,1496073600"; 
+   d="scan'208,217";a="99232356"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi145.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 19 Jul 2017 17:29:10 +0800
+Received: from APC01-SG2-obe.outbound.protection.outlook.com (mail-sg2apc01hn0243.outbound.protection.outlook.com [104.47.125.243])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id 9E253C0B25
+	for <overseas10@sino-progress.com>; Wed, 19 Jul 2017 17:28:41 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=pglnz.onmicrosoft.com;
+ s=selector1-pglnz-co-nz;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=bjO24Qu8AyDjrkJKXKUi72MFcSBBc7iUal08OTTh/8o=;
+ b=CcdREBgA380Jo06NwY0cahf3fbvthY0DsWmq5rkH58o0gE2b1CvTdvLrhtuCOlLU2Tg45AzBUmuiUUIQx7MtZmTrIVR6FZ7v33LFUWpb+/MfGoBlcyl1OZy/zRZLtUpe7iAQdkDheXvrOeZE2ViOM43mCF9ux3O6hX6CL+zFJl8=
+Received: from KL1PR0201MB2152.apcprd02.prod.outlook.com (10.170.163.14) by
+ KL1PR0201MB1685.apcprd02.prod.outlook.com (10.167.58.155) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1261.13; Wed, 19 Jul 2017 09:29:04 +0000
+Received: from KL1PR0201MB2152.apcprd02.prod.outlook.com ([::1]) by
+ KL1PR0201MB2152.apcprd02.prod.outlook.com ([fe80::ecb8:ddfa:4f3:7f80%17])
+ with Microsoft SMTP Server id 15.01.1261.024; Wed, 19 Jul 2017 09:29:04 +0000
+From: Alex Shepherdson <alexs@pglnz.co.nz>
+To: Joseph_SinoProgress <overseas10@sino-progress.com>
+Subject: Automatic reply: Ocean Freight Rate from China by China-Progress
+Thread-Topic: Ocean Freight Rate from China by China-Progress
+Thread-Index: AQHTAHF2/nhTbrolqkGBAsg3O0FJJKJa4grX
+Date: Wed, 19 Jul 2017 09:29:04 +0000
+Message-ID: <60a2982f96cd4f5b845493227cfd8af5@KL1PR0201MB2152.apcprd02.prod.outlook.com>
+References: <150045652806.6736.2034851077114610809@DESKTOP-UIM96J7>
+In-Reply-To: <150045652806.6736.2034851077114610809@DESKTOP-UIM96J7>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: patrick@pglnz.co.nz
+X-MS-Exchange-Inbox-Rules-Loop: alexs@pglnz.co.nz
+X-MS-TNEF-Correlator:
+authentication-results: sino-progress.com; dkim=none (message not signed)
+ header.d=none;sino-progress.com; dmarc=none action=none
+ header.from=pglnz.co.nz;
+x-ms-exchange-parent-message-id: <150045652806.6736.2034851077114610809@DESKTOP-UIM96J7>
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 82d7b025-0885-4c9f-169a-08d4ce88992f
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(22001)(300000502095)(300135100095)(2017030254075)(300000503095)(300135400095)(2017052603031)(201703131423075)(300000504095)(300135200095)(300000505095)(300135600095)(300000506095)(300135500095);SRVR:KL1PR0201MB1685;
+x-microsoft-exchange-diagnostics: 1;KL1PR0201MB1685;7:VlZQVKOXhhkUqTXJwfE5ymavzWUE0vVosywsxjE00GOB3ldsOI+Jbdc8MK6GtWGQLNkuauJ1iwyAIza7aqY6Qi+JfS1kGlk13p4gtPThgEMOWTVqEOdJ4gI4fkWSlteKDe91kd72DL2yfPBGVQcGfxrD0tZt7ofguSAMU7X/tdBtHlUJr/lXRyhyapEMW5CGX2IuiZrfZf4XcZ3Kk1eQ3B3p9OKR8gUPsqgjwug2bKjJ+Fd+tt3MZ0TgECWyb6UXHtupOZ6Hd1PhtIQ1tBFTICuYT2TjmK68UbXF+UP8bVV05HBEoDe5uyEMWz8P9mjGt0nKLSAlOtcbxD3zQjJ7Rk5+P5XcsBuRcOzJFFrTaoNJ1ogna/fvN7j1KUMxHHNdDdseUC07HtFWuU/hZxxc6pblCQNnH96rb//gEWcSiPEBsl1WXEt7+cxd8oKux+7LIR805L0XYdRhTYamv5jFQiZn2KzPEdKrVcPgXkDcXc/H7hMSEz4aTUuJ+5NWl3BqQCWI9/LzUTJKv8YArDOZY5N8a6l0T/DNYaJ+3K8tG60CyQjHt4b2mKM4wny3OTZGRjH3DpNqDIPiJdHx0Qixe7z7XJLSqgE5QRQpL2QGHVZJ0LrNoRs8koCnF7gFmhqL7H18N7KHSqORI61StDQKIqqzt8ypkiCRdNTYEMwELZPsdrR21tuLtCiKLSPvDXroIThHaxaN+dJJ/WEoELhckaKlX1dTAxH8cxlCVpD4u+bBtSoPcZM65Es8WFg90z9haw+YII35ZZir5HjMh/GuILmm+kzDRqYGynN7Lt4kFeM=
+x-ms-traffictypediagnostic: KL1PR0201MB1685:
+x-exchange-antispam-report-test: UriScan:(151999592597050)(26388249023172)(236129657087228)(21748063052155)(256282310955234);
+x-microsoft-antispam-prvs: <KL1PR0201MB16851DDEE45496FD8A93D1A0B8A60@KL1PR0201MB1685.apcprd02.prod.outlook.com>
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(6040450)(601004)(2401047)(2017060910075)(5005006)(8121501046)(3002001)(100000703101)(100105400095)(93006095)(10201501046)(6041248)(201703131423075)(201702281528075)(201703061421075)(201703061750153)(20161123560025)(2016111802025)(20161123562025)(20161123555025)(20161123564025)(20161123558100)(6043046)(6072148)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:KL1PR0201MB1685;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:KL1PR0201MB1685;
+x-forefront-prvs: 0373D94D15
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(50650200002)(6009001)(39400400002)(39410400002)(39450400003)(39840400002)(50986999)(5660300001)(8676002)(108616004)(81166006)(54356999)(498600001)(76176999)(24736003)(3280700002)(7696004)(53096004)(189998001)(74482002)(2950100002)(53936002)(102836003)(54896002)(9686003)(6306002)(6506006)(25786009)(3110400002)(3660700001)(38730400002)(110136004)(78352004)(42882006)(6916009)(558084003)(8936002)(55016002)(99286003)(33646002)(2906002)(6436002)(74316002)(46342002)(3720700003)(80100003);DIR:OUT;SFP:1501;SCL:1;SRVR:KL1PR0201MB1685;H:KL1PR0201MB2152.apcprd02.prod.outlook.com;FPR:;SPF:None;MLV:ovrnspm;PTR:InfoNoRecords;LANG:en;
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_60a2982f96cd4f5b845493227cfd8af5KL1PR0201MB2152apcprd02_"
+MIME-Version: 1.0
+X-OriginatorOrg: pglnz.co.nz
+X-MS-Exchange-CrossTenant-originalarrivaltime: 19 Jul 2017 09:29:04.6175
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: e67cc92f-b2a2-4568-bd6f-75e6d606b596
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: KL1PR0201MB1685
+X-MID: 2093652882.1882174181.10.1500456499.465175.25771
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--_000_60a2982f96cd4f5b845493227cfd8af5KL1PR0201MB2152apcprd02_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+I am currently on leave and will be back at work on the 26 July 2017
+For any urgent matters please contact the team
+at exports@pglnz.co.nz
+
+
+--_000_60a2982f96cd4f5b845493227cfd8af5KL1PR0201MB2152apcprd02_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"EN-NZ" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.5pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">I am curren=
+tly on leave and&nbsp;will be back at work on the 26 July 2017<o:p></o:p></=
+span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.5pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">For any urg=
+ent matters please contact the team
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.5pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">at exports@=
+pglnz.co.nz<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.5pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;=
+</o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_60a2982f96cd4f5b845493227cfd8af5KL1PR0201MB2152apcprd02_--

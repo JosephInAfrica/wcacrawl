@@ -1,0 +1,240 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi145.chinaemail.cn (unknown [124.202.155.145])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 686174A230B
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:18:21 +0800 (CST)
+X-SBRS: 2.3
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1AzAgDG011Ze8gCL2hcHQEFAQsBgm8hRlYQgRCFdogTc6Z5gTIDgQSEFYFfg2AYAQIBAQEBAQEBEwEBCQ0KByiFSAZAAQERHgkPAgFOVwIEEwiJQ0wDFQECAqQcAosHgxGDBwEBBYQuGINyAQEIAh4IE4MUgTGCG2iFWQGCfgsGAgErHIVInxCBZZIXghWFSopIR5MyAYE8H4E3CzEhI4VighJ2hkSCPwEBAQ
+X-IPAS-Result: A1AzAgDG011Ze8gCL2hcHQEFAQsBgm8hRlYQgRCFdogTc6Z5gTIDgQSEFYFfg2AYAQIBAQEBAQEBEwEBCQ0KByiFSAZAAQERHgkPAgFOVwIEEwiJQ0wDFQECAqQcAosHgxGDBwEBBYQuGINyAQEIAh4IE4MUgTGCG2iFWQGCfgsGAgErHIVInxCBZZIXghWFSopIR5MyAYE8H4E3CzEhI4VighJ2hkSCPwEBAQ
+X-IronPort-AV: E=Sophos;i="5.40,315,1496073600"; 
+   d="scan'208,217";a="98274259"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi145.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 06 Jul 2017 16:18:18 +0800
+Received: from EUR01-DB5-obe.outbound.protection.outlook.com (mail-db5eur01hn0200.outbound.protection.outlook.com [104.47.2.200])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id 70344C0AB0
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:17:50 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=magairports.onmicrosoft.com; s=selector1-magairports-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=5blDw2C69/U6kbHiiZMXQ0K0kpXCRAaD5+bfQIg+XrE=;
+ b=OWqh9bJJA/piklWe9luwHCEieNrQtZ5G5xr+0qgzeIKY3VziQaUKMEn4pSUwUUWTVuJJhVHa8TcexYXrcI030J7zBapRZFof9GiXGuTRPE5NrRo5tiegr9w0SMhJay62uDuDWjx+bUm+9t6AylKnFM83dc8qtU2b6fwLY9963Rg=
+Received: from AM4PR0902MB1812.eurprd09.prod.outlook.com (10.171.86.21) by
+ AM4PR0902MB1810.eurprd09.prod.outlook.com (10.171.86.19) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1220.11; Thu, 6 Jul 2017 08:18:12 +0000
+Received: from AM4PR0902MB1812.eurprd09.prod.outlook.com ([::1]) by
+ AM4PR0902MB1812.eurprd09.prod.outlook.com ([fe80::c9d:c743:3a90:f5ab%17])
+ with Microsoft SMTP Server id 15.01.1220.018; Thu, 6 Jul 2017 08:18:12 +0000
+From: Conan Busby <Conan.Busby@magairports.com>
+To: Joseph_China-Progress <overseas10@sino-progress.com>
+Subject: Automatic reply: Looking for a Partner in UK--ChinaProgress
+Thread-Topic: Looking for a Partner in UK--ChinaProgress
+Thread-Index: AQHS9jBotkTyEAKEw0+Vg6pECIG+9qJGdHAS
+Date: Thu, 6 Jul 2017 08:18:12 +0000
+Message-ID: <36a5626f1ad54dba8855cf58e80cebdb@AM4PR0902MB1812.eurprd09.prod.outlook.com>
+References: <149932906608.4788.703845221269350939@DESKTOP-UIM96J7>
+In-Reply-To: <149932906608.4788.703845221269350939@DESKTOP-UIM96J7>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: Conan.Busby@magairports.com
+X-MS-TNEF-Correlator:
+authentication-results: sino-progress.com; dkim=none (message not signed)
+ header.d=none;sino-progress.com; dmarc=none action=none
+ header.from=magairports.com;
+x-ms-exchange-parent-message-id: <149932906608.4788.703845221269350939@DESKTOP-UIM96J7>
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: c2f979ba-ef92-497d-0e37-08d4c4478b37
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(22001)(300000502095)(300135100095)(2017030254075)(300000503095)(300135400095)(2017052603031)(201703131423075)(201703031133081)(300000504095)(300135200095)(300000505095)(300135600095)(300000506095)(300135500095);SRVR:AM4PR0902MB1810;
+x-microsoft-exchange-diagnostics: 1;AM4PR0902MB1810;7:7hQ425RMmTFsf8rX8GOXvyAPuws+Mr5iCemwg5CyMz07KXxTBr9fLzIW0QKM8+oL1r8Ftajj9yj4BeTMfEG5MI9mhs20xvhkOSjRA9oozXFAcIB5IDrj4wDRDkbF4+nglo2MG0Y+LMgcAz9FIHppvWTM7SR1mkjwkNIauIscLvrjtfr9hvhegeGwv+mlsKwegIfyb7VyFhTMtPg9WxPQF4BT05zNaMM2mejQK+BQ5XoeLmRUzsLkWMxyic5r39JbpVn3B3Fxt6tPhj1ulXL217Y35viqHDenb+zMDcsZYBB/KBskhpuOK/vEEF5lX3oa9D1JT4kkoNgKUulUqt5MjwubMsrxJNYYyCkeNwEdrS6yulWk6SyhWa8OKwTg3NvKoH2GhMLXgTtIjDKb8AJE+IBMisnkejHJgcusnmtMnxAGB2Wef56BYoibDItk5bbK15CFk0j7aa/dl7v4eF5oigUC4frRuRHKiSlJEEXTsIBNX5JWufipBx2mdqQ808XjHb/jIig/fFr/4RGAA4FEODqUE0hZF/qlGaU58lXWJ6EOYJlyCKHIRYiZOLtc/zjQhdWNAhdaPZH0RERl5QxMXRZq5naEWtkOh6vMhSeZSbMjbsjmf7NzvHi4YXxLS3Kfoa0fsZaGrN4vGCPyUvBuOfg89poQJkDLu5DrPhw6XK3pK6uiKtmR019BqEsisjBPqaHDdJLsy1CTjpemojo8LF6tqOwQMYypisfNI++i0nATUnfEXHlZx9nSLMZ3TtMSriWlWPRFzytP4OTCIKERdmzczaSe+Vo+YQWddWdWwIw=
+x-ms-traffictypediagnostic: AM4PR0902MB1810:
+x-sef-: 42b55f80-b304-11e2-9e96-0800200c9a66
+x-microsoft-antispam-prvs: <AM4PR0902MB1810852C92BEB7C5A7F35A2FB8D50@AM4PR0902MB1810.eurprd09.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(151999592597050)(26388249023172)(236129657087228)(192374486261705)(90097320859284)(48057245064654)(148574349560750)(21748063052155)(158140799945019);
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(6040450)(601004)(2401047)(8121501046)(5005006)(2017060910044)(100000703101)(100105400095)(10201501046)(3002001)(93006095)(6041248)(20161123564025)(20161123555025)(201703131423075)(201702281528075)(201703061421075)(201703061750153)(20161123562025)(20161123560025)(20161123558100)(6072148)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:AM4PR0902MB1810;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:AM4PR0902MB1810;
+x-forefront-prvs: 03607C04F0
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(50650200002)(39450400003)(39400400002)(39850400002)(39410400002)(39840400002)(15404003)(504944002)(606006)(54356999)(6436002)(50986999)(189998001)(74316002)(99286003)(110136004)(76176999)(236005)(6306002)(102836003)(25786009)(9686003)(53936002)(54896002)(6506006)(5660300001)(966005)(7696004)(38730400002)(55016002)(3110400002)(498600001)(3660700001)(33646002)(81166006)(5890100001)(8676002)(8936002)(24736003)(3280700002)(78352004)(108616004)(53096004)(42882006)(6916009)(16297215004)(2950100002)(2906002)(46342002)(3720700003);DIR:OUT;SFP:1501;SCL:1;SRVR:AM4PR0902MB1810;H:AM4PR0902MB1812.eurprd09.prod.outlook.com;FPR:;SPF:None;MLV:ovrnspm;PTR:InfoNoRecords;LANG:en;
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_36a5626f1ad54dba8855cf58e80cebdbAM4PR0902MB1812eurprd09_"
+MIME-Version: 1.0
+X-OriginatorOrg: magairports.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 06 Jul 2017 08:18:12.2715
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: c0988276-7978-4f2a-bd8f-918a37a5c957
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM4PR0902MB1810
+X-MID: 2093652882.1882174181.9.1499329101.429239.16103
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--_000_36a5626f1ad54dba8855cf58e80cebdbAM4PR0902MB1812eurprd09_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+I will be out of the office with limited access to emails.  I will respond =
+upon my return.  If your query is of an urgent nature please contact Bill B=
+lanchard on 01332 852894 or bill.blanchard@magairports.com.
+
+Kind regards,
+
+Conan
+
+Disclaimer
+
+The information contained in this email and accompanying data are intended =
+only for the person or entity to which it is addressed and may contain conf=
+idential and / or privileged material. If you are not the intended recipien=
+t of this email, the use of this information or any disclosure, copying or =
+distribution is prohibited and may be unlawful. If you received this in err=
+or, please contact the sender and delete all copies of this message and att=
+achments.
+
+Please note that MAG monitors incoming and outgoing mail for compliance wit=
+h its Information Security policy. This includes scanning emails for comput=
+er viruses.
+
+For more information about the MAG Group please visit http://www.magworld.c=
+o.uk/
+
+Our main operating entities are Manchester Airport Group PLC, a public limi=
+ted company, registered in England under Company Number 04330721, with the =
+Registered Office at Manchester Airport Group PLC, Manchester Professional =
+Services, PO BOX 532, Town Hall, Manchester, M60 2LA; Manchester Airport PL=
+C, a public limited company, registered in England under Company Number 019=
+60988, with the Registered Office at Fao Sylvia Welsh Manchester, Professio=
+nal Services Limited, PO BOX 532, Town Hall, Manchester, M60 2LA; Stansted =
+Airport Limited, is a private limited company, registered in England under =
+Company Number 01990920, with the Registered Office at Enterprise House, St=
+ansted Airport, Bassingbourn Road, Essex CM24 1QW;
+
+East Midlands International Airport Limited, a private limited company, reg=
+istered in England under Company Number 02078271, with the Registered Offic=
+e at Building 34, East Midlands Airport, Castle Donington, Derby, East Midl=
+ands, DE74 2SA; Bournemouth International Airport Limited, a private limite=
+d company registered in England under Company Number 02078270, with the Reg=
+istered Office at Bournemouth International Airport, Christchurch, Dorset, =
+BH23 6SE.
+
+
+
+--_000_36a5626f1ad54dba8855cf58e80cebdbAM4PR0902MB1812eurprd09_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Arial","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"EN-GB" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.5pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">I will be ou=
+t of the office with limited access to emails.&nbsp; I will respond upon my=
+ return.&nbsp; If your query is of an urgent nature please contact Bill
+ Blanchard on 01332 852894 or bill.blanchard@magairports.com.</span><o:p></=
+o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.5pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;<=
+/o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.5pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">Kind regards=
+,<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.5pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;<=
+/o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.5pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">Conan</span>=
+<span style=3D"font-size:8.5pt;font-family:&quot;Tahoma&quot;,&quot;sans-se=
+rif&quot;"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.5pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;=
+</o:p></span></p>
+</div>
+<div style=3D"background-color: #ffffff; border: 2px solid #000000; padding=
+: .8em;">
+<span style=3D"font-size: 11pt; font-family: 'Cambria','times new roman','g=
+aramond',serif; color: #000000;">Disclaimer</span>
+<p>The information contained in this email and accompanying data are intend=
+ed only for the person or entity to which it is addressed and may contain c=
+onfidential and / or privileged material. If you are not the intended recip=
+ient of this email, the use of this
+ information or any disclosure, copying or distribution is prohibited and m=
+ay be unlawful. If you received this in error, please contact the sender an=
+d delete all copies of this message and attachments.</p>
+<p><br>
+Please note that MAG monitors incoming and outgoing mail for compliance wit=
+h its Information Security policy. This includes scanning emails for comput=
+er viruses.</p>
+<p><br>
+For more information about the MAG Group please visit <a href=3D"http://www=
+.magworld.co.uk/">
+http://www.magworld.co.uk/</a></p>
+<p><br>
+Our main operating entities are Manchester Airport Group PLC, a public limi=
+ted company, registered in England under Company Number 04330721, with the =
+Registered Office at Manchester Airport Group PLC, Manchester Professional =
+Services, PO BOX 532, Town Hall,
+ Manchester, M60 2LA; Manchester Airport PLC, a public limited company, reg=
+istered in England under Company Number 01960988, with the Registered Offic=
+e at Fao Sylvia Welsh Manchester, Professional Services Limited, PO BOX 532=
+, Town Hall, Manchester, M60 2LA;
+ Stansted Airport Limited, is a private limited company, registered in Engl=
+and under Company Number 01990920, with the Registered Office at Enterprise=
+ House, Stansted Airport, Bassingbourn Road, Essex CM24 1QW;</p>
+<p><br>
+East Midlands International Airport Limited, a private limited company, reg=
+istered in England under Company Number 02078271, with the Registered Offic=
+e at Building 34, East Midlands Airport, Castle Donington, Derby, East Midl=
+ands, DE74 2SA; Bournemouth International
+ Airport Limited, a private limited company registered in England under Com=
+pany Number 02078270, with the Registered Office at Bournemouth Internation=
+al Airport, Christchurch, Dorset, BH23 6SE.</p>
+<p>&nbsp;</p>
+</div>
+</body>
+</html>
+
+--_000_36a5626f1ad54dba8855cf58e80cebdbAM4PR0902MB1812eurprd09_--

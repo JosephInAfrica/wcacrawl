@@ -8,18 +8,16 @@ def get_country_links(country_name):
     with open('%s.html' % country_name, 'rb') as file:
         chunk = file.read()
 
-    # print (chunk)
-
     chunk_soup = soup(chunk, 'html.parser').find('div', id='showSearch')
 
     trs = chunk_soup.find_all('tr')
 
     cids = [tr.find('a')['href'] for tr in trs if tr.find('a') != None]
 
-# 	cids=[ul.find('a').href for ul in uls]
+#   cids=[ul.find('a').href for ul in uls]
 
 
-# 	# cids=re.findall(cid_re,chunk)
+#   # cids=re.findall(cid_re,chunk)
     def clean(url):
         base = 'http://www.wcaworld.com/eng/'
         if url[:4] != 'http':
@@ -31,6 +29,7 @@ def get_country_links(country_name):
 
     with open('wca%s.txt' % country_name, 'w+') as file:
         file.write('\n'.join(cids))
+    return cids
 
 
 def get_us_links(country_name='us'):
@@ -43,10 +42,10 @@ def get_us_links(country_name='us'):
 
     cids = [tr.find('a')['href'] for tr in trs if tr.find('a') != None]
 
-# 	cids=[ul.find('a').href for ul in uls]
+#   cids=[ul.find('a').href for ul in uls]
 
 
-# 	# cids=re.findall(cid_re,chunk)
+#   # cids=re.findall(cid_re,chunk)
     def clean(url):
         base = 'http://www.wcaworld.com/eng/'
         if url[:4] != 'http':
@@ -61,4 +60,4 @@ def get_us_links(country_name='us'):
 
 
 if __name__ == '__main__':
-    get_country_links('uk')
+    get_country_links('newzealand')

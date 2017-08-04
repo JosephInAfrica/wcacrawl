@@ -1,0 +1,143 @@
+Return-Path: <MAILER-DAEMON>
+Received: from mxi95.chinaemail.cn (unknown [115.182.8.95])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id 440064A22FD
+	for <overseas10@sino-progress.com>; Tue, 11 Jul 2017 15:09:30 +0800 (CST)
+X-SBRS: 3.5
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1DEAQANcGRZh6AXI0hdHAEBBAEBCgEBgm+BPxCBFI58nn2CUoJRhRCFb4NVFAECAQEBAQEBARMBAQEIDQkIKHEOhEkGIyYoGAIBSgICAlUCBBuJQ2QDAqt9giaLOwwmE4MVg0yDV4JqAYMJgzeCYQWfHoFmi2uGMIIVhUuDT4Z8lUA2gSsxISOFfYF3doQBgW6CPwEBAQ
+X-IronPort-AV: E=Sophos;i="5.40,345,1496073600"; 
+   d="scan'208,217";a="204243542"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi95.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 11 Jul 2017 15:09:25 +0800
+Received: from bounce2a.electric.net (bounce2a.electric.net [72.35.23.160])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id 4E31FC0A84
+	for <overseas10@sino-progress.com>; Tue, 11 Jul 2017 15:08:58 +0800 (CST)
+Received: from out2d.electric.net ([72.35.23.144] helo=smtp-out2.electric.net)
+	by bounce2a.electric.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.87)
+	id 1dUpIO-0001rf-Ui
+	for overseas10@sino-progress.com; Tue, 11 Jul 2017 00:09:20 -0700
+Received: from 1dUpIO-0005RQ-V5 by out2d.electric.net with emc1-ok (Exim 4.87)
+	id 1dUpIO-0005U2-W1
+	for overseas10@sino-progress.com; Tue, 11 Jul 2017 00:09:20 -0700
+Received: by emcmailer; Tue, 11 Jul 2017 00:09:20 -0700
+Received: from [96.234.38.226] (helo=SVR.gss.local)
+	by out2d.electric.net with esmtps (TLSv1:AES128-SHA:128)
+	(Exim 4.87)
+	id 1dUpIO-0005RQ-V5
+	for overseas10@sino-progress.com; Tue, 11 Jul 2017 00:09:20 -0700
+Received: from SVR.gss.local ([192.168.21.2]) by SVR.gss.local
+ ([192.168.21.2]) with Microsoft SMTP Server id 14.03.0351.000; Tue, 11 Jul
+ 2017 03:09:19 -0400
+From: Frank Harzold <Frank-harzold@glship.com>
+To: Joseph_China-Progress <overseas10@sino-progress.com>
+Subject: Automatic reply: Looking for a Partner in USA--ChinaProgress
+Thread-Topic: Looking for a Partner in USA--ChinaProgress
+Thread-Index: AQHS+hSd4QKvJxDFokOxuu7Pims6SQ==
+Date: Tue, 11 Jul 2017 07:09:19 +0000
+Message-ID: <79540986c8d840b79dbf6fd8b0051967@SVR.gss.local>
+References: <149975693099.3584.2368410976950622659@DESKTOP-UIM96J7>
+In-Reply-To: <149975693099.3584.2368410976950622659@DESKTOP-UIM96J7>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: frank-harzold@glship.com
+X-MS-TNEF-Correlator:
+Content-Type: multipart/alternative;
+	boundary="_000_79540986c8d840b79dbf6fd8b0051967SVRgsslocal_"
+MIME-Version: 1.0
+X-Outbound-IP: 96.234.38.226
+X-Env-From: 
+X-Proto: esmtps
+X-Revdns: static-96-234-38-226.nwrknj.fios.verizon.net
+X-HELO: SVR.gss.local
+X-TLS: TLSv1:AES128-SHA:128
+X-Authenticated_ID: 
+X-PolicySMART: 4118602
+X-Virus-Status: Scanned by VirusSMART (c)
+X-Virus-Status: Scanned by VirusSMART (s)
+X-Virus-Status: Scanned by VirusSMART (t)
+X-MID: 2093652882.787248743.3.1499756970.279902.16413
+X-Rate: Yes
+X-Rcpt: ,overseas10@sino-progress.com,
+X-mailer-daemon: postmaster
+
+--_000_79540986c8d840b79dbf6fd8b0051967SVRgsslocal_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+77u/DQpHcmVldGluZ3MsDQoNCkkgYW0gb3V0IG9mIHRoZSBvZmZpY2Ugb24gdmFjYXRpb24gdW50
+aWwgNy8xNy8xNy4NCkkgd2lsbCBoYXZlIGxpbWl0ZWQgYWNjZXNzIHRvIGUgbWFpbC4NCkZvciB1
+cmdlbnQgbWF0dGVycywgcGxlYXNlIGZvcndhcmQgeW91ciByZXF1ZXN0cyB0byBvdXIgZGVwdCBt
+YW5hZ2VyLCBhdmFpbGFibGUgb24gb3VyIHdlYiBzaXRlOiB3d3cuZ2xzaGlwLmNvbQ0KDQpUaGFu
+ayB5b3UsDQoNCkZyYW5rDQpHbG9iYWwgU2hpcHBpbmcgU2VydmljZXMNCg0KDQo=
+
+--_000_79540986c8d840b79dbf6fd8b0051967SVRgsslocal_
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PGh0bWwgeG1sbnM6bz0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTpvZmZpY2U6b2ZmaWNlIiB4
+bWxuczp3PSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOm9mZmljZTp3b3JkIiB4bWxuczptPSJo
+dHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL29mZmljZS8yMDA0LzEyL29tbWwiIHhtbG5zPSJo
+dHRwOi8vd3d3LnczLm9yZy9UUi9SRUMtaHRtbDQwIj4NCjxoZWFkPg0KPG1ldGEgaHR0cC1lcXVp
+dj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgiPg0KPG1l
+dGEgbmFtZT0iR2VuZXJhdG9yIiBjb250ZW50PSJNaWNyb3NvZnQgV29yZCAxNSAoZmlsdGVyZWQg
+bWVkaXVtKSI+DQo8c3R5bGU+PCEtLQovKiBGb250IERlZmluaXRpb25zICovCkBmb250LWZhY2UK
+CXtmb250LWZhbWlseToiQ2FtYnJpYSBNYXRoIjsKCXBhbm9zZS0xOjIgNCA1IDMgNSA0IDYgMyAy
+IDQ7fQpAZm9udC1mYWNlCgl7Zm9udC1mYW1pbHk6Q2FsaWJyaTsKCXBhbm9zZS0xOjIgMTUgNSAy
+IDIgMiA0IDMgMiA0O30KQGZvbnQtZmFjZQoJe2ZvbnQtZmFtaWx5OlRhaG9tYTsKCXBhbm9zZS0x
+OjIgMTEgNiA0IDMgNSA0IDQgMiA0O30KLyogU3R5bGUgRGVmaW5pdGlvbnMgKi8KcC5Nc29Ob3Jt
+YWwsIGxpLk1zb05vcm1hbCwgZGl2Lk1zb05vcm1hbAoJe21hcmdpbjowaW47CgltYXJnaW4tYm90
+dG9tOi4wMDAxcHQ7Cglmb250LXNpemU6MTEuMHB0OwoJZm9udC1mYW1pbHk6IkNhbGlicmkiLHNh
+bnMtc2VyaWY7fQphOmxpbmssIHNwYW4uTXNvSHlwZXJsaW5rCgl7bXNvLXN0eWxlLXByaW9yaXR5
+Ojk5OwoJY29sb3I6IzA1NjNDMTsKCXRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmU7fQphOnZpc2l0
+ZWQsIHNwYW4uTXNvSHlwZXJsaW5rRm9sbG93ZWQKCXttc28tc3R5bGUtcHJpb3JpdHk6OTk7Cglj
+b2xvcjojOTU0RjcyOwoJdGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZTt9CnNwYW4uRW1haWxTdHls
+ZTE3Cgl7bXNvLXN0eWxlLXR5cGU6cGVyc29uYWwtY29tcG9zZTsKCWZvbnQtZmFtaWx5OiJUYWhv
+bWEiLHNhbnMtc2VyaWY7fQouTXNvQ2hwRGVmYXVsdAoJe21zby1zdHlsZS10eXBlOmV4cG9ydC1v
+bmx5OwoJZm9udC1mYW1pbHk6IkNhbGlicmkiLHNhbnMtc2VyaWY7fQpAcGFnZSBXb3JkU2VjdGlv
+bjEKCXtzaXplOjguNWluIDExLjBpbjsKCW1hcmdpbjoxLjBpbiAxLjBpbiAxLjBpbiAxLjBpbjt9
+CmRpdi5Xb3JkU2VjdGlvbjEKCXtwYWdlOldvcmRTZWN0aW9uMTt9Ci0tPjwvc3R5bGU+DQo8L2hl
+YWQ+DQo8Ym9keSBsYW5nPSJFTi1VUyIgbGluaz0iIzA1NjNDMSIgdmxpbms9IiM5NTRGNzIiPg0K
+PGRpdiBjbGFzcz0iV29yZFNlY3Rpb24xIj4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJ0
+ZXh0LWF1dG9zcGFjZTpub25lIj48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEwLjBwdDtmb250LWZh
+bWlseTomcXVvdDtUYWhvbWEmcXVvdDssc2Fucy1zZXJpZiI+77u/DQo8bzpwPjwvbzpwPjwvc3Bh
+bj48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0idGV4dC1hdXRvc3BhY2U6bm9uZSI+
+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMC4wcHQiPkdyZWV0aW5ncywNCjwvc3Bhbj48c3BhbiBz
+dHlsZT0iZm9udC1zaXplOjEwLjBwdDtmb250LWZhbWlseTomcXVvdDtUYWhvbWEmcXVvdDssc2Fu
+cy1zZXJpZiI+PG86cD48L286cD48L3NwYW4+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5
+bGU9InRleHQtYXV0b3NwYWNlOm5vbmUiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTAuMHB0O2Zv
+bnQtZmFtaWx5OiZxdW90O1RhaG9tYSZxdW90OyxzYW5zLXNlcmlmIj48bzpwPiZuYnNwOzwvbzpw
+Pjwvc3Bhbj48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0idGV4dC1hdXRvc3BhY2U6
+bm9uZSI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMC4wcHQ7Zm9udC1mYW1pbHk6JnF1b3Q7VGFo
+b21hJnF1b3Q7LHNhbnMtc2VyaWYiPkkgYW0gb3V0IG9mIHRoZSBvZmZpY2Ugb24gdmFjYXRpb24g
+dW50aWwgNy8xNy8xNy48bzpwPjwvbzpwPjwvc3Bhbj48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFs
+IiBzdHlsZT0idGV4dC1hdXRvc3BhY2U6bm9uZSI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMC4w
+cHQ7Zm9udC1mYW1pbHk6JnF1b3Q7VGFob21hJnF1b3Q7LHNhbnMtc2VyaWYiPkkgd2lsbCBoYXZl
+IGxpbWl0ZWQgYWNjZXNzIHRvIGUgbWFpbC48bzpwPjwvbzpwPjwvc3Bhbj48L3A+DQo8cCBjbGFz
+cz0iTXNvTm9ybWFsIiBzdHlsZT0idGV4dC1hdXRvc3BhY2U6bm9uZSI+PHNwYW4gc3R5bGU9ImZv
+bnQtc2l6ZToxMC4wcHQ7Zm9udC1mYW1pbHk6JnF1b3Q7VGFob21hJnF1b3Q7LHNhbnMtc2VyaWYi
+PkZvciB1cmdlbnQgbWF0dGVycywgcGxlYXNlIGZvcndhcmQgeW91ciByZXF1ZXN0cyB0byBvdXIg
+ZGVwdCBtYW5hZ2VyLCBhdmFpbGFibGUgb24gb3VyIHdlYiBzaXRlOg0KPGEgaHJlZj0id3d3Lmds
+c2hpcC5jb20iPjxzcGFuIHN0eWxlPSJjb2xvcjp3aW5kb3d0ZXh0O3RleHQtZGVjb3JhdGlvbjpu
+b25lIj53d3cuZ2xzaGlwLmNvbTwvc3Bhbj48L2E+PG86cD48L286cD48L3NwYW4+PC9wPg0KPHAg
+Y2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9InRleHQtYXV0b3NwYWNlOm5vbmUiPjxzcGFuIHN0eWxl
+PSJmb250LXNpemU6MTAuMHB0O2ZvbnQtZmFtaWx5OiZxdW90O1RhaG9tYSZxdW90OyxzYW5zLXNl
+cmlmIj48bzpwPiZuYnNwOzwvbzpwPjwvc3Bhbj48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBz
+dHlsZT0idGV4dC1hdXRvc3BhY2U6bm9uZSI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMC4wcHQ7
+Zm9udC1mYW1pbHk6JnF1b3Q7VGFob21hJnF1b3Q7LHNhbnMtc2VyaWYiPlRoYW5rIHlvdSw8bzpw
+PjwvbzpwPjwvc3Bhbj48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0idGV4dC1hdXRv
+c3BhY2U6bm9uZSI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMC4wcHQ7Zm9udC1mYW1pbHk6JnF1
+b3Q7VGFob21hJnF1b3Q7LHNhbnMtc2VyaWYiPjxvOnA+Jm5ic3A7PC9vOnA+PC9zcGFuPjwvcD4N
+CjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJ0ZXh0LWF1dG9zcGFjZTpub25lIj48c3BhbiBz
+dHlsZT0iZm9udC1zaXplOjEwLjBwdDtmb250LWZhbWlseTomcXVvdDtUYWhvbWEmcXVvdDssc2Fu
+cy1zZXJpZiI+RnJhbms8bzpwPjwvbzpwPjwvc3Bhbj48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFs
+IiBzdHlsZT0idGV4dC1hdXRvc3BhY2U6bm9uZSI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMC4w
+cHQ7Zm9udC1mYW1pbHk6JnF1b3Q7VGFob21hJnF1b3Q7LHNhbnMtc2VyaWYiPkdsb2JhbCBTaGlw
+cGluZyBTZXJ2aWNlczwvc3Bhbj48bzpwPjwvbzpwPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwi
+IHN0eWxlPSJtYXJnaW4tYm90dG9tOjUuMHB0O3RleHQtYXV0b3NwYWNlOm5vbmUiPjxzcGFuIHN0
+eWxlPSJmb250LXNpemU6MTAuMHB0Ij4mbmJzcDs8L3NwYW4+PG86cD48L286cD48L3A+DQo8cCBj
+bGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0ibWFyZ2luLWJvdHRvbTo1LjBwdDt0ZXh0LWF1dG9zcGFj
+ZTpub25lIj48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEwLjBwdCI+Jm5ic3A7PC9zcGFuPjxvOnA+
+PC9vOnA+PC9wPg0KPC9kaXY+DQo8L2JvZHk+DQo8L2h0bWw+DQo=
+
+--_000_79540986c8d840b79dbf6fd8b0051967SVRgsslocal_--

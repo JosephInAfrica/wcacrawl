@@ -1,0 +1,345 @@
+Return-Path: <customercare.airmalta@airmalta.com>
+Received: from mxi145.chinaemail.cn (unknown [124.202.155.145])
+	by s151v.chinaemail.cn (Bossmail) with ESMTP id A25A64A2311
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:17:48 +0800 (CST)
+X-SBRS: 3.5
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A1AhAgDG011Zh3MBL2hcBhgGDIJvZ2aBEAeOdZ57hGw3hA0DXCmFJE8Cg2IUAQIBAQEBAQEBEwEBAQgNCQgohUgDAyMdAQEHKAkPCRwCJgICPRoZhz2CcgMCC5IikW8Ciwdrgg8XgwcBAQWBYIZYAQEBAQEBBAEBAQEBAQEBARcIE3gTggmKDQGBaYEVEgEMHCEfgkcWgkuBL5A2jSuHR4VfiGuFSopIEzSTMgFpUzaBIAtSI4FTNYEigjgbBIFzdgEBAYZQgSMBgQwBAQE
+X-IPAS-Result: A1AhAgDG011Zh3MBL2hcBhgGDIJvZ2aBEAeOdZ57hGw3hA0DXCmFJE8Cg2IUAQIBAQEBAQEBEwEBAQgNCQgohUgDAyMdAQEHKAkPCRwCJgICPRoZhz2CcgMCC5IikW8Ciwdrgg8XgwcBAQWBYIZYAQEBAQEBBAEBAQEBAQEBARcIE3gTggmKDQGBaYEVEgEMHCEfgkcWgkuBL5A2jSuHR4VfiGuFSopIEzSTMgFpUzaBIAtSI4FTNYEigjgbBIFzdgEBAYZQgSMBgQwBAQE
+X-IronPort-AV: E=Sophos;i="5.40,315,1496073600"; 
+   d="scan'208,217";a="98274159"
+Received: from mx100.chinaemail.cn (HELO mx100c1.chinaemail.cn) ([47.88.13.218])
+  by mxi145.chinaemail.cn with ESMTP/TLS/DHE-RSA-AES256-SHA; 06 Jul 2017 16:17:46 +0800
+Received: from EUR01-VE1-obe.outbound.protection.outlook.com (mail-ve1eur01on0115.outbound.protection.outlook.com [104.47.1.115])
+	by mx100c1.chinaemail.cn (Postfix) with ESMTP id E2173C0A71
+	for <overseas10@sino-progress.com>; Thu,  6 Jul 2017 16:17:18 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=airmalta.com;
+ s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=gAWpkd8wOttY8VYADpY2HK6A/twkD+QfMzL7RyIBytE=;
+ b=eZkHBfyi9n2BAIqGIxoGEKyQIb6yRP7uqY7mWcnrfKL1NqWZKHIu5G5k0h3coElEA8KOj7QZSOHRgjnM678yfb4gnNFLa1ets5cyv/ALj3Pexzuv90giutOslGKbOK7084klDe8Ks99TQYAUwXSNGA1i/C0+Bv5j27zXVA19t7s=
+Authentication-Results: sino-progress.com; dkim=none (message not signed)
+ header.d=none;sino-progress.com; dmarc=none action=none
+ header.from=airmalta.com;
+Received: from airmalta.com (52.70.237.175) by
+ AM3PR06MB1425.eurprd06.prod.outlook.com (2a01:111:e400:536d::23) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1240.13; Thu, 6
+ Jul 2017 08:17:39 +0000
+Date: Thu, 06 Jul 2017 08:17:30 +0000
+From: Airmalta Customer Care <customercare.airmalta@airmalta.com>
+Reply-To: Airmalta Customer Care <customercare.airmalta@airmalta.com>
+To: overseas10@sino-progress.com
+Message-ID: <595df21a70763_7a35567c83420385bb.dispatcher-sidekiq-1@automation.freshdesk.com>
+In-Reply-To: <149932901875.4788.6955808591084849237@DESKTOP-UIM96J7>
+References: <149932901875.4788.6955808591084849237@DESKTOP-UIM96J7>
+Subject: Ticket Received - Looking for a Partner in UK--ChinaProgress - 98617
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_595df21a7ac8b_7a35567c8342038663";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+sent-on: 2017-07-06 08:17:30 +0000
+X-Auto-Response-Suppress: DR, RN, OOF, AutoReply
+X-FD-Email-Category:
+X-Originating-IP: [52.70.237.175]
+X-ClientProxiedBy: MWHPR05CA0017.namprd05.prod.outlook.com
+ (2603:10b6:300:59::27) To AM3PR06MB1425.eurprd06.prod.outlook.com
+ (2a01:111:e400:536d::23)
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 2b2f421c-588c-4806-f72a-08d4c447780f
+X-Microsoft-Antispam:
+	UriScan:;BCL:0;PCL:0;RULEID:(300000500095)(300135000095)(300000501095)(300135300095)(22001)(300000502095)(300135100095)(300000503095)(300135400095)(201703131423075)(201703031133081)(300000504095)(300135200095)(300000505095)(300135600095)(300000506095)(300135500095);SRVR:AM3PR06MB1425;
+X-Microsoft-Exchange-Diagnostics:
+	1;AM3PR06MB1425;3:NRaMI5ailjK/AeTqNt8IUpHprTRQRu547byoZD0+feMYoUHzjKtpfUI4ikbiSfWBFjSTiTQU+Vp6fh4bat0+yCDOAOB8Kgz702e+dbULtWXcRWE8PKZgA4W8aRlIYIpUtpym+5CK7SywoGCek+wZo1Au+bVP/+9ril8upZZ25ScGzTdZtpPQ4os0eKKmBvDTpVt/ckaVJJoEAuH7Z6WvzYlAdwEVKPP1bJwQ0kZgs+DJ2NDFuP31CLdc9+bcNsuZDXuTaQFOWPc14xguyXqf30flvKfxHxwPWCCiu8qTSsOGTeATRT0A6fdLJxMakZRoAM2rnISVDEquOvKJJiQYxvRZlkzPshjZcKHUbe1Jr10hkYlGZYJPOp8CLmhoYkLoQiPMcNuZiHW2iAwiNDoR6prpAUPxFSXm53GQDy8sX0qIR04yR0QF2FvqrDjRjK02MieHEB46YRpn19uUIFoO0rSuB+YTSNxyVU5b8y1MpmZs80JyBRsXE7b6QaQbxoAK3VbQMTbDUhpBm+usI+JJeXBoZ2DwQtbff1x474kR+oarh9Bv9RTR7yCqYdBQ3DMORqn5vTIoWEGJill9d6qlxJ1XrI5NK2QvEAksqqMJ9alWEMDwyrQ6W4DrHmMxB6Ta9jRiXZWnth/mD6SwkgwxfGO/dJR2Jaw6rs6O4dvn/WQJDAa6Ak0TXnZA3huhYUsFdj5Dm1Km4dzujVAqJ5dQHYji6A3o3u/3bRwpqyzBM81vjWqvQATCI0Pb5ZTqLwdB
+X-MS-TrafficTypeDiagnostic: AM3PR06MB1425:
+X-Microsoft-Exchange-Diagnostics:
+	1;AM3PR06MB1425;25:s6DRseh3XXtvLebW4yYLeXKWzwXv34+n2FALhZsGG4TlX8kiahBeu9G5uVx3a4Rp/tB4EY19jJUBshwaizQhdPddMw6N/HrfvE2bgNQyx0fFND63y5Lif6wXeeP9bHybSGfMDTAfNityMSdExCCJohnECtwXXq/sYzHOsNIPO2+On67QK7yFZQw3jzSM3gEOmbC6bby3e+caoZrNRXaqm2dxH8MAy28fAPdjbiDp7Xd4Pi+Dz03Haqk9/AW4pXy4H9XfLruNwfzRGDf10YhRuKZNqK6jbXtBLUKdNkA4yq9r73dSjyOVgVY8KdxJd0v/156rZTN97DYKug66fQnma2wFZY1ugFMrMEoVAvmwn4TyI4yHTmr1IrIIrV9/CrGwqzPev/wsL5VC2RJHOknGPVOknZrglv+sGjj1awXCAUgPZ9+Y+BXd0oaB223EO/38/SH4s5vM6hdg2lP2O2DbwM6jrjzu39UMF1vVNWZKjD/AzIfDFoJORbdgvVhB4dtWwAnfdd9uH3M4Xun8MEBcgxa+mnfhV4PpG6mpNYAye4vk1hwncwnIp+JCXNj0t8EORMnvSWbWD8iTAB7nLi28CD58T6nXM7Rd7kdhJ1kBONCeYTMogbLgTcXb5SfkXd8205mY4GamYdaH74xdHwxntEr0b383vFT93pBqts/kxQQczwvVSB6OhLS3EWq3OWyT6/wn3aehmmjsKQIMvPbjeWBVdViACMw9bUm3PsF1qMJrLJ/vyp4vBU1Jc6+p/ZeH7tZUSqx1vRQbpUqvvqjTh/e/m4Z6z+D5CUj/bK1LYLOeT6pRDodfrvK7sPjfTH6HN4Or+J8HO66b2LFGxDtgIQekcKZyo4TYpMOvqo4nVxikCdyaH+aD9FLl4UF/nVcbwXhpU4iwNZNu28tGTQCJVJ8Pf7iQ8cWRrYWwZGArkRg=
+X-Microsoft-Exchange-Diagnostics:
+	1;AM3PR06MB1425;31:JfXF5OyFfDuZ8l0gBN3/O/0zCcemJtVH4sYfTYEnu1PwqLA1dtLZ2hjJtThf7tf94v3LIZJAAG65XGrlLzvxrmpRBPmAceZ3zFN/amREMFi79kltAGVErSd8XRXzkhcdFDRRnkU2JtuS82t/5aW8beAdlLv09J3y4vKSV2TRXqy6yCNRDnr23IACLTM6c0/m3WRriNf/9fgdttVWqcAUlw/pRJ+TTeW+pXDmYlktOqGa/y1DZMYLpRrY8kFavI5PKIkSGzhclwv8m/B7jbwjAWkmTnLc2RV0oHft43ddlYhJ/3bydSeSHtFFFrt7c7np9M49IOqWY1SGjXJlHOWyyq4A5mHC4l+KLRtBKUE1tBQtuIyeqa1kZxH3jHRcnZxkt6qY1MkPNl9IuJXhVYLewUqTUUtVbtjT7GynsVd24qwDDvUZ5/pljbsov5s3pRNYWBl04ovMyEIJ3Z8PHHoF6ULbM4sUmuvgeP+Ye2n+gsatXlR2eJyeZaIGhuXogF30aF/ynLsCSeG15dKylCY4jnRHkKdq32AjXEUMd6YEGnhVURjR4QIJJLqwhn2uoWOHWhUmXWo6RnhNynu2AmCfMGHxiMYyc73y+i7g/NasnxMuhQA2tMFZOQeZwacCAll5H3W1is2LELRrWOl/UhbiK8WZyh2jZp+K95Z3HT/lMM/s5qz0Xfuq5uGkBhjtkF69kRRpBde516Wd7txQBrrW5w==
+X-Microsoft-Exchange-Diagnostics:
+	1;AM3PR06MB1425;20:jGpoCCS2MT1w5uGLrzyxIkMY3lywN/pwTGRDj4jLS9CdyD9i6DK+gLbaBVv3SH3piZQOPbGbPCPu13JmCK9wUkY1jg4lCAnzKTAUfu9ORy7NygsjX7u/ZrakvHi/r09WDN4DYUGZWyAu3QlmHrr6dcAAHausLko/YliDNF935xaBUiv8ArjbyfR7TmkFvbHg+lHbu/UJGHhefumx6jaZbrBizHyXsh4Dky4GTrap2Qw5xilvQXc3Jy0vHMjPEk1UOLVWSomPln5kO4TJafS3f8uPxEW/89UfBs+RTlBoI0Mm2eWCdgvGHWlcierrzavHRDs3fNRu0Y8yzblQUWn8CE6gJsHPFUSjSFye9EtPvfKXZ2eGRVIXSj6qlJE99Tnw0zMa1K4tQQbRtvSCzi+VulKpp+pbtpHu3dehHsbqiG8POF+hIY97kKKAoXwhbrOmjilL7DVqg1Dc000PWHS2h80iiaCgq4ZfM4Gi2QdsvwVXB1gTU+GIXiDGT//+2zyN
+X-Microsoft-Antispam-PRVS:
+	<AM3PR06MB1425ECDA2C00BB36220E3A3F8AD50@AM3PR06MB1425.eurprd06.prod.outlook.com>
+X-Exchange-Antispam-Report-Test:
+	UriScan:(148322886591682)(277860510277777)(217973624396309)(43178223235956)(236129657087228)(31418570063057)(215756939933043)(116415991822766)(224945534805241)(48057245064654);
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(6040450)(601004)(2401047)(5005006)(8121501046)(3002001)(100000703101)(100105400095)(93006095)(93001095)(10201501046)(6041248)(20161123560025)(201703131423075)(201702281528075)(201703061421075)(201703061406153)(20161123564025)(20161123558100)(20161123555025)(20161123562025)(6072148)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:AM3PR06MB1425;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:AM3PR06MB1425;
+X-Microsoft-Exchange-Diagnostics:
+	=?utf-8?B?MTtBTTNQUjA2TUIxNDI1OzQ6NUs2em1JNFR1Z1hhRlFIK1VXZmlnUWNBVTQz?=
+ =?utf-8?B?dDJLRjRuNlVvSXZpR3ZRdnlMSHd6TWI3ejdtWTZUQWVkUWFtSzVHZ3lqcGg2?=
+ =?utf-8?B?T0U4SFNjZ1QveCtINVh1WnBCUWg3ME9UL3dWYXQ1SDRGSndjaWwzTVF6MC9w?=
+ =?utf-8?B?K1FXZE1NMDc1c3BURmM0Q203ODlqQ2RseC9saXRodDBLNnVnTmdqKy9aUk1x?=
+ =?utf-8?B?K21zczN5eXV1aGxodkk5b2twM1FiM3hWc0hyRkJFNm1OU0VJOFNCck9GeTBp?=
+ =?utf-8?B?MW1wR3cyMFAwTUdTMWQvb1VoMGVGS1VNOG44TGkrU3plMVd1aGRXaUpMTGVH?=
+ =?utf-8?B?SWdUNzNLdVVGTEx3VHBXSlNjM3JETG1QM3F2OG9PQkE0WWRHRXNEU1lqTWx1?=
+ =?utf-8?B?M3hBbk9mUUwzUllpdVgrVjQrS2J1Q0treFphZFo3aUtLbHlTMU1pQ0w2bE1P?=
+ =?utf-8?B?UElDWW5LQUNTRlRDVVlQajNLUjcxRVdFa09tZVBpRFk5NWl0QlA5TlVXY0Zn?=
+ =?utf-8?B?V2ZWWTlUcWVySzMxWENINHpzbWlBOUFsRDNlZEwvSkZuZy9wSkV5SThPWENK?=
+ =?utf-8?B?QWNSam01Q0FEaW9mMFVjQ3BQVWpsWmR2aFRLbVprQjU4dyt0QVh5RHhhdEdF?=
+ =?utf-8?B?WWxEd2gwMmh5Z1liVEpHcjJvS1JGTnE1c0Roc3ZiZUpmMDkwTnB4T2dIalRY?=
+ =?utf-8?B?Q1Jua2w1dVcrSUxSaSswWXBYUHpSSFJiRXhNZHJKaUhCMHVOY2QyYnpFazRN?=
+ =?utf-8?B?ZkExdnJTMGhRTW5Qd1ZvM0NJTUVQZ1RhblhiMHd1djZyd015M3B3c1loazls?=
+ =?utf-8?B?bEFnYVdnWDE3MWpoanVBdkk4M0pjRmkvcWhOdDlGTzhDMEFqK2lZUUlWSHpM?=
+ =?utf-8?B?OWhEcFdEWVFKZjFSaXRGUWFjaG01aUN4NGtsNm5jUExUZ0N6K201MmdScnR3?=
+ =?utf-8?B?TzlDZkpOM21PdjZ0bWZaYnVhU2lzQVp2dnVNSVU1amNXajlsNTN2WE8vWjRp?=
+ =?utf-8?B?SU00ZlJCVFBUV1c1STlQZThWQW9JUTg2YTRuWkgrUGsxcVBwaGxFOHVDZHFP?=
+ =?utf-8?B?Njl6dHdEdkw3cFN5RitCUlZsMTlHdyt0M3plTHF1ZVpwTzRIai9tWjM4QzE5?=
+ =?utf-8?B?bG5vTlYyZUkxbjVWQkg5MjFMRmZZYTNGSzYzeEN5dmpvK0s3YXFDaXQ0bWhq?=
+ =?utf-8?B?bEx0RTJaRWlmV2trc3REMlA0ZENEczVtaVFUWTJhTWVjSjdOT0ZNQjN4bWtO?=
+ =?utf-8?B?WmgrMHF6aGNhalBCTWpPVUxQWWUvK29RcjgvOCswVFhGekN1N2JUTFo2MVIv?=
+ =?utf-8?B?TlBSSWR4SnpaVHBaTnMxaGRrRktoZU53RFRnMTQvck9JY1NEblRYaVg0Vjk2?=
+ =?utf-8?B?cXJMQjBTZWE2dkk4OGJESHpqQXJDUUF3bHMrVThmOTlHMWNuaGU3TENkdFhv?=
+ =?utf-8?B?eHI5amROZktmbGtSYmxsNTR2SXV1dnl0Sko0aENTV2FDcnpNa0JBNVJPbXc1?=
+ =?utf-8?B?eEthWEhBOGJWOGFXNDNMZEFvcmFBZUhEVHlDSUtlYTkrdGUycUdGNGtBR3NU?=
+ =?utf-8?B?M1FXeFR6aSs3ZnQyd2pjTTcwZ24vQ1BpRmxhTUVFa3VJYTZjNUk5UXlTajEr?=
+ =?utf-8?B?WXRGNzBxZGQraUtVOHBUQzRTVVUyR0h3WDhIenB1V1BXWnVLdDVFSm16ZGZU?=
+ =?utf-8?B?Q1ZhcFh5dWtBVnFiWStSWDNvMkk2ZnVQekZnY3R2bXlzK3NZa3BNcnhNdmd3?=
+ =?utf-8?B?OGJ2TGgyTG96N2R3SGVMYWNYdUE4WW9GYW9qM1RlZjFRRlQ2WVlhTm9jSCtp?=
+ =?utf-8?B?bW9LSlJ6Z3Fsam5VZmM4UytrQkZrKzBRQ1dNYjhmVlJkRHNjRmk5d1FhUmox?=
+ =?utf-8?B?Q2tadHJLY2l0ZFQ0SW8wMm05djFESFJTZWF6R1h2N1VFU0dGRkVXalFFQi9C?=
+ =?utf-8?B?YlVWWWdOQVE1bTRqNFEyNE9SNjRNRlhNRFU4UkNJb0pmWG9lc2twSDhyWFdU?=
+ =?utf-8?B?a2M4OStNM0x4dnNLZlpPNXNMWU9lRDhKMXVieEtCa1RsZ1ZVOVNBRmE3Y0dN?=
+ =?utf-8?Q?dbM=3D?=
+X-Forefront-PRVS: 03607C04F0
+X-Forefront-Antispam-Report:
+	SFV:NSPM;SFS:(10019020)(4630300001)(39450400003)(39410400002)(39400400002)(39840400002)(14613045005)(66066001)(84326002)(2906002)(8676002)(25786009)(5660300001)(23676002)(2361001)(2351001)(81166006)(6486002)(733005)(413944005)(478600001)(86362001)(6666003)(2950100002)(50986999)(305945005)(54356999)(33026002)(76176999)(43066003)(606006)(5000100001)(3110400002)(230700001)(42186005)(7736002)(6116002)(345774005)(6916009)(3846002)(33646002)(53936002)(15974865002)(189998001)(3450700001)(236005)(9686003)(6306002)(6512007)(110136004)(38730400002)(15409205003);DIR:OUT;SFP:1102;SCL:1;SRVR:AM3PR06MB1425;H:airmalta.com;FPR:;SPF:None;MLV:sfv;LANG:en;
+X-Microsoft-Exchange-Diagnostics:
+	=?utf-8?B?MTtBTTNQUjA2TUIxNDI1OzIzOnVGeWkxQ01zV0tERHZlTy9MbXVNcmxoUTAx?=
+ =?utf-8?B?SlEwYmlObm9SY2p3WnJyRm1Rc0dOaE5acTJXKytZcXVGazQyTHRnbFdYZlUv?=
+ =?utf-8?B?OGYrNHhyek1zaHdhbE9VNTFkRU5BZndialJSZ2RwalV0Y1JqdEx0LzFmZ2Rv?=
+ =?utf-8?B?RzN0SkttNzNDL05ya2hpYS9YallSMDNSK08rZ0UwNkQ1bldrWWl3ZXlkTWZE?=
+ =?utf-8?B?dGcvVDdRdjJEMTBWRCsxZXptd0QwNlgxbm1KNXNPdVA1aCt4alBRSkNyM3VM?=
+ =?utf-8?B?d1VwRE5weVdmWU9uS0E1K0J4eS95VWM3K3VWVTRUQUZFMXF5VnF1ODlqQXB0?=
+ =?utf-8?B?U3JSSHR1YzJva1RPWTNBSmVseTFQaU05MWMyTjY3UEQ3eDROalh6RUQ1OFNm?=
+ =?utf-8?B?WmlDVUhWUWlmeUJIVE5CNWFRL3VoVnFsWnNVdFBkVlRyY0xGbHFrT280RWsx?=
+ =?utf-8?B?Tk54OTZCVS9HSXVLVkNIM3hmM2RVaWY1bmE1L0MyQ0s3dU9HWFp1cWdOWmgz?=
+ =?utf-8?B?S0U4ZEtIZmIvUlFXbmEvMEQxYWtRL1ovaUc1VlcxZy92VHBjL29wcXlLczN4?=
+ =?utf-8?B?dTk3UEtPeDNscTZtNXl3VmhIM0FadjdUeUJPSnZxSFBOc2NsRVpOMmJ2eWxU?=
+ =?utf-8?B?Q1Z0bW00eVB5Y1dPVFppZU9GTlpkajREaXBZdWwxUXBQNjVGS1paSTlHRzNT?=
+ =?utf-8?B?Wk5SVzcxYXVWTHJjSlJ5WXRGemJRMVhWbjF1T3dydWlQTFNpdU9mam1PeGQz?=
+ =?utf-8?B?Z1pjV0VLQWo4WDBMQkdvODRJUXh6elVObUtwdFdVMi84bW8wRitSb1ZYVHlk?=
+ =?utf-8?B?dmhFUDNRQjVsR0MydnFjTVV1NUZISmZhUUJ4dlJSMDQvU09tQkFaak5QUExE?=
+ =?utf-8?B?eXhncHlLVE5BN3MzWEpKUEk3Z3l3VmlVMG13M01HS29MdU9pRS9vVkhUNDZo?=
+ =?utf-8?B?SFl1SDJ6WnR3aUx3S3dIZnVZWElkTE9MUmRyRTdkbDBqUHR3dGVzdWtHWWND?=
+ =?utf-8?B?ZlB6TXNBdjRFbUxkemMwbHpxODkwV2k0THlScWgrMElYdUFJQXBPTHhjc2Iw?=
+ =?utf-8?B?ZnBWSzRKa0pJcTJsQTJsOU12Wjc3QzZmcWNNVGZ2dnhMcUdRcTdqMjcrZnBM?=
+ =?utf-8?B?RWNUaHBURnBydlNKUHFxcHFEZXJ0bWpSMk5NWEdwNkN5Yy9EUmE5b0FuYTV0?=
+ =?utf-8?B?cWFlbG8rOVpVQWZ5NmxRY2M4KzkrQTd6NTN0MDF6UTk1V0VaM004Nk9XWUF2?=
+ =?utf-8?B?Q1YzK1BSV0VFYndjaTVUTDVJbThsV09iYUx4TEVTRk5IM1VQNS9xeXU2a0ZO?=
+ =?utf-8?B?OFFKdlNaSzFXQm5oRDFRWlNZV3R6QW11RlJiaG9DMmhtcTYwM1k4S3B5NzRh?=
+ =?utf-8?B?UVJSQUVYU2ZPcmVQUzZCeUt4SzNQdDBHWkY2ZExVUGpBY2J1cElwVTV4S3kv?=
+ =?utf-8?B?Mnhld200Rnh1aU9vMXFFZWJIZXBwakd6dGtrYUx5eC9WWHFuSHpvRWlmNUFu?=
+ =?utf-8?B?SHlwWEhvKzhUTlJxMmFUYXZYT3dtZ01QMGxPbFdBRHpzc0o2dkw3NWI4Rjh2?=
+ =?utf-8?B?OElZYzYxRDhSNGhCaitSTGoyUVBlcXVGQTdkK3RhTHVOeitReWRKWGwzUjZU?=
+ =?utf-8?B?MmgxZG9BRmR2ZW5lemt2S2YyOVhOWkpTcVdHZWphOFhyc000ZmtFSVJXV2JU?=
+ =?utf-8?Q?xEnAj70tkiGg4QNhUYKk4/HFRaPzeEAdJ7rQYsf?=
+X-Microsoft-Exchange-Diagnostics:
+	=?utf-8?B?MTtBTTNQUjA2TUIxNDI1OzY6aGRiS1N6RmQ3bXB0L3FCRUUwNEsxQTAxRkpJ?=
+ =?utf-8?B?VENER1VDdjhNVVZOdUZjMkNMQkoydTI1UnFGYStBS2s4SUM4WFZUTDk3L2J4?=
+ =?utf-8?B?LzI0MHpTZURyYXc3V3RCaUo4aWJKbERPRk55Q2diNzAyQ0JUZ3p6Q0pWZkZh?=
+ =?utf-8?B?RnhYL1VBQTFuYzJLZHRNVnhrY3IycVZHWEdPKzh3ZWd4blZ3Z1hLd2d6UUo3?=
+ =?utf-8?B?TmxxU2UvaHBwZDM1VG1RWUMzTUpMV3VJNktPUnJjVGhFTTc2OVc0SnRSWS9K?=
+ =?utf-8?B?THo5OUpPZm91bW01OXNLMXBzaTgzZm52bzFjOWJydG5jZ2dNM1pKT2ZsaFM0?=
+ =?utf-8?B?cDdUdmZZUFpPd0NGSUpqUHo2VzRBNWlwTlBQbjBTc3JTODc0QlFSdHJGODhh?=
+ =?utf-8?B?U3d2b0JLVGo3NnZ3bVY1QjRxZHpNVkxpMmpyWlZSOWZKelVzbWxmMXYvTGJx?=
+ =?utf-8?B?ZnM0bW9CZWxsVnZEYThBMUJxdUl0MWlVT2M3RFZkZ21IdHM0SXFFZ2Y0dEYv?=
+ =?utf-8?B?VzBLSWZOdFNaVnRhY3BjZFB1b3laZ3ozaGhXd0RDd1V3TnpPeVNoaVAweHRT?=
+ =?utf-8?B?VzNEbDE3RGZEaU9TbS9PNTdzZ20wTkQzVDdJcW91V20vZ045Z3A5NXdYQlNu?=
+ =?utf-8?B?aE5hMUR4NjliVUhIcXNuNkZGb0FsZE1BNURrMU5oenFmOFNxMGxaT3Mya3VL?=
+ =?utf-8?B?TUdTbmVqMktGTWxOejVqS0E5bXlQVFQzNzVjd2RVZ2pZNHpUMjhJY1BGWjhh?=
+ =?utf-8?B?eFNsSXNkbFFCVlI1RFpkOFZUSlEzbCtlMFVrVTIzdkZtSm9yVlFBK3lqMFFw?=
+ =?utf-8?B?ck80TVI2UC91bFFrQmpibjJibEFjSWcrNGgxN2Y1NUVGazN2RjFtZmM0QmZL?=
+ =?utf-8?B?SFlnR3NITWtlVEtlL1pGK1ViMVpKNExMZUJBd2FZc1p3aTJYakJNRnFENlhF?=
+ =?utf-8?B?WVB5cFFRSEtXUmNHaGpzdElEUndoZlE3SXNnU3JQQzRpNVU2U0NkMG5FVTRr?=
+ =?utf-8?B?MW9aLzlWSlFFVkhNQjFlb0tSWktDdzdhdUcrWEc5d0JyUG96aFM0K0JDSm5R?=
+ =?utf-8?B?Mk1zN2lmTGptT0FPTWoydmtnTXpWQ3JLSmpGdGVpbk9lVzZBSlEvc0hSUHRS?=
+ =?utf-8?B?bjB0MlloK3FLMjlIMlFSZVhQdUt0aTliQ1lXK245SUpSRjRtWmlRZkJOT2dI?=
+ =?utf-8?B?L1FJVlZXbXBNUnA5NzZyT29kSXQ3ME1FcHBpMTNndXEyRWZBWVpUS0p3REZm?=
+ =?utf-8?B?bUZuRVFPakN4VXY2ZFZ4WmRtaGFCcEZGb3p1eHpiVlh0a2xnUVF4eDVRZkRL?=
+ =?utf-8?Q?wgO6qbqpuaBarZUuJSrwZqfVYgk0v6o=3D?=
+X-Microsoft-Exchange-Diagnostics:
+	1;AM3PR06MB1425;5:WDJpSgIyB5lPP6GlzstF6zdY+wfIKXf2fpkwJkCM07Sr7wQIS++Jzbu3JSOlQSGvv21XTYlnv3Q3VxXrk2j2yndgTjMmooJApP3T9mM2ETty8SH1+JXuYc0SePqEhFYnInZAZ61JNVAwQKj1XmVwa49k7HDfe70BKJ0BKjnngFXwztjPBf6wflfMvo1Z80EOKQwRMdY+tZosp/4uk8OyM//bRMvGzvWwk+MO23Ja2Ew4tKyAHfrbwgt63FnhNy9F3h+amu7TagV2rjodRGObNA4F3/JaPj7NOlif6LLvwwR4HYpSdVSZJ4qLu8IuSFNv6B5LfERqtGTW4tmZf1c14NB1qbJZLH0x3/vR0IkI+pU1D924GQnNeRHtGo1eJkXRPsCOZ3f0ypvk1/t3kSwjQzGeQSZpUkxom0Zf1PCzDvftGPagMNP8FaRn7LbIMpNJyopPLg23EqjyFIDu4jjrV5S7UzhgXnKabi7Z6J+z70jNCmL2rAOUQHpedj8N50e0;24:TBPQfvQCm992iL9soJu0driXZIYGFvcyybxlXikOI+PyvCVnAEIsUT8h6E2MnrtKty65mIF0Au5HIJCu0jOmzxBzqepIMs8I92hPzWt+o5I=
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-Microsoft-Exchange-Diagnostics:
+	1;AM3PR06MB1425;7:heZ9mCMSGqUhRgdZWaUyuxjZcd7uAFyOWwHSveMyB91HfvkhescQVlWJH+ztHllPxhJUe056s1kYn3MQtKmNGcgH1mo5HqbyfQ6kcIAE34ogAiEQdfZ7ghQoa5xN4C5KrVSViLflFfpxVeGBi0iTHf/lWkVzkzAgFkx2SaoKhPq+syr+gGUd+qXEYXatElRzkiXgjqWercvy0HKsvDycBME84J1udom3t0NcwXclYY66w+Tozy10OsrOw+YkQ5LrQwwlab7WEr3dwaTubzh2762fXhqgvLGBWQo6QOx6vcwdtwY41FmlF1JyqgrMPuHNa6+/42I9kko0DadNn5gHWGizsbcCYkZSkJOAptpL52veTObw6jIPb8/pXA7H4cfkw9vMe1yE4VYO+XCmKbqOrbwy1/s+TZSCGNgE2/7oBQjhUhd9ic0eGLtAfaH92XAdpOvCO8NrPzlzHa4wERORv6h89AvTXW8NX0He6rxPnHNXdA2EdxW2nbuFfBttlVjSFELQyvIX8Xgw8aLTx3hssxUDE7kYXZtSPNp+BuF1IyLU+UoMExhAkKeM33faylmC54J8JmlaOqi4DBmUa7tMYWxP6w7InMXVSVjFDvpYA+UybTZCKS2sGy2t0oVyJrZzUiVJlZyNXgVs9VBkGcZ57rXTnhdhmry45nYEKKjrnsgAc2koUw1+lXt5K3zQwHvyLVd0hCd5yNdLEHKUXSTTImNXlMX8UC3a8p7St+tN5WbEsMCRAOhg3+K7wycTjbYweyJm+rZ5NdU+WH8CUyfscVkLSlqPk3jludvFs6oRsMI=
+X-OriginatorOrg: airmalta.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 06 Jul 2017 08:17:39.3054 (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM3PR06MB1425
+X-MID: 2093652882.1504205040.9.1499329068.668315.18922
+X-Rate: Yes
+X-Real-From: customercare.airmalta@airmalta.com
+X-Rcpt: ,overseas10@sino-progress.com,
+
+
+----==_mimepart_595df21a7ac8b_7a35567c8342038663
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+  Dear Client,=C2=A0   =C2=A0   Thank you for contacting Air Malta=E2=80=99=
+s Customer Care department. We acknowledge receipt of your email and a ca=
+se file has been opened and logged in our system. Please rest assured tha=
+t a member of our team will get back to you as soon as possible.  =C2=A0 =
+ Kind Regards,   =C2=A0  The Air Malta Customer Care team         Air Mal=
+ta Customer Care Team   Air Malta plc=C2=A0=C2=B7 Skyparks=C2=A0=C2=B7 Ma=
+lta International Airport=C2=A0=C2=B7 Luqa LQA 4000=C2=A0=C2=B7 Malta  e:=
+=C2=A0customercare.airmalta@airmalta.com=C2=A0=C2=A0 =C2=A0w:=C2=A0www.ai=
+rmalta.com        =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0 =C2=A0=
+=C2=A0 =C2=A0=C2=A0 =C2=A0=C2=A0 =C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 =C2=A0 =C2=A0=C2=A0    =
+
+----==_mimepart_595df21a7ac8b_7a35567c8342038663
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div style=3D"font-family:Helvetica Neue, Helvetica, Arial, sans-serif; f=
+ont-size:13px;">
+	<div dir=3D"ltr">
+<p style=3D"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, =
+'Helvetica Neue', Helvetica, Arial, sans-serif;"><span rel=3D"tempredacto=
+r" style=3D"font-size: 13px;">Dear Client,=C2=A0</span><br></p>
+<p style=3D"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, =
+'Helvetica Neue', Helvetica, Arial, sans-serif;"><span rel=3D"tempredacto=
+r" style=3D"font-size: 13px;">=C2=A0</span></p>
+<p style=3D"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, =
+'Helvetica Neue', Helvetica, Arial, sans-serif;"></p>
+<p style=3D"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, =
+'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: justify;"><sp=
+an style=3D"font-size: 12px; font-family: 'Helvetica Neue', Helvetica, Ar=
+ial, sans-serif, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Thank y=
+ou for contacting Air Malta=E2=80=99s Customer Care department. We acknow=
+ledge receipt of your email and a case file has been opened and logged in=
+ our system. Please rest assured that a member of our team will get back =
+to you as soon as possible.</span></p>
+<p style=3D"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, =
+'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: justify;"><sp=
+an style=3D"font-size: 12px;">=C2=A0</span></p>
+<p style=3D"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, =
+'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: justify;"><sp=
+an style=3D"font-size: 12px; line-height: 1.3;">Kind Regards,</span><br><=
+/p>
+<p style=3D"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, =
+'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: justify;"><sp=
+an style=3D"font-size: 12px; font-family: 'Helvetica Neue', Helvetica, Ar=
+ial, sans-serif, 'Helvetica Neue', Helvetica, Arial, sans-serif;">=C2=A0<=
+/span></p>
+<p style=3D"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, =
+'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: justify;"><sp=
+an style=3D"font-size: 12px;">The Air Malta Customer Care team</span></p>=
+
+<p><br></p>
+<p></p>
+<p style=3D'font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, =
+"Helvetica Neue", Helvetica, Arial, sans-serif; line-height: 16.9px;'></p=
+>
+<p><img src=3D"https://attachment.freshdesk.com/inline/attachment?token=3D=
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjQwMDgzNTYxOTEsImRvbWFpbiI6=
+ImNlbnRyZWNvbS5mcmVzaGRlc2suY29tIn0.6INhRkeSlFLQsOaqngPjtBoLcL4yKz_O7InPp=
+JotWsk" class=3D"inline-image" data-id=3D"24008356191" alt=3D"image" titl=
+e=3D"image"></p>
+<p></p>
+<p style=3D'font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, =
+"Helvetica Neue", Helvetica, Arial, sans-serif;'><span style=3D'font-size=
+: 10pt; font-family: Arial, sans-serif, "Helvetica Neue", Helvetica, Aria=
+l, sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif; color: rgb=
+(76, 76, 76);'>Air Malta Customer Care Team</span><br></p>
+<p style=3D'font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, =
+"Helvetica Neue", Helvetica, Arial, sans-serif;'><span style=3D'font-size=
+: 10pt; font-family: Arial, sans-serif, "Helvetica Neue", Helvetica, Aria=
+l, sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif; color: rgb=
+(76, 76, 76);'>Air Malta plc</span><span style=3D'font-size: 13px; font-f=
+amily: "Helvetica Neue", Helvetica, Arial, sans-serif, "Helvetica Neue", =
+Helvetica, Arial, sans-serif, "Helvetica Neue", Helvetica, Arial, sans-se=
+rif, "Helvetica Neue", Helvetica, Arial, sans-serif;'><b style=3D"font-si=
+ze: 13px;">=C2=A0</b></span><span style=3D'font-size: 10pt; font-family: =
+Arial, sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif, "Helve=
+tica Neue", Helvetica, Arial, sans-serif, "Helvetica Neue", Helvetica, Ar=
+ial, sans-serif; color: rgb(76, 76, 76);'>=C2=B7 Skyparks</span><span sty=
+le=3D'font-size: 13px; font-family: "Helvetica Neue", Helvetica, Arial, s=
+ans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif, "Helvetica Neu=
+e", Helvetica, Arial, sans-serif, "Helvetica Neue", Helvetica, Arial, san=
+s-serif;'><b style=3D"font-size: 13px;">=C2=A0</b></span><span style=3D'f=
+ont-size: 10pt; font-family: Arial, sans-serif, "Helvetica Neue", Helveti=
+ca, Arial, sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif, "H=
+elvetica Neue", Helvetica, Arial, sans-serif; color: rgb(76, 76, 76);'>=C2=
+=B7 Malta International Airport</span><span style=3D'font-size: 13px; fon=
+t-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "Helvetica Neue=
+", Helvetica, Arial, sans-serif, "Helvetica Neue", Helvetica, Arial, sans=
+-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;'><b style=3D"font=
+-size: 13px;">=C2=A0</b></span><span style=3D'font-size: 10pt; font-famil=
+y: Arial, sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif, "He=
+lvetica Neue", Helvetica, Arial, sans-serif, "Helvetica Neue", Helvetica,=
+ Arial, sans-serif; color: rgb(76, 76, 76);'>=C2=B7 Luqa <span class=3D"c=
+aps">LQA</span> 4000</span><span style=3D'font-size: 13px; font-family: "=
+Helvetica Neue", Helvetica, Arial, sans-serif, "Helvetica Neue", Helvetic=
+a, Arial, sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif, "He=
+lvetica Neue", Helvetica, Arial, sans-serif;'><b style=3D"font-size: 13px=
+;">=C2=A0</b></span><span style=3D'font-size: 10pt; font-family: Arial, s=
+ans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif, "Helvetica Neu=
+e", Helvetica, Arial, sans-serif, "Helvetica Neue", Helvetica, Arial, san=
+s-serif; color: rgb(76, 76, 76);'>=C2=B7 Malta</span></p>
+<p style=3D'font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, =
+"Helvetica Neue", Helvetica, Arial, sans-serif;'><b style=3D"font-size: 1=
+3px;">e:</b>=C2=A0<a href=3D"mailto:customercare.airmalta@airmalta.com" t=
+arget=3D"" rel=3D"noreferrer" style=3D"font-size: 13px;">customercare.air=
+malta@airmalta.com</a>=C2=A0=C2=A0 =C2=A0<b style=3D"font-size: 13px;">w:=
+</b>=C2=A0<a href=3D"https://centrecom.freshdesk.com/admin/email_notifica=
+tions/reply_template/6000392546/www.airmalta.com" target=3D"_blank" rel=3D=
+"noreferrer" style=3D"font-size: 13px; background-color: rgb(255, 255, 25=
+5);">www.airmalta.com</a></p>
+<p><br style=3D'font-family: "Helvetica Neue", Helvetica, Arial, sans-ser=
+if, "Helvetica Neue", Helvetica, Arial, sans-serif;'> </p>
+<p style=3D'font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, =
+"Helvetica Neue", Helvetica, Arial, sans-serif; line-height: 16.9px;'></p=
+>
+<p style=3D'font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, =
+"Helvetica Neue", Helvetica, Arial, sans-serif; line-height: 16.9px;'></p=
+>
+<p style=3D'font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, =
+"Helvetica Neue", Helvetica, Arial, sans-serif; line-height: 16.9px;'><a =
+href=3D"https://www.facebook.com/airmalta" style=3D"font-size: 13px;"><im=
+g src=3D"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachm=
+ents/production/6027369546/original/FB%20Logo.png?1468405730" data-id=3D"=
+6027369546" alt=3D"FB" style=3D"font-size: 13px;"></a>=C2=A0=C2=A0=C2=A0 =
+=C2=A0=C2=A0<a href=3D"https://twitter.com/airmalta" style=3D"font-size: =
+13px;"><img src=3D"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpde=
+sk/attachments/production/6027369659/original/Twitter%20Logo.png?14684057=
+94" data-id=3D"6027369659" alt=3D"Twitter" data-height=3D"48" style=3D"fo=
+nt-size: 13px; width: 46px; height: 48px;"></a>=C2=A0 =C2=A0=C2=A0 =C2=A0=
+<a href=3D"https://www.linkedin.com/company/air-malta" style=3D"font-size=
+: 13px;"><img src=3D"https://s3.amazonaws.com/cdn.freshdesk.com/data/help=
+desk/attachments/production/6027369735/original/linkedin%20logo.png?14684=
+05834" data-id=3D"6027369735" alt=3D"LinkedIn" style=3D"font-size: 13px;"=
+></a>=C2=A0 =C2=A0=C2=A0 =C2=A0<a href=3D"https://www.instagram.com/airma=
+lta/" style=3D"font-size: 13px;"><img src=3D"https://s3.amazonaws.com/cdn=
+.freshdesk.com/data/helpdesk/attachments/production/6027369692/original/i=
+nstagram%20logo.png?1468405813" data-id=3D"6027369692" alt=3D"Instagram" =
+style=3D"font-size: 13px;"></a>=C2=A0 =C2=A0 =C2=A0=C2=A0<a href=3D"https=
+://www.youtube.com/user/airmalta" style=3D"font-size: 13px;"><img src=3D"=
+https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/prod=
+uction/6027369755/original/youtube%20logo.png?1468405851" data-id=3D"6027=
+369755" alt=3D"YouTube" style=3D"font-size: 13px;"></a>=C2=A0=C2=A0=C2=A0=
+ =C2=A0=C2=A0<a href=3D"https://www.pinterest.com/AirMalta/" style=3D"fon=
+t-size: 13px;"><img src=3D"https://s3.amazonaws.com/cdn.freshdesk.com/dat=
+a/helpdesk/attachments/production/6027369787/original/pinterest%20logo.pn=
+g?1468405868" data-id=3D"6027369787" alt=3D"Pinterest" style=3D"font-size=
+: 13px;"></a>=C2=A0 =C2=A0 =C2=A0<span style=3D"font-size: 13px;">=C2=A0<=
+/span><a href=3D"https://plus.google.com/u/0/109495240217126119800/posts"=
+ style=3D"font-size: 13px;"><img src=3D"https://s3.amazonaws.com/cdn.fres=
+hdesk.com/data/helpdesk/attachments/production/6027369873/original/google=
+%20%20logo.png?1468405941" data-id=3D"6027369873" alt=3D"Google+" style=3D=
+"font-size: 13px;"></a></p>
+<p></p> </div>
+<br/>
+
+
+<span title=3D"fd_tkt_identifier" style=3D'font-size:0px; font-family:"fd=
+tktid"; min-height:0px; height:0px; opacity:0; max-height:0px; line-heigh=
+t:0px; color:#ffffff'>98617:236212</span>
+
+</div>=
+
+----==_mimepart_595df21a7ac8b_7a35567c8342038663--
