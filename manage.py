@@ -29,8 +29,6 @@ def startParse(nation):
             print('info not added')
             db.session.rollback()
 
-# def parse_file():
-
 
 def make_shell_context():
     return dict(app=app, db=db, Company=Company,

@@ -4,17 +4,14 @@ from bs4 import BeautifulSoup as soup
 import csv
 
 basedir = os.path.abspath(os.path.dirname(__file__))
-
-tempdir = {'us': basedir+'\\temp'+'\\us\\', 'uk': basedir +
-           '\\temp'+'\\uk\\', 'canada': basedir+'\\temp'+'\\canada\\',
-           'malaysia': basedir+'\\temp\\'+'malaysia\\',
-           'newzealand': basedir+'\\temp\\'+'newzealand\\'}
+result_dir = os.path.join(basedir, 'agentlist')
+tempdir = os.path.join(basedir, 'temp')
 
 
 class Company(object):
 
     def __init__(self):
-        self.name, self.wca_id, self.address, self.phone = '', '', '', ''
+        self.name, self.wca_id, self.address, self.phone, self.email = '', '', '', '', ''
 
 
 class Contact(object):
@@ -25,7 +22,7 @@ class Contact(object):
 
 def get_soup(file):
     with open(file, 'rb') as file:
-        result = soup(file.read(), 'lxml')
+        result = soup(file.read(), 'html.parser')
     return result
 
 
@@ -34,7 +31,8 @@ def get_table_soup(file):
         # text=file.read().decode('utf-8')
         # print (text)
         # result=re.findall(re.compile(r'<table[.\s]*</table>'),text)
-        result = soup(file.read(), 'lxml').find_all('table', recursive=True)
+        result = soup(file.read(), 'html.parser').find_all(
+            'table', recursive=True)
         # print (result)
     return result[0] if (len(result) == 1) else None
 
@@ -91,6 +89,8 @@ def get_namenid(file):
 def get_profile_table(file):
 
     table = get_table_soup(file)
+    if table is None:
+        return None
 
     trs = table.find_all('tr')
 
@@ -102,6 +102,9 @@ def get_profile_table(file):
 
 def get_company_obj(file):
     trs = get_profile_table(file)
+    if trs == None:
+        return None
+
     company = Company()
     # company={}
     for tr in trs:
@@ -123,7 +126,8 @@ def get_company_obj(file):
 
 def get_contact_obj(file):
     trs = get_profile_table(file)
-
+    if trs == None:
+        return None
     contacts = []
     start_point = None
     for tr in trs:
@@ -135,7 +139,8 @@ def get_contact_obj(file):
     # return start_point
 
     contact = Contact()
-    rest = trs[start_point+1:]
+
+    rest = trs[start_point+1:] if start_point is not None else None
 
     if rest is not None:
         for tr in trs[start_point+1:]:
@@ -153,36 +158,59 @@ def get_contact_obj(file):
     return contacts
 
 
-def file_to_row(file):
+def file_to_row(file, country):
     company = get_company_obj(file)
     contacts = get_contact_obj(file)
-
+    if company == None or contacts == None:
+        return None
     rows = [[contact.name, contact.email, company.name, contact.title,
-             contact.phone, 'WCA', ]for contact in contacts]
+             contact.phone, 'WCA', country]for contact in contacts]
     if len(contacts) == 0:
-        return [[company.name,  company.email, company.name, '', company.phone, 'WCA'], ]
+        return [[company.name,  company.email, company.name, '', company.phone, 'WCA', country], ]
     return rows
 
 
-def parse(nation):
-    with open(basedir+'\\%s_wca.csv' % nation, 'w+', encoding='utf-8', newline='') as output_file:
-        writer = csv.writer(output_file, dialect='excel')
-        for file in os.listdir(tempdir[nation]):
-            print('%s is being parsed...\n' % file)
-            if not os.path.isfile(tempdir[nation]+file):
-                continue
+# def parse(folder_name):
+#     with open(os.path.join(result_dir, '%s.csv' % folder_name), 'w+', encoding='utf-8', newline='') as output_file:
+#         writer = csv.writer(output_file, dialect='excel')
+#         for file in os.listdir(tempdir):
+#             print('%s is being parsed...\n' % file)
+#             if not os.path.isfile(tempdir[nation]+file):
+#                 continue
 
-            rows = file_to_row(tempdir[nation]+file)
-            for row in rows:
-                writer.writerow(row)
-                print(row)
+#             rows = file_to_row(tempdir[nation]+file)
+#             for row in rows:
+#                 writer.writerow(row)
+#                 print(row)
+
+# def parse_doc_to_csv(doc):
+#     with open(doc, 'r') as record:
+#         lines = record.readlines()
+#         for line in lines:
+#             filename=purge(line)
 
 
-parse('newzealand')
-# file=tempdir['us']+'wcaworld.comengmembers.aspcid=103354.txt'
+def parse_dir(dir=tempdir):
+    omit_list = ['canada', 'uk', 'us', 'malaysia', 'newzealand']
+    omit_list = omit_list+[item.replace(r'.csv', '')
+                           for item in os.listdir(result_dir)]
+# 把 agentlist 里已有的csv当成是已经解析过的国家，忽略国家temp 方件夹
+    for country_folder in os.listdir(dir):
+        if country_folder in omit_list:
+            continue
+        country = country_folder.replace('wca', '')
+        with open(os.path.join(result_dir, '%s.csv' % country_folder), 'w+', encoding='utf-8', newline='') as output_file:
+            writer = csv.writer(output_file, dialect='excel')
 
-# print (get_table_soup(file))
-# print (get_soup(file).find_all('table',recuImport / Exportrsive=True))
-# print (get_profile_table(file))Import / ExportImport / Export
-# print (get_contact_obj(file).__dict__)
-# print (file_to_row(file))
+            for file in os.listdir(os.path.join(dir, country_folder)):
+                print('%s is being parsed' % file)
+                file_dir = os.path.join(dir, country_folder, file)
+                rows = file_to_row(file_dir, country)
+                if rows is None:
+                    continue
+                for row in rows:
+                    writer.writerow(row)
+
+
+if __name__ == '__main__':
+    parse_dir()
